@@ -109,6 +109,35 @@ def parse_number(text):
     return float(m.group(1)) if m else None
 
 
+def parse_buy_price(text):
+    """売買価格テキストから万円単位の数値を抽出
+    例: '1億5,000万円' → 15000, '7,900万円' → 7900, '2億円' → 20000
+    レンジ表記の場合は最小値を返す: '4,900万円～5,500万円' → 4900
+    """
+    if not text:
+        return None
+    # レンジ表記の場合は最初の価格を使用
+    text = re.split(r'[～~〜]', text)[0]
+    text = text.replace(',', '').replace('，', '').replace(' ', '')
+
+    # 「X億Y万円」形式
+    m = re.search(r'(\d+)億(\d+)万', text)
+    if m:
+        return int(m.group(1)) * 10000 + int(m.group(2))
+
+    # 「X億円」形式（万の部分がない）
+    m = re.search(r'(\d+)億', text)
+    if m:
+        return int(m.group(1)) * 10000
+
+    # 「X万円」形式
+    m = re.search(r'([\d.]+)万', text)
+    if m:
+        return float(m.group(1))
+
+    return None
+
+
 def parse_age_years(text):
     """築年数テキストから年数を計算"""
     if not text:
@@ -476,7 +505,7 @@ class SuumoCrawler:
             price_el = unit.select_one('.cassette_price-accent')
             if price_el:
                 price_text = price_el.get_text(strip=True)
-                price_val = parse_number(price_text)
+                price_val = parse_buy_price(price_text)
 
             # 面積・間取り情報（cassette_price-description）
             area_text = ''
@@ -559,7 +588,7 @@ class SuumoCrawler:
                 if dd:
                     v = dd.select_one('.dottable-value')
                     price_text = (v or dd).get_text(strip=True)
-                    price_val = parse_number(price_text)
+                    price_val = parse_buy_price(price_text)
 
             # 所在地
             address = ''
@@ -968,7 +997,7 @@ class HomesCrawler:
 
                 if '価格' in label:
                     price_text = value
-                    price_val = parse_number(value)
+                    price_val = parse_buy_price(value)
                 elif '面積' in label:
                     area_text = value
                     area_val = parse_number(value)
