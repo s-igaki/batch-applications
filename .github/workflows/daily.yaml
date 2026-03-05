@@ -31,6 +31,7 @@ jobs:
 
       - name: Run real estate crawler
         env:
+          PYTHONUNBUFFERED: "1"
           LINE_CLIENT_ID: ${{ secrets.LINE_CLIENT_ID }}
           LINE_CLIENT_SECRET: ${{ secrets.LINE_CLIENT_SECRET }}
         run: python ./realestate_crawler.py
