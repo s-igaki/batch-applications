@@ -1004,14 +1004,18 @@ class HomesCrawler:
 # LINE Messaging API 通知
 # ============================================================
 
-LINE_CLIENT_ID = '2009273610'
-LINE_CLIENT_SECRET = 'df7a7d2aef3a31318625cced855c3ac5'
+LINE_CLIENT_ID = os.getenv('LINE_CLIENT_ID', '')
+LINE_CLIENT_SECRET = os.getenv('LINE_CLIENT_SECRET', '')
 LINE_TOKEN_URL = 'https://api.line.me/v2/oauth/accessToken'
 LINE_BROADCAST_URL = 'https://api.line.me/v2/bot/message/broadcast'
 
 
 def get_line_access_token():
     """LINE Messaging API のアクセストークンを取得"""
+    if not LINE_CLIENT_ID or not LINE_CLIENT_SECRET:
+        log('LINE_CLIENT_ID / LINE_CLIENT_SECRET が未設定のためLINE通知をスキップ')
+        return None
+
     try:
         resp = requests.post(LINE_TOKEN_URL, data={
             'grant_type': 'client_credentials',
