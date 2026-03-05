@@ -1,0 +1,53 @@
+{
+  "snapshots": [
+    {
+      "file": "2026-03-04_084411.json",
+      "date": "2026-03-04T08:44:11.433884",
+      "rental_count": 68,
+      "new_count": 41,
+      "used_count": 48
+    },
+    {
+      "file": "2026-03-03_084212.json",
+      "date": "2026-03-03T08:42:12.296183",
+      "rental_count": 102,
+      "new_count": 41,
+      "used_count": 47
+    },
+    {
+      "file": "2026-03-02_105713.json",
+      "date": "2026-03-02T10:57:13.436495",
+      "rental_count": 85,
+      "new_count": 44,
+      "used_count": 44
+    },
+    {
+      "file": "2026-03-01_181000.json",
+      "date": "2026-03-01T18:10:00.353612",
+      "rental_count": 75,
+      "new_count": 42,
+      "used_count": 46
+    },
+    {
+      "file": "2026-03-01_175440.json",
+      "date": "2026-03-01T17:54:40.235592",
+      "rental_count": 76,
+      "new_count": 42,
+      "used_count": 46
+    },
+    {
+      "file": "2026-03-01_174402.json",
+      "date": "2026-03-01T17:44:02.357825",
+      "rental_count": 71,
+      "new_count": 52,
+      "used_count": 46
+    },
+    {
+      "file": "2026-03-01_172550.json",
+      "date": "2026-03-01T17:25:50.003562",
+      "rental_count": 71,
+      "new_count": 53,
+      "used_count": 46
+    }
+  ]
+}
