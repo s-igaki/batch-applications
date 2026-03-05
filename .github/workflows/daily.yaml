@@ -1,6 +1,9 @@
 name: Daily Real Estate Crawl
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # 06:00 JST = 21:00 UTC (previous day)
     - cron: "0 21 * * *"
