@@ -5,7 +5,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-05",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -2276,6 +2276,10 @@
         {
           "date": "2026-03-05",
           "price": 26000
+        },
+        {
+          "date": "2026-03-05",
+          "price": 25500
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78727043/",
@@ -2372,6 +2376,10 @@
         {
           "date": "2026-03-05",
           "price": 30300
+        },
+        {
+          "date": "2026-03-05",
+          "price": 29800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78937109/",
@@ -2588,6 +2596,10 @@
         {
           "date": "2026-03-05",
           "price": 25800
+        },
+        {
+          "date": "2026-03-05",
+          "price": 24900
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78223486/",
@@ -3694,7 +3706,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-03",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-05",
       "price_history": [
         {
           "date": "2026-03-03",
@@ -5094,7 +5106,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-03-04",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-05",
       "price_history": [
         {
           "date": "2026-03-04",
@@ -5206,11 +5218,15 @@
       "type": "used",
       "station": "信濃町",
       "first_seen": "2026-03-04",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-05",
       "price_history": [
         {
           "date": "2026-03-04",
           "price": 2.0
+        },
+        {
+          "date": "2026-03-05",
+          "price": 23600
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_79219050/",
@@ -5648,6 +5664,166 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_chiyoda/nc_20046138/",
       "area": 60.69,
       "age_years": 13
+    },
+    "bbac01168ac9": {
+      "name": "ウィステリア",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 10.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105391390/",
+      "area": 40.07,
+      "age_years": 15
+    },
+    "0504d1e9d265": {
+      "name": "ウィステリア",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 10.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105454086/",
+      "area": 40.07,
+      "age_years": 15
+    },
+    "ef79c5019b7f": {
+      "name": "ＪＲ中央線 西荻窪駅 2階建 新築",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 17.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105459225/",
+      "area": 43.47,
+      "age_years": 0
+    },
+    "4e9c0d44b5dc": {
+      "name": "ＪＲ中央線 荻窪駅 4階建 築12年",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 19.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104304094/",
+      "area": 42.42,
+      "age_years": 12
+    },
+    "19033712defc": {
+      "name": "ＪＲ中央線 荻窪駅 4階建 築12年",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 18.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105431752/",
+      "area": 42.42,
+      "age_years": 12
+    },
+    "e155669b558c": {
+      "name": "プラムガーデン関根",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 18.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105424455/",
+      "area": 42.42,
+      "age_years": 0
+    },
+    "167ed8088029": {
+      "name": "トレステージ四谷",
+      "type": "rental",
+      "station": "信濃町",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 19.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000103542037/",
+      "area": 49.37,
+      "age_years": 18
+    },
+    "37b37c206bad": {
+      "name": "ＪＲ中央線 市ケ谷駅 14階建 築12年",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 21.55
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104214945/",
+      "area": 40.98,
+      "age_years": 12
+    },
+    "0b929f741be8": {
+      "name": "ガーデンヒルズ四ツ谷迎賓の森",
+      "type": "used",
+      "station": "信濃町",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 23600
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20348489/",
+      "area": 78.1,
+      "age_years": 10
+    },
+    "0470a01e2020": {
+      "name": "ガーデンヒルズ四ツ谷　迎賓の森",
+      "type": "used",
+      "station": "信濃町",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "price_history": [
+        {
+          "date": "2026-03-05",
+          "price": 24800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20375058/",
+      "area": 78.1,
+      "age_years": 10
     }
   }
 }
