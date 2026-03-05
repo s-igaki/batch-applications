@@ -7,6 +7,9 @@ on:
   schedule:
     # 06:00 JST = 21:00 UTC (previous day)
     - cron: "0 21 * * *"
+    # 18:00 JST = 09:00 UTC
+    - cron: "0 9 * * *"
+    - cron: "36 13 * * *" # 09:00 JST (next day)
   workflow_dispatch:
 
 permissions:
