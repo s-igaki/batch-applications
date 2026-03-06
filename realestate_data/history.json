@@ -229,7 +229,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-05",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -421,7 +421,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -437,7 +437,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -549,7 +549,7 @@
       "type": "rental",
       "station": "四ツ谷",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -965,7 +965,7 @@
       "type": "rental",
       "station": "市谷",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -1811,6 +1811,10 @@
         {
           "date": "2026-03-05",
           "price": 25800
+        },
+        {
+          "date": "2026-03-06",
+          "price": 24900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_78220867/",
@@ -3338,7 +3342,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-02",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -3354,7 +3358,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-02",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -3370,7 +3374,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-02",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -3386,7 +3390,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-02",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -4930,7 +4934,7 @@
       "type": "rental",
       "station": "西荻窪",
       "first_seen": "2026-03-04",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-04",
@@ -5170,7 +5174,7 @@
       "type": "rental",
       "station": "飯田橋",
       "first_seen": "2026-03-04",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-04",
@@ -5186,7 +5190,7 @@
       "type": "rental",
       "station": "飯田橋",
       "first_seen": "2026-03-04",
-      "last_seen": "2026-03-04",
+      "last_seen": "2026-03-06",
       "price_history": [
         {
           "date": "2026-03-04",
@@ -6032,6 +6036,374 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_79086183/",
       "area": 40.98,
       "age_years": 11
+    },
+    "7127f9a5d0ac": {
+      "name": "メゾン吉祥寺",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105519794/",
+      "area": 48.59,
+      "age_years": 15
+    },
+    "5ad83b2c4dc6": {
+      "name": "ＪＲ中央線 吉祥寺駅 2階建 築15年",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105519795/",
+      "area": 48.59,
+      "age_years": 15
+    },
+    "79b78dc6630b": {
+      "name": "aise village",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105447802/",
+      "area": 63.36,
+      "age_years": 5
+    },
+    "8d0d2437180c": {
+      "name": "aise village",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104761540/",
+      "area": 63.36,
+      "age_years": 5
+    },
+    "8e3d37153aa6": {
+      "name": "メゾンヴィーニュ",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 18.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105507628/",
+      "area": 88.49,
+      "age_years": 16
+    },
+    "f60827b738cb": {
+      "name": "アンナベール",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 18.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105439165/",
+      "area": 74.85,
+      "age_years": 20
+    },
+    "bba07075d513": {
+      "name": "アンナベール",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 19.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105090594/",
+      "area": 74.85,
+      "age_years": 20
+    },
+    "647c07ea9a1f": {
+      "name": "アンナベール",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 19.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105139273/",
+      "area": 74.85,
+      "age_years": 20
+    },
+    "288466819030": {
+      "name": "COEUR BLANC西荻窪",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 22.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000102573026/",
+      "area": 50.57,
+      "age_years": 0
+    },
+    "fe0ff49b5ce8": {
+      "name": "COEUR BLANC西荻窪",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 22.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000102573024/",
+      "area": 50.16,
+      "age_years": 0
+    },
+    "b68d70f4c2ec": {
+      "name": "La Villettina",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 18.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105528280/",
+      "area": 54.95,
+      "age_years": 9
+    },
+    "ac9526a90079": {
+      "name": "マリオン杉並",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105528207/",
+      "area": 46.9,
+      "age_years": 1
+    },
+    "59fe6fa31874": {
+      "name": "マリオン杉並",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105528206/",
+      "area": 45.06,
+      "age_years": 1
+    },
+    "5efaeb3073f0": {
+      "name": "マリオン杉並",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 20.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105528208/",
+      "area": 46.9,
+      "age_years": 1
+    },
+    "55f1ad804f9c": {
+      "name": "マリオン杉並",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 20.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105528209/",
+      "area": 46.9,
+      "age_years": 1
+    },
+    "d419f3703adf": {
+      "name": "マリオン杉並",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 21.1
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105528210/",
+      "area": 46.9,
+      "age_years": 1
+    },
+    "d3505a8e6f25": {
+      "name": "クアルティエーレ四ツ谷",
+      "type": "rental",
+      "station": "四ツ谷",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 18.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105527451/",
+      "area": 48.0,
+      "age_years": 14
+    },
+    "7152a5318983": {
+      "name": "東京メトロ有楽町線 市ケ谷駅 12階建 築9年",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 22.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104788921/",
+      "area": 46.81,
+      "age_years": 9
+    },
+    "b70f3e254bf3": {
+      "name": "BluRock後楽園",
+      "type": "rental",
+      "station": "飯田橋",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 22.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000102805094/",
+      "area": 40.48,
+      "age_years": 4
+    },
+    "86d303c82332": {
+      "name": "BluRock後楽園",
+      "type": "rental",
+      "station": "飯田橋",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 22.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000103416061/",
+      "area": 40.51,
+      "age_years": 4
+    },
+    "f46937356f22": {
+      "name": "K　CITY",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 14.3
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/c746e4e980b1c4d3889dc7fe623e5f7983529d59/",
+      "area": 58.08,
+      "age_years": null
+    },
+    "cd9039760bf0": {
+      "name": "グローリオ高円寺",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 9299.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20252114/",
+      "area": 53.36,
+      "age_years": 11
+    },
+    "d8829ca377de": {
+      "name": "ザ・パークハウス市ヶ谷",
+      "type": "used",
+      "station": "四ツ谷",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "price_history": [
+        {
+          "date": "2026-03-06",
+          "price": 14000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20317757/",
+      "area": 47.11,
+      "age_years": 6
     }
   }
 }
