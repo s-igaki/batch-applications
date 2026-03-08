@@ -181,7 +181,7 @@
       "type": "rental",
       "station": "荻窪",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -197,7 +197,7 @@
       "type": "rental",
       "station": "荻窪",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -373,7 +373,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-05",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -3546,7 +3546,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-02",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -5478,7 +5478,7 @@
       "type": "rental",
       "station": "荻窪",
       "first_seen": "2026-03-05",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-05",
@@ -5494,7 +5494,7 @@
       "type": "rental",
       "station": "荻窪",
       "first_seen": "2026-03-05",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-05",
@@ -8395,6 +8395,134 @@
       "detail_url": "https://cowcamo.jp/short_stories/sXHKmiB3b2s",
       "area": 86.61,
       "age_years": null
+    },
+    "d6120e388ae6": {
+      "name": "ＪＲ中央線 吉祥寺駅 2階建 築2年",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 17.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104455303/",
+      "area": 51.34,
+      "age_years": 2
+    },
+    "ba55f8c35175": {
+      "name": "ＳＦＣ吉祥寺",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 17.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104465791/",
+      "area": 51.34,
+      "age_years": 2
+    },
+    "fb69c45a4bb3": {
+      "name": "ＬａＬａ吉祥寺",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 21.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105585911/",
+      "area": 50.98,
+      "age_years": 3
+    },
+    "9dd328f63e16": {
+      "name": "グランディール荻窪",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 18.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105578303/",
+      "area": 41.05,
+      "age_years": 8
+    },
+    "97bf188ada8a": {
+      "name": "ＪＲ中央線 荻窪駅 3階建 築8年",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105555133/",
+      "area": 57.17,
+      "age_years": 8
+    },
+    "410a85cc1363": {
+      "name": "ＪＲ中央線 千駄ケ谷駅 6階建 築12年",
+      "type": "rental",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 19.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000103440510/",
+      "area": 40.12,
+      "age_years": 12
+    },
+    "628479c98afd": {
+      "name": "RICHESSE　リシェス",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 18.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105211020/",
+      "area": 46.91,
+      "age_years": 12
+    },
+    "0765474aadf9": {
+      "name": "（仮称）原宿パークマンション（建替中）",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 13560
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20258559/",
+      "area": 80.12,
+      "age_years": 0
     }
   }
 }
