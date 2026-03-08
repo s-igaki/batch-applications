@@ -3162,7 +3162,7 @@
       "type": "rental",
       "station": "市谷",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -3178,7 +3178,7 @@
       "type": "rental",
       "station": "市谷",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -3418,7 +3418,7 @@
       "type": "rental",
       "station": "西荻窪",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-06",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -3674,7 +3674,7 @@
       "type": "rental",
       "station": "飯田橋",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-03",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -4586,7 +4586,7 @@
       "type": "rental",
       "station": "市谷",
       "first_seen": "2026-03-03",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-03",
@@ -5590,7 +5590,7 @@
       "type": "rental",
       "station": "市谷",
       "first_seen": "2026-03-05",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-05",
@@ -6342,7 +6342,7 @@
       "type": "rental",
       "station": "飯田橋",
       "first_seen": "2026-03-06",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-06",
@@ -6358,7 +6358,7 @@
       "type": "rental",
       "station": "飯田橋",
       "first_seen": "2026-03-06",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-06",
@@ -6534,7 +6534,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -6550,7 +6550,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -6566,7 +6566,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -6582,7 +6582,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-08",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -7915,6 +7915,486 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_79155014/",
       "area": 47.64,
       "age_years": 14
+    },
+    "c880d1766959": {
+      "name": "aisevillage",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 13.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105563573/",
+      "area": 50.91,
+      "age_years": 5
+    },
+    "6a58c6833209": {
+      "name": "ＪＲ中央線 西荻窪駅 2階建 築6年",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 14.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105578335/",
+      "area": 43.41,
+      "age_years": 6
+    },
+    "13dd249c1946": {
+      "name": "ロサード松庵",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 14.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105563071/",
+      "area": 43.41,
+      "age_years": 6
+    },
+    "b600e82b8a19": {
+      "name": "ＪＲ中央線 荻窪駅 2階建 築7年",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 17.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105578360/",
+      "area": 43.66,
+      "age_years": 7
+    },
+    "225ee59a96ab": {
+      "name": "ＪＲ中央線 荻窪駅 2階建 築7年",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 18.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104615117/",
+      "area": 47.2,
+      "age_years": 7
+    },
+    "e418ab0736b8": {
+      "name": "渋谷西原レジデンス",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 22.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105211012/",
+      "area": 40.53,
+      "age_years": 9
+    },
+    "e511de4060fa": {
+      "name": "ＮＫ麹町コータース",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 23.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/02c5bbb63baa3321fbaeca779299abcc1e862f77/",
+      "area": 48.6,
+      "age_years": null
+    },
+    "05ac4db3046a": {
+      "name": "旅のつづきへ",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 14990.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%8B%E8%B0%B7%E5%8C%BA/%E6%97%85%E3%81%AE%E3%81%A4%E3%81%A5%E3%81%8D%E3%81%B82",
+      "area": 142.83,
+      "age_years": null
+    },
+    "9dfa458e9f97": {
+      "name": "静謐に浸る美学",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 16490.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%AF%E5%8C%BA/%E9%9D%99%E8%AC%90%E3%81%AB%E6%B5%B8%E3%82%8B%E7%BE%8E%E5%AD%A6",
+      "area": 72.71,
+      "age_years": null
+    },
+    "9fef9162ee83": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 18980.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/CXt3aswYORc",
+      "area": 77.27,
+      "age_years": null
+    },
+    "0e8a72e909a5": {
+      "name": "",
+      "type": "used",
+      "station": "西荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 3680.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/AS3oJNyz2pg",
+      "area": 47.01,
+      "age_years": null
+    },
+    "700f7bc62200": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 24800.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/nYBH9AqSqfQ",
+      "area": 130.63,
+      "age_years": null
+    },
+    "ef8698afa6d0": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 20800.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/gAKtvLTH79c",
+      "area": 111.28,
+      "age_years": null
+    },
+    "dc481f4c4067": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 5598.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/5VV9QkN7Iag",
+      "area": 60.48,
+      "age_years": null
+    },
+    "001b5e4cc926": {
+      "name": "",
+      "type": "used",
+      "station": "明治神宮前",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 26900.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/Y87aUv796lA",
+      "area": 66.6,
+      "age_years": null
+    },
+    "acdf5a9f3833": {
+      "name": "",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 17980.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/WJ7j2JdzLr8",
+      "area": 70.3,
+      "age_years": null
+    },
+    "5bb03b098d65": {
+      "name": "",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 20980.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/v0m0C1EnWZA",
+      "area": 80.53,
+      "age_years": null
+    },
+    "8be2f4047d61": {
+      "name": "",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 4950.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/xW8MQXjUsKs",
+      "area": 57.62,
+      "age_years": null
+    },
+    "113635364f86": {
+      "name": "",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 10980.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/OwvBdPHr5r4",
+      "area": 71.98,
+      "age_years": null
+    },
+    "e7c166968e03": {
+      "name": "",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 5880.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/VvoDk6toMvU",
+      "area": 45.32,
+      "age_years": null
+    },
+    "2943794be7ff": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 5299.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/0hRzDlYLaMM",
+      "area": 45.67,
+      "age_years": null
+    },
+    "cf1e6bb3cac0": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 32500.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/WIrWgTFF9D8",
+      "area": 251.92,
+      "age_years": null
+    },
+    "1832e70a4bce": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 11680.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/pkQlWXStUoE",
+      "area": 78.31,
+      "age_years": null
+    },
+    "eee25be6fab1": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 5298.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/t7fFFYyQuqI",
+      "area": 67.57,
+      "age_years": null
+    },
+    "527ae35e6a98": {
+      "name": "",
+      "type": "used",
+      "station": "西荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 5480.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/2ZcMe4h7RHM",
+      "area": 47.22,
+      "age_years": null
+    },
+    "85563a3c2687": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 7999.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/RNWxtKMAptg",
+      "area": 54.95,
+      "age_years": null
+    },
+    "c8982c2e6f97": {
+      "name": "",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 4698.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/F0792Dnd3PM",
+      "area": 60.92,
+      "age_years": null
+    },
+    "cc417927b852": {
+      "name": "",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 11180.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/SiSVHwsa1n8",
+      "area": 65.4,
+      "age_years": null
+    },
+    "5ca26df4c5a5": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 24800.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/yVyVTApF3zk",
+      "area": 80.9,
+      "age_years": null
+    },
+    "a1c3ef9b5244": {
+      "name": "",
+      "type": "used",
+      "station": "飯田橋",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "price_history": [
+        {
+          "date": "2026-03-08",
+          "price": 16499.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/sXHKmiB3b2s",
+      "area": 86.61,
+      "age_years": null
     }
   }
 }
