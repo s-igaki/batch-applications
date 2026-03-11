@@ -7423,7 +7423,12 @@
       "station": "代々木",
       "first_seen": "2026-03-08",
       "last_seen": "2026-03-11",
-      "price_history": [],
+      "price_history": [
+        {
+          "date": "2026-03-11",
+          "price": 7990.0
+        }
+      ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_67730111/",
       "area": 43.95,
       "age_years": 0
@@ -9181,7 +9186,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-03-10",
-      "last_seen": "2026-03-10",
+      "last_seen": "2026-03-11",
       "price_history": [
         {
           "date": "2026-03-10",
@@ -9431,6 +9436,102 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20380873/",
       "area": 55.95,
       "age_years": 12
+    },
+    "6db548cfea09": {
+      "name": "ル・トラン代々木公園",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "price_history": [
+        {
+          "date": "2026-03-11",
+          "price": 23.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/31069a8062671f664e6d76975852b267760f8ec4/",
+      "area": 57.88,
+      "age_years": null
+    },
+    "851e05c0b9d4": {
+      "name": "ル・トラン代々木公園",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "price_history": [
+        {
+          "date": "2026-03-11",
+          "price": 23.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/87d9ce6894dfb43fa8f3f7c8d99546ace55c37ad/",
+      "area": 57.88,
+      "age_years": null
+    },
+    "aae1e1bf9cf5": {
+      "name": "バウスステージ南青山",
+      "type": "rental",
+      "station": "表参道",
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "price_history": [
+        {
+          "date": "2026-03-11",
+          "price": 24.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/e91f1dad756b36ca6bcf6bd50b5e60a7912d1b62/",
+      "area": 40.47,
+      "age_years": null
+    },
+    "017858b3f157": {
+      "name": "バウスステージ南青山",
+      "type": "rental",
+      "station": "表参道",
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "price_history": [
+        {
+          "date": "2026-03-11",
+          "price": 24.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/3ed410439b9f26bbcefa2e12b54fe472a2e28255/",
+      "area": 40.47,
+      "age_years": null
+    },
+    "fc3be2ef6d04": {
+      "name": "オープンレジデンス南青山イーストテラス",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "price_history": [
+        {
+          "date": "2026-03-11",
+          "price": 15800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_20417671/",
+      "area": 72.98,
+      "age_years": 13
+    },
+    "ed061094f954": {
+      "name": "南青山マスターズハウス",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "price_history": [
+        {
+          "date": "2026-03-11",
+          "price": 16000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_20315695/",
+      "area": 46.39,
+      "age_years": 14
     }
   }
 }
