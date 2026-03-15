@@ -261,7 +261,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-11",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -277,7 +277,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-11",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -293,7 +293,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-11",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -309,7 +309,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-11",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -965,7 +965,7 @@
       "type": "rental",
       "station": "市谷",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-09",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -3439,7 +3439,7 @@
       "type": "rental",
       "station": "西荻窪",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-14",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -3535,7 +3535,7 @@
       "type": "rental",
       "station": "荻窪",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-13",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -4447,7 +4447,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-03",
-      "last_seen": "2026-03-07",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-03",
@@ -4543,7 +4543,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-03-03",
-      "last_seen": "2026-03-14",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-03",
@@ -5547,7 +5547,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-05",
-      "last_seen": "2026-03-06",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-05",
@@ -6971,7 +6971,7 @@
       "type": "rental",
       "station": "飯田橋",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-13",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -7019,7 +7019,7 @@
       "type": "used",
       "station": "西荻窪",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-09",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -7472,6 +7472,10 @@
         {
           "date": "2026-03-08",
           "price": 42000
+        },
+        {
+          "date": "2026-03-15",
+          "price": 39800
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20191288/",
@@ -7931,7 +7935,7 @@
       "type": "used",
       "station": "表参道",
       "first_seen": "2026-03-08",
-      "last_seen": "2026-03-13",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-08",
@@ -9603,7 +9607,7 @@
       "type": "rental",
       "station": "西荻窪",
       "first_seen": "2026-03-12",
-      "last_seen": "2026-03-14",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-12",
@@ -9715,7 +9719,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-12",
-      "last_seen": "2026-03-13",
+      "last_seen": "2026-03-15",
       "price_history": [
         {
           "date": "2026-03-12",
@@ -10861,6 +10865,262 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20333866/",
       "area": 117.73,
       "age_years": 2
+    },
+    "61754b35ac08": {
+      "name": "ＪＲ中央線 吉祥寺駅 3階建 築13年",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 15.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105785049/",
+      "area": 44.32,
+      "age_years": 13
+    },
+    "978e43ae1803": {
+      "name": "レジディア荻窪III",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104363689/",
+      "area": 41.46,
+      "age_years": 11
+    },
+    "b4f1c99cdd04": {
+      "name": "Residence Koenji Square",
+      "type": "rental",
+      "station": "高円寺",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 22.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105773290/",
+      "area": 40.24,
+      "age_years": 0
+    },
+    "fac96d5de826": {
+      "name": "Residence Koenji Square",
+      "type": "rental",
+      "station": "高円寺",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 22.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105779321/",
+      "area": 40.24,
+      "age_years": 0
+    },
+    "a49859fa2b25": {
+      "name": "Residence Koenji Square",
+      "type": "rental",
+      "station": "高円寺",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 22.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105779322/",
+      "area": 40.24,
+      "age_years": 0
+    },
+    "5cb07faaf6f3": {
+      "name": "Residence Koenji Square",
+      "type": "rental",
+      "station": "高円寺",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 24.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105773287/",
+      "area": 43.07,
+      "age_years": 0
+    },
+    "2e3cd3727b7e": {
+      "name": "ＪＲ総武線 高円寺駅 2階建 新築",
+      "type": "rental",
+      "station": "高円寺",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 17.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105779372/",
+      "area": 48.51,
+      "age_years": 0
+    },
+    "6746345a011e": {
+      "name": "ＪＲ中央線 高円寺駅 10階建 築5年",
+      "type": "rental",
+      "station": "高円寺",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 21.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105711145/",
+      "area": 41.04,
+      "age_years": 5
+    },
+    "c1d0c432bcc7": {
+      "name": "セント・アイヴス渋谷",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 16.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105528123/",
+      "area": 50.0,
+      "age_years": 17
+    },
+    "ca1b854a7387": {
+      "name": "セント・アイヴス渋谷",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 16.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105496771/",
+      "area": 46.3,
+      "age_years": 17
+    },
+    "2c0f3154dbf6": {
+      "name": "セント・アイヴス渋谷",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 17.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000103182937/",
+      "area": 50.0,
+      "age_years": 17
+    },
+    "0f5b6c4e2a59": {
+      "name": "セント・アイヴス渋谷",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 17.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000103123075/",
+      "area": 50.0,
+      "age_years": 17
+    },
+    "2583f985f677": {
+      "name": "小田急線 代々木上原駅 地下1地上7階建 築3年",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105242318/",
+      "area": 41.05,
+      "age_years": 3
+    },
+    "de3926bbcd7d": {
+      "name": "SOU YOYOGIKOUEN",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 19.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000098942315/",
+      "area": 40.2,
+      "age_years": 7
+    },
+    "0a6184cbe6bd": {
+      "name": "SOU YOYOGIKOUEN",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 21.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105034988/",
+      "area": 44.7,
+      "age_years": 7
+    },
+    "039d61d79bb3": {
+      "name": "東京メトロ千代田線 代々木公園駅 地下1地上3階建 築7年",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "price_history": [
+        {
+          "date": "2026-03-15",
+          "price": 19.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000099086136/",
+      "area": 40.2,
+      "age_years": 7
     }
   }
 }
