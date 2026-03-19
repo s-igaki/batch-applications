@@ -133,7 +133,7 @@
       "type": "rental",
       "station": "西荻窪",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-01",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -405,7 +405,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-03-01",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-01",
@@ -1696,7 +1696,12 @@
       "station": "代々木",
       "first_seen": "2026-03-01",
       "last_seen": "2026-03-19",
-      "price_history": [],
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 20990
+        }
+      ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_setagaya/nc_67731933/",
       "area": 76.01,
       "age_years": 0
@@ -3715,7 +3720,7 @@
       "type": "new",
       "station": "高円寺",
       "first_seen": "2026-03-02",
-      "last_seen": "2026-03-02",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-02",
@@ -4451,7 +4456,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-03",
-      "last_seen": "2026-03-17",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-03",
@@ -6211,7 +6216,7 @@
       "type": "rental",
       "station": "西荻窪",
       "first_seen": "2026-03-06",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-06",
@@ -6227,7 +6232,7 @@
       "type": "rental",
       "station": "西荻窪",
       "first_seen": "2026-03-06",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-06",
@@ -6563,7 +6568,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-14",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -6579,7 +6584,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-14",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -6595,7 +6600,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-14",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -6611,7 +6616,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-14",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -6931,7 +6936,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -7043,7 +7048,7 @@
       "type": "used",
       "station": "西荻窪",
       "first_seen": "2026-03-07",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-07",
@@ -9227,7 +9232,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-03-10",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-10",
@@ -9243,7 +9248,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-03-10",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-10",
@@ -9387,7 +9392,7 @@
       "type": "rental",
       "station": "飯田橋",
       "first_seen": "2026-03-10",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-10",
@@ -9855,7 +9860,7 @@
       "type": "rental",
       "station": "西荻窪",
       "first_seen": "2026-03-12",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-12",
@@ -9871,7 +9876,7 @@
       "type": "rental",
       "station": "西荻窪",
       "first_seen": "2026-03-12",
-      "last_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-12",
@@ -10063,7 +10068,7 @@
       "type": "rental",
       "station": "高円寺",
       "first_seen": "2026-03-12",
-      "last_seen": "2026-03-12",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-12",
@@ -11455,7 +11460,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-16",
-      "last_seen": "2026-03-16",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-16",
@@ -11471,7 +11476,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-16",
-      "last_seen": "2026-03-16",
+      "last_seen": "2026-03-19",
       "price_history": [
         {
           "date": "2026-03-16",
@@ -12297,6 +12302,230 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20471156/",
       "area": 54.28,
       "age_years": 7
+    },
+    "2e6d4e840397": {
+      "name": "ＪＲ総武線 吉祥寺駅 3階建 築4年",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 16.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105874653/",
+      "area": 43.29,
+      "age_years": 4
+    },
+    "8d8ead45f832": {
+      "name": "ベルパルク吉祥寺本町",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 16.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105874651/",
+      "area": 43.29,
+      "age_years": 4
+    },
+    "3747bdbdf038": {
+      "name": "ベルパルク吉祥寺本町",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 16.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105874652/",
+      "area": 43.29,
+      "age_years": 4
+    },
+    "261baf0b930f": {
+      "name": "Ｇｏｔｏｓ",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 19.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104459232/",
+      "area": 54.5,
+      "age_years": 10
+    },
+    "fd4f8fec1b3e": {
+      "name": "ＪＲ総武線 西荻窪駅 2階建 築10年",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 19.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104459233/",
+      "area": 69.5,
+      "age_years": 10
+    },
+    "6d8428ad3c88": {
+      "name": "ジェノヴィア高円寺スカイガーデン",
+      "type": "rental",
+      "station": "高円寺",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 17.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000103929318/",
+      "area": 40.56,
+      "age_years": 11
+    },
+    "d23b2ba7a31b": {
+      "name": "ＪＲ中央線 信濃町駅 3階建 築1年",
+      "type": "rental",
+      "station": "信濃町",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 16.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105872854/",
+      "area": 40.5,
+      "age_years": 1
+    },
+    "9cb2ebb7c4b1": {
+      "name": "ハイグラウンド神楽坂",
+      "type": "rental",
+      "station": "飯田橋",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 22.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105872859/",
+      "area": 41.59,
+      "age_years": 5
+    },
+    "afeccd304cfb": {
+      "name": "ＤＩＭＯＲＡ　ＹＯＹＯＧＩ",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 16.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/e1cc183049bd8d9695a45fa13021de25bc25bbc9/",
+      "area": 47.25,
+      "age_years": null
+    },
+    "8ad83863848a": {
+      "name": "ＤＩＭＯＲＡ　ＹＯＹＯＧＩ",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 16.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/2ab27915916ca309d36a9bb2026654da49829406/",
+      "area": 47.25,
+      "age_years": null
+    },
+    "33f54b81e2cc": {
+      "name": "BPRレジデンス渋谷",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 21.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/b53605af674dcf459f48e11bd715266451689d5c/",
+      "area": 40.43,
+      "age_years": null
+    },
+    "9196ba1eb5be": {
+      "name": "グローリオ高円寺",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 9299.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20477400/",
+      "area": 53.36,
+      "age_years": 11
+    },
+    "607bd9cad577": {
+      "name": "パークリュクス渋谷西原",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 12480
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20453145/",
+      "area": 55.63,
+      "age_years": 9
+    },
+    "279d32448f28": {
+      "name": "プラウド神宮前",
+      "type": "used",
+      "station": "明治神宮前",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "price_history": [
+        {
+          "date": "2026-03-19",
+          "price": 73800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_79041707/",
+      "area": 109.19,
+      "age_years": 2
     }
   }
 }
