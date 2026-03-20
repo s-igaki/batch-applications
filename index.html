@@ -229,12 +229,14 @@ function render() {
   renderTabContent(tabContent, activeMainTab);
 
   // Sticky tab on scroll
+  const tabOriginalTop = tabBar.offsetTop;
+  const tabOriginalHeight = tabBar.offsetHeight;
+  tabPlaceholder.style.height = tabOriginalHeight + 'px';
+
   const onScroll = () => {
-    const rect = tabPlaceholder.getBoundingClientRect();
-    if (rect.top <= 0) {
+    if (window.scrollY >= tabOriginalTop) {
       if (!tabBar.classList.contains('sticky')) {
         tabPlaceholder.style.display = 'block';
-        tabPlaceholder.style.height = tabBar.offsetHeight + 'px';
         tabBar.classList.add('sticky');
       }
     } else {
