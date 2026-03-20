@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 """
-不動産物件クローラー - SUUMO & LIFULL HOME'S
+不動産物件クローラー - SUUMO & LIFULL HOME'S & cowcamo
 賃貸・新築・中古マンションの物件情報を取得し、JSONスナップショットとして保存する。
 
-対象駅: 吉祥寺, 西荻窪, 荻窪, 高円寺, 代々木, 千駄ヶ谷, 信濃町, 四ツ谷, 市谷, 飯田橋,
-       渋谷, 代々木上原, 代々木公園, 明治神宮前, 表参道
-条件:
-  共通: 専有面積40㎡以上, 築20年以内
-  賃貸: 24万円以下
+設定は crawler_config.json に定義されたプロファイルごとに実行される。
+各プロファイルは独自の駅・条件・LINE通知先を持つ。
 """
 
 import requests
@@ -24,32 +21,13 @@ from datetime import datetime, timedelta
 from urllib.parse import urljoin, urlencode
 
 # ============================================================
-# 設定
+# 設定読み込み
 # ============================================================
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(SCRIPT_DIR, 'realestate_data')
+CONFIG_PATH = os.path.join(SCRIPT_DIR, 'crawler_config.json')
 
-# 対象駅とSUUMO駅コード
-STATIONS = {
-    '吉祥寺':    '11640',
-    '西荻窪':    '28500',
-    '荻窪':      '06640',
-    '高円寺':    '13930',
-    '代々木':    '41280',
-    '千駄ヶ谷':  '21520',
-    '信濃町':    '17470',
-    '四ツ谷':    '41160',
-    '市谷':      '02980',
-    '飯田橋':    '01820',
-    '渋谷':      '17640',
-    '代々木上原': '41290',
-    '代々木公園': '41300',
-    '明治神宮前': '39010',
-    '表参道':    '07240',
-}
-
-# SUUMO表記ゆれ対応
-STATION_ALIASES = {
+# SUUMO表記ゆれ対応（デフォルト）
+DEFAULT_STATION_ALIASES = {
     '千駄ケ谷': '千駄ヶ谷',
     '市ケ谷':   '市谷',
     '市ヶ谷':   '市谷',
@@ -57,29 +35,57 @@ STATION_ALIASES = {
     '明治神宮前（原宿）': '明治神宮前',
 }
 
-# 検索条件
-MIN_AREA = 40       # 専有面積 40㎡以上
-MAX_AGE = 20        # 築20年以内
-MAX_RENT = 24.0     # 賃料 24万円以下（賃貸のみ）
 
-# HTTP設定
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-    'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-}
-REQUEST_DELAY = 2  # リクエスト間隔（秒）
-MAX_PAGES = 5      # 1駅あたりの最大ページ数
+def load_config():
+    """crawler_config.json を読み込む"""
+    if not os.path.exists(CONFIG_PATH):
+        log(f"設定ファイルが見つかりません: {CONFIG_PATH}")
+        sys.exit(1)
+    with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
-# HOMES エリアスラッグ（対象駅が含まれる市区町村）
-HOMES_AREAS = {
-    'musashino-city':  ['吉祥寺'],
-    'suginami-city':   ['西荻窪', '荻窪', '高円寺'],
-    'shibuya-city':    ['代々木', '千駄ヶ谷', '渋谷', '代々木上原', '代々木公園', '明治神宮前', '表参道'],
-    'shinjuku-city':   ['信濃町', '四ツ谷', '市谷'],
-    'chiyoda-city':    ['飯田橋', '市谷'],
-    'minato-city':     ['表参道'],
-}
+
+class ProfileConfig:
+    """1プロファイル分の設定を保持するクラス"""
+
+    def __init__(self, profile_dict, global_dict, station_aliases):
+        self.name = profile_dict['name']
+        self.stations = profile_dict['stations']
+        self.homes_areas = profile_dict.get('homes_areas', {})
+        self.station_aliases = station_aliases
+
+        cond = profile_dict.get('conditions', {})
+        self.min_area = cond.get('min_area', 40)
+        self.max_age = cond.get('max_age', 20)
+        self.max_rent = cond.get('max_rent', 24.0)
+
+        line = profile_dict.get('line', {})
+        self.line_client_id = os.getenv(line.get('client_id_env', ''), '')
+        self.line_client_secret = os.getenv(line.get('client_secret_env', ''), '')
+
+        self.request_delay = global_dict.get('request_delay', 2)
+        self.max_pages = global_dict.get('max_pages', 5)
+        self.headers = global_dict.get('headers', {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        })
+        self.stale_days = global_dict.get('stale_days', 14)
+
+        # データ保存先（プロファイルごとに分離）
+        self.data_dir = os.path.join(SCRIPT_DIR, 'realestate_data', self.name)
+
+    def station_matches(self, text):
+        """テキストに対象駅名が含まれるか確認し、駅名を返す"""
+        if not text:
+            return None
+        for station in self.stations:
+            if station in text:
+                return station
+        for alias, canonical in self.station_aliases.items():
+            if alias in text and canonical in self.stations:
+                return canonical
+        return None
 
 
 # ============================================================
@@ -89,9 +95,9 @@ def log(msg):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}")
 
 
-def create_session():
+def create_session(headers):
     s = requests.Session()
-    s.headers.update(HEADERS)
+    s.headers.update(headers)
     return s
 
 
@@ -176,19 +182,6 @@ def extract_walk_minutes(text):
     return int(m.group(1)) if m else None
 
 
-def station_matches(text):
-    """テキストに対象駅名が含まれるか確認し、駅名を返す"""
-    if not text:
-        return None
-    for station in STATIONS:
-        if station in text:
-            return station
-    for alias, canonical in STATION_ALIASES.items():
-        if alias in text:
-            return canonical
-    return None
-
-
 def make_unique_id(url_or_text):
     """URLまたはテキストからユニークIDを生成"""
     return hashlib.md5(url_or_text.encode('utf-8')).hexdigest()[:12]
@@ -200,8 +193,9 @@ def make_unique_id(url_or_text):
 class SuumoCrawler:
     BASE = 'https://suumo.jp'
 
-    def __init__(self, session):
+    def __init__(self, session, profile):
         self.session = session
+        self.profile = profile
 
     # --- 賃貸 ---
     def crawl_rental(self):
@@ -209,11 +203,11 @@ class SuumoCrawler:
         log("SUUMO 賃貸クロール開始...")
         all_properties = {}
 
-        for station_name, station_code in STATIONS.items():
+        for station_name, station_code in self.profile.stations.items():
             log(f"  駅: {station_name} (ek_{station_code})")
             url = f"{self.BASE}/chintai/tokyo/ek_{station_code}/"
 
-            for page in range(1, MAX_PAGES + 1):
+            for page in range(1, self.profile.max_pages + 1):
                 params = {'page': page} if page > 1 else None
                 soup = fetch_soup(self.session, url, params)
                 if not soup:
@@ -227,15 +221,13 @@ class SuumoCrawler:
                 for item in items:
                     props = self._parse_rental_cassetteitem(item, station_name)
                     for p in props:
-                        # 対象駅に紐づかない物件はスキップ
                         if not p.get('station'):
                             continue
-                        # 条件フィルタリング
-                        if p.get('area') and p['area'] < MIN_AREA:
+                        if p.get('area') and p['area'] < self.profile.min_area:
                             continue
-                        if p.get('age_years') is not None and p['age_years'] > MAX_AGE:
+                        if p.get('age_years') is not None and p['age_years'] > self.profile.max_age:
                             continue
-                        if p.get('price') and p['price'] > MAX_RENT:
+                        if p.get('price') and p['price'] > self.profile.max_rent:
                             continue
                         uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                         if uid not in all_properties:
@@ -244,14 +236,13 @@ class SuumoCrawler:
 
                 log(f"    ページ{page}: {len(items)}棟, 新規{new_count}件")
 
-                # 次のページがあるかチェック
                 next_link = soup.select_one('.pagination-parts a[rel="next"], .paginate_set-nav a:last-child')
                 if not next_link:
                     break
 
-                time.sleep(REQUEST_DELAY)
+                time.sleep(self.profile.request_delay)
 
-            time.sleep(REQUEST_DELAY)
+            time.sleep(self.profile.request_delay)
 
         result = list(all_properties.values())
         log(f"  SUUMO賃貸: 合計{len(result)}件")
@@ -302,7 +293,7 @@ class SuumoCrawler:
         walk_min_default = None
         walk_station_default = None
         for acc in access_texts:
-            matched = station_matches(acc)
+            matched = self.profile.station_matches(acc)
             if matched:
                 walk_min_default = extract_walk_minutes(acc)
                 walk_station_default = matched
@@ -338,7 +329,6 @@ class SuumoCrawler:
             # 賃料（万円）
             rent_text = ''
             rent_val = None
-            # cassetteitem_other--emphasis span内に賃料あり
             rent_spans = row.select('span.cassetteitem_other--emphasis')
             if rent_spans:
                 rent_text = rent_spans[0].get_text(strip=True)
@@ -398,11 +388,11 @@ class SuumoCrawler:
         """SUUMO売買物件（新築/中古）をクロール"""
         all_properties = {}
 
-        for station_name, station_code in STATIONS.items():
+        for station_name, station_code in self.profile.stations.items():
             log(f"  駅: {station_name}")
             url = f"{self.BASE}/ms/{path_segment}/tokyo/ek_{station_code}/"
 
-            for page in range(1, MAX_PAGES + 1):
+            for page in range(1, self.profile.max_pages + 1):
                 params = {'page': page} if page > 1 else None
                 soup = fetch_soup(self.session, url, params)
                 if not soup:
@@ -417,13 +407,11 @@ class SuumoCrawler:
                     p = self._parse_property_unit(unit, station_name, type_label)
                     if not p:
                         continue
-                    # 対象駅に紐づかない物件はスキップ
                     if not p.get('station'):
                         continue
-                    # 条件フィルタリング
-                    if p.get('area') and p['area'] < MIN_AREA:
+                    if p.get('area') and p['area'] < self.profile.min_area:
                         continue
-                    if p.get('age_years') is not None and p['age_years'] > MAX_AGE:
+                    if p.get('age_years') is not None and p['age_years'] > self.profile.max_age:
                         continue
                     uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                     if uid not in all_properties:
@@ -436,9 +424,9 @@ class SuumoCrawler:
                 if not next_link:
                     break
 
-                time.sleep(REQUEST_DELAY)
+                time.sleep(self.profile.request_delay)
 
-            time.sleep(REQUEST_DELAY)
+            time.sleep(self.profile.request_delay)
 
         result = list(all_properties.values())
         log(f"  SUUMO {type_label}: 合計{len(result)}件")
@@ -446,7 +434,6 @@ class SuumoCrawler:
 
     def _parse_property_unit(self, unit, search_station, type_label):
         """SUUMO売買のproperty_unitをパース（中古dt/dd形式 & 新築cassette形式 両対応）"""
-        # 新築マンションはcassette形式のHTMLを使う
         is_cassette = bool(unit.select_one('.cassette_header-title, .cassette_basic'))
         if is_cassette:
             return self._parse_cassette_unit(unit, search_station, type_label)
@@ -455,13 +442,11 @@ class SuumoCrawler:
     def _parse_cassette_unit(self, unit, search_station, type_label):
         """SUUMO新築マンションのcassette形式をパース"""
         try:
-            # 物件名
             name = ''
             title_el = unit.select_one('.cassette_header-title, a.cassette_header-title')
             if title_el:
                 name = title_el.get_text(strip=True)
 
-            # 詳細URL
             detail_url = ''
             title_link = unit.select_one('a.cassette_header-title[href], .cassette_header-title a[href]')
             if title_link:
@@ -471,7 +456,6 @@ class SuumoCrawler:
                 if link:
                     detail_url = urljoin(self.BASE, link.get('href', ''))
 
-            # 画像（cassette_thumbcarousel内のメイン画像）
             image_url = ''
             img = unit.select_one('.cassette_thumbcarousel-itembox img.js-noContextMenu')
             if not img:
@@ -483,7 +467,6 @@ class SuumoCrawler:
                 if image_url and 'data:image' in image_url:
                     image_url = img.get('rel', '')
 
-            # cassette_basic から所在地・交通を取得
             address = ''
             access = ''
             walk_min = None
@@ -492,7 +475,6 @@ class SuumoCrawler:
                 label = title_p.get_text(strip=True)
                 value_p = title_p.find_next_sibling('p', class_='cassette_basic-value')
                 if not value_p:
-                    # 親divの次の要素を探す
                     parent = title_p.parent
                     if parent:
                         value_p = parent.select_one('.cassette_basic-value')
@@ -503,12 +485,11 @@ class SuumoCrawler:
                     address = value
                 elif '交通' in label:
                     access = value
-                    matched = station_matches(access)
+                    matched = self.profile.station_matches(access)
                     if matched:
                         walk_station = matched
                     walk_min = extract_walk_minutes(access)
 
-            # 販売価格（cassette_price-accent）
             price_text = ''
             price_val = None
             price_el = unit.select_one('.cassette_price-accent')
@@ -516,16 +497,13 @@ class SuumoCrawler:
                 price_text = price_el.get_text(strip=True)
                 price_val = parse_buy_price(price_text)
 
-            # 面積・間取り情報（cassette_price-description）
             area_text = ''
             area_val = None
             desc_el = unit.select_one('.cassette_price-description')
             if desc_el:
                 desc_text = desc_el.get_text(strip=True)
-                # "1LDK+S～3LDK / 53.5m²～67.35m²" のようなテキストから面積を抽出
                 area_m = re.search(r'([\d.]+)\s*m[²2]\s*[～~〜]\s*([\d.]+)\s*m[²2]', desc_text)
                 if area_m:
-                    # 最小面積を使用
                     area_val = float(area_m.group(1))
                     area_text = f"{area_m.group(1)}m²～{area_m.group(2)}m²"
                 else:
@@ -534,7 +512,6 @@ class SuumoCrawler:
                         area_val = float(area_m2.group(1))
                         area_text = f"{area_m2.group(1)}m²"
 
-            # 新築マンションは築年数0
             age_text = '新築'
             age_years = 0
 
@@ -562,7 +539,6 @@ class SuumoCrawler:
     def _parse_dottable_unit(self, unit, search_station, type_label):
         """SUUMO中古マンションのdt/dd（dottable）形式をパース"""
         try:
-            # 物件名
             name = ''
             name_dt = unit.find('dt', string=re.compile('物件名'))
             if name_dt:
@@ -570,7 +546,6 @@ class SuumoCrawler:
                 if dd:
                     name = dd.get_text(strip=True)
 
-            # 詳細URL
             detail_url = ''
             title_link = unit.select_one('.property_unit-title a[href]')
             if title_link:
@@ -580,7 +555,6 @@ class SuumoCrawler:
                 if link:
                     detail_url = urljoin(self.BASE, link.get('href', ''))
 
-            # 画像
             image_url = ''
             img = unit.select_one('.property_unit-object img.js-noContextMenu, .property_unit-object img')
             if img:
@@ -588,7 +562,6 @@ class SuumoCrawler:
                 if image_url and 'data:image' in image_url:
                     image_url = img.get('rel', '')
 
-            # 販売価格
             price_text = ''
             price_val = None
             price_dt = unit.find('dt', string=re.compile('販売価格|価格'))
@@ -599,7 +572,6 @@ class SuumoCrawler:
                     price_text = (v or dd).get_text(strip=True)
                     price_val = parse_buy_price(price_text)
 
-            # 所在地
             address = ''
             addr_dt = unit.find('dt', string=re.compile('所在地'))
             if addr_dt:
@@ -607,7 +579,6 @@ class SuumoCrawler:
                 if dd:
                     address = dd.get_text(strip=True)
 
-            # 沿線・駅
             access = ''
             walk_min = None
             walk_station = None
@@ -616,12 +587,11 @@ class SuumoCrawler:
                 dd = ensen_dt.find_next_sibling('dd')
                 if dd:
                     access = dd.get_text(strip=True)
-                    matched = station_matches(access)
+                    matched = self.profile.station_matches(access)
                     if matched:
                         walk_station = matched
                     walk_min = extract_walk_minutes(access)
 
-            # 専有面積
             area_text = ''
             area_val = None
             area_dt = unit.find('dt', string=re.compile('専有面積'))
@@ -631,7 +601,6 @@ class SuumoCrawler:
                     area_text = dd.get_text(strip=True)
                     area_val = parse_number(area_text)
 
-            # 築年月
             age_text = ''
             age_years = None
             age_dt = unit.find('dt', string=re.compile('築年'))
@@ -669,17 +638,18 @@ class SuumoCrawler:
 class HomesCrawler:
     BASE = 'https://www.homes.co.jp'
 
-    def __init__(self, session):
+    def __init__(self, session, profile):
         self.session = session
+        self.profile = profile
 
     def crawl_rental(self):
         """HOMES賃貸物件をクロール（エリア別）"""
         log("HOMES 賃貸クロール開始...")
         all_properties = {}
 
-        for area_slug, area_stations in HOMES_AREAS.items():
+        for area_slug, area_stations in self.profile.homes_areas.items():
             log(f"  エリア: {area_slug} ({', '.join(area_stations)})")
-            for page in range(1, MAX_PAGES + 1):
+            for page in range(1, self.profile.max_pages + 1):
                 url = f"{self.BASE}/chintai/tokyo/{area_slug}/list/"
                 params = {'page': page} if page > 1 else None
 
@@ -697,11 +667,11 @@ class HomesCrawler:
                     for p in props:
                         if p.get('station') is None:
                             continue
-                        if p.get('area') and p['area'] < MIN_AREA:
+                        if p.get('area') and p['area'] < self.profile.min_area:
                             continue
-                        if p.get('age_years') is not None and p['age_years'] > MAX_AGE:
+                        if p.get('age_years') is not None and p['age_years'] > self.profile.max_age:
                             continue
-                        if p.get('price') and p['price'] > MAX_RENT:
+                        if p.get('price') and p['price'] > self.profile.max_rent:
                             continue
                         uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                         if uid not in all_properties:
@@ -714,9 +684,9 @@ class HomesCrawler:
                 if not next_link:
                     break
 
-                time.sleep(REQUEST_DELAY)
+                time.sleep(self.profile.request_delay)
 
-            time.sleep(REQUEST_DELAY)
+            time.sleep(self.profile.request_delay)
 
         result = list(all_properties.values())
         log(f"  HOMES賃貸: 合計{len(result)}件")
@@ -726,13 +696,11 @@ class HomesCrawler:
         """HOMES賃貸のprg-buildingをパース"""
         properties = []
         try:
-            # 建物名
             building_name = ''
             name_el = bldg.select_one('.bukkenName')
             if name_el:
                 building_name = name_el.get_text(strip=True)
 
-            # 建物画像
             building_img = ''
             img_el = bldg.select_one('.bukkenPhoto img')
             if img_el:
@@ -747,7 +715,6 @@ class HomesCrawler:
                     if ns_img:
                         building_img = ns_img.get('src', '')
 
-            # スペック表から情報取得
             spec_table = bldg.select_one('.bukkenSpec table')
             address = ''
             access_texts = []
@@ -775,29 +742,25 @@ class HomesCrawler:
                         age_text = value
                         age_years = parse_age_years(age_text)
 
-            # この建物が対象駅に関連するかチェック
             matched_station = None
             walk_min = None
             for acc in access_texts:
-                matched = station_matches(acc)
+                matched = self.profile.station_matches(acc)
                 if matched:
                     matched_station = matched
                     walk_min = extract_walk_minutes(acc)
                     break
 
             if not matched_station:
-                return []  # 対象駅に近くない建物はスキップ
+                return []
 
-            # 建物リンクURL
             building_url = ''
             link = bldg.select_one('.prg-bukkenNameAnchor')
             if link:
                 building_url = link.get('href', '')
 
-            # 部屋ユニット情報
             unit_rows = bldg.select('.unitSummary tbody tr')
             if not unit_rows:
-                # 部屋情報がない場合は建物情報のみで1件作成
                 properties.append({
                     'source': 'HOMES',
                     'type': '賃貸',
@@ -822,7 +785,6 @@ class HomesCrawler:
                 if len(tds) < 4:
                     continue
 
-                # 詳細URL
                 detail_url = building_url
                 link = row.select_one('a[href*="/chintai/room/"]')
                 if not link:
@@ -832,7 +794,6 @@ class HomesCrawler:
                     if href and href != '#' and 'javascript' not in href:
                         detail_url = href if href.startswith('http') else urljoin(self.BASE, href)
 
-                # 賃料
                 rent_text = ''
                 rent_val = None
                 price_td = row.select_one('td.price')
@@ -844,7 +805,6 @@ class HomesCrawler:
                     if m:
                         rent_val = float(m.group(1))
 
-                # 間取り/専有面積
                 area_text = ''
                 area_val = None
                 layout_td = row.select_one('td.layout')
@@ -857,7 +817,6 @@ class HomesCrawler:
                         area_val = float(m.group(1))
                         area_text = f"{area_val}m²"
 
-                # 画像
                 room_img = building_img
                 floor_img = row.select_one('img')
                 if floor_img:
@@ -902,9 +861,9 @@ class HomesCrawler:
         """HOMES売買物件をクロール（エリア別）"""
         all_properties = {}
 
-        for area_slug, area_stations in HOMES_AREAS.items():
+        for area_slug, area_stations in self.profile.homes_areas.items():
             log(f"  エリア: {area_slug}")
-            for page in range(1, MAX_PAGES + 1):
+            for page in range(1, self.profile.max_pages + 1):
                 url = f"{self.BASE}/{path}/tokyo/{area_slug}/list/"
                 params = {'page': page} if page > 1 else None
 
@@ -923,9 +882,9 @@ class HomesCrawler:
                     p = self._parse_buy_building(bldg, type_label)
                     if not p or not p.get('station'):
                         continue
-                    if p.get('area') and p['area'] < MIN_AREA:
+                    if p.get('area') and p['area'] < self.profile.min_area:
                         continue
-                    if p.get('age_years') is not None and p['age_years'] > MAX_AGE:
+                    if p.get('age_years') is not None and p['age_years'] > self.profile.max_age:
                         continue
                     uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                     if uid not in all_properties:
@@ -938,9 +897,9 @@ class HomesCrawler:
                 if not next_link:
                     break
 
-                time.sleep(REQUEST_DELAY)
+                time.sleep(self.profile.request_delay)
 
-            time.sleep(REQUEST_DELAY)
+            time.sleep(self.profile.request_delay)
 
         result = list(all_properties.values())
         log(f"  HOMES {type_label}: 合計{len(result)}件")
@@ -967,7 +926,6 @@ class HomesCrawler:
                 if image_url and 'loading' in image_url:
                     image_url = ''
 
-            # 交通情報から駅チェック
             access_texts = []
             for span in bldg.select('.prg-stationText'):
                 access_texts.append(span.get_text(strip=True))
@@ -982,7 +940,7 @@ class HomesCrawler:
             matched_station = None
             walk_min = None
             for acc in access_texts:
-                matched = station_matches(acc)
+                matched = self.profile.station_matches(acc)
                 if matched:
                     matched_station = matched
                     walk_min = extract_walk_minutes(acc)
@@ -1043,17 +1001,18 @@ class HomesCrawler:
 # ============================================================
 class CowcamoCrawler:
     BASE = 'https://cowcamo.jp'
-    MAX_PAGES = 10  # cowcamoは全物件を新着順で返すため、多めにページを巡回
+    COWCAMO_MAX_PAGES = 10
 
-    def __init__(self, session):
+    def __init__(self, session, profile):
         self.session = session
+        self.profile = profile
 
     def crawl_used(self):
         """cowcamo中古マンションをクロール（/update ページを巡回）"""
         log("cowcamo 中古マンションクロール開始...")
         all_properties = {}
 
-        for page in range(1, self.MAX_PAGES + 1):
+        for page in range(1, self.COWCAMO_MAX_PAGES + 1):
             url = f"{self.BASE}/update"
             params = {'page': page} if page > 1 else None
             soup = fetch_soup(self.session, url, params)
@@ -1069,11 +1028,9 @@ class CowcamoCrawler:
                 p = self._parse_entry(card)
                 if not p:
                     continue
-                # 対象駅に紐づかない物件はスキップ
                 if not p.get('station'):
                     continue
-                # 条件フィルタリング（面積のみ。cowcamoの一覧に築年数は非表示）
-                if p.get('area') and p['area'] < MIN_AREA:
+                if p.get('area') and p['area'] < self.profile.min_area:
                     continue
                 uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                 if uid not in all_properties:
@@ -1082,10 +1039,8 @@ class CowcamoCrawler:
 
             log(f"  ページ{page}: {len(cards)}件, 対象駅マッチ{new_count}件")
 
-            # 次のページがあるか
             next_link = soup.select_one('a[href*="page"][rel="next"]')
             if not next_link:
-                # "Next" テキストのリンクもチェック
                 for a in soup.select('a[href*="update?page="]'):
                     if 'Next' in a.get_text():
                         next_link = a
@@ -1093,7 +1048,7 @@ class CowcamoCrawler:
             if not next_link:
                 break
 
-            time.sleep(REQUEST_DELAY)
+            time.sleep(self.profile.request_delay)
 
         result = list(all_properties.values())
         log(f"  cowcamo中古: 合計{len(result)}件")
@@ -1102,13 +1057,11 @@ class CowcamoCrawler:
     def _parse_entry(self, card):
         """cowcamo の .p-entry カードをパース"""
         try:
-            # タイトル
             name = ''
             title_el = card.select_one('.p-entry__title')
             if title_el:
                 name = title_el.get_text(strip=True)
 
-            # 詳細URL（.p-entry__cover の href）
             detail_url = ''
             cover = card.select_one('.p-entry__cover')
             if cover:
@@ -1116,13 +1069,11 @@ class CowcamoCrawler:
                 if href:
                     detail_url = urljoin(self.BASE, href)
 
-            # 画像
             image_url = ''
             img = card.select_one('.p-entry__thumbnail')
             if img:
                 image_url = img.get('src', '')
 
-            # 価格（例: "14,990万円", "5,780万円(改装前価格)"）
             price_text = ''
             price_val = None
             price_el = card.select_one('.p-entry__price')
@@ -1130,7 +1081,6 @@ class CowcamoCrawler:
                 price_text = price_el.get_text(strip=True)
                 price_val = parse_buy_price(price_text)
 
-            # 面積・間取り（例: "142.83㎡・3LDK"）
             area_text = ''
             area_val = None
             layout_el = card.select_one('.p-entry__layout')
@@ -1140,7 +1090,6 @@ class CowcamoCrawler:
                 if m:
                     area_val = float(m.group(1))
 
-            # 駅・住所（.p-entry__misc 内の span 要素）
             walk_station = None
             walk_min = None
             address = ''
@@ -1149,8 +1098,7 @@ class CowcamoCrawler:
                 spans = misc.select('span')
                 if len(spans) >= 1:
                     station_text = spans[0].get_text(strip=True)
-                    # 対象駅マッチ
-                    walk_station = station_matches(station_text)
+                    walk_station = self.profile.station_matches(station_text)
                     walk_min = extract_walk_minutes(station_text)
                 if len(spans) >= 2:
                     address = spans[1].get_text(strip=True)
@@ -1166,7 +1114,7 @@ class CowcamoCrawler:
                 'area_text': area_text,
                 'walk_minutes': walk_min,
                 'station': walk_station,
-                'age_years': None,  # cowcamo一覧では築年数非表示
+                'age_years': None,
                 'age_text': '',
                 'image_url': image_url,
                 'address': address,
@@ -1180,24 +1128,21 @@ class CowcamoCrawler:
 # ============================================================
 # LINE Messaging API 通知
 # ============================================================
-
-LINE_CLIENT_ID = os.getenv('LINE_CLIENT_ID', '')
-LINE_CLIENT_SECRET = os.getenv('LINE_CLIENT_SECRET', '')
 LINE_TOKEN_URL = 'https://api.line.me/v2/oauth/accessToken'
 LINE_BROADCAST_URL = 'https://api.line.me/v2/bot/message/broadcast'
 
 
-def get_line_access_token():
+def get_line_access_token(profile):
     """LINE Messaging API のアクセストークンを取得"""
-    if not LINE_CLIENT_ID or not LINE_CLIENT_SECRET:
+    if not profile.line_client_id or not profile.line_client_secret:
         log('LINE_CLIENT_ID / LINE_CLIENT_SECRET が未設定のためLINE通知をスキップ')
         return None
 
     try:
         resp = requests.post(LINE_TOKEN_URL, data={
             'grant_type': 'client_credentials',
-            'client_id': LINE_CLIENT_ID,
-            'client_secret': LINE_CLIENT_SECRET,
+            'client_id': profile.line_client_id,
+            'client_secret': profile.line_client_secret,
         }, headers={'Content-Type': 'application/x-www-form-urlencoded'}, timeout=30)
         if resp.status_code == 200:
             token = resp.json().get('access_token')
@@ -1351,7 +1296,7 @@ def _split_and_send(token, category, listings, all_props):
     return [{'type': 'text', 'text': c} for c in chunks]
 
 
-def notify_line_new_listings(changes, all_rental, all_new, all_used):
+def notify_line_new_listings(profile, changes, all_rental, all_new, all_used):
     """賃貸・新築・中古の新着物件をLINEで通知"""
     new_listings = changes.get('new_listings', [])
 
@@ -1370,14 +1315,13 @@ def notify_line_new_listings(changes, all_rental, all_new, all_used):
     log(f"新着物件 → 賃貸{len(by_type['rental'])}件 / 新築{len(by_type['new'])}件 / 中古{len(by_type['used'])}件")
     log("LINE通知送信中...")
 
-    token = get_line_access_token()
+    token = get_line_access_token(profile)
     if not token:
         log("LINE アクセストークン取得失敗 - 通知をスキップ")
         return
 
     # 日付ヘッダーを先頭に追加
-    from datetime import datetime as _dt
-    today_str = _dt.now().strftime('%Y年%-m月%-d日')
+    today_str = datetime.now().strftime('%Y年%-m月%-d日')
     date_header = {
         'type': 'text',
         'text': f'📅 {today_str}のデータ 📅'
@@ -1403,44 +1347,43 @@ def notify_line_new_listings(changes, all_rental, all_new, all_used):
 # 駅別集計 & 物件追跡 & 値下げ検出
 # ============================================================
 
-HISTORY_PATH = os.path.join(DATA_DIR, 'history.json')
-TIMESERIES_PATH = os.path.join(DATA_DIR, 'time_series.json')
-STALE_DAYS = 14  # この日数以上掲載で「滞留物件」
-
-
-def load_history():
+def load_history(data_dir):
     """物件追跡履歴を読み込み"""
-    if os.path.exists(HISTORY_PATH):
+    path = os.path.join(data_dir, 'history.json')
+    if os.path.exists(path):
         try:
-            with open(HISTORY_PATH, 'r', encoding='utf-8') as f:
+            with open(path, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except (json.JSONDecodeError, KeyError):
             pass
     return {'properties': {}}
 
 
-def save_history(history):
+def save_history(data_dir, history):
     """物件追跡履歴を保存"""
-    os.makedirs(DATA_DIR, exist_ok=True)
-    with open(HISTORY_PATH, 'w', encoding='utf-8') as f:
+    os.makedirs(data_dir, exist_ok=True)
+    path = os.path.join(data_dir, 'history.json')
+    with open(path, 'w', encoding='utf-8') as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
     log(f"物件履歴更新: {len(history['properties'])}件追跡中")
 
 
-def load_time_series():
+def load_time_series(data_dir):
     """時系列データを読み込み"""
-    if os.path.exists(TIMESERIES_PATH):
+    path = os.path.join(data_dir, 'time_series.json')
+    if os.path.exists(path):
         try:
-            with open(TIMESERIES_PATH, 'r', encoding='utf-8') as f:
+            with open(path, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except (json.JSONDecodeError, KeyError):
             pass
     return {'dates': [], 'stations': {}, 'overall': {}}
 
 
-def save_time_series(ts):
+def save_time_series(data_dir, ts):
     """時系列データを保存"""
-    with open(TIMESERIES_PATH, 'w', encoding='utf-8') as f:
+    path = os.path.join(data_dir, 'time_series.json')
+    with open(path, 'w', encoding='utf-8') as f:
         json.dump(ts, f, ensure_ascii=False, indent=2)
     log(f"時系列データ更新: {len(ts['dates'])}日分")
 
@@ -1505,24 +1448,22 @@ def compute_station_stats(properties, prop_type):
     return stats
 
 
-def update_history_and_detect_changes(history, all_rental, all_new, all_used, today_str):
+def update_history_and_detect_changes(history, all_rental, all_new, all_used, today_str, stale_days):
     """物件履歴を更新し、値下げ・新規・消失を検出"""
     today_uids = set()
     changes = {
-        'price_reduced': [],   # 値下げされた物件
-        'new_listings': [],    # 新規掲載
-        'delisted': [],        # 掲載終了
-        'stale': [],           # 滞留物件
+        'price_reduced': [],
+        'new_listings': [],
+        'delisted': [],
+        'stale': [],
     }
 
-    # ── 現在の全物件を走査 ──
     for prop_type, props in [('rental', all_rental), ('new', all_new), ('used', all_used)]:
         for p in props:
             uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
             today_uids.add(uid)
 
             if uid in history['properties']:
-                # 既知の物件 → 価格変動チェック
                 rec = history['properties'][uid]
                 rec['last_seen'] = today_str
                 old_price = rec['price_history'][-1]['price'] if rec['price_history'] else None
@@ -1542,20 +1483,18 @@ def update_history_and_detect_changes(history, all_rental, all_new, all_used, to
                         'first_seen': rec.get('first_seen', ''),
                     })
 
-                # 価格が変動した場合のみ履歴追加
                 if p.get('price') and (not old_price or p['price'] != old_price):
                     rec['price_history'].append({
                         'date': today_str,
                         'price': p['price'],
                     })
 
-                # 滞留チェック
                 first_dt = rec.get('first_seen', today_str)
                 try:
                     days = (datetime.fromisoformat(today_str) - datetime.fromisoformat(first_dt)).days
                 except Exception:
                     days = 0
-                if days >= STALE_DAYS:
+                if days >= stale_days:
                     changes['stale'].append({
                         'uid': uid,
                         'name': p.get('name', ''),
@@ -1566,7 +1505,6 @@ def update_history_and_detect_changes(history, all_rental, all_new, all_used, to
                         'detail_url': p.get('detail_url', ''),
                     })
             else:
-                # 新規物件
                 history['properties'][uid] = {
                     'name': p.get('name', ''),
                     'type': prop_type,
@@ -1587,12 +1525,11 @@ def update_history_and_detect_changes(history, all_rental, all_new, all_used, to
                     'detail_url': p.get('detail_url', ''),
                 })
 
-    # ── 消失物件の検出 ──
+    # 消失物件の検出
     yesterday = (datetime.fromisoformat(today_str) - timedelta(days=1)).isoformat()[:10]
     for uid, rec in history['properties'].items():
         if uid not in today_uids:
             last_seen = rec.get('last_seen', '')[:10]
-            # 前回以降に見えなくなった物件のみ（古すぎるものは除外）
             if last_seen >= yesterday:
                 changes['delisted'].append({
                     'uid': uid,
@@ -1605,9 +1542,13 @@ def update_history_and_detect_changes(history, all_rental, all_new, all_used, to
                     'last_seen': rec.get('last_seen', ''),
                 })
 
-    # 変動サマリを駅別に集計
+    return changes
+
+
+def compute_changes_summary(changes, stations):
+    """変動サマリを駅別に集計"""
     station_changes = {}
-    for st in STATIONS:
+    for st in stations:
         station_changes[st] = {
             'new_count': len([c for c in changes['new_listings'] if c.get('station') == st]),
             'delisted_count': len([c for c in changes['delisted'] if c.get('station') == st]),
@@ -1622,22 +1563,20 @@ def update_history_and_detect_changes(history, all_rental, all_new, all_used, to
         'total_price_reduced': len(changes['price_reduced']),
         'total_stale': len(changes['stale']),
     }
-
     return changes
 
 
-def update_time_series(ts, today_str, station_stats, changes):
+def update_time_series(ts, today_str, station_stats, changes, stations):
     """時系列データに本日の集計を追加"""
     date_key = today_str[:10]
 
-    # 同日のデータがあれば上書き
     if date_key in ts['dates']:
         idx = ts['dates'].index(date_key)
     else:
         ts['dates'].append(date_key)
         idx = len(ts['dates']) - 1
 
-    for st_name in STATIONS:
+    for st_name in stations:
         if st_name not in ts['stations']:
             ts['stations'][st_name] = {}
 
@@ -1655,7 +1594,6 @@ def update_time_series(ts, today_str, station_stats, changes):
             stat = station_stats.get(prop_type, {}).get(st_name, {})
             ch = changes.get('station_summary', {}).get(st_name, {})
 
-            # 各系列をidx位置にセット（足りない分はNoneで埋める）
             for key, val in [
                 ('count', stat.get('count', 0)),
                 ('median_price', stat.get('median_price')),
@@ -1689,7 +1627,6 @@ def update_time_series(ts, today_str, station_stats, changes):
         all_stats = station_stats.get(prop_type, {})
         total_count = sum(s.get('count', 0) for s in all_stats.values())
 
-        # 全駅合算の中央値（各駅の中央値の平均ではなく、物件個別の値を使うべきだが簡易版）
         all_prices = []
         all_ppsqm = []
         for s in all_stats.values():
@@ -1717,32 +1654,32 @@ def update_time_series(ts, today_str, station_stats, changes):
 # ============================================================
 # データ保存
 # ============================================================
-def save_snapshot(data):
+def save_snapshot(data_dir, data):
     """クロール結果をJSONスナップショットとして保存"""
-    os.makedirs(DATA_DIR, exist_ok=True)
+    os.makedirs(data_dir, exist_ok=True)
 
     now = datetime.now()
     filename = now.strftime('%Y-%m-%d_%H%M%S') + '.json'
-    filepath = os.path.join(DATA_DIR, filename)
+    filepath = os.path.join(data_dir, filename)
 
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     log(f"スナップショット保存: {filename}")
 
     # latest.json を更新
-    latest_path = os.path.join(DATA_DIR, 'latest.json')
+    latest_path = os.path.join(data_dir, 'latest.json')
     with open(latest_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
     # index.json を更新
-    update_index(filename, data)
+    update_index(data_dir, filename, data)
 
     return filename
 
 
-def update_index(new_file, data):
+def update_index(data_dir, new_file, data):
     """index.jsonにスナップショット一覧を記録"""
-    index_path = os.path.join(DATA_DIR, 'index.json')
+    index_path = os.path.join(data_dir, 'index.json')
 
     if os.path.exists(index_path):
         try:
@@ -1768,31 +1705,33 @@ def update_index(new_file, data):
 
 
 # ============================================================
-# メイン
+# プロファイル実行
 # ============================================================
-def main():
+def run_profile(profile):
+    """1プロファイル分のクロール・集計・通知を実行"""
+    log("")
     log("=" * 50)
-    log("不動産物件クローラー 起動")
-    log(f"対象駅: {', '.join(STATIONS.keys())}")
-    log(f"条件: 面積{MIN_AREA}㎡以上, 築{MAX_AGE}年以内, 賃貸{MAX_RENT}万円以下")
+    log(f"プロファイル: {profile.name}")
+    log(f"対象駅: {', '.join(profile.stations.keys())}")
+    log(f"条件: 面積{profile.min_area}㎡以上, 築{profile.max_age}年以内, 賃貸{profile.max_rent}万円以下")
     log("=" * 50)
 
-    session = create_session()
+    session = create_session(profile.headers)
 
     # SUUMO
-    suumo = SuumoCrawler(session)
+    suumo = SuumoCrawler(session, profile)
     suumo_rental = suumo.crawl_rental()
     suumo_new = suumo.crawl_new()
     suumo_used = suumo.crawl_used()
 
     # HOMES
-    homes = HomesCrawler(session)
+    homes = HomesCrawler(session, profile)
     homes_rental = homes.crawl_rental()
     homes_new = homes.crawl_new()
     homes_used = homes.crawl_used()
 
     # cowcamo
-    cowcamo = CowcamoCrawler(session)
+    cowcamo = CowcamoCrawler(session, profile)
     cowcamo_used = cowcamo.crawl_used()
 
     # 結果集計
@@ -1800,7 +1739,7 @@ def main():
     all_new = suumo_new + homes_new
     all_used = suumo_used + homes_used + cowcamo_used
 
-    # ── 駅別集計 ──
+    # 駅別集計
     log("")
     log("駅別統計を計算中...")
     station_stats = {
@@ -1809,15 +1748,20 @@ def main():
         'used': compute_station_stats(all_used, 'used'),
     }
 
-    # ── 物件追跡 & 値下げ検出 ──
+    # 物件追跡 & 値下げ検出
     log("物件追跡・値下げ検出中...")
     today_str = datetime.now().isoformat()[:10]
-    history = load_history()
-    changes = update_history_and_detect_changes(history, all_rental, all_new, all_used, today_str)
-    save_history(history)
+    history = load_history(profile.data_dir)
+    changes = update_history_and_detect_changes(
+        history, all_rental, all_new, all_used, today_str, profile.stale_days
+    )
+    save_history(profile.data_dir, history)
+
+    # 変動サマリ集計
+    changes = compute_changes_summary(changes, profile.stations)
 
     # 駅別統計に変動情報をマージ
-    for st in STATIONS:
+    for st in profile.stations:
         ch = changes.get('station_summary', {}).get(st, {})
         for prop_type in ['rental', 'new', 'used']:
             if st in station_stats[prop_type]:
@@ -1828,19 +1772,20 @@ def main():
                     'stale_count': ch.get('stale_count', 0),
                 })
 
-    # ── 時系列データ更新 ──
+    # 時系列データ更新
     log("時系列データ更新中...")
-    ts = load_time_series()
-    ts = update_time_series(ts, today_str, station_stats, changes)
-    save_time_series(ts)
+    ts = load_time_series(profile.data_dir)
+    ts = update_time_series(ts, today_str, station_stats, changes, profile.stations)
+    save_time_series(profile.data_dir, ts)
 
     data = {
         'crawled_at': datetime.now().isoformat(),
+        'profile': profile.name,
         'conditions': {
-            'stations': list(STATIONS.keys()),
-            'min_area_sqm': MIN_AREA,
-            'max_age_years': MAX_AGE,
-            'max_rent_man': MAX_RENT,
+            'stations': list(profile.stations.keys()),
+            'min_area_sqm': profile.min_area,
+            'max_age_years': profile.max_age,
+            'max_rent_man': profile.max_rent,
         },
         'summary': {
             'rental_count': len(all_rental),
@@ -1861,21 +1806,61 @@ def main():
         'used': all_used,
     }
 
-    filename = save_snapshot(data)
+    filename = save_snapshot(profile.data_dir, data)
 
     log("")
     log("=" * 50)
-    log("クロール完了！")
+    log(f"プロファイル [{profile.name}] クロール完了！")
     log(f"  賃貸: {len(all_rental)}件 (SUUMO: {len(suumo_rental)}, HOMES: {len(homes_rental)})")
     log(f"  新築: {len(all_new)}件 (SUUMO: {len(suumo_new)}, HOMES: {len(homes_new)})")
     log(f"  中古: {len(all_used)}件 (SUUMO: {len(suumo_used)}, HOMES: {len(homes_used)}, cowcamo: {len(cowcamo_used)})")
-    log(f"  保存先: realestate_data/{filename}")
+    log(f"  保存先: realestate_data/{profile.name}/{filename}")
     ch_sum = changes.get('summary', {})
     log(f"  変動: 新規{ch_sum.get('total_new',0)} / 消失{ch_sum.get('total_delisted',0)} / 値下げ{ch_sum.get('total_price_reduced',0)} / 滞留{ch_sum.get('total_stale',0)}")
     log("=" * 50)
 
-    # ── LINE通知: 賃貸・新築・中古の新着 ──
-    notify_line_new_listings(changes, all_rental, all_new, all_used)
+    # LINE通知
+    notify_line_new_listings(profile, changes, all_rental, all_new, all_used)
+
+
+# ============================================================
+# メイン
+# ============================================================
+def main():
+    config = load_config()
+    global_conf = config.get('global', {})
+    station_aliases = config.get('station_aliases', DEFAULT_STATION_ALIASES)
+    profiles = config.get('profiles', [])
+
+    if not profiles:
+        log("プロファイルが設定されていません。crawler_config.json を確認してください。")
+        sys.exit(1)
+
+    # 特定プロファイルのみ実行（コマンドライン引数で指定可能）
+    target_profiles = None
+    if len(sys.argv) > 1:
+        target_profiles = sys.argv[1:]
+
+    log("=" * 50)
+    log("不動産物件クローラー 起動")
+    log(f"プロファイル数: {len(profiles)}")
+    log("=" * 50)
+
+    for prof_dict in profiles:
+        prof_name = prof_dict.get('name', '')
+        if target_profiles and prof_name not in target_profiles:
+            log(f"プロファイル [{prof_name}] をスキップ（対象外）")
+            continue
+
+        profile = ProfileConfig(prof_dict, global_conf, station_aliases)
+        try:
+            run_profile(profile)
+        except Exception as e:
+            log(f"プロファイル [{prof_name}] でエラー発生: {e}")
+            traceback.print_exc()
+
+    log("")
+    log("全プロファイルの処理完了")
 
 
 if __name__ == '__main__':
