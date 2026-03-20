@@ -198,8 +198,12 @@ class TestComputeChangesSummary:
 
         assert result['summary']['total_new'] == 3
         assert result['summary']['total_price_reduced'] == 1
-        assert result['station_summary']['吉祥寺']['new_count'] == 2
-        assert result['station_summary']['荻窪']['new_count'] == 1
+        # 種別ごとに分かれている
+        assert result['station_summary']['吉祥寺']['rental']['new_count'] == 1
+        assert result['station_summary']['吉祥寺']['new']['new_count'] == 1
+        assert result['station_summary']['吉祥寺']['used']['new_count'] == 0
+        assert result['station_summary']['荻窪']['used']['new_count'] == 1
+        assert result['station_summary']['荻窪']['used']['price_reduced_count'] == 1
 
 
 # ============================================================

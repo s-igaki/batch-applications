@@ -236,8 +236,8 @@ def run_profile(profile):
 
     # 駅別統計に変動情報をマージ
     for st in profile.stations:
-        ch = changes.get('station_summary', {}).get(st, {})
         for prop_type in ['rental', 'new', 'used']:
+            ch = changes.get('station_summary', {}).get(st, {}).get(prop_type, {})
             if st in station_stats[prop_type]:
                 station_stats[prop_type][st].update({
                     'new_listings': ch.get('new_count', 0),

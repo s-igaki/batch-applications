@@ -207,15 +207,17 @@ def update_history_and_detect_changes(history, all_rental, all_new, all_used, to
 
 
 def compute_changes_summary(changes, stations):
-    """変動サマリを駅別に集計"""
+    """変動サマリを駅別・種別ごとに集計"""
     station_changes = {}
     for st in stations:
-        station_changes[st] = {
-            'new_count': len([c for c in changes['new_listings'] if c.get('station') == st]),
-            'delisted_count': len([c for c in changes['delisted'] if c.get('station') == st]),
-            'price_reduced_count': len([c for c in changes['price_reduced'] if c.get('station') == st]),
-            'stale_count': len([c for c in changes['stale'] if c.get('station') == st]),
-        }
+        station_changes[st] = {}
+        for prop_type in ['rental', 'new', 'used']:
+            station_changes[st][prop_type] = {
+                'new_count': len([c for c in changes['new_listings'] if c.get('station') == st and c.get('type') == prop_type]),
+                'delisted_count': len([c for c in changes['delisted'] if c.get('station') == st and c.get('type') == prop_type]),
+                'price_reduced_count': len([c for c in changes['price_reduced'] if c.get('station') == st and c.get('type') == prop_type]),
+                'stale_count': len([c for c in changes['stale'] if c.get('station') == st and c.get('type') == prop_type]),
+            }
 
     changes['station_summary'] = station_changes
     changes['summary'] = {
@@ -253,7 +255,7 @@ def update_time_series(ts, today_str, station_stats, changes, stations):
 
             ts_cat = ts['stations'][st_name][prop_type]
             stat = station_stats.get(prop_type, {}).get(st_name, {})
-            ch = changes.get('station_summary', {}).get(st_name, {})
+            ch = changes.get('station_summary', {}).get(st_name, {}).get(prop_type, {})
 
             for key, val in [
                 ('count', stat.get('count', 0)),
