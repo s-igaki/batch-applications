@@ -242,8 +242,9 @@ function renderHighlights() {
   const delistedProps = [];
 
   Object.entries(props).forEach(([id, p]) => {
+    if (!p.price_history || p.price_history.length === 0) return;
     if (p.first_seen === today || p.first_seen === yesterday) newProps.push(p);
-    if (p.price_history && p.price_history.length > 1) {
+    if (p.price_history.length > 1) {
       const last = p.price_history[p.price_history.length - 1];
       const prev = p.price_history[p.price_history.length - 2];
       if (last.price < prev.price) reducedProps.push({ ...p, prevPrice: prev.price, newPrice: last.price });
@@ -517,7 +518,9 @@ function renderPropertyList() {
   const today = latestData.crawled_at ? latestData.crawled_at.slice(0,10) : '';
   const yesterday = (() => { const d = new Date(today); d.setDate(d.getDate()-1); return d.toISOString().slice(0,10); })();
 
-  const allProps = Object.entries(historyData.properties).map(([id, p]) => {
+  const allProps = Object.entries(historyData.properties)
+    .filter(([, p]) => p.price_history && p.price_history.length > 0)
+    .map(([id, p]) => {
     const lastPrice = p.price_history[p.price_history.length - 1].price;
     const firstPrice = p.price_history[0].price;
     const priceChange = p.price_history.length > 1 ? lastPrice - firstPrice : 0;
