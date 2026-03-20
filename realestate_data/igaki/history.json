@@ -3507,6 +3507,1318 @@
       "detail_url": "https://cowcamo.jp/short_stories/NdPyH2rjnBQ",
       "area": 66.91,
       "age_years": null
+    },
+    "ca146cda42c5": {
+      "name": "プラネット",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 16.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/fd44f66d90322b440e52c48bcaa99ef0bf9352a8/",
+      "area": 48.44,
+      "age_years": null
+    },
+    "a54823295413": {
+      "name": "プラネット",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 16.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/1219935a426417732616ac25bb78306b880914ec/",
+      "area": 48.44,
+      "age_years": null
+    },
+    "dc84e94ea450": {
+      "name": "関町南2丁目戸建",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nerima/nc_78081291/",
+      "area": 69.6,
+      "age_years": 18
+    },
+    "85e617d606a9": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4699.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20337233/",
+      "area": 78.05,
+      "age_years": 10
+    },
+    "0ca7de18c5da": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 6280.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nerima/nc_20457509/",
+      "area": 106.1,
+      "age_years": 12
+    },
+    "9a7f19eb8a94": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 6699.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_79012162/",
+      "area": 80.73,
+      "age_years": 16
+    },
+    "7d615d67c8aa": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 6699.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_78228458/",
+      "area": 80.73,
+      "age_years": 16
+    },
+    "d7bb8e1d99f8": {
+      "name": "三鷹市牟礼7丁目　リフォーム済み　戸建",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 6699.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_78221504/",
+      "area": 80.73,
+      "age_years": 16
+    },
+    "d2f2d3025a46": {
+      "name": "三鷹市牟礼7丁目 戸建て",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 6699.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_78255340/",
+      "area": 80.73,
+      "age_years": 16
+    },
+    "4307e31e7bef": {
+      "name": "～【美邸】光の旋律。吉祥寺と武蔵関を掌中に～練馬区立…",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 7380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nerima/nc_20215826/",
+      "area": 86.61,
+      "age_years": 9
+    },
+    "69f503c7ccca": {
+      "name": "吉祥寺東町3丁目　中古戸建て",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 11780
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_musashino/nc_20120682/",
+      "area": 87.77,
+      "age_years": 20
+    },
+    "08823b39a6d7": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 12800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_20456347/",
+      "area": 104.74,
+      "age_years": 10
+    },
+    "02e1b9f367b8": {
+      "name": "築9年！12帖の洋室！家族の距離が心地よい。三鷹の陽…",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 12800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_20372159/",
+      "area": 104.74,
+      "age_years": 10
+    },
+    "98539381385c": {
+      "name": "桃井2丁目　中古戸建",
+      "type": "used",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 7499.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_78022288/",
+      "area": 75.95,
+      "age_years": 11
+    },
+    "c7e357283b8a": {
+      "name": "南荻窪3丁目　賃貸併用住宅♪",
+      "type": "used",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 13500
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20124164/",
+      "area": 135.18,
+      "age_years": 10
+    },
+    "14c616a6c596": {
+      "name": "杉並区南荻窪4丁目　中古戸建",
+      "type": "used",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20206052/",
+      "area": 94.85,
+      "age_years": 6
+    },
+    "b7ee7db8890a": {
+      "name": "杉並区今川4丁目                  …",
+      "type": "used",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 18800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_79167622/",
+      "area": 183.96,
+      "age_years": 17
+    },
+    "2e1ad8dec2d1": {
+      "name": "大型中古戸建　今川4丁目",
+      "type": "used",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 18800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20302057/",
+      "area": 183.96,
+      "age_years": 17
+    },
+    "3f8330b3ec3b": {
+      "name": "武蔵野市吉祥寺東町1丁目",
+      "type": "used",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 29800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_musashino/nc_20043814/",
+      "area": 125.45,
+      "age_years": 3
+    },
+    "b22519f281ef": {
+      "name": "",
+      "type": "used",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 7390.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20351677/",
+      "area": 75.45,
+      "age_years": 5
+    },
+    "b26df772f19a": {
+      "name": "杉並区下井草３丁目　戸建",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 5399.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_77732631/",
+      "area": 69.95,
+      "age_years": 7
+    },
+    "509d749aae6b": {
+      "name": "中古戸建て　杉並区下井草３丁目",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 5399.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20039510/",
+      "area": 69.95,
+      "age_years": 7
+    },
+    "cac6aaf8d181": {
+      "name": "",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 7399.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_77957954/",
+      "area": 75.95,
+      "age_years": 11
+    },
+    "f80aa3e5deb6": {
+      "name": "杉並区桃井2丁目　分譲戸建",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 7499.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_78629879/",
+      "area": 75.95,
+      "age_years": 11
+    },
+    "ac1dba2cb7c5": {
+      "name": "杉並区阿佐谷南3丁目中古戸建！2015年築床暖房付2…",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 8780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20209735/",
+      "area": 73.92,
+      "age_years": 11
+    },
+    "cb5e1914b4d2": {
+      "name": "杉並区阿佐谷南3丁目　中古戸建",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 8780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20387911/",
+      "area": 73.92,
+      "age_years": 11
+    },
+    "f5d3f37f1e61": {
+      "name": "杉並区上井草１丁目　旧野村不動産分譲物件",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_79131703/",
+      "area": 88.49,
+      "age_years": 11
+    },
+    "748adcd135e9": {
+      "name": "杉並区阿佐谷南３丁目中古戸建！室内外壁屋根リフォーム…",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9880.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20138153/",
+      "area": 96.07,
+      "age_years": 19
+    },
+    "80ddc0faa830": {
+      "name": "杉並区高円寺南5丁目　中古戸建",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9230.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_78818284/",
+      "area": 129.73,
+      "age_years": 3
+    },
+    "e0db5e041309": {
+      "name": "杉並区阿佐谷北4丁目　築浅戸建",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9500.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20345388/",
+      "area": 92.84,
+      "age_years": 4
+    },
+    "160d74e164e2": {
+      "name": "【高円寺徒歩５分】縦横無尽に拡がる商店街/内外新規フ…",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 13480
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_79204300/",
+      "area": 79.28,
+      "age_years": 16
+    },
+    "acd8336aa4bf": {
+      "name": "杉並区高円寺北3丁目　中古戸建",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 13800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20259376/",
+      "area": 126.42,
+      "age_years": 8
+    },
+    "133fb7cb190c": {
+      "name": "",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 7680.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20457293/",
+      "area": 101.85,
+      "age_years": 8
+    },
+    "71a883760fc9": {
+      "name": "",
+      "type": "used",
+      "station": "高円寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 5700.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20128891/",
+      "area": 53.06,
+      "age_years": 2
+    },
+    "e53ab7665957": {
+      "name": "渋谷区代々木3丁目 一戸建て",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20305943/",
+      "area": 67.71,
+      "age_years": 4
+    },
+    "54a4dc6843c4": {
+      "name": "【代々木駅まで徒歩２分！】　３SLDK+P　書斎・W…",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 25000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20359062/",
+      "area": 109.56,
+      "age_years": 7
+    },
+    "6004317cdb80": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 39800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20276347/",
+      "area": 132.35,
+      "age_years": 11
+    },
+    "9f6146b7f4d8": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20254894/",
+      "area": 81.9,
+      "age_years": 7
+    },
+    "d2cd7809ecd6": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 25000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78682942/",
+      "area": 98.37,
+      "age_years": 7
+    },
+    "dc37b611731d": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 25000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20102681/",
+      "area": 98.37,
+      "age_years": 7
+    },
+    "41cd526d87e2": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 25000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20245077/",
+      "area": 98.37,
+      "age_years": 7
+    },
+    "559e9e6b062e": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 25000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78528693/",
+      "area": 98.37,
+      "age_years": 7
+    },
+    "4ac88adbb577": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 27800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78966462/",
+      "area": 99.36,
+      "age_years": 6
+    },
+    "90f9ad3b5159": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 49800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78692292/",
+      "area": 214.5,
+      "age_years": 11
+    },
+    "a301aeb490d7": {
+      "name": "",
+      "type": "used",
+      "station": "信濃町",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 10800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_77673470/",
+      "area": 85.15,
+      "age_years": 17
+    },
+    "9c7649e9555a": {
+      "name": "",
+      "type": "used",
+      "station": "四ツ谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 11980
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_76962760/",
+      "area": 87.84,
+      "age_years": 15
+    },
+    "c22bf6912977": {
+      "name": "神楽坂の邸　すぐのご見学可能です！",
+      "type": "used",
+      "station": "飯田橋",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 16500
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_78586320/",
+      "area": 106.8,
+      "age_years": 20
+    },
+    "4fa83ae31fed": {
+      "name": "◇◆世田谷区三宿2丁目 中古戸建◆◇",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20098768/",
+      "area": 81.0,
+      "age_years": 17
+    },
+    "7ee96ad1da76": {
+      "name": "世田谷区三宿ニ丁目　中古一戸建て",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20258212/",
+      "area": 81.0,
+      "age_years": 17
+    },
+    "dfa2a0893b34": {
+      "name": "世田谷区三宿２丁目 中古戸建",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_79075370/",
+      "area": 87.48,
+      "age_years": 17
+    },
+    "049af54914b8": {
+      "name": "世田谷区三宿の家",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20025217/",
+      "area": 81.0,
+      "age_years": 17
+    },
+    "55fce9dc4a51": {
+      "name": "表参道駅徒歩８分　２０１６年築　延床２２０㎡超の邸宅…",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 79800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_minato/nc_20185649/",
+      "area": 231.94,
+      "age_years": 10
+    },
+    "2db11f058a72": {
+      "name": "",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20099044/",
+      "area": 81.0,
+      "age_years": 17
+    },
+    "ad12eadb3f21": {
+      "name": "",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_78733036/",
+      "area": 87.48,
+      "age_years": 17
+    },
+    "40c015782693": {
+      "name": "",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20020584/",
+      "area": 81.0,
+      "age_years": 17
+    },
+    "1df337fef28d": {
+      "name": "",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_79081819/",
+      "area": 81.0,
+      "age_years": 17
+    },
+    "7ab99ffdede7": {
+      "name": "",
+      "type": "used",
+      "station": "渋谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 9498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20211198/",
+      "area": 81.0,
+      "age_years": 17
+    },
+    "aab98e3d07c3": {
+      "name": "渋谷区富ヶ谷2丁目 戸建て",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 14500
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20056971/",
+      "area": 81.95,
+      "age_years": 11
+    },
+    "594f65ee5187": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15998
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_77859347/",
+      "area": 99.04,
+      "age_years": 3
+    },
+    "4ce388f6ee4b": {
+      "name": "渋谷区富ヶ谷2丁目 一戸建て",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 16300
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20184193/",
+      "area": 84.13,
+      "age_years": 15
+    },
+    "ad8045df8ee2": {
+      "name": "Adcast富ヶ谷selection　広々17.8帖…",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 16300
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20227711/",
+      "area": 95.33,
+      "age_years": 15
+    },
+    "590fcd3434c5": {
+      "name": "渋谷区西原2丁目 中古戸建",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 37000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_79206108/",
+      "area": 174.26,
+      "age_years": 10
+    },
+    "781cb4a2ed43": {
+      "name": "渋谷区西原2丁目 中古戸建",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 37000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20458724/",
+      "area": 174.26,
+      "age_years": 10
+    },
+    "900194339a6d": {
+      "name": "【渋谷区西原２】幡ヶ谷駅５分　フルリフォーム済！現地…",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 37000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20186236/",
+      "area": 174.26,
+      "age_years": 10
+    },
+    "90fd854a621a": {
+      "name": "渋谷区西原　著名建築家設計のデザイナーズ戸建",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 90000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20401477/",
+      "area": 396.71,
+      "age_years": 13
+    },
+    "02404ef0edf3": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 10600
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20454301/",
+      "area": 74.84,
+      "age_years": 2
+    },
+    "d1d72214695b": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 14200
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78095299/",
+      "area": 68.13,
+      "age_years": 2
+    },
+    "155cdedf06bb": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78483844/",
+      "area": 91.57,
+      "age_years": 14
+    },
+    "8b49eb82eef8": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15998
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20237879/",
+      "area": 99.04,
+      "age_years": 3
+    },
+    "1bd1d1224ac4": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15998
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_77777576/",
+      "area": 99.04,
+      "age_years": 3
+    },
+    "bcc2721daee4": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 16300
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20179705/",
+      "area": 84.13,
+      "age_years": 15
+    },
+    "34bf83bffb59": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 17980
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78427348/",
+      "area": 94.44,
+      "age_years": 18
+    },
+    "63bfbc36ec49": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 29800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20093920/",
+      "area": 114.91,
+      "age_years": 11
+    },
+    "962188291f31": {
+      "name": "",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 90000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20102236/",
+      "area": 250.86,
+      "age_years": 20
+    },
+    "27a416a4ddb7": {
+      "name": "【ADCAST】　神宮前3丁目　住宅兼店舗",
+      "type": "used",
+      "station": "明治神宮前",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 99800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78525256/",
+      "area": 231.65,
+      "age_years": 3
+    },
+    "a3e51e8df99f": {
+      "name": "渋谷区神宮前3丁目　デザイナーズ邸宅",
+      "type": "used",
+      "station": "明治神宮前",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 150000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78990224/",
+      "area": 402.18,
+      "age_years": 6
+    },
+    "9d82b20cd20e": {
+      "name": "",
+      "type": "used",
+      "station": "明治神宮前",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 99800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_77944026/",
+      "area": 231.65,
+      "age_years": 3
+    },
+    "929fa98cee4f": {
+      "name": "広尾3丁目、バケラッタ設計監修のデザイン住宅",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 72000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20054094/",
+      "area": 224.53,
+      "age_years": 19
+    },
+    "5d3ed8cddea0": {
+      "name": "",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 19800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_minato/nc_78821543/",
+      "area": 72.2,
+      "age_years": 12
+    },
+    "3ec5ef36ce5f": {
+      "name": "",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 28800
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_minato/nc_20465578/",
+      "area": 82.94,
+      "age_years": 12
+    },
+    "6074f18280ce": {
+      "name": "",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 36000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_minato/nc_20300749/",
+      "area": 136.35,
+      "age_years": 13
+    },
+    "97293ce3441d": {
+      "name": "",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 72000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_77115162/",
+      "area": 224.53,
+      "age_years": 19
     }
   }
 }

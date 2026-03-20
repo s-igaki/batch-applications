@@ -1,0 +1,916 @@
+{
+  "properties": {
+    "8578fe92802e": {
+      "name": "ムーンボウ",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105351587/",
+      "area": 64.36,
+      "age_years": 4
+    },
+    "9ace675d5856": {
+      "name": "イーストピークヴィオレ",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 14.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104701954/",
+      "area": 54.72,
+      "age_years": 0
+    },
+    "461dd8aa7e71": {
+      "name": "イーストピークヴィオレ",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 14.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104701955/",
+      "area": 54.72,
+      "age_years": 0
+    },
+    "421599293361": {
+      "name": "イーストピークヴィオレ",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000103822283/",
+      "area": 54.72,
+      "age_years": 0
+    },
+    "23f17cb9800d": {
+      "name": "保谷ハイライズ",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 2999.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_nishitokyo/nc_20434272/",
+      "area": 61.2,
+      "age_years": 45
+    },
+    "2c8d5707714b": {
+      "name": "保谷マンションＢ",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_nishitokyo/nc_20173769/",
+      "area": 64.47,
+      "age_years": 47
+    },
+    "4628b673a5dd": {
+      "name": "ベルメゾン武蔵関",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4180.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_nerima/nc_20368372/",
+      "area": 61.61,
+      "age_years": 44
+    },
+    "4d574884a526": {
+      "name": "三鷹ナショナルコート1号棟",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4499.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20352674/",
+      "area": 69.28,
+      "age_years": 52
+    },
+    "027be00ba919": {
+      "name": "三鷹ナショナルコート１号棟",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4499.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20471077/",
+      "area": 69.28,
+      "age_years": 52
+    },
+    "9ea9f977103e": {
+      "name": "ライオンズマンション荻窪第２",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20427080/",
+      "area": 82.94,
+      "age_years": 45
+    },
+    "aecbb218d8e9": {
+      "name": "東荻窪マンション",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4698.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20113117/",
+      "area": 60.92,
+      "age_years": 54
+    },
+    "5f28bd77ebaa": {
+      "name": "シーサイド鵠沼",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3680.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_78819671/",
+      "area": 71.36,
+      "age_years": 46
+    },
+    "bf783a53f08e": {
+      "name": "シーサイド片瀬江ノ島",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3898.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_78253127/",
+      "area": 71.58,
+      "age_years": 39
+    },
+    "e1bf4f46210d": {
+      "name": "シーサイド片瀬江ノ島",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4299.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_78499252/",
+      "area": 61.68,
+      "age_years": 39
+    },
+    "b31e3ead84b5": {
+      "name": "シーサイド片瀬江ノ島",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3580.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20239621/",
+      "area": 60.91,
+      "age_years": 39
+    },
+    "cb992b629a34": {
+      "name": "シーサイド片瀬江ノ島",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4299.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_78916626/",
+      "area": 61.68,
+      "age_years": 39
+    },
+    "77c09e70f3bf": {
+      "name": "◇◆エレンシア逗子小坪◆◇",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3990.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_zushi/nc_20060091/",
+      "area": 85.08,
+      "age_years": 25
+    },
+    "dbcde7d9e5c6": {
+      "name": "エレンシア逗子小坪",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3990.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_zushi/nc_77266250/",
+      "area": 85.08,
+      "age_years": 25
+    },
+    "6f52dc0ae824": {
+      "name": "逗子マリーナ7号棟　最上階角部屋",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4980.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_zushi/nc_77700584/",
+      "area": 79.08,
+      "age_years": 44
+    },
+    "db6fd4fc256f": {
+      "name": "茅ヶ崎ニューライフ",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 2490.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20198331/",
+      "area": 68.71,
+      "age_years": 49
+    },
+    "e4e08f04800f": {
+      "name": "ダイアパレス・エクシード茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 2599.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_79020065/",
+      "area": 96.21,
+      "age_years": 37
+    },
+    "ef5f70aa6ae3": {
+      "name": "ダイアパレス茅ヶ崎南湖",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3080.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_77429455/",
+      "area": 90.76,
+      "age_years": 29
+    },
+    "9484683b19b8": {
+      "name": "エムズタワー宝町",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3280.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_hiratsuka/nc_20010553/",
+      "area": 61.42,
+      "age_years": 25
+    },
+    "652d038b484e": {
+      "name": "ライオンズガーデン湘南緑が浜",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3598.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20128660/",
+      "area": 73.51,
+      "age_years": 29
+    },
+    "6f73424cfaec": {
+      "name": "グラン・コート湘南茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3798.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_78544840/",
+      "area": 75.1,
+      "age_years": 20
+    },
+    "17b1f5cf4d52": {
+      "name": "ライオンズマンション茅ヶ崎中央公園",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3898.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_77016659/",
+      "area": 76.86,
+      "age_years": 34
+    },
+    "7181061e5903": {
+      "name": "グラン・コート湘南茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20118427/",
+      "area": 77.59,
+      "age_years": 20
+    },
+    "e6e85a83e6fc": {
+      "name": "ライオンズプラザ茅ヶ崎駅前",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4580.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20093213/",
+      "area": 62.9,
+      "age_years": 30
+    },
+    "65f05b83e93c": {
+      "name": "◇三鷹市中原　中古戸建◇",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 2380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_20228180/",
+      "area": 66.43,
+      "age_years": 60
+    },
+    "a9efa8a07c07": {
+      "name": "西東京市南町1丁目",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4399.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20347856/",
+      "area": 80.25,
+      "age_years": 25
+    },
+    "dc84e94ea450": {
+      "name": "関町南2丁目戸建",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nerima/nc_78081291/",
+      "area": 69.6,
+      "age_years": 18
+    },
+    "cc900f5b499f": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4580.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_20404718/",
+      "area": 86.12,
+      "age_years": 23
+    },
+    "85e617d606a9": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4699.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20337233/",
+      "area": 78.05,
+      "age_years": 10
+    },
+    "51da46523898": {
+      "name": "",
+      "type": "used",
+      "station": "阿佐ヶ谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_79006983/",
+      "area": 67.93,
+      "age_years": 67
+    },
+    "cfae49d4483c": {
+      "name": "藤沢市片瀬3丁目　中古戸建",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4680.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20411092/",
+      "area": 83.43,
+      "age_years": 11
+    },
+    "b6b1b38fc785": {
+      "name": "",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 2150.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_79142897/",
+      "area": 88.18,
+      "age_years": 48
+    },
+    "cfbc91be6144": {
+      "name": "",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4980.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_79093297/",
+      "area": 112.0,
+      "age_years": 25
+    },
+    "e706c58d4005": {
+      "name": "",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4990.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_79022637/",
+      "area": 84.23,
+      "age_years": 13
+    },
+    "7bd7d6cf609a": {
+      "name": "",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4997.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_77069911/",
+      "area": 87.35,
+      "age_years": 8
+    },
+    "43a83a2dd2de": {
+      "name": "金沢区釜利谷南2丁目 中古戸建",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_yokohamashikanazawa/nc_79007961/",
+      "area": 135.07,
+      "age_years": 36
+    },
+    "a822f5930233": {
+      "name": "",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3797.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_zushi/nc_79132397/",
+      "area": 90.53,
+      "age_years": 26
+    },
+    "b54029161bec": {
+      "name": "鎌倉市大町三丁目借地権付建物",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_78157554/",
+      "area": 121.84,
+      "age_years": 15
+    },
+    "35da22ef21fe": {
+      "name": "～鎌倉駅まで徒歩15分・材木座海岸まで徒歩12分～",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20441441/",
+      "area": 83.88,
+      "age_years": 33
+    },
+    "e98c64f3ec6e": {
+      "name": "鎌倉市手広4丁目　戸建",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4980.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_79110191/",
+      "area": 106.5,
+      "age_years": 11
+    },
+    "8b72cbe26e87": {
+      "name": "☆落ち着いた住環境が魅力☆茅ヶ崎市高田戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 2580.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78194710/",
+      "area": 77.17,
+      "age_years": 19
+    },
+    "20b1a98c7677": {
+      "name": "白浜町",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3299.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20200810/",
+      "area": 91.09,
+      "age_years": 31
+    },
+    "bc9049656af1": {
+      "name": "【売主】　平成２５年２月築売中古戸建　◆　茅ヶ崎市松…",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78896283/",
+      "area": 93.56,
+      "age_years": 13
+    },
+    "9b4ed74a5bdb": {
+      "name": "茅ヶ崎市室田１丁目 中古戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3399.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20016516/",
+      "area": 88.18,
+      "age_years": 10
+    },
+    "f9c4345b5356": {
+      "name": "茅ヶ崎市中海岸中古戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3490.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78560908/",
+      "area": 74.52,
+      "age_years": 32
+    },
+    "059a913b2d74": {
+      "name": "勾配天井×天窓が織りなす開放感。「辻堂」駅徒歩圏内の…",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3490.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20429750/",
+      "area": 73.31,
+      "age_years": 30
+    },
+    "df48ba450a02": {
+      "name": "◇茅ヶ崎市東海岸北　中古戸建て◇",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3580.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_77965573/",
+      "area": 103.62,
+      "age_years": 15
+    },
+    "865f42d3ca14": {
+      "name": "茅ヶ崎市茅ヶ崎戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3580.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78393172/",
+      "area": 86.94,
+      "age_years": 19
+    },
+    "8b73c848b733": {
+      "name": "茅ヶ崎市室田１丁目　中古戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3680.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78623027/",
+      "area": 96.88,
+      "age_years": 6
+    },
+    "08aff591d2de": {
+      "name": "【茅ヶ崎市室田一丁目　リフォーム済一戸建】　即入居可",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3680.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_79055927/",
+      "area": 96.88,
+      "age_years": 6
+    },
+    "fbd9d8c91154": {
+      "name": "茅ヶ崎市柳島海岸",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20337224/",
+      "area": 89.91,
+      "age_years": 23
+    },
+    "645374ce9519": {
+      "name": "＼カースペース３台×庭／　松が丘二丁目中古戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20173329/",
+      "area": 81.15,
+      "age_years": 16
+    },
+    "c289839b7128": {
+      "name": "茅ヶ崎萩園トヨタホーム設計施工・60年長期保証引継ぎ…",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3878.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20453735/",
+      "area": 81.29,
+      "age_years": 11
+    }
+  }
+}
