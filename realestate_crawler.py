@@ -72,7 +72,7 @@ class ProfileConfig:
 
         # 条件のパース（フラット形式 or 種類別形式 両対応）
         cond = profile_dict.get('conditions', {})
-        if any(k in cond for k in ('rental', 'new', 'used')):
+        if any(k in cond for k in ('rental', 'new', 'used', 'used_mansion', 'used_kodate')):
             self._init_per_type_conditions(cond)
         else:
             self._init_flat_conditions(cond)
@@ -110,7 +110,12 @@ class ProfileConfig:
                 'min_area': self.min_area,
                 'max_age': self.max_age,
             },
-            'used': {
+            'used_mansion': {
+                'enabled': True,
+                'min_area': self.min_area,
+                'max_age': self.max_age,
+            },
+            'used_kodate': {
                 'enabled': True,
                 'min_area': self.min_area,
                 'max_age': self.max_age,
@@ -120,8 +125,15 @@ class ProfileConfig:
     def _init_per_type_conditions(self, cond):
         """種類別条件を初期化"""
         self.type_conditions = {}
-        for type_key in ('rental', 'new', 'used'):
-            tc = cond.get(type_key, {})
+        # used → used_mansion / used_kodate への後方互換
+        used_fallback = cond.get('used', {})
+        for type_key in ('rental', 'new', 'used_mansion', 'used_kodate'):
+            if type_key in cond:
+                tc = cond.get(type_key, {})
+            elif type_key in ('used_mansion', 'used_kodate'):
+                tc = dict(used_fallback)
+            else:
+                tc = {}
             self.type_conditions[type_key] = dict(tc)
             self.type_conditions[type_key].setdefault('enabled', True)
         # 後方互換属性（ログ表示等で使用）
@@ -195,18 +207,18 @@ def run_profile(profile):
     suumo = SuumoCrawler(session, profile)
     suumo_rental = suumo.crawl_rental() if profile.is_type_enabled('rental') else []
     suumo_new = suumo.crawl_new() if profile.is_type_enabled('new') else []
-    suumo_used = suumo.crawl_used() if profile.is_type_enabled('used') else []
-    suumo_used_ikkodate = suumo.crawl_used_ikkodate() if profile.is_type_enabled('used') else []
+    suumo_used = suumo.crawl_used() if profile.is_type_enabled('used_mansion') else []
+    suumo_used_ikkodate = suumo.crawl_used_ikkodate() if profile.is_type_enabled('used_kodate') else []
 
     # HOMES
     homes = HomesCrawler(session, profile)
     homes_rental = homes.crawl_rental() if profile.is_type_enabled('rental') else []
     homes_new = homes.crawl_new() if profile.is_type_enabled('new') else []
-    homes_used = homes.crawl_used() if profile.is_type_enabled('used') else []
+    homes_used = homes.crawl_used() if profile.is_type_enabled('used_mansion') else []
 
     # cowcamo
     cowcamo = CowcamoCrawler(session, profile)
-    cowcamo_used = cowcamo.crawl_used() if profile.is_type_enabled('used') else []
+    cowcamo_used = cowcamo.crawl_used() if profile.is_type_enabled('used_mansion') else []
 
     # 結果集計
     all_rental = suumo_rental + homes_rental

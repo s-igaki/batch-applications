@@ -66,19 +66,35 @@ class TestProfileConfig:
         p = self._make_profile(conditions={
             'rental': {'enabled': True, 'min_area': 50, 'max_age': 15, 'max_rent': 15.0, 'max_walk': 20},
             'new': {'enabled': False},
-            'used': {'enabled': True, 'min_area': 60, 'max_price': 5000, 'max_walk': 20},
+            'used_mansion': {'enabled': True, 'min_area': 60, 'max_price': 5000, 'max_walk': 20},
+            'used_kodate': {'enabled': False},
         })
         assert p.is_type_enabled('rental') is True
         assert p.is_type_enabled('new') is False
-        assert p.is_type_enabled('used') is True
+        assert p.is_type_enabled('used_mansion') is True
+        assert p.is_type_enabled('used_kodate') is False
         assert p.min_area == 50  # 後方互換: rental の値
         assert p.max_rent == 15.0
+
+    def test_used_backward_compat(self):
+        """旧形式の used キーが used_mansion / used_kodate に展開される"""
+        p = self._make_profile(conditions={
+            'rental': {'enabled': True},
+            'new': {'enabled': False},
+            'used': {'enabled': True, 'min_area': 60, 'max_price': 5000},
+        })
+        assert p.is_type_enabled('used_mansion') is True
+        assert p.is_type_enabled('used_kodate') is True
+        assert p.should_include({'area': 70, 'price': 3000}, 'used_mansion')
+        assert not p.should_include({'area': 50, 'price': 3000}, 'used_mansion')
+        assert p.should_include({'area': 70, 'price': 3000}, 'used_kodate')
 
     def test_should_include_rental(self):
         p = self._make_profile(conditions={
             'rental': {'enabled': True, 'min_area': 50, 'max_age': 15, 'max_rent': 15.0, 'max_walk': 20},
             'new': {'enabled': False},
-            'used': {'enabled': True, 'min_area': 60, 'max_price': 5000},
+            'used_mansion': {'enabled': True, 'min_area': 60, 'max_price': 5000},
+            'used_kodate': {'enabled': False},
         })
         # 条件を満たす
         assert p.should_include({'area': 55, 'age_years': 10, 'price': 12.0, 'walk_minutes': 10}, 'rental')
@@ -91,18 +107,23 @@ class TestProfileConfig:
         # 徒歩オーバー
         assert not p.should_include({'area': 55, 'age_years': 10, 'price': 12.0, 'walk_minutes': 25}, 'rental')
 
-    def test_should_include_used(self):
+    def test_should_include_used_mansion(self):
         p = self._make_profile(conditions={
             'rental': {'enabled': True, 'min_area': 50, 'max_rent': 15.0},
             'new': {'enabled': False},
-            'used': {'enabled': True, 'min_area': 60, 'max_price': 5000, 'max_walk': 20},
+            'used_mansion': {'enabled': True, 'min_area': 60, 'max_price': 5000, 'max_walk': 20},
+            'used_kodate': {'enabled': True, 'min_area': 80},
         })
-        # 条件を満たす（築年数制限なし）
-        assert p.should_include({'area': 70, 'age_years': 50, 'price': 3000, 'walk_minutes': 15}, 'used')
-        # 価格オーバー
-        assert not p.should_include({'area': 70, 'age_years': 10, 'price': 6000}, 'used')
-        # 面積不足
-        assert not p.should_include({'area': 50, 'age_years': 10, 'price': 3000}, 'used')
+        # 中古マンション - 条件を満たす（築年数制限なし）
+        assert p.should_include({'area': 70, 'age_years': 50, 'price': 3000, 'walk_minutes': 15}, 'used_mansion')
+        # 中古マンション - 価格オーバー
+        assert not p.should_include({'area': 70, 'age_years': 10, 'price': 6000}, 'used_mansion')
+        # 中古マンション - 面積不足
+        assert not p.should_include({'area': 50, 'age_years': 10, 'price': 3000}, 'used_mansion')
+        # 中古一戸建て - 条件を満たす
+        assert p.should_include({'area': 90, 'age_years': 10, 'price': 3000}, 'used_kodate')
+        # 中古一戸建て - 面積不足（80㎡基準）
+        assert not p.should_include({'area': 70, 'age_years': 10, 'price': 3000}, 'used_kodate')
 
     def test_station_region(self):
         p = self._make_profile(stations={

@@ -228,7 +228,12 @@ class SuumoCrawler:
         """SUUMO売買物件（新築/中古/一戸建て）をクロール"""
         all_properties = {}
 
-        prop_type = 'new' if type_label == '新築' else 'used'
+        if type_label == '新築':
+            prop_type = 'new'
+        elif type_label == '中古一戸建て':
+            prop_type = 'used_kodate'
+        else:
+            prop_type = 'used_mansion'
         for station_name, station_code in self.profile.stations.items():
             region = self.profile.get_station_region(station_name)
             log(f"  駅: {station_name} ({region})")

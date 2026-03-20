@@ -58,10 +58,13 @@
           "min_area": 40,
           "max_age": 20
         },
-        "used": {
+        "used_mansion": {
           "enabled": true,
           "min_area": 40,
           "max_age": 20
+        },
+        "used_kodate": {
+          "enabled": false
         }
       },
       "line": {
@@ -99,7 +102,13 @@
         "new": {
           "enabled": false
         },
-        "used": {
+        "used_mansion": {
+          "enabled": true,
+          "min_area": 60,
+          "max_price": 5000,
+          "max_walk": 20
+        },
+        "used_kodate": {
           "enabled": true,
           "min_area": 60,
           "max_price": 5000,

@@ -254,7 +254,7 @@ class HomesCrawler:
         """HOMES売買物件をクロール（エリア別）"""
         all_properties = {}
 
-        prop_type = 'new' if type_label == '新築' else 'used'
+        prop_type = 'new' if type_label == '新築' else 'used_mansion'
         for area_slug, area_stations in self.profile.homes_areas.items():
             area_path = area_slug if '/' in area_slug else f"tokyo/{area_slug}"
             log(f"  エリア: {area_slug}")

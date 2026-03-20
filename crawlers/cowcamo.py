@@ -41,7 +41,7 @@ class CowcamoCrawler:
                     continue
                 if not p.get('station'):
                     continue
-                if not self.profile.should_include(p, 'used'):
+                if not self.profile.should_include(p, 'used_mansion'):
                     continue
                 uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                 if uid not in all_properties:
