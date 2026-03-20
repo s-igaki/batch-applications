@@ -300,15 +300,30 @@ function renderHighlights(filterType) {
       card.innerHTML += '<p style="color:var(--text-sub);font-size:0.82rem">該当なし</p>';
     } else {
       const ul = document.createElement('ul');
-      items.slice(0, 10).forEach(p => {
+      const limit = 10;
+      items.slice(0, limit).forEach(p => {
         const li = document.createElement('li');
         li.innerHTML = renderItem(p);
         ul.appendChild(li);
       });
-      if (items.length > 10) {
-        const li = document.createElement('li');
-        li.innerHTML = `<span class="hl-meta">他 ${items.length - 10} 件</span>`;
-        ul.appendChild(li);
+      if (items.length > limit) {
+        const moreItems = items.slice(limit);
+        const moreLi = document.createElement('li');
+        const moreLink = document.createElement('span');
+        moreLink.className = 'hl-meta hl-more';
+        moreLink.textContent = `他 ${moreItems.length} 件を表示`;
+        moreLink.style.cursor = 'pointer';
+        moreLink.style.textDecoration = 'underline';
+        moreLink.addEventListener('click', () => {
+          moreLi.remove();
+          moreItems.forEach(p => {
+            const li = document.createElement('li');
+            li.innerHTML = renderItem(p);
+            ul.appendChild(li);
+          });
+        });
+        moreLi.appendChild(moreLink);
+        ul.appendChild(moreLi);
       }
       card.appendChild(ul);
     }
