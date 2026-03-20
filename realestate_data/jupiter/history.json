@@ -266,6 +266,10 @@
         {
           "date": "2026-03-20",
           "price": 3990.0
+        },
+        {
+          "date": "2026-03-20",
+          "price": 3690.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_zushi/nc_20060091/",
@@ -762,6 +766,10 @@
         {
           "date": "2026-03-20",
           "price": 3399.0
+        },
+        {
+          "date": "2026-03-20",
+          "price": 3299.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20016516/",
@@ -911,6 +919,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20453735/",
       "area": 81.29,
       "age_years": 11
+    },
+    "c13a6486c679": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4599.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20479805/",
+      "area": 78.05,
+      "age_years": 10
     }
   }
 }
