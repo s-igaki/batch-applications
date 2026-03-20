@@ -43,7 +43,13 @@ header h1 { font-size: 1.4rem; }
 .cond-item { color: var(--text-sub); }
 .cond-item b { color: var(--text); }
 
-/* Tabs */
+/* Main Tabs */
+.main-tabs { display: flex; gap: 0; margin-bottom: 20px; border-bottom: 2px solid var(--border); }
+.main-tab-btn { padding: 12px 28px; border: none; background: none; cursor: pointer; font-size: 1rem; color: var(--text-sub); font-weight: 500; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
+.main-tab-btn:hover { color: var(--accent); }
+.main-tab-btn.active { color: var(--accent); font-weight: 700; border-bottom-color: var(--accent); }
+
+/* Sub Tabs */
 .tabs { display: flex; gap: 4px; margin-bottom: 16px; }
 .tab-btn { padding: 8px 20px; border: 1px solid var(--border); border-bottom: none; border-radius: 8px 8px 0 0; background: var(--bg); cursor: pointer; font-size: 0.85rem; color: var(--text-sub); }
 .tab-btn.active { background: var(--card); color: var(--accent); font-weight: 600; border-color: var(--border); }
@@ -173,6 +179,8 @@ async function loadProfile(name) {
   }
 }
 
+let activeMainTab = 'rental';
+
 function render() {
   const el = document.getElementById('content');
   el.className = '';
@@ -183,10 +191,46 @@ function render() {
 
   el.appendChild(renderConditions());
   el.appendChild(renderSummary());
-  el.appendChild(renderHighlights());
-  el.appendChild(renderStationStats());
-  el.appendChild(renderTimeSeries());
-  el.appendChild(renderPropertyList());
+
+  // Main tabs
+  const mainTypes = [
+    ['rental', '賃貸'],
+    ['new', '新築'],
+    ['used', '中古'],
+  ];
+  const tabBar = document.createElement('div');
+  tabBar.className = 'main-tabs';
+  const tabContent = document.createElement('div');
+  tabContent.id = 'main-tab-content';
+
+  mainTypes.forEach(([key, label]) => {
+    const btn = document.createElement('button');
+    btn.className = 'main-tab-btn' + (key === activeMainTab ? ' active' : '');
+    btn.textContent = label;
+    btn.addEventListener('click', () => {
+      activeMainTab = key;
+      tabBar.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderTabContent(tabContent, key);
+    });
+    tabBar.appendChild(btn);
+  });
+
+  el.appendChild(tabBar);
+  el.appendChild(tabContent);
+  renderTabContent(tabContent, activeMainTab);
+}
+
+function renderTabContent(container, type) {
+  // Destroy existing charts to prevent memory leaks
+  Object.values(charts).forEach(c => c && c.destroy && c.destroy());
+  charts = {};
+
+  container.innerHTML = '';
+  container.appendChild(renderHighlights(type));
+  container.appendChild(renderStationStats(type));
+  container.appendChild(renderTimeSeries(type));
+  container.appendChild(renderPropertyList(type));
 }
 
 function formatDate(s) {
@@ -232,7 +276,7 @@ function renderSummary() {
 }
 
 /* --- Highlights --- */
-function renderHighlights() {
+function renderHighlights(filterType) {
   const props = historyData.properties;
   const today = latestData.crawled_at ? latestData.crawled_at.slice(0,10) : '';
   const yesterday = (() => { const d = new Date(today); d.setDate(d.getDate()-1); return d.toISOString().slice(0,10); })();
@@ -243,6 +287,7 @@ function renderHighlights() {
 
   Object.entries(props).forEach(([id, p]) => {
     if (!p.price_history || p.price_history.length === 0) return;
+    if (filterType && p.type !== filterType) return;
     if (p.first_seen === today || p.first_seen === yesterday) newProps.push(p);
     if (p.price_history.length > 1) {
       const last = p.price_history[p.price_history.length - 1];
@@ -302,36 +347,20 @@ function formatPrice(v, type) {
 }
 
 /* --- Station Stats --- */
-function renderStationStats() {
+function renderStationStats(type) {
   const section = document.createElement('div');
   section.className = 'section';
   section.innerHTML = '<h2>駅別統計</h2>';
 
-  const types = [];
-  if (latestData.station_stats.rental) types.push(['rental', '賃貸']);
-  if (latestData.station_stats.new) types.push(['new', '新築']);
-  if (latestData.station_stats.used) types.push(['used', '中古']);
-
-  const tabs = document.createElement('div');
-  tabs.className = 'tabs';
   const tableWrap = document.createElement('div');
   tableWrap.className = 'table-wrap';
 
-  types.forEach(([key, label], i) => {
-    const btn = document.createElement('button');
-    btn.className = 'tab-btn' + (i === 0 ? ' active' : '');
-    btn.textContent = label;
-    btn.addEventListener('click', () => {
-      tabs.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      tableWrap.innerHTML = '';
-      tableWrap.appendChild(buildStationTable(key));
-    });
-    tabs.appendChild(btn);
-  });
+  if (latestData.station_stats[type]) {
+    tableWrap.appendChild(buildStationTable(type));
+  } else {
+    tableWrap.innerHTML = '<p style="color:var(--text-sub);font-size:0.85rem">データなし</p>';
+  }
 
-  section.appendChild(tabs);
-  if (types.length > 0) tableWrap.appendChild(buildStationTable(types[0][0]));
   section.appendChild(tableWrap);
   return section;
 }
@@ -385,7 +414,7 @@ function fmtNum(v, d) {
 }
 
 /* --- Time Series --- */
-function renderTimeSeries() {
+function renderTimeSeries(type) {
   const section = document.createElement('div');
   section.className = 'section';
   section.innerHTML = '<h2>時系列推移</h2>';
@@ -397,11 +426,6 @@ function renderTimeSeries() {
   }
 
   const stations = Object.keys(timeSeriesData.stations);
-  const tsTypes = [];
-  const sampleStation = timeSeriesData.stations[stations[0]];
-  if (sampleStation.rental) tsTypes.push(['rental', '賃貸']);
-  if (sampleStation.new) tsTypes.push(['new', '新築']);
-  if (sampleStation.used) tsTypes.push(['used', '中古']);
 
   const metrics = [
     ['count', '物件数'],
@@ -412,15 +436,10 @@ function renderTimeSeries() {
   const controls = document.createElement('div');
   controls.className = 'chart-controls';
 
-  const typeSelect = document.createElement('select');
-  tsTypes.forEach(([k, l]) => { const o = document.createElement('option'); o.value = k; o.textContent = l; typeSelect.appendChild(o); });
-
   const metricSelect = document.createElement('select');
   metrics.forEach(([k, l]) => { const o = document.createElement('option'); o.value = k; o.textContent = l; metricSelect.appendChild(o); });
 
-  controls.innerHTML = '<label>種別:</label>';
-  controls.appendChild(typeSelect);
-  controls.insertAdjacentHTML('beforeend', '<label style="margin-left:8px">指標:</label>');
+  controls.innerHTML = '<label>指標:</label>';
   controls.appendChild(metricSelect);
 
   section.appendChild(controls);
@@ -434,7 +453,6 @@ function renderTimeSeries() {
   const COLORS = ['#2563eb','#dc2626','#16a34a','#ea580c','#7c3aed','#0891b2','#be185d','#854d0e','#4f46e5','#059669','#d97706','#6366f1','#e11d48','#0d9488','#9333ea'];
 
   function updateChart() {
-    const type = typeSelect.value;
     const metric = metricSelect.value;
 
     const datasets = [];
@@ -469,7 +487,6 @@ function renderTimeSeries() {
     });
   }
 
-  typeSelect.addEventListener('change', updateChart);
   metricSelect.addEventListener('change', updateChart);
   updateChart();
 
@@ -477,7 +494,7 @@ function renderTimeSeries() {
 }
 
 /* --- Property List --- */
-function renderPropertyList() {
+function renderPropertyList(filterType) {
   const section = document.createElement('div');
   section.className = 'section';
   section.innerHTML = '<h2>物件一覧</h2>';
@@ -489,13 +506,13 @@ function renderPropertyList() {
   searchInput.type = 'text';
   searchInput.placeholder = '物件名・駅名で検索';
 
-  const typeFilter = document.createElement('select');
-  typeFilter.innerHTML = '<option value="">全種別</option><option value="rental">賃貸</option><option value="new">新築</option><option value="used">中古</option>';
-
   const stationFilter = document.createElement('select');
   stationFilter.innerHTML = '<option value="">全駅</option>';
   const stationSet = new Set();
-  Object.values(historyData.properties).forEach(p => stationSet.add(p.station));
+  Object.values(historyData.properties).forEach(p => {
+    if (filterType && p.type !== filterType) return;
+    stationSet.add(p.station);
+  });
   [...stationSet].sort().forEach(s => {
     const o = document.createElement('option');
     o.value = s; o.textContent = s;
@@ -506,7 +523,6 @@ function renderPropertyList() {
   statusFilter.innerHTML = '<option value="">全ステータス</option><option value="active">掲載中</option><option value="delisted">掲載終了</option><option value="reduced">値下げあり</option>';
 
   filterBar.appendChild(searchInput);
-  filterBar.appendChild(typeFilter);
   filterBar.appendChild(stationFilter);
   filterBar.appendChild(statusFilter);
   section.appendChild(filterBar);
@@ -520,6 +536,7 @@ function renderPropertyList() {
 
   const allProps = Object.entries(historyData.properties)
     .filter(([, p]) => p.price_history && p.price_history.length > 0)
+    .filter(([, p]) => !filterType || p.type === filterType)
     .map(([id, p]) => {
     const lastPrice = p.price_history[p.price_history.length - 1].price;
     const firstPrice = p.price_history[0].price;
@@ -535,13 +552,11 @@ function renderPropertyList() {
 
   function renderTable() {
     const q = searchInput.value.toLowerCase();
-    const tVal = typeFilter.value;
     const sVal = stationFilter.value;
     const stVal = statusFilter.value;
 
     let filtered = allProps.filter(p => {
       if (q && !p.name.toLowerCase().includes(q) && !p.station.includes(q)) return false;
-      if (tVal && p.type !== tVal) return false;
       if (sVal && p.station !== sVal) return false;
       if (stVal === 'active' && !p.isActive) return false;
       if (stVal === 'delisted' && p.isActive) return false;
@@ -559,7 +574,7 @@ function renderPropertyList() {
 
     const table = document.createElement('table');
     const cols = [
-      ['name', '物件名'], ['type', '種別'], ['station', '駅'],
+      ['name', '物件名'], ['station', '駅'],
       ['lastPrice', '価格'], ['area', '面積'], ['age_years', '築年数'],
       ['priceChange', '価格変動'], ['first_seen', '初回掲載'], ['last_seen', '最終掲載'], ['', '詳細'],
     ];
@@ -594,7 +609,6 @@ function renderPropertyList() {
 
       tr.innerHTML = `
         <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis">${p.name}</td>
-        <td>${typeLabel(p.type)}</td>
         <td>${p.station}</td>
         <td>${formatPrice(p.lastPrice, p.type)}</td>
         <td>${p.area}㎡</td>
@@ -618,7 +632,6 @@ function renderPropertyList() {
   }
 
   searchInput.addEventListener('input', renderTable);
-  typeFilter.addEventListener('change', renderTable);
   stationFilter.addEventListener('change', renderTable);
   statusFilter.addEventListener('change', renderTable);
   renderTable();
