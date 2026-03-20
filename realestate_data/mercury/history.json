@@ -4819,6 +4819,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_77115162/",
       "area": 224.53,
       "age_years": 19
+    },
+    "0414c3787b0e": {
+      "name": "ブライトンテラス荻窪",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 13.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105853831/",
+      "area": 43.19,
+      "age_years": 10
     }
   }
 }
