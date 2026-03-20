@@ -576,7 +576,7 @@ function renderPropertyList(filterType) {
     const cols = [
       ['name', '物件名'], ['station', '駅'],
       ['lastPrice', '価格'], ['area', '面積'], ['age_years', '築年数'],
-      ['priceChange', '価格変動'], ['first_seen', '初回掲載'], ['last_seen', '最終掲載'], ['', '詳細'],
+      ['priceChange', '価格変動'], ['first_seen', '初回掲載'], ['last_seen', '最終掲載'],
     ];
     const thead = document.createElement('thead');
     const headTr = document.createElement('tr');
@@ -608,15 +608,14 @@ function renderPropertyList(filterType) {
         `<span class="price-change ${p.priceChange < 0 ? 'down' : ''}">${p.priceChange > 0 ? '+' : ''}${fmtNum(p.priceChange, 1)}</span>`;
 
       tr.innerHTML = `
-        <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis">${p.name}</td>
+        <td class="link-cell" style="max-width:200px;overflow:hidden;text-overflow:ellipsis">${p.detail_url ? `<a href="${escapeHtml(p.detail_url)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>` : escapeHtml(p.name)}</td>
         <td>${p.station}</td>
         <td>${formatPrice(p.lastPrice, p.type)}</td>
         <td>${p.area}㎡</td>
         <td>${p.age_years}年</td>
         <td>${changeStr}</td>
         <td>${p.first_seen}</td>
-        <td>${p.last_seen}</td>
-        <td class="link-cell">${p.detail_url ? `<a href="${escapeHtml(p.detail_url)}" target="_blank" rel="noopener">リンク</a>` : ''}</td>`;
+        <td>${p.last_seen}</td>`;
       tbody.appendChild(tr);
     });
     table.appendChild(tbody);
