@@ -147,20 +147,35 @@ async function fetchJSON(path) {
   return res.json();
 }
 
+const urlParams = new URLSearchParams(location.search);
+const lockedProfile = urlParams.get('profile');
+
 async function init() {
   try {
     const config = await fetchJSON('crawler_config.json');
     profiles = config.profiles || [];
     const sel = document.getElementById('profile');
-    profiles.forEach(p => {
-      const opt = document.createElement('option');
-      opt.value = p.name;
-      opt.textContent = p.name;
-      sel.appendChild(opt);
-    });
-    sel.addEventListener('change', () => loadProfile(sel.value));
-    if (profiles.length > 0) {
-      await loadProfile(profiles[0].name);
+
+    if (lockedProfile) {
+      // クエリパラメータ指定時: セレクターを非表示にし、指定プロファイルのみ表示
+      const matched = profiles.find(p => p.name === lockedProfile);
+      if (!matched) {
+        document.getElementById('content').innerHTML = `<p style="color:var(--red)">プロファイル「${lockedProfile}」が見つかりません</p>`;
+        return;
+      }
+      document.querySelector('.profile-select').style.display = 'none';
+      await loadProfile(lockedProfile);
+    } else {
+      profiles.forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p.name;
+        opt.textContent = p.name;
+        sel.appendChild(opt);
+      });
+      sel.addEventListener('change', () => loadProfile(sel.value));
+      if (profiles.length > 0) {
+        await loadProfile(profiles[0].name);
+      }
     }
   } catch (e) {
     document.getElementById('content').innerHTML = `<p style="color:var(--red)">設定ファイルの読み込みに失敗しました: ${e.message}</p>`;

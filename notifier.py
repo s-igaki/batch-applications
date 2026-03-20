@@ -212,10 +212,10 @@ def notify_line_new_listings(profile, changes, all_rental, all_new, all_used):
         msgs = _split_and_send(token, cat, by_type[cat], all_props_map[cat])
         all_messages.extend(msgs)
 
-    # サマリーURLを末尾に追加
+    # サマリーURLを末尾に追加（プロファイル指定のクエリパラメータ付き）
     summary_footer = {
         'type': 'text',
-        'text': f'📊 サマリーはこちら。プロファイルは{profile.name}を参照。\nhttps://s-igaki.github.io/batch-applications/index.html',
+        'text': f'📊 サマリーはこちら\nhttps://s-igaki.github.io/batch-applications/index.html?profile={profile.name}',
     }
     all_messages.append(summary_footer)
 
