@@ -265,28 +265,40 @@ function formatDate(s) {
 }
 
 /* --- Conditions --- */
+function renderConditionItems(cond) {
+  let items = '';
+  if (!cond) return items;
+  if (cond.min_area != null) items += `<span class="cond-item">面積: <b>${cond.min_area}㎡以上</b></span>`;
+  if (cond.max_age != null) items += `<span class="cond-item">築年数: <b>${cond.max_age}年以内</b></span>`;
+  if (cond.max_rent != null) items += `<span class="cond-item">家賃上限: <b>${cond.max_rent}万円</b></span>`;
+  if (cond.max_price != null) items += `<span class="cond-item">価格上限: <b>${cond.max_price}万円</b></span>`;
+  if (cond.max_walk != null) items += `<span class="cond-item">徒歩: <b>${cond.max_walk}分以内</b></span>`;
+  if (cond.enabled === false) items += `<span class="cond-item"><b>無効</b></span>`;
+  return items;
+}
+
 function renderConditions(type) {
-  const typeCond = currentProfile.conditions[type];
   const stations = latestData.conditions.stations;
   const div = document.createElement('div');
   div.className = 'conditions';
 
   const typeNames = { rental: '賃貸', new: '新築', used: '中古' };
-  let condItems = '';
 
-  if (typeCond) {
-    if (typeCond.min_area != null) condItems += `<span class="cond-item">面積: <b>${typeCond.min_area}㎡以上</b></span>`;
-    if (typeCond.max_age != null) condItems += `<span class="cond-item">築年数: <b>${typeCond.max_age}年以内</b></span>`;
-    if (typeCond.max_rent != null) condItems += `<span class="cond-item">家賃上限: <b>${typeCond.max_rent}万円</b></span>`;
-    if (typeCond.max_price != null) condItems += `<span class="cond-item">価格上限: <b>${typeCond.max_price}万円</b></span>`;
-    if (typeCond.max_walk != null) condItems += `<span class="cond-item">徒歩: <b>${typeCond.max_walk}分以内</b></span>`;
-    if (typeCond.enabled === false) condItems += `<span class="cond-item"><b>無効</b></span>`;
+  if (type === 'used') {
+    const mansionCond = currentProfile.conditions['used_mansion'];
+    const kodateCond = currentProfile.conditions['used_kodate'];
+    div.innerHTML = `
+      <h3>検索条件（${typeNames[type]}）</h3>
+      <div class="tags">${stations.map(s => `<span class="tag">${s}</span>`).join('')}</div>
+      <div style="margin-top:8px"><b style="font-size:0.82rem">マンション:</b><div class="cond-row">${renderConditionItems(mansionCond) || '<span class="cond-item">条件なし</span>'}</div></div>
+      <div style="margin-top:6px"><b style="font-size:0.82rem">戸建て:</b><div class="cond-row">${renderConditionItems(kodateCond) || '<span class="cond-item">条件なし</span>'}</div></div>`;
+  } else {
+    const typeCond = currentProfile.conditions[type];
+    div.innerHTML = `
+      <h3>検索条件（${typeNames[type]}）</h3>
+      <div class="tags">${stations.map(s => `<span class="tag">${s}</span>`).join('')}</div>
+      <div class="cond-row">${renderConditionItems(typeCond)}</div>`;
   }
-
-  div.innerHTML = `
-    <h3>検索条件（${typeNames[type]}）</h3>
-    <div class="tags">${stations.map(s => `<span class="tag">${s}</span>`).join('')}</div>
-    <div class="cond-row">${condItems}</div>`;
   return div;
 }
 
