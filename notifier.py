@@ -212,6 +212,13 @@ def notify_line_new_listings(profile, changes, all_rental, all_new, all_used):
         msgs = _split_and_send(token, cat, by_type[cat], all_props_map[cat])
         all_messages.extend(msgs)
 
+    # サマリーURLを末尾に追加
+    summary_footer = {
+        'type': 'text',
+        'text': '📊 サマリーはこちら\nhttps://s-igaki.github.io/batch-applications/index.html',
+    }
+    all_messages.append(summary_footer)
+
     # 5メッセージずつ送信（LINE API制限）
     for i in range(0, len(all_messages), 5):
         batch = all_messages[i:i+5]
