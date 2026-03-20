@@ -23,10 +23,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino San
 .container { max-width: 1280px; margin: 0 auto; padding: 16px; }
 header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
 header h1 { font-size: 1.4rem; }
-.profile-select { display: flex; align-items: center; gap: 8px; }
-.profile-select label { font-size: 0.9rem; color: var(--text-sub); }
-.profile-select select { padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.9rem; }
-
 /* Summary cards */
 .summary-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 20px; }
 .summary-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
@@ -119,11 +115,7 @@ tr:hover { background: #f8fafc; }
 <div class="container">
   <header>
     <h1>不動産データダッシュボード</h1>
-    <div class="profile-select">
-      <label for="profile">プロファイル:</label>
-      <select id="profile"></select>
-      <span id="crawled-at" style="font-size:0.8rem;color:var(--text-sub)"></span>
-    </div>
+    <span id="crawled-at" style="font-size:0.8rem;color:var(--text-sub)"></span>
   </header>
 
   <div id="content" class="loading">データを読み込み中...</div>
@@ -154,29 +146,18 @@ async function init() {
   try {
     const config = await fetchJSON('crawler_config.json');
     profiles = config.profiles || [];
-    const sel = document.getElementById('profile');
 
-    if (lockedProfile) {
-      // クエリパラメータ指定時: セレクターを非表示にし、指定プロファイルのみ表示
-      const matched = profiles.find(p => p.name === lockedProfile);
-      if (!matched) {
-        document.getElementById('content').innerHTML = `<p style="color:var(--red)">プロファイル「${lockedProfile}」が見つかりません</p>`;
-        return;
-      }
-      document.querySelector('.profile-select').style.display = 'none';
-      await loadProfile(lockedProfile);
-    } else {
-      profiles.forEach(p => {
-        const opt = document.createElement('option');
-        opt.value = p.name;
-        opt.textContent = p.name;
-        sel.appendChild(opt);
-      });
-      sel.addEventListener('change', () => loadProfile(sel.value));
-      if (profiles.length > 0) {
-        await loadProfile(profiles[0].name);
-      }
+    if (!lockedProfile) {
+      document.getElementById('content').innerHTML = `<p style="color:var(--text-sub)">プロファイルが指定されていません。URLに ?profile=名前 を付けてアクセスしてください。</p>`;
+      return;
     }
+
+    const matched = profiles.find(p => p.name === lockedProfile);
+    if (!matched) {
+      document.getElementById('content').innerHTML = `<p style="color:var(--red)">プロファイル「${lockedProfile}」が見つかりません</p>`;
+      return;
+    }
+    await loadProfile(lockedProfile);
   } catch (e) {
     document.getElementById('content').innerHTML = `<p style="color:var(--red)">設定ファイルの読み込みに失敗しました: ${e.message}</p>`;
   }
