@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>不動産データダッシュボード</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+:root {
+  --bg: #f5f5f5;
+  --card: #fff;
+  --border: #e0e0e0;
+  --text: #333;
+  --text-sub: #666;
+  --accent: #2563eb;
+  --accent-light: #dbeafe;
+  --green: #16a34a;
+  --red: #dc2626;
+  --orange: #ea580c;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+.container { max-width: 1280px; margin: 0 auto; padding: 16px; }
+header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
+header h1 { font-size: 1.4rem; }
+.profile-select { display: flex; align-items: center; gap: 8px; }
+.profile-select label { font-size: 0.9rem; color: var(--text-sub); }
+.profile-select select { padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.9rem; }
+
+/* Summary cards */
+.summary-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 20px; }
+.summary-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.summary-card .label { font-size: 0.8rem; color: var(--text-sub); margin-bottom: 4px; }
+.summary-card .value { font-size: 1.6rem; font-weight: 700; }
+.summary-card .sub { font-size: 0.75rem; color: var(--text-sub); margin-top: 4px; }
+
+/* Conditions */
+.conditions { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin-bottom: 20px; font-size: 0.85rem; }
+.conditions h3 { font-size: 0.9rem; margin-bottom: 8px; }
+.conditions .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.conditions .tag { background: var(--accent-light); color: var(--accent); padding: 2px 10px; border-radius: 12px; font-size: 0.8rem; }
+.cond-row { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 6px; }
+.cond-item { color: var(--text-sub); }
+.cond-item b { color: var(--text); }
+
+/* Tabs */
+.tabs { display: flex; gap: 4px; margin-bottom: 16px; }
+.tab-btn { padding: 8px 20px; border: 1px solid var(--border); border-bottom: none; border-radius: 8px 8px 0 0; background: var(--bg); cursor: pointer; font-size: 0.85rem; color: var(--text-sub); }
+.tab-btn.active { background: var(--card); color: var(--accent); font-weight: 600; border-color: var(--border); }
+
+/* Section */
+.section { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+.section h2 { font-size: 1.1rem; margin-bottom: 12px; }
+
+/* Table */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+th, td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
+th { background: var(--bg); font-weight: 600; position: sticky; top: 0; }
+th:first-child, td:first-child { text-align: left; position: sticky; left: 0; background: inherit; z-index: 1; }
+tr:hover { background: #f8fafc; }
+.badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 0.75rem; font-weight: 600; }
+.badge-new { background: #dcfce7; color: var(--green); }
+.badge-del { background: #fee2e2; color: var(--red); }
+.badge-reduced { background: #fff7ed; color: var(--orange); }
+
+/* Charts */
+.chart-container { position: relative; height: 350px; margin-top: 12px; }
+.chart-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+.chart-controls label { font-size: 0.82rem; }
+.chart-controls select { padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; font-size: 0.82rem; }
+
+/* Property list */
+.filter-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
+.filter-bar input, .filter-bar select { padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.82rem; }
+.filter-bar input { flex: 1; min-width: 160px; }
+.price-change { color: var(--green); font-weight: 600; }
+.price-change.down { color: var(--red); }
+.link-cell a { color: var(--accent); text-decoration: none; }
+.link-cell a:hover { text-decoration: underline; }
+.highlight-new { background: #f0fdf4 !important; }
+.highlight-delisted { background: #fef2f2 !important; }
+.highlight-reduced { background: #fffbeb !important; }
+
+/* Highlight section */
+.highlights { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 16px; margin-bottom: 20px; }
+.highlight-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.highlight-card h3 { font-size: 0.95rem; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+.highlight-card ul { list-style: none; font-size: 0.82rem; }
+.highlight-card li { padding: 6px 0; border-bottom: 1px solid #f0f0f0; }
+.highlight-card li:last-child { border-bottom: none; }
+.hl-name { font-weight: 600; }
+.hl-meta { color: var(--text-sub); }
+
+.sort-btn { cursor: pointer; user-select: none; }
+.sort-btn::after { content: ' ↕'; font-size: 0.7rem; color: #aaa; }
+.sort-btn.asc::after { content: ' ↑'; color: var(--accent); }
+.sort-btn.desc::after { content: ' ↓'; color: var(--accent); }
+
+.loading { text-align: center; padding: 40px; color: var(--text-sub); }
+@media (max-width: 640px) {
+  .container { padding: 10px; }
+  .summary-row { grid-template-columns: repeat(2, 1fr); }
+  .chart-container { height: 260px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>不動産データダッシュボード</h1>
+    <div class="profile-select">
+      <label for="profile">プロファイル:</label>
+      <select id="profile"></select>
+      <span id="crawled-at" style="font-size:0.8rem;color:var(--text-sub)"></span>
+    </div>
+  </header>
+
+  <div id="content" class="loading">データを読み込み中...</div>
+</div>
+
+<script>
+const BASE = location.hostname === 'localhost' || location.hostname === '127.0.0.1'
+  ? '.' : '.';
+
+let profiles = [];
+let currentProfile = null;
+let latestData = null;
+let timeSeriesData = null;
+let historyData = null;
+let charts = {};
+let sortState = {};
+
+async function fetchJSON(path) {
+  const res = await fetch(`${BASE}/${path}`);
+  if (!res.ok) throw new Error(`Failed to fetch ${path}: ${res.status}`);
+  return res.json();
+}
+
+async function init() {
+  try {
+    const config = await fetchJSON('crawler_config.json');
+    profiles = config.profiles || [];
+    const sel = document.getElementById('profile');
+    profiles.forEach(p => {
+      const opt = document.createElement('option');
+      opt.value = p.name;
+      opt.textContent = p.name;
+      sel.appendChild(opt);
+    });
+    sel.addEventListener('change', () => loadProfile(sel.value));
+    if (profiles.length > 0) {
+      await loadProfile(profiles[0].name);
+    }
+  } catch (e) {
+    document.getElementById('content').innerHTML = `<p style="color:var(--red)">設定ファイルの読み込みに失敗しました: ${e.message}</p>`;
+  }
+}
+
+async function loadProfile(name) {
+  currentProfile = profiles.find(p => p.name === name);
+  const dir = `realestate_data/${name}`;
+  document.getElementById('content').innerHTML = '<div class="loading">データを読み込み中...</div>';
+  try {
+    [latestData, timeSeriesData, historyData] = await Promise.all([
+      fetchJSON(`${dir}/latest.json`),
+      fetchJSON(`${dir}/time_series.json`),
+      fetchJSON(`${dir}/history.json`),
+    ]);
+    render();
+  } catch (e) {
+    document.getElementById('content').innerHTML = `<p style="color:var(--red)">データの読み込みに失敗しました: ${e.message}</p>`;
+  }
+}
+
+function render() {
+  const el = document.getElementById('content');
+  el.className = '';
+  el.innerHTML = '';
+
+  document.getElementById('crawled-at').textContent =
+    `最終取得: ${formatDate(latestData.crawled_at)}`;
+
+  el.appendChild(renderConditions());
+  el.appendChild(renderSummary());
+  el.appendChild(renderHighlights());
+  el.appendChild(renderStationStats());
+  el.appendChild(renderTimeSeries());
+  el.appendChild(renderPropertyList());
+}
+
+function formatDate(s) {
+  if (!s) return '';
+  const d = new Date(s);
+  return `${d.getFullYear()}/${(d.getMonth()+1).toString().padStart(2,'0')}/${d.getDate().toString().padStart(2,'0')} ${d.getHours().toString().padStart(2,'0')}:${d.getMinutes().toString().padStart(2,'0')}`;
+}
+
+/* --- Conditions --- */
+function renderConditions() {
+  const c = latestData.conditions;
+  const div = document.createElement('div');
+  div.className = 'conditions';
+  div.innerHTML = `
+    <h3>検索条件</h3>
+    <div class="tags">${c.stations.map(s => `<span class="tag">${s}</span>`).join('')}</div>
+    <div class="cond-row">
+      <span class="cond-item">面積: <b>${c.min_area_sqm}㎡以上</b></span>
+      <span class="cond-item">築年数: <b>${c.max_age_years}年以内</b></span>
+      <span class="cond-item">家賃上限: <b>${c.max_rent_man}万円</b></span>
+    </div>`;
+  return div;
+}
+
+/* --- Summary --- */
+function renderSummary() {
+  const s = latestData.summary;
+  const div = document.createElement('div');
+  div.className = 'summary-row';
+  const cards = [
+    { label: '賃貸', value: s.rental_count, sub: `SUUMO ${s.suumo_rental} / HOMES ${s.homes_rental}` },
+    { label: '新築', value: s.new_count, sub: `SUUMO ${s.suumo_new} / HOMES ${s.homes_new || 0}` },
+    { label: '中古', value: s.used_count, sub: `SUUMO ${s.suumo_used} / HOMES ${s.homes_used || 0} / cowcamo ${s.cowcamo_used || 0}` },
+    { label: '合計', value: s.rental_count + s.new_count + s.used_count, sub: '全カテゴリ合計' },
+  ];
+  cards.forEach(c => {
+    const card = document.createElement('div');
+    card.className = 'summary-card';
+    card.innerHTML = `<div class="label">${c.label}</div><div class="value">${c.value}</div><div class="sub">${c.sub}</div>`;
+    div.appendChild(card);
+  });
+  return div;
+}
+
+/* --- Highlights --- */
+function renderHighlights() {
+  const props = historyData.properties;
+  const today = latestData.crawled_at ? latestData.crawled_at.slice(0,10) : '';
+  const yesterday = (() => { const d = new Date(today); d.setDate(d.getDate()-1); return d.toISOString().slice(0,10); })();
+
+  const newProps = [];
+  const reducedProps = [];
+  const delistedProps = [];
+
+  Object.entries(props).forEach(([id, p]) => {
+    if (p.first_seen === today || p.first_seen === yesterday) newProps.push(p);
+    if (p.price_history && p.price_history.length > 1) {
+      const last = p.price_history[p.price_history.length - 1];
+      const prev = p.price_history[p.price_history.length - 2];
+      if (last.price < prev.price) reducedProps.push({ ...p, prevPrice: prev.price, newPrice: last.price });
+    }
+    if (p.last_seen < yesterday && p.last_seen !== p.first_seen) delistedProps.push(p);
+  });
+
+  const div = document.createElement('div');
+  div.className = 'highlights';
+
+  const makeCard = (title, badge, items, renderItem) => {
+    const card = document.createElement('div');
+    card.className = 'highlight-card';
+    card.innerHTML = `<h3><span class="badge ${badge}">${items.length}</span> ${title}</h3>`;
+    if (items.length === 0) {
+      card.innerHTML += '<p style="color:var(--text-sub);font-size:0.82rem">該当なし</p>';
+    } else {
+      const ul = document.createElement('ul');
+      items.slice(0, 10).forEach(p => {
+        const li = document.createElement('li');
+        li.innerHTML = renderItem(p);
+        ul.appendChild(li);
+      });
+      if (items.length > 10) {
+        const li = document.createElement('li');
+        li.innerHTML = `<span class="hl-meta">他 ${items.length - 10} 件</span>`;
+        ul.appendChild(li);
+      }
+      card.appendChild(ul);
+    }
+    return card;
+  };
+
+  div.appendChild(makeCard('新着物件', 'badge-new', newProps, p =>
+    `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${typeLabel(p.type)} / ${formatPrice(p.price_history[0].price, p.type)}</span>`
+  ));
+  div.appendChild(makeCard('値下げ物件', 'badge-reduced', reducedProps, p =>
+    `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${formatPrice(p.prevPrice, p.type)} → ${formatPrice(p.newPrice, p.type)}</span>`
+  ));
+  div.appendChild(makeCard('掲載終了', 'badge-del', delistedProps.slice(0, 20), p =>
+    `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${typeLabel(p.type)} / 最終: ${p.last_seen}</span>`
+  ));
+
+  return div;
+}
+
+function typeLabel(t) {
+  return { rental: '賃貸', new: '新築', used: '中古' }[t] || t;
+}
+
+function formatPrice(v, type) {
+  if (v == null) return '-';
+  if (type === 'new' || type === 'used') return v >= 10000 ? `${(v/10000).toFixed(2)}億円` : `${v}万円`;
+  return `${v}万円`;
+}
+
+/* --- Station Stats --- */
+function renderStationStats() {
+  const section = document.createElement('div');
+  section.className = 'section';
+  section.innerHTML = '<h2>駅別統計</h2>';
+
+  const types = [];
+  if (latestData.station_stats.rental) types.push(['rental', '賃貸']);
+  if (latestData.station_stats.new) types.push(['new', '新築']);
+  if (latestData.station_stats.used) types.push(['used', '中古']);
+
+  const tabs = document.createElement('div');
+  tabs.className = 'tabs';
+  const tableWrap = document.createElement('div');
+  tableWrap.className = 'table-wrap';
+
+  types.forEach(([key, label], i) => {
+    const btn = document.createElement('button');
+    btn.className = 'tab-btn' + (i === 0 ? ' active' : '');
+    btn.textContent = label;
+    btn.addEventListener('click', () => {
+      tabs.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      tableWrap.innerHTML = '';
+      tableWrap.appendChild(buildStationTable(key));
+    });
+    tabs.appendChild(btn);
+  });
+
+  section.appendChild(tabs);
+  if (types.length > 0) tableWrap.appendChild(buildStationTable(types[0][0]));
+  section.appendChild(tableWrap);
+  return section;
+}
+
+function buildStationTable(type) {
+  const stats = latestData.station_stats[type];
+  if (!stats) return document.createTextNode('データなし');
+
+  const isRental = type === 'rental';
+  const priceLabel = isRental ? '家賃中央値(万)' : '価格中央値(万)';
+  const sqmLabel = isRental ? '㎡単価中央値(万)' : '㎡単価中央値(万)';
+
+  const table = document.createElement('table');
+  table.innerHTML = `<thead><tr>
+    <th>駅</th><th>件数</th><th>${priceLabel}</th><th>最低</th><th>最高</th>
+    <th>${sqmLabel}</th><th>P25</th><th>P75</th>
+    <th>平均面積</th><th>平均築年</th><th>平均徒歩</th>
+    <th>新着</th><th>終了</th><th>値下</th>
+  </tr></thead>`;
+
+  const tbody = document.createElement('tbody');
+  Object.entries(stats).forEach(([station, s]) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${station}</td>
+      <td>${s.count}</td>
+      <td><b>${fmtNum(s.median_price)}</b></td>
+      <td>${fmtNum(s.min_price)}</td>
+      <td>${fmtNum(s.max_price)}</td>
+      <td><b>${fmtNum(s.median_price_per_sqm, 4)}</b></td>
+      <td>${fmtNum(s.p25_price_per_sqm, 4)}</td>
+      <td>${fmtNum(s.p75_price_per_sqm, 4)}</td>
+      <td>${fmtNum(s.avg_area, 1)}㎡</td>
+      <td>${fmtNum(s.avg_age, 1)}年</td>
+      <td>${fmtNum(s.avg_walk, 1)}分</td>
+      <td>${s.new_listings > 0 ? `<span class="badge badge-new">${s.new_listings}</span>` : '0'}</td>
+      <td>${s.delisted > 0 ? `<span class="badge badge-del">${s.delisted}</span>` : '0'}</td>
+      <td>${s.price_reduced > 0 ? `<span class="badge badge-reduced">${s.price_reduced}</span>` : '0'}</td>`;
+    tbody.appendChild(tr);
+  });
+  table.appendChild(tbody);
+  return table;
+}
+
+function fmtNum(v, d) {
+  if (v == null || isNaN(v)) return '-';
+  if (d === undefined) {
+    return Number.isInteger(v) ? v.toLocaleString() : v.toLocaleString(undefined, { maximumFractionDigits: 2 });
+  }
+  return v.toLocaleString(undefined, { minimumFractionDigits: d, maximumFractionDigits: d });
+}
+
+/* --- Time Series --- */
+function renderTimeSeries() {
+  const section = document.createElement('div');
+  section.className = 'section';
+  section.innerHTML = '<h2>時系列推移</h2>';
+
+  const dates = timeSeriesData.dates;
+  if (!dates || dates.length < 2) {
+    section.innerHTML += '<p style="color:var(--text-sub);font-size:0.85rem">時系列データが不足しています（2日分以上必要）</p>';
+    return section;
+  }
+
+  const stations = Object.keys(timeSeriesData.stations);
+  const tsTypes = [];
+  const sampleStation = timeSeriesData.stations[stations[0]];
+  if (sampleStation.rental) tsTypes.push(['rental', '賃貸']);
+  if (sampleStation.new) tsTypes.push(['new', '新築']);
+  if (sampleStation.used) tsTypes.push(['used', '中古']);
+
+  const metrics = [
+    ['count', '物件数'],
+    ['median_price', '価格中央値'],
+    ['median_price_per_sqm', '㎡単価中央値'],
+  ];
+
+  const controls = document.createElement('div');
+  controls.className = 'chart-controls';
+
+  const typeSelect = document.createElement('select');
+  tsTypes.forEach(([k, l]) => { const o = document.createElement('option'); o.value = k; o.textContent = l; typeSelect.appendChild(o); });
+
+  const metricSelect = document.createElement('select');
+  metrics.forEach(([k, l]) => { const o = document.createElement('option'); o.value = k; o.textContent = l; metricSelect.appendChild(o); });
+
+  controls.innerHTML = '<label>種別:</label>';
+  controls.appendChild(typeSelect);
+  controls.insertAdjacentHTML('beforeend', '<label style="margin-left:8px">指標:</label>');
+  controls.appendChild(metricSelect);
+
+  section.appendChild(controls);
+
+  const chartDiv = document.createElement('div');
+  chartDiv.className = 'chart-container';
+  const canvas = document.createElement('canvas');
+  chartDiv.appendChild(canvas);
+  section.appendChild(chartDiv);
+
+  const COLORS = ['#2563eb','#dc2626','#16a34a','#ea580c','#7c3aed','#0891b2','#be185d','#854d0e','#4f46e5','#059669','#d97706','#6366f1','#e11d48','#0d9488','#9333ea'];
+
+  function updateChart() {
+    const type = typeSelect.value;
+    const metric = metricSelect.value;
+
+    const datasets = [];
+    stations.forEach((st, i) => {
+      const stData = timeSeriesData.stations[st];
+      if (!stData[type] || !stData[type][metric]) return;
+      datasets.push({
+        label: st,
+        data: stData[type][metric],
+        borderColor: COLORS[i % COLORS.length],
+        backgroundColor: COLORS[i % COLORS.length] + '20',
+        borderWidth: 2,
+        pointRadius: 3,
+        tension: 0.3,
+      });
+    });
+
+    if (charts.timeSeries) charts.timeSeries.destroy();
+    charts.timeSeries = new Chart(canvas, {
+      type: 'line',
+      data: { labels: dates, datasets },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
+        scales: {
+          x: { ticks: { font: { size: 10 }, maxRotation: 45 } },
+          y: { beginAtZero: metric === 'count', ticks: { font: { size: 10 } } },
+        },
+      },
+    });
+  }
+
+  typeSelect.addEventListener('change', updateChart);
+  metricSelect.addEventListener('change', updateChart);
+  updateChart();
+
+  return section;
+}
+
+/* --- Property List --- */
+function renderPropertyList() {
+  const section = document.createElement('div');
+  section.className = 'section';
+  section.innerHTML = '<h2>物件一覧</h2>';
+
+  const filterBar = document.createElement('div');
+  filterBar.className = 'filter-bar';
+
+  const searchInput = document.createElement('input');
+  searchInput.type = 'text';
+  searchInput.placeholder = '物件名・駅名で検索';
+
+  const typeFilter = document.createElement('select');
+  typeFilter.innerHTML = '<option value="">全種別</option><option value="rental">賃貸</option><option value="new">新築</option><option value="used">中古</option>';
+
+  const stationFilter = document.createElement('select');
+  stationFilter.innerHTML = '<option value="">全駅</option>';
+  const stationSet = new Set();
+  Object.values(historyData.properties).forEach(p => stationSet.add(p.station));
+  [...stationSet].sort().forEach(s => {
+    const o = document.createElement('option');
+    o.value = s; o.textContent = s;
+    stationFilter.appendChild(o);
+  });
+
+  const statusFilter = document.createElement('select');
+  statusFilter.innerHTML = '<option value="">全ステータス</option><option value="active">掲載中</option><option value="delisted">掲載終了</option><option value="reduced">値下げあり</option>';
+
+  filterBar.appendChild(searchInput);
+  filterBar.appendChild(typeFilter);
+  filterBar.appendChild(stationFilter);
+  filterBar.appendChild(statusFilter);
+  section.appendChild(filterBar);
+
+  const tableWrap = document.createElement('div');
+  tableWrap.className = 'table-wrap';
+  section.appendChild(tableWrap);
+
+  const today = latestData.crawled_at ? latestData.crawled_at.slice(0,10) : '';
+  const yesterday = (() => { const d = new Date(today); d.setDate(d.getDate()-1); return d.toISOString().slice(0,10); })();
+
+  const allProps = Object.entries(historyData.properties).map(([id, p]) => {
+    const lastPrice = p.price_history[p.price_history.length - 1].price;
+    const firstPrice = p.price_history[0].price;
+    const priceChange = p.price_history.length > 1 ? lastPrice - firstPrice : 0;
+    const isActive = p.last_seen >= yesterday;
+    const isNew = p.first_seen >= yesterday;
+    const isReduced = priceChange < 0;
+    return { id, ...p, lastPrice, priceChange, isActive, isNew, isReduced };
+  });
+
+  sortState.propCol = 'first_seen';
+  sortState.propDir = 'desc';
+
+  function renderTable() {
+    const q = searchInput.value.toLowerCase();
+    const tVal = typeFilter.value;
+    const sVal = stationFilter.value;
+    const stVal = statusFilter.value;
+
+    let filtered = allProps.filter(p => {
+      if (q && !p.name.toLowerCase().includes(q) && !p.station.includes(q)) return false;
+      if (tVal && p.type !== tVal) return false;
+      if (sVal && p.station !== sVal) return false;
+      if (stVal === 'active' && !p.isActive) return false;
+      if (stVal === 'delisted' && p.isActive) return false;
+      if (stVal === 'reduced' && !p.isReduced) return false;
+      return true;
+    });
+
+    const col = sortState.propCol;
+    const dir = sortState.propDir === 'asc' ? 1 : -1;
+    filtered.sort((a, b) => {
+      let va = a[col], vb = b[col];
+      if (typeof va === 'string') return va.localeCompare(vb) * dir;
+      return ((va || 0) - (vb || 0)) * dir;
+    });
+
+    const table = document.createElement('table');
+    const cols = [
+      ['name', '物件名'], ['type', '種別'], ['station', '駅'],
+      ['lastPrice', '価格'], ['area', '面積'], ['age_years', '築年数'],
+      ['priceChange', '価格変動'], ['first_seen', '初回掲載'], ['last_seen', '最終掲載'], ['', '詳細'],
+    ];
+    const thead = document.createElement('thead');
+    const headTr = document.createElement('tr');
+    cols.forEach(([key, label]) => {
+      const th = document.createElement('th');
+      if (key) {
+        th.className = 'sort-btn' + (sortState.propCol === key ? ` ${sortState.propDir}` : '');
+        th.addEventListener('click', () => {
+          if (sortState.propCol === key) sortState.propDir = sortState.propDir === 'asc' ? 'desc' : 'asc';
+          else { sortState.propCol = key; sortState.propDir = 'asc'; }
+          renderTable();
+        });
+      }
+      th.textContent = label;
+      headTr.appendChild(th);
+    });
+    thead.appendChild(headTr);
+    table.appendChild(thead);
+
+    const tbody = document.createElement('tbody');
+    const shown = filtered.slice(0, 200);
+    shown.forEach(p => {
+      const tr = document.createElement('tr');
+      if (p.isNew) tr.className = 'highlight-new';
+      else if (!p.isActive) tr.className = 'highlight-delisted';
+      else if (p.isReduced) tr.className = 'highlight-reduced';
+
+      const changeStr = p.priceChange === 0 ? '-' :
+        `<span class="price-change ${p.priceChange < 0 ? 'down' : ''}">${p.priceChange > 0 ? '+' : ''}${fmtNum(p.priceChange, 1)}</span>`;
+
+      tr.innerHTML = `
+        <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis">${p.name}</td>
+        <td>${typeLabel(p.type)}</td>
+        <td>${p.station}</td>
+        <td>${formatPrice(p.lastPrice, p.type)}</td>
+        <td>${p.area}㎡</td>
+        <td>${p.age_years}年</td>
+        <td>${changeStr}</td>
+        <td>${p.first_seen}</td>
+        <td>${p.last_seen}</td>
+        <td class="link-cell">${p.detail_url ? `<a href="${escapeHtml(p.detail_url)}" target="_blank" rel="noopener">リンク</a>` : ''}</td>`;
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+
+    tableWrap.innerHTML = '';
+    if (filtered.length > 200) {
+      const note = document.createElement('p');
+      note.style.cssText = 'font-size:0.8rem;color:var(--text-sub);margin-bottom:8px';
+      note.textContent = `${filtered.length}件中 200件を表示`;
+      tableWrap.appendChild(note);
+    }
+    tableWrap.appendChild(table);
+  }
+
+  searchInput.addEventListener('input', renderTable);
+  typeFilter.addEventListener('change', renderTable);
+  stationFilter.addEventListener('change', renderTable);
+  statusFilter.addEventListener('change', renderTable);
+  renderTable();
+
+  return section;
+}
+
+function escapeHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+init();
+</script>
+</body>
+</html>
