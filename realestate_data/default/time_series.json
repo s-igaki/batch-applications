@@ -1,0 +1,1917 @@
+{
+  "dates": [
+    "2026-03-20"
+  ],
+  "stations": {
+    "吉祥寺": {
+      "rental": {
+        "count": [
+          12
+        ],
+        "median_price": [
+          17.0
+        ],
+        "median_price_per_sqm": [
+          0.3413
+        ],
+        "p25_price_per_sqm": [
+          0.2959
+        ],
+        "avg_price": [
+          17.2083
+        ],
+        "min_price": [
+          12.0
+        ],
+        "avg_area": [
+          50.9725
+        ],
+        "avg_age": [
+          4.5
+        ],
+        "avg_walk": [
+          13.5833
+        ],
+        "new_listings": [
+          23
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          11
+        ],
+        "median_price": [
+          10150.0
+        ],
+        "median_price_per_sqm": [
+          184.0213
+        ],
+        "p25_price_per_sqm": [
+          123.8761
+        ],
+        "avg_price": [
+          12679.75
+        ],
+        "min_price": [
+          6200.0
+        ],
+        "avg_area": [
+          63.3691
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          7.9091
+        ],
+        "new_listings": [
+          23
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          23
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "西荻窪": {
+      "rental": {
+        "count": [
+          14
+        ],
+        "median_price": [
+          21.5
+        ],
+        "median_price_per_sqm": [
+          0.4252
+        ],
+        "p25_price_per_sqm": [
+          0.3623
+        ],
+        "avg_price": [
+          20.3714
+        ],
+        "min_price": [
+          14.5
+        ],
+        "avg_area": [
+          53.1143
+        ],
+        "avg_age": [
+          3.4286
+        ],
+        "avg_walk": [
+          11.1429
+        ],
+        "new_listings": [
+          17
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          17
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          3
+        ],
+        "median_price": [
+          12700
+        ],
+        "median_price_per_sqm": [
+          171.4827
+        ],
+        "p25_price_per_sqm": [
+          120.0
+        ],
+        "avg_price": [
+          10720.0
+        ],
+        "min_price": [
+          4980.0
+        ],
+        "avg_area": [
+          65.58
+        ],
+        "avg_age": [
+          15
+        ],
+        "avg_walk": [
+          9.6667
+        ],
+        "new_listings": [
+          17
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "荻窪": {
+      "rental": {
+        "count": [
+          15
+        ],
+        "median_price": [
+          22.0
+        ],
+        "median_price_per_sqm": [
+          0.4426
+        ],
+        "p25_price_per_sqm": [
+          0.3985
+        ],
+        "avg_price": [
+          21.4533
+        ],
+        "min_price": [
+          16.0
+        ],
+        "avg_area": [
+          52.1633
+        ],
+        "avg_age": [
+          2.9333
+        ],
+        "avg_walk": [
+          10.5333
+        ],
+        "new_listings": [
+          21
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          4
+        ],
+        "median_price": [
+          10490
+        ],
+        "median_price_per_sqm": [
+          190.9703
+        ],
+        "p25_price_per_sqm": [
+          172.974
+        ],
+        "avg_price": [
+          10659.3333
+        ],
+        "min_price": [
+          9498.0
+        ],
+        "avg_area": [
+          56.7975
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          6.5
+        ],
+        "new_listings": [
+          21
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          2
+        ],
+        "median_price": [
+          10390.0
+        ],
+        "median_price_per_sqm": [
+          79.7898
+        ],
+        "p25_price_per_sqm": [
+          72.5521
+        ],
+        "avg_price": [
+          10390.0
+        ],
+        "min_price": [
+          7980.0
+        ],
+        "avg_area": [
+          128.535
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          8
+        ],
+        "new_listings": [
+          21
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "高円寺": {
+      "rental": {
+        "count": [
+          14
+        ],
+        "median_price": [
+          19.65
+        ],
+        "median_price_per_sqm": [
+          0.4794
+        ],
+        "p25_price_per_sqm": [
+          0.429
+        ],
+        "avg_price": [
+          19.0929
+        ],
+        "min_price": [
+          14.0
+        ],
+        "avg_area": [
+          41.3086
+        ],
+        "avg_age": [
+          8.6429
+        ],
+        "avg_walk": [
+          8.8571
+        ],
+        "new_listings": [
+          22
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          5
+        ],
+        "median_price": [
+          16800
+        ],
+        "median_price_per_sqm": [
+          277.4108
+        ],
+        "p25_price_per_sqm": [
+          277.4108
+        ],
+        "avg_price": [
+          15276.0
+        ],
+        "min_price": [
+          9000.0
+        ],
+        "avg_area": [
+          56.314
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          15
+        ],
+        "new_listings": [
+          22
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          3
+        ],
+        "median_price": [
+          9299.0
+        ],
+        "median_price_per_sqm": [
+          174.2691
+        ],
+        "p25_price_per_sqm": [
+          174.2691
+        ],
+        "avg_price": [
+          9299.0
+        ],
+        "min_price": [
+          9299.0
+        ],
+        "avg_area": [
+          53.36
+        ],
+        "avg_age": [
+          11
+        ],
+        "avg_walk": [
+          12.3333
+        ],
+        "new_listings": [
+          22
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "代々木": {
+      "rental": {
+        "count": [
+          7
+        ],
+        "median_price": [
+          22.0
+        ],
+        "median_price_per_sqm": [
+          0.4794
+        ],
+        "p25_price_per_sqm": [
+          0.3386
+        ],
+        "avg_price": [
+          20.4286
+        ],
+        "min_price": [
+          16.0
+        ],
+        "avg_area": [
+          44.0443
+        ],
+        "avg_age": [
+          16.4
+        ],
+        "avg_walk": [
+          7.1429
+        ],
+        "new_listings": [
+          27
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          6
+        ],
+        "median_price": [
+          45800
+        ],
+        "median_price_per_sqm": [
+          501.1489
+        ],
+        "p25_price_per_sqm": [
+          417.2891
+        ],
+        "avg_price": [
+          51060
+        ],
+        "min_price": [
+          39800
+        ],
+        "avg_area": [
+          96.245
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          9.8333
+        ],
+        "new_listings": [
+          27
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          14
+        ],
+        "median_price": [
+          15499.5
+        ],
+        "median_price_per_sqm": [
+          285.538
+        ],
+        "p25_price_per_sqm": [
+          229.5393
+        ],
+        "avg_price": [
+          18612.7143
+        ],
+        "min_price": [
+          9600.0
+        ],
+        "avg_area": [
+          62.9443
+        ],
+        "avg_age": [
+          7.75
+        ],
+        "avg_walk": [
+          8.3571
+        ],
+        "new_listings": [
+          27
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "千駄ヶ谷": {
+      "rental": {
+        "count": [
+          2
+        ],
+        "median_price": [
+          19.7
+        ],
+        "median_price_per_sqm": [
+          0.491
+        ],
+        "p25_price_per_sqm": [
+          0.491
+        ],
+        "avg_price": [
+          19.7
+        ],
+        "min_price": [
+          19.7
+        ],
+        "avg_area": [
+          40.12
+        ],
+        "avg_age": [
+          12
+        ],
+        "avg_walk": [
+          4
+        ],
+        "new_listings": [
+          15
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          1
+        ],
+        "median_price": [
+          36800
+        ],
+        "median_price_per_sqm": [
+          460.115
+        ],
+        "p25_price_per_sqm": [
+          460.115
+        ],
+        "avg_price": [
+          36800
+        ],
+        "min_price": [
+          36800
+        ],
+        "avg_area": [
+          79.98
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          16
+        ],
+        "new_listings": [
+          15
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          12
+        ],
+        "median_price": [
+          29800.0
+        ],
+        "median_price_per_sqm": [
+          386.3727
+        ],
+        "p25_price_per_sqm": [
+          241.2869
+        ],
+        "avg_price": [
+          27952.5
+        ],
+        "min_price": [
+          6280.0
+        ],
+        "avg_area": [
+          76.7292
+        ],
+        "avg_age": [
+          7
+        ],
+        "avg_walk": [
+          12.3333
+        ],
+        "new_listings": [
+          15
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "信濃町": {
+      "rental": {
+        "count": [
+          3
+        ],
+        "median_price": [
+          19.8
+        ],
+        "median_price_per_sqm": [
+          0.4011
+        ],
+        "p25_price_per_sqm": [
+          0.3951
+        ],
+        "avg_price": [
+          19.1
+        ],
+        "min_price": [
+          16.0
+        ],
+        "avg_area": [
+          45.85
+        ],
+        "avg_age": [
+          9
+        ],
+        "avg_walk": [
+          6.3333
+        ],
+        "new_listings": [
+          16
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          1
+        ],
+        "median_price": [
+          12800
+        ],
+        "median_price_per_sqm": [
+          226.0286
+        ],
+        "p25_price_per_sqm": [
+          226.0286
+        ],
+        "avg_price": [
+          12800
+        ],
+        "min_price": [
+          12800
+        ],
+        "avg_area": [
+          56.63
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          6
+        ],
+        "new_listings": [
+          16
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          12
+        ],
+        "median_price": [
+          16490.0
+        ],
+        "median_price_per_sqm": [
+          236.1869
+        ],
+        "p25_price_per_sqm": [
+          221.6543
+        ],
+        "avg_price": [
+          17225
+        ],
+        "min_price": [
+          11480
+        ],
+        "avg_area": [
+          67.7667
+        ],
+        "avg_age": [
+          12.0833
+        ],
+        "avg_walk": [
+          8.8333
+        ],
+        "new_listings": [
+          16
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "四ツ谷": {
+      "rental": {
+        "count": [
+          6
+        ],
+        "median_price": [
+          22.6
+        ],
+        "median_price_per_sqm": [
+          0.5235
+        ],
+        "p25_price_per_sqm": [
+          0.419
+        ],
+        "avg_price": [
+          21.2
+        ],
+        "min_price": [
+          17.0
+        ],
+        "avg_area": [
+          42.3033
+        ],
+        "avg_age": [
+          7.6667
+        ],
+        "avg_walk": [
+          12
+        ],
+        "new_listings": [
+          19
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          5
+        ],
+        "median_price": [
+          24900
+        ],
+        "median_price_per_sqm": [
+          355.7143
+        ],
+        "p25_price_per_sqm": [
+          355.7143
+        ],
+        "avg_price": [
+          34533.3333
+        ],
+        "min_price": [
+          24900
+        ],
+        "avg_area": [
+          74.808
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          5.4
+        ],
+        "new_listings": [
+          19
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          8
+        ],
+        "median_price": [
+          15235.0
+        ],
+        "median_price_per_sqm": [
+          284.6532
+        ],
+        "p25_price_per_sqm": [
+          260.3334
+        ],
+        "avg_price": [
+          15206.25
+        ],
+        "min_price": [
+          12800
+        ],
+        "avg_area": [
+          58.6825
+        ],
+        "avg_age": [
+          6.625
+        ],
+        "avg_walk": [
+          9.25
+        ],
+        "new_listings": [
+          19
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "市谷": {
+      "rental": {
+        "count": [
+          4
+        ],
+        "median_price": [
+          18.5
+        ],
+        "median_price_per_sqm": [
+          0.3172
+        ],
+        "p25_price_per_sqm": [
+          0.3172
+        ],
+        "avg_price": [
+          19.2625
+        ],
+        "min_price": [
+          18.5
+        ],
+        "avg_area": [
+          53.985
+        ],
+        "avg_age": [
+          12
+        ],
+        "avg_walk": [
+          10.75
+        ],
+        "new_listings": [
+          12
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          7
+        ],
+        "median_price": [
+          22895.0
+        ],
+        "median_price_per_sqm": [
+          345.8222
+        ],
+        "p25_price_per_sqm": [
+          317.284
+        ],
+        "avg_price": [
+          31392.5
+        ],
+        "min_price": [
+          16980
+        ],
+        "avg_area": [
+          69.93
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          9.7143
+        ],
+        "new_listings": [
+          12
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          1
+        ],
+        "median_price": [
+          16780
+        ],
+        "median_price_per_sqm": [
+          247.9314
+        ],
+        "p25_price_per_sqm": [
+          247.9314
+        ],
+        "avg_price": [
+          16780
+        ],
+        "min_price": [
+          16780
+        ],
+        "avg_area": [
+          67.68
+        ],
+        "avg_age": [
+          12
+        ],
+        "avg_walk": [
+          10
+        ],
+        "new_listings": [
+          12
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "飯田橋": {
+      "rental": {
+        "count": [
+          6
+        ],
+        "median_price": [
+          21.65
+        ],
+        "median_price_per_sqm": [
+          0.5202
+        ],
+        "p25_price_per_sqm": [
+          0.4831
+        ],
+        "avg_price": [
+          21.4167
+        ],
+        "min_price": [
+          18.5
+        ],
+        "avg_area": [
+          41.575
+        ],
+        "avg_age": [
+          10
+        ],
+        "avg_walk": [
+          9.3333
+        ],
+        "new_listings": [
+          11
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          2
+        ],
+        "median_price": [
+          12900
+        ],
+        "median_price_per_sqm": [
+          226.3952
+        ],
+        "p25_price_per_sqm": [
+          226.3952
+        ],
+        "avg_price": [
+          12900
+        ],
+        "min_price": [
+          12900
+        ],
+        "avg_area": [
+          63.635
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          13
+        ],
+        "new_listings": [
+          11
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          3
+        ],
+        "median_price": [
+          10500
+        ],
+        "median_price_per_sqm": [
+          182.8313
+        ],
+        "p25_price_per_sqm": [
+          181.752
+        ],
+        "avg_price": [
+          11226.6667
+        ],
+        "min_price": [
+          9980.0
+        ],
+        "avg_area": [
+          54.4467
+        ],
+        "avg_age": [
+          9.3333
+        ],
+        "avg_walk": [
+          10.6667
+        ],
+        "new_listings": [
+          11
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "渋谷": {
+      "rental": {
+        "count": [
+          2
+        ],
+        "median_price": [
+          20.1
+        ],
+        "median_price_per_sqm": [
+          0.4738
+        ],
+        "p25_price_per_sqm": [
+          0.4054
+        ],
+        "avg_price": [
+          20.1
+        ],
+        "min_price": [
+          17.2
+        ],
+        "avg_area": [
+          42.43
+        ],
+        "avg_age": [
+          8
+        ],
+        "avg_walk": [
+          13
+        ],
+        "new_listings": [
+          17
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          13
+        ],
+        "median_price": [
+          24500
+        ],
+        "median_price_per_sqm": [
+          400.9164
+        ],
+        "p25_price_per_sqm": [
+          392.4071
+        ],
+        "avg_price": [
+          23733.0769
+        ],
+        "min_price": [
+          20990
+        ],
+        "avg_area": [
+          60.5531
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          8.6923
+        ],
+        "new_listings": [
+          17
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          2
+        ],
+        "median_price": [
+          16149.5
+        ],
+        "median_price_per_sqm": [
+          243.949
+        ],
+        "p25_price_per_sqm": [
+          186.8032
+        ],
+        "avg_price": [
+          16149.5
+        ],
+        "min_price": [
+          12499.0
+        ],
+        "avg_area": [
+          66.335
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          8
+        ],
+        "new_listings": [
+          17
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "代々木上原": {
+      "rental": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          0
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          0
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          0
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "代々木公園": {
+      "rental": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          0
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          0
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          0
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "明治神宮前": {
+      "rental": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          8
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          0
+        ],
+        "median_price": [
+          null
+        ],
+        "median_price_per_sqm": [
+          null
+        ],
+        "p25_price_per_sqm": [
+          null
+        ],
+        "avg_price": [
+          null
+        ],
+        "min_price": [
+          null
+        ],
+        "avg_area": [
+          null
+        ],
+        "avg_age": [
+          null
+        ],
+        "avg_walk": [
+          null
+        ],
+        "new_listings": [
+          8
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          8
+        ],
+        "median_price": [
+          20985.0
+        ],
+        "median_price_per_sqm": [
+          389.5789
+        ],
+        "p25_price_per_sqm": [
+          324.8141
+        ],
+        "avg_price": [
+          35163.75
+        ],
+        "min_price": [
+          13980
+        ],
+        "avg_area": [
+          81.6788
+        ],
+        "avg_age": [
+          8.5714
+        ],
+        "avg_walk": [
+          12.25
+        ],
+        "new_listings": [
+          8
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    },
+    "表参道": {
+      "rental": {
+        "count": [
+          1
+        ],
+        "median_price": [
+          21.0
+        ],
+        "median_price_per_sqm": [
+          0.4564
+        ],
+        "p25_price_per_sqm": [
+          0.4564
+        ],
+        "avg_price": [
+          21.0
+        ],
+        "min_price": [
+          21.0
+        ],
+        "avg_area": [
+          46.01
+        ],
+        "avg_age": [
+          8
+        ],
+        "avg_walk": [
+          8
+        ],
+        "new_listings": [
+          15
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "new": {
+        "count": [
+          9
+        ],
+        "median_price": [
+          36440.0
+        ],
+        "median_price_per_sqm": [
+          485.1084
+        ],
+        "p25_price_per_sqm": [
+          409.7222
+        ],
+        "avg_price": [
+          41672.5
+        ],
+        "min_price": [
+          29500
+        ],
+        "avg_area": [
+          77.7022
+        ],
+        "avg_age": [
+          0
+        ],
+        "avg_walk": [
+          13
+        ],
+        "new_listings": [
+          15
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      },
+      "used": {
+        "count": [
+          5
+        ],
+        "median_price": [
+          14580
+        ],
+        "median_price_per_sqm": [
+          234.7196
+        ],
+        "p25_price_per_sqm": [
+          209.6465
+        ],
+        "avg_price": [
+          17706.0
+        ],
+        "min_price": [
+          14370
+        ],
+        "avg_area": [
+          74.408
+        ],
+        "avg_age": [
+          11
+        ],
+        "avg_walk": [
+          10.4
+        ],
+        "new_listings": [
+          15
+        ],
+        "delisted": [
+          0
+        ],
+        "price_reduced": [
+          0
+        ],
+        "stale": [
+          0
+        ]
+      }
+    }
+  },
+  "overall": {
+    "rental": {
+      "count": [
+        86
+      ],
+      "median_price": [
+        20.55
+      ],
+      "median_price_per_sqm": [
+        0.4651
+      ]
+    },
+    "new": {
+      "count": [
+        64
+      ],
+      "median_price": [
+        22895.0
+      ],
+      "median_price_per_sqm": [
+        345.8222
+      ]
+    },
+    "used": {
+      "count": [
+        73
+      ],
+      "median_price": [
+        15367.25
+      ],
+      "median_price_per_sqm": [
+        240.0679
+      ]
+    }
+  }
+}
