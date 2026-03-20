@@ -61,3 +61,63 @@ class TestProfileConfig:
         assert p.min_area == 40
         assert p.max_age == 20
         assert p.max_rent == 24.0
+
+    def test_per_type_conditions(self):
+        p = self._make_profile(conditions={
+            'rental': {'enabled': True, 'min_area': 50, 'max_age': 15, 'max_rent': 15.0, 'max_walk': 20},
+            'new': {'enabled': False},
+            'used': {'enabled': True, 'min_area': 60, 'max_price': 5000, 'max_walk': 20},
+        })
+        assert p.is_type_enabled('rental') is True
+        assert p.is_type_enabled('new') is False
+        assert p.is_type_enabled('used') is True
+        assert p.min_area == 50  # 後方互換: rental の値
+        assert p.max_rent == 15.0
+
+    def test_should_include_rental(self):
+        p = self._make_profile(conditions={
+            'rental': {'enabled': True, 'min_area': 50, 'max_age': 15, 'max_rent': 15.0, 'max_walk': 20},
+            'new': {'enabled': False},
+            'used': {'enabled': True, 'min_area': 60, 'max_price': 5000},
+        })
+        # 条件を満たす
+        assert p.should_include({'area': 55, 'age_years': 10, 'price': 12.0, 'walk_minutes': 10}, 'rental')
+        # 面積不足
+        assert not p.should_include({'area': 40, 'age_years': 10, 'price': 12.0}, 'rental')
+        # 築年数オーバー
+        assert not p.should_include({'area': 55, 'age_years': 20, 'price': 12.0}, 'rental')
+        # 家賃オーバー
+        assert not p.should_include({'area': 55, 'age_years': 10, 'price': 20.0}, 'rental')
+        # 徒歩オーバー
+        assert not p.should_include({'area': 55, 'age_years': 10, 'price': 12.0, 'walk_minutes': 25}, 'rental')
+
+    def test_should_include_used(self):
+        p = self._make_profile(conditions={
+            'rental': {'enabled': True, 'min_area': 50, 'max_rent': 15.0},
+            'new': {'enabled': False},
+            'used': {'enabled': True, 'min_area': 60, 'max_price': 5000, 'max_walk': 20},
+        })
+        # 条件を満たす（築年数制限なし）
+        assert p.should_include({'area': 70, 'age_years': 50, 'price': 3000, 'walk_minutes': 15}, 'used')
+        # 価格オーバー
+        assert not p.should_include({'area': 70, 'age_years': 10, 'price': 6000}, 'used')
+        # 面積不足
+        assert not p.should_include({'area': 50, 'age_years': 10, 'price': 3000}, 'used')
+
+    def test_station_region(self):
+        p = self._make_profile(stations={
+            '吉祥寺': {'code': '11640', 'region': 'tokyo'},
+            '鎌倉': {'code': '08890', 'region': 'kanagawa'},
+        })
+        assert p.stations == {'吉祥寺': '11640', '鎌倉': '08890'}
+        assert p.get_station_region('吉祥寺') == 'tokyo'
+        assert p.get_station_region('鎌倉') == 'kanagawa'
+        assert p.station_matches('吉祥寺駅 徒歩5分') == '吉祥寺'
+        assert p.station_matches('鎌倉駅 徒歩10分') == '鎌倉'
+
+    def test_station_string_format_backward_compat(self):
+        """従来の文字列コード形式が引き続き動作する"""
+        p = self._make_profile(stations={'吉祥寺': '11640', '荻窪': '06640'})
+        assert p.stations == {'吉祥寺': '11640', '荻窪': '06640'}
+        assert p.get_station_region('吉祥寺') == 'tokyo'
+        assert p.get_station_region('荻窪') == 'tokyo'

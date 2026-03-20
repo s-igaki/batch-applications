@@ -41,7 +41,7 @@ class CowcamoCrawler:
                     continue
                 if not p.get('station'):
                     continue
-                if p.get('area') and p['area'] < self.profile.min_area:
+                if not self.profile.should_include(p, 'used'):
                     continue
                 uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                 if uid not in all_properties:

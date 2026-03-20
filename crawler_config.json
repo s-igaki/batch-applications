@@ -14,44 +14,101 @@
     "市ケ谷": "市谷",
     "市ヶ谷": "市谷",
     "明治神宮前〈原宿〉": "明治神宮前",
-    "明治神宮前（原宿）": "明治神宮前"
+    "明治神宮前（原宿）": "明治神宮前",
+    "阿佐ケ谷": "阿佐ヶ谷",
+    "茅ケ崎": "茅ヶ崎"
   },
   "profiles": [
     {
       "name": "default",
       "stations": {
-        "吉祥寺":    "11640",
-        "西荻窪":    "28500",
-        "荻窪":      "06640",
-        "高円寺":    "13930",
-        "代々木":    "41280",
-        "千駄ヶ谷":  "21520",
-        "信濃町":    "17470",
-        "四ツ谷":    "41160",
-        "市谷":      "02980",
-        "飯田橋":    "01820",
-        "渋谷":      "17640",
-        "代々木上原": "41290",
-        "代々木公園": "41300",
-        "明治神宮前": "39010",
-        "表参道":    "07240"
+        "吉祥寺":    {"code": "11640", "region": "tokyo"},
+        "西荻窪":    {"code": "28500", "region": "tokyo"},
+        "荻窪":      {"code": "06640", "region": "tokyo"},
+        "高円寺":    {"code": "13930", "region": "tokyo"},
+        "代々木":    {"code": "41280", "region": "tokyo"},
+        "千駄ヶ谷":  {"code": "21520", "region": "tokyo"},
+        "信濃町":    {"code": "17470", "region": "tokyo"},
+        "四ツ谷":    {"code": "41160", "region": "tokyo"},
+        "市谷":      {"code": "02980", "region": "tokyo"},
+        "飯田橋":    {"code": "01820", "region": "tokyo"},
+        "渋谷":      {"code": "17640", "region": "tokyo"},
+        "代々木上原": {"code": "41290", "region": "tokyo"},
+        "代々木公園": {"code": "41300", "region": "tokyo"},
+        "明治神宮前": {"code": "39010", "region": "tokyo"},
+        "表参道":    {"code": "07240", "region": "tokyo"}
       },
       "homes_areas": {
-        "musashino-city":  ["吉祥寺"],
-        "suginami-city":   ["西荻窪", "荻窪", "高円寺"],
-        "shibuya-city":    ["代々木", "千駄ヶ谷", "渋谷", "代々木上原", "代々木公園", "明治神宮前", "表参道"],
-        "shinjuku-city":   ["信濃町", "四ツ谷", "市谷"],
-        "chiyoda-city":    ["飯田橋", "市谷"],
-        "minato-city":     ["表参道"]
+        "tokyo/musashino-city":  ["吉祥寺"],
+        "tokyo/suginami-city":   ["西荻窪", "荻窪", "高円寺"],
+        "tokyo/shibuya-city":    ["代々木", "千駄ヶ谷", "渋谷", "代々木上原", "代々木公園", "明治神宮前", "表参道"],
+        "tokyo/shinjuku-city":   ["信濃町", "四ツ谷", "市谷"],
+        "tokyo/chiyoda-city":    ["飯田橋", "市谷"],
+        "tokyo/minato-city":     ["表参道"]
       },
       "conditions": {
-        "min_area": 40,
-        "max_age": 20,
-        "max_rent": 24.0
+        "rental": {
+          "enabled": true,
+          "min_area": 40,
+          "max_age": 20,
+          "max_rent": 24.0
+        },
+        "new": {
+          "enabled": true,
+          "min_area": 40,
+          "max_age": 20
+        },
+        "used": {
+          "enabled": true,
+          "min_area": 40,
+          "max_age": 20
+        }
       },
       "line": {
         "client_id_env": "LINE_CLIENT_ID",
         "client_secret_env": "LINE_CLIENT_SECRET"
+      }
+    },
+    {
+      "name": "yamada",
+      "stations": {
+        "吉祥寺":    {"code": "11640", "region": "tokyo"},
+        "西荻窪":    {"code": "28500", "region": "tokyo"},
+        "荻窪":      {"code": "06640", "region": "tokyo"},
+        "阿佐ヶ谷":  {"code": "00640", "region": "tokyo"},
+        "片瀬江ノ島": {"code": "08400", "region": "kanagawa"},
+        "江ノ島":    {"code": "05010", "region": "kanagawa"},
+        "鎌倉":      {"code": "08890", "region": "kanagawa"},
+        "茅ヶ崎":    {"code": "23840", "region": "kanagawa"}
+      },
+      "homes_areas": {
+        "tokyo/musashino-city":    ["吉祥寺"],
+        "tokyo/suginami-city":     ["西荻窪", "荻窪", "阿佐ヶ谷"],
+        "kanagawa/fujisawa-city":  ["片瀬江ノ島", "江ノ島"],
+        "kanagawa/kamakura-city":  ["鎌倉"],
+        "kanagawa/chigasaki-city": ["茅ヶ崎"]
+      },
+      "conditions": {
+        "rental": {
+          "enabled": true,
+          "min_area": 50,
+          "max_age": 15,
+          "max_rent": 15.0,
+          "max_walk": 20
+        },
+        "new": {
+          "enabled": false
+        },
+        "used": {
+          "enabled": true,
+          "min_area": 60,
+          "max_price": 5000,
+          "max_walk": 20
+        }
+      },
+      "line": {
+        "client_id_env": "YAMADA_LINE_CLIENT_ID",
+        "client_secret_env": "YAMADA_LINE_CLIENT_SECRET"
       }
     }
   ]

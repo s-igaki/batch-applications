@@ -54,14 +54,28 @@ class ProfileConfig:
 
     def __init__(self, profile_dict, global_dict, station_aliases):
         self.name = profile_dict['name']
-        self.stations = profile_dict['stations']
-        self.homes_areas = profile_dict.get('homes_areas', {})
         self.station_aliases = station_aliases
 
+        # 駅情報のパース（文字列コード or {code, region} オブジェクト両対応）
+        raw_stations = profile_dict.get('stations', {})
+        self.stations = {}       # {駅名: コード}
+        self.station_regions = {} # {駅名: 地域}
+        for name, val in raw_stations.items():
+            if isinstance(val, dict):
+                self.stations[name] = val['code']
+                self.station_regions[name] = val.get('region', 'tokyo')
+            else:
+                self.stations[name] = val
+                self.station_regions[name] = 'tokyo'
+
+        self.homes_areas = profile_dict.get('homes_areas', {})
+
+        # 条件のパース（フラット形式 or 種類別形式 両対応）
         cond = profile_dict.get('conditions', {})
-        self.min_area = cond.get('min_area', 40)
-        self.max_age = cond.get('max_age', 20)
-        self.max_rent = cond.get('max_rent', 24.0)
+        if any(k in cond for k in ('rental', 'new', 'used')):
+            self._init_per_type_conditions(cond)
+        else:
+            self._init_flat_conditions(cond)
 
         line = profile_dict.get('line', {})
         self.line_client_id = os.getenv(line.get('client_id_env', ''), '')
@@ -78,6 +92,77 @@ class ProfileConfig:
 
         # データ保存先（プロファイルごとに分離）
         self.data_dir = os.path.join(SCRIPT_DIR, 'realestate_data', self.name)
+
+    def _init_flat_conditions(self, cond):
+        """従来のフラット形式の条件を初期化"""
+        self.min_area = cond.get('min_area', 40)
+        self.max_age = cond.get('max_age', 20)
+        self.max_rent = cond.get('max_rent', 24.0)
+        self.type_conditions = {
+            'rental': {
+                'enabled': True,
+                'min_area': self.min_area,
+                'max_age': self.max_age,
+                'max_rent': self.max_rent,
+            },
+            'new': {
+                'enabled': True,
+                'min_area': self.min_area,
+                'max_age': self.max_age,
+            },
+            'used': {
+                'enabled': True,
+                'min_area': self.min_area,
+                'max_age': self.max_age,
+            },
+        }
+
+    def _init_per_type_conditions(self, cond):
+        """種類別条件を初期化"""
+        self.type_conditions = {}
+        for type_key in ('rental', 'new', 'used'):
+            tc = cond.get(type_key, {})
+            self.type_conditions[type_key] = dict(tc)
+            self.type_conditions[type_key].setdefault('enabled', True)
+        # 後方互換属性（ログ表示等で使用）
+        rental = self.type_conditions.get('rental', {})
+        self.min_area = rental.get('min_area', 40)
+        self.max_age = rental.get('max_age', 20)
+        self.max_rent = rental.get('max_rent', 24.0)
+
+    def is_type_enabled(self, prop_type):
+        """指定種類が有効か"""
+        return self.type_conditions.get(prop_type, {}).get('enabled', True)
+
+    def get_station_region(self, station_name):
+        """駅の地域（tokyo/kanagawa等）を返す"""
+        return self.station_regions.get(station_name, 'tokyo')
+
+    def should_include(self, prop, prop_type):
+        """物件が条件を満たすかチェック"""
+        cond = self.type_conditions.get(prop_type, {})
+
+        min_area = cond.get('min_area')
+        if min_area and prop.get('area') and prop['area'] < min_area:
+            return False
+
+        max_age = cond.get('max_age')
+        if max_age is not None and prop.get('age_years') is not None and prop['age_years'] > max_age:
+            return False
+
+        # 賃貸は max_rent、売買は max_price で価格フィルタ
+        if prop_type == 'rental':
+            max_price = cond.get('max_rent')
+        else:
+            max_price = cond.get('max_price')
+        if max_price is not None and prop.get('price') and prop['price'] > max_price:
+            return False
+
+        max_walk = cond.get('max_walk')
+        if max_walk is not None and prop.get('walk_minutes') and prop['walk_minutes'] > max_walk:
+            return False
+
+        return True
 
     def station_matches(self, text):
         """テキストに対象駅名が含まれるか確認し、駅名を返す"""
@@ -108,24 +193,25 @@ def run_profile(profile):
 
     # SUUMO
     suumo = SuumoCrawler(session, profile)
-    suumo_rental = suumo.crawl_rental()
-    suumo_new = suumo.crawl_new()
-    suumo_used = suumo.crawl_used()
+    suumo_rental = suumo.crawl_rental() if profile.is_type_enabled('rental') else []
+    suumo_new = suumo.crawl_new() if profile.is_type_enabled('new') else []
+    suumo_used = suumo.crawl_used() if profile.is_type_enabled('used') else []
+    suumo_used_ikkodate = suumo.crawl_used_ikkodate() if profile.is_type_enabled('used') else []
 
     # HOMES
     homes = HomesCrawler(session, profile)
-    homes_rental = homes.crawl_rental()
-    homes_new = homes.crawl_new()
-    homes_used = homes.crawl_used()
+    homes_rental = homes.crawl_rental() if profile.is_type_enabled('rental') else []
+    homes_new = homes.crawl_new() if profile.is_type_enabled('new') else []
+    homes_used = homes.crawl_used() if profile.is_type_enabled('used') else []
 
     # cowcamo
     cowcamo = CowcamoCrawler(session, profile)
-    cowcamo_used = cowcamo.crawl_used()
+    cowcamo_used = cowcamo.crawl_used() if profile.is_type_enabled('used') else []
 
     # 結果集計
     all_rental = suumo_rental + homes_rental
     all_new = suumo_new + homes_new
-    all_used = suumo_used + homes_used + cowcamo_used
+    all_used = suumo_used + suumo_used_ikkodate + homes_used + cowcamo_used
 
     # 駅別集計
     log("")
@@ -182,6 +268,7 @@ def run_profile(profile):
             'suumo_rental': len(suumo_rental),
             'suumo_new': len(suumo_new),
             'suumo_used': len(suumo_used),
+            'suumo_used_ikkodate': len(suumo_used_ikkodate),
             'homes_rental': len(homes_rental),
             'homes_new': len(homes_new),
             'homes_used': len(homes_used),
@@ -201,7 +288,7 @@ def run_profile(profile):
     log(f"プロファイル [{profile.name}] クロール完了！")
     log(f"  賃貸: {len(all_rental)}件 (SUUMO: {len(suumo_rental)}, HOMES: {len(homes_rental)})")
     log(f"  新築: {len(all_new)}件 (SUUMO: {len(suumo_new)}, HOMES: {len(homes_new)})")
-    log(f"  中古: {len(all_used)}件 (SUUMO: {len(suumo_used)}, HOMES: {len(homes_used)}, cowcamo: {len(cowcamo_used)})")
+    log(f"  中古: {len(all_used)}件 (SUUMO: {len(suumo_used)}, SUUMO一戸建: {len(suumo_used_ikkodate)}, HOMES: {len(homes_used)}, cowcamo: {len(cowcamo_used)})")
     log(f"  保存先: realestate_data/{profile.name}/{filename}")
     ch_sum = changes.get('summary', {})
     log(f"  変動: 新規{ch_sum.get('total_new',0)} / 消失{ch_sum.get('total_delisted',0)} / 値下げ{ch_sum.get('total_price_reduced',0)} / 滞留{ch_sum.get('total_stale',0)}")

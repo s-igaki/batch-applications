@@ -25,8 +25,9 @@ class SuumoCrawler:
         all_properties = {}
 
         for station_name, station_code in self.profile.stations.items():
-            log(f"  駅: {station_name} (ek_{station_code})")
-            url = f"{self.BASE}/chintai/tokyo/ek_{station_code}/"
+            region = self.profile.get_station_region(station_name)
+            log(f"  駅: {station_name} (ek_{station_code}, {region})")
+            url = f"{self.BASE}/chintai/{region}/ek_{station_code}/"
 
             for page in range(1, self.profile.max_pages + 1):
                 params = {'page': page} if page > 1 else None
@@ -44,11 +45,7 @@ class SuumoCrawler:
                     for p in props:
                         if not p.get('station'):
                             continue
-                        if p.get('area') and p['area'] < self.profile.min_area:
-                            continue
-                        if p.get('age_years') is not None and p['age_years'] > self.profile.max_age:
-                            continue
-                        if p.get('price') and p['price'] > self.profile.max_rent:
+                        if not self.profile.should_include(p, 'rental'):
                             continue
                         uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                         if uid not in all_properties:
@@ -219,15 +216,23 @@ class SuumoCrawler:
     def crawl_used(self):
         """SUUMO中古マンションをクロール"""
         log("SUUMO 中古マンションクロール開始...")
-        return self._crawl_buy_type('chuko', '中古')
+        return self._crawl_buy_type('chuko', '中古', url_prefix='/ms/')
 
-    def _crawl_buy_type(self, path_segment, type_label):
-        """SUUMO売買物件（新築/中古）をクロール"""
+    # --- 中古一戸建て ---
+    def crawl_used_ikkodate(self):
+        """SUUMO中古一戸建てをクロール"""
+        log("SUUMO 中古一戸建てクロール開始...")
+        return self._crawl_buy_type('chukoikkodate', '中古一戸建て', url_prefix='/')
+
+    def _crawl_buy_type(self, path_segment, type_label, url_prefix='/ms/'):
+        """SUUMO売買物件（新築/中古/一戸建て）をクロール"""
         all_properties = {}
 
+        prop_type = 'new' if type_label == '新築' else 'used'
         for station_name, station_code in self.profile.stations.items():
-            log(f"  駅: {station_name}")
-            url = f"{self.BASE}/ms/{path_segment}/tokyo/ek_{station_code}/"
+            region = self.profile.get_station_region(station_name)
+            log(f"  駅: {station_name} ({region})")
+            url = f"{self.BASE}{url_prefix}{path_segment}/{region}/ek_{station_code}/"
 
             for page in range(1, self.profile.max_pages + 1):
                 params = {'page': page} if page > 1 else None
@@ -246,9 +251,7 @@ class SuumoCrawler:
                         continue
                     if not p.get('station'):
                         continue
-                    if p.get('area') and p['area'] < self.profile.min_area:
-                        continue
-                    if p.get('age_years') is not None and p['age_years'] > self.profile.max_age:
+                    if not self.profile.should_include(p, prop_type):
                         continue
                     uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                     if uid not in all_properties:
@@ -390,6 +393,8 @@ class SuumoCrawler:
                 detail_url = urljoin(self.BASE, title_link.get('href', ''))
             if not detail_url:
                 link = unit.select_one('a[href*="/nc_"]')
+                if not link:
+                    link = unit.select_one('a[href*="/chukoikkodate/"]')
                 if link:
                     detail_url = urljoin(self.BASE, link.get('href', ''))
 
@@ -432,7 +437,7 @@ class SuumoCrawler:
 
             area_text = ''
             area_val = None
-            area_dt = unit.find('dt', string=re.compile('専有面積'))
+            area_dt = unit.find('dt', string=re.compile('専有面積|建物面積'))
             if area_dt:
                 dd = area_dt.find_next_sibling('dd')
                 if dd:

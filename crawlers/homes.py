@@ -26,8 +26,10 @@ class HomesCrawler:
 
         for area_slug, area_stations in self.profile.homes_areas.items():
             log(f"  エリア: {area_slug} ({', '.join(area_stations)})")
+            # area_slug が "region/area" 形式ならそのまま使用、そうでなければ tokyo/ を付与
+            area_path = area_slug if '/' in area_slug else f"tokyo/{area_slug}"
             for page in range(1, self.profile.max_pages + 1):
-                url = f"{self.BASE}/chintai/tokyo/{area_slug}/list/"
+                url = f"{self.BASE}/chintai/{area_path}/list/"
                 params = {'page': page} if page > 1 else None
 
                 soup = fetch_soup(self.session, url, params)
@@ -44,11 +46,7 @@ class HomesCrawler:
                     for p in props:
                         if p.get('station') is None:
                             continue
-                        if p.get('area') and p['area'] < self.profile.min_area:
-                            continue
-                        if p.get('age_years') is not None and p['age_years'] > self.profile.max_age:
-                            continue
-                        if p.get('price') and p['price'] > self.profile.max_rent:
+                        if not self.profile.should_include(p, 'rental'):
                             continue
                         uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                         if uid not in all_properties:
@@ -256,10 +254,12 @@ class HomesCrawler:
         """HOMES売買物件をクロール（エリア別）"""
         all_properties = {}
 
+        prop_type = 'new' if type_label == '新築' else 'used'
         for area_slug, area_stations in self.profile.homes_areas.items():
+            area_path = area_slug if '/' in area_slug else f"tokyo/{area_slug}"
             log(f"  エリア: {area_slug}")
             for page in range(1, self.profile.max_pages + 1):
-                url = f"{self.BASE}/{path}/tokyo/{area_slug}/list/"
+                url = f"{self.BASE}/{path}/{area_path}/list/"
                 params = {'page': page} if page > 1 else None
 
                 soup = fetch_soup(self.session, url, params)
@@ -277,9 +277,7 @@ class HomesCrawler:
                     p = self._parse_buy_building(bldg, type_label)
                     if not p or not p.get('station'):
                         continue
-                    if p.get('area') and p['area'] < self.profile.min_area:
-                        continue
-                    if p.get('age_years') is not None and p['age_years'] > self.profile.max_age:
+                    if not self.profile.should_include(p, prop_type):
                         continue
                     uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
                     if uid not in all_properties:
