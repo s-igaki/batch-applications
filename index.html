@@ -342,13 +342,24 @@ function renderHighlights(filterType) {
         moreLink.textContent = `他 ${moreItems.length} 件を表示`;
         moreLink.style.cursor = 'pointer';
         moreLink.style.textDecoration = 'underline';
+        let expanded = false;
+        let extraLis = [];
         moreLink.addEventListener('click', () => {
-          moreLi.remove();
-          moreItems.forEach(p => {
-            const li = document.createElement('li');
-            li.innerHTML = renderItem(p);
-            ul.appendChild(li);
-          });
+          if (!expanded) {
+            moreItems.forEach(p => {
+              const li = document.createElement('li');
+              li.innerHTML = renderItem(p);
+              ul.insertBefore(li, moreLi);
+              extraLis.push(li);
+            });
+            moreLink.textContent = '閉じる';
+            expanded = true;
+          } else {
+            extraLis.forEach(li => li.remove());
+            extraLis = [];
+            moreLink.textContent = `他 ${moreItems.length} 件を表示`;
+            expanded = false;
+          }
         });
         moreLi.appendChild(moreLink);
         ul.appendChild(moreLi);
