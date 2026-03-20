@@ -317,11 +317,11 @@ function renderHighlights(filterType) {
 
   div.appendChild(makeCard('新着物件', 'badge-new', newProps, p =>
     `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${typeLabel(p.type)} / ${formatPrice(p.price_history[0].price, p.type)}</span>`,
-    '前日から新しく掲載された物件を表示'
+    '直近2日以内に初めて検出された物件を表示'
   ));
   div.appendChild(makeCard('値下げ物件', 'badge-reduced', reducedProps, p =>
     `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${formatPrice(p.prevPrice, p.type)} → ${formatPrice(p.newPrice, p.type)}</span>`,
-    '前回取得時から価格が下がった物件を表示'
+    '直近の価格履歴から値下がりした物件を表示'
   ));
   div.appendChild(makeCard('掲載終了', 'badge-del', delistedProps.slice(0, 20), p =>
     `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${typeLabel(p.type)} / 最終: ${p.last_seen}</span>`,
