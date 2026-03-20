@@ -63,7 +63,8 @@ header h1 { font-size: 1.4rem; }
 table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
 th, td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
 th { background: var(--bg); font-weight: 600; position: sticky; top: 0; }
-th:first-child, td:first-child { text-align: left; position: sticky; left: 0; background: inherit; z-index: 1; }
+th:first-child { text-align: left; position: sticky; left: 0; background: var(--bg); z-index: 1; }
+td:first-child { text-align: left; position: sticky; left: 0; background: var(--card); z-index: 1; }
 tr:hover { background: #f8fafc; }
 .badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 0.75rem; font-weight: 600; }
 .badge-new { background: #dcfce7; color: var(--green); }
@@ -189,7 +190,6 @@ function render() {
   document.getElementById('crawled-at').textContent =
     `最終取得: ${formatDate(latestData.crawled_at)}`;
 
-  el.appendChild(renderConditions());
   el.appendChild(renderSummary());
 
   // Main tabs
@@ -227,6 +227,7 @@ function renderTabContent(container, type) {
   charts = {};
 
   container.innerHTML = '';
+  container.appendChild(renderConditions(type));
   container.appendChild(renderHighlights(type));
   container.appendChild(renderStationStats(type));
   container.appendChild(renderTimeSeries(type));
@@ -240,18 +241,28 @@ function formatDate(s) {
 }
 
 /* --- Conditions --- */
-function renderConditions() {
-  const c = latestData.conditions;
+function renderConditions(type) {
+  const typeCond = currentProfile.conditions[type];
+  const stations = latestData.conditions.stations;
   const div = document.createElement('div');
   div.className = 'conditions';
+
+  const typeNames = { rental: '賃貸', new: '新築', used: '中古' };
+  let condItems = '';
+
+  if (typeCond) {
+    if (typeCond.min_area != null) condItems += `<span class="cond-item">面積: <b>${typeCond.min_area}㎡以上</b></span>`;
+    if (typeCond.max_age != null) condItems += `<span class="cond-item">築年数: <b>${typeCond.max_age}年以内</b></span>`;
+    if (typeCond.max_rent != null) condItems += `<span class="cond-item">家賃上限: <b>${typeCond.max_rent}万円</b></span>`;
+    if (typeCond.max_price != null) condItems += `<span class="cond-item">価格上限: <b>${typeCond.max_price}万円</b></span>`;
+    if (typeCond.max_walk != null) condItems += `<span class="cond-item">徒歩: <b>${typeCond.max_walk}分以内</b></span>`;
+    if (typeCond.enabled === false) condItems += `<span class="cond-item"><b>無効</b></span>`;
+  }
+
   div.innerHTML = `
-    <h3>検索条件</h3>
-    <div class="tags">${c.stations.map(s => `<span class="tag">${s}</span>`).join('')}</div>
-    <div class="cond-row">
-      <span class="cond-item">面積: <b>${c.min_area_sqm}㎡以上</b></span>
-      <span class="cond-item">築年数: <b>${c.max_age_years}年以内</b></span>
-      <span class="cond-item">家賃上限: <b>${c.max_rent_man}万円</b></span>
-    </div>`;
+    <h3>検索条件（${typeNames[type]}）</h3>
+    <div class="tags">${stations.map(s => `<span class="tag">${s}</span>`).join('')}</div>
+    <div class="cond-row">${condItems}</div>`;
   return div;
 }
 
