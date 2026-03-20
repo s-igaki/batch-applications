@@ -190,8 +190,6 @@ function render() {
   document.getElementById('crawled-at').textContent =
     `最終取得: ${formatDate(latestData.crawled_at)}`;
 
-  el.appendChild(renderSummary());
-
   // Main tabs
   const s = latestData.summary;
   const mainTypes = [
@@ -267,32 +265,6 @@ function renderConditions(type) {
   return div;
 }
 
-/* --- Summary --- */
-function renderSummary() {
-  const s = latestData.summary;
-  const wrapper = document.createElement('div');
-  const heading = document.createElement('h3');
-  heading.style.cssText = 'font-size:0.95rem;margin-bottom:10px;color:var(--text-sub)';
-  heading.textContent = '現在の掲載件数';
-  wrapper.appendChild(heading);
-
-  const div = document.createElement('div');
-  div.className = 'summary-row';
-  const cards = [
-    { label: '賃貸', value: s.rental_count, sub: `SUUMO ${s.suumo_rental} / HOMES ${s.homes_rental}` },
-    { label: '新築', value: s.new_count, sub: `SUUMO ${s.suumo_new} / HOMES ${s.homes_new || 0}` },
-    { label: '中古', value: s.used_count, sub: `SUUMO ${s.suumo_used} / HOMES ${s.homes_used || 0} / cowcamo ${s.cowcamo_used || 0}` },
-    { label: '合計', value: s.rental_count + s.new_count + s.used_count, sub: '全カテゴリ合計' },
-  ];
-  cards.forEach(c => {
-    const card = document.createElement('div');
-    card.className = 'summary-card';
-    card.innerHTML = `<div class="label">${c.label}</div><div class="value">${c.value}</div><div class="sub">${c.sub}</div>`;
-    div.appendChild(card);
-  });
-  wrapper.appendChild(div);
-  return wrapper;
-}
 
 /* --- Highlights --- */
 function renderHighlights(filterType) {
