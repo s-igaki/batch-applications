@@ -30,7 +30,7 @@
           4.5
         ],
         "avg_walk": [
-          13.3333
+          11.8333
         ],
         "new_listings": [
           0
@@ -131,37 +131,37 @@
     "西荻窪": {
       "rental": {
         "count": [
-          16
+          14
         ],
         "median_price": [
           21.5
         ],
         "median_price_per_sqm": [
-          0.4168
+          0.4252
         ],
         "p25_price_per_sqm": [
-          0.3303
+          0.3623
         ],
         "avg_price": [
-          19.825
+          20.3714
         ],
         "min_price": [
           14.5
         ],
         "avg_area": [
-          52.53
+          52.0429
         ],
         "avg_age": [
           3.4286
         ],
         "avg_walk": [
-          10.75
+          11.1429
         ],
         "new_listings": [
           0
         ],
         "delisted": [
-          0
+          2
         ],
         "price_reduced": [
           0
@@ -256,34 +256,34 @@
     "荻窪": {
       "rental": {
         "count": [
-          15
+          16
         ],
         "median_price": [
-          22.0
+          21.85
         ],
         "median_price_per_sqm": [
-          0.4426
+          0.4395
         ],
         "p25_price_per_sqm": [
           0.3985
         ],
         "avg_price": [
-          21.4533
+          20.925
         ],
         "min_price": [
-          16.0
+          13.0
         ],
         "avg_area": [
-          52.1633
+          51.6163
         ],
         "avg_age": [
-          2.9333
+          3.375
         ],
         "avg_walk": [
-          10.4667
+          11.875
         ],
         "new_listings": [
-          0
+          1
         ],
         "delisted": [
           0
@@ -509,25 +509,25 @@
           7
         ],
         "median_price": [
-          22.0
+          22.5
         ],
         "median_price_per_sqm": [
-          0.4794
+          0.5138
         ],
         "p25_price_per_sqm": [
-          0.3386
+          0.4559
         ],
         "avg_price": [
-          20.4286
+          21.6
         ],
         "min_price": [
-          16.0
+          17.2
         ],
         "avg_area": [
-          44.0443
+          42.6671
         ],
         "avg_age": [
-          16.4
+          14
         ],
         "avg_walk": [
           7.1429
@@ -536,7 +536,7 @@
           0
         ],
         "delisted": [
-          0
+          2
         ],
         "price_reduced": [
           0
@@ -756,31 +756,31 @@
     "信濃町": {
       "rental": {
         "count": [
-          7
+          3
         ],
         "median_price": [
-          22.6
+          19.8
         ],
         "median_price_per_sqm": [
-          0.5235
-        ],
-        "p25_price_per_sqm": [
           0.4011
         ],
+        "p25_price_per_sqm": [
+          0.3951
+        ],
         "avg_price": [
-          21.5
+          19.1
         ],
         "min_price": [
           16.0
         ],
         "avg_area": [
-          44.3186
+          45.85
         ],
         "avg_age": [
-          6.1429
+          9
         ],
         "avg_walk": [
-          10.7143
+          6.3333
         ],
         "new_listings": [
           0
@@ -881,31 +881,31 @@
     "四ツ谷": {
       "rental": {
         "count": [
-          2
+          6
         ],
         "median_price": [
-          17.0
+          22.6
         ],
         "median_price_per_sqm": [
-          0.419
+          0.5235
         ],
         "p25_price_per_sqm": [
           0.419
         ],
         "avg_price": [
-          17.0
+          21.2
         ],
         "min_price": [
           17.0
         ],
         "avg_area": [
-          40.57
+          42.3033
         ],
         "avg_age": [
-          15
+          7.6667
         ],
         "avg_walk": [
-          6
+          12
         ],
         "new_listings": [
           0
@@ -1131,37 +1131,37 @@
     "飯田橋": {
       "rental": {
         "count": [
-          6
+          5
         ],
         "median_price": [
-          21.65
+          22.8
         ],
         "median_price_per_sqm": [
-          0.5202
+          0.5482
         ],
         "p25_price_per_sqm": [
-          0.4831
+          0.4921
         ],
         "avg_price": [
-          21.4167
+          21.6
         ],
         "min_price": [
           18.5
         ],
         "avg_area": [
-          41.575
+          41.404
         ],
         "avg_age": [
-          10
+          9.4
         ],
         "avg_walk": [
-          9.1667
+          7.8
         ],
         "new_listings": [
           0
         ],
         "delisted": [
-          0
+          1
         ],
         "price_reduced": [
           0
@@ -1256,31 +1256,31 @@
     "渋谷": {
       "rental": {
         "count": [
-          2
+          0
         ],
         "median_price": [
-          20.1
+          null
         ],
         "median_price_per_sqm": [
-          0.4738
+          null
         ],
         "p25_price_per_sqm": [
-          0.4054
+          null
         ],
         "avg_price": [
-          20.1
+          null
         ],
         "min_price": [
-          17.2
+          null
         ],
         "avg_area": [
-          42.43
+          null
         ],
         "avg_age": [
-          8
+          null
         ],
         "avg_walk": [
-          13
+          null
         ],
         "new_listings": [
           0
@@ -1882,13 +1882,13 @@
   "overall": {
     "rental": {
       "count": [
-        88
+        84
       ],
       "median_price": [
-        20.55
+        21.0
       ],
       "median_price_per_sqm": [
-        0.4651
+        0.4564
       ]
     },
     "new": {
