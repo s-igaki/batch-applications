@@ -1,6 +1,6 @@
 {
-  "crawled_at": "2026-03-20T12:35:15.749559",
-  "profile": "default",
+  "crawled_at": "2026-03-20T12:53:10.710772",
+  "profile": "igaki",
   "conditions": {
     "stations": [
       "吉祥寺",
@@ -50,7 +50,7 @@
         "avg_area": 50.9725,
         "avg_age": 4.5,
         "avg_walk": 13.5833,
-        "new_listings": 23,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -68,7 +68,7 @@
         "avg_area": 53.1143,
         "avg_age": 3.4286,
         "avg_walk": 11.1429,
-        "new_listings": 17,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -86,7 +86,7 @@
         "avg_area": 52.1633,
         "avg_age": 2.9333,
         "avg_walk": 10.5333,
-        "new_listings": 21,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -104,7 +104,7 @@
         "avg_area": 41.3086,
         "avg_age": 8.6429,
         "avg_walk": 8.8571,
-        "new_listings": 22,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -122,7 +122,7 @@
         "avg_area": 44.0443,
         "avg_age": 16.4,
         "avg_walk": 7.1429,
-        "new_listings": 27,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -140,7 +140,7 @@
         "avg_area": 40.12,
         "avg_age": 12,
         "avg_walk": 4,
-        "new_listings": 15,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -158,7 +158,7 @@
         "avg_area": 45.85,
         "avg_age": 9,
         "avg_walk": 6.3333,
-        "new_listings": 16,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -176,7 +176,7 @@
         "avg_area": 42.3033,
         "avg_age": 7.6667,
         "avg_walk": 12,
-        "new_listings": 19,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -194,7 +194,7 @@
         "avg_area": 53.985,
         "avg_age": 12,
         "avg_walk": 10.75,
-        "new_listings": 12,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -212,7 +212,7 @@
         "avg_area": 41.575,
         "avg_age": 10,
         "avg_walk": 9.3333,
-        "new_listings": 11,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -230,7 +230,7 @@
         "avg_area": 42.43,
         "avg_age": 8,
         "avg_walk": 13,
-        "new_listings": 17,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -248,7 +248,7 @@
         "avg_area": 46.01,
         "avg_age": 8,
         "avg_walk": 8,
-        "new_listings": 15,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -268,7 +268,7 @@
         "avg_area": 63.3691,
         "avg_age": 0,
         "avg_walk": 7.9091,
-        "new_listings": 23,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -286,7 +286,7 @@
         "avg_area": 56.7975,
         "avg_age": 0,
         "avg_walk": 6.5,
-        "new_listings": 21,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -304,7 +304,7 @@
         "avg_area": 56.314,
         "avg_age": 0,
         "avg_walk": 15,
-        "new_listings": 22,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -322,7 +322,7 @@
         "avg_area": 77.7022,
         "avg_age": 0,
         "avg_walk": 13,
-        "new_listings": 15,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -340,7 +340,7 @@
         "avg_area": 79.98,
         "avg_age": 0,
         "avg_walk": 16,
-        "new_listings": 15,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -358,7 +358,7 @@
         "avg_area": 56.63,
         "avg_age": 0,
         "avg_walk": 6,
-        "new_listings": 16,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -376,7 +376,7 @@
         "avg_area": 74.808,
         "avg_age": 0,
         "avg_walk": 5.4,
-        "new_listings": 19,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -394,7 +394,7 @@
         "avg_area": 69.93,
         "avg_age": 0,
         "avg_walk": 9.7143,
-        "new_listings": 12,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -412,7 +412,7 @@
         "avg_area": 63.635,
         "avg_age": 0,
         "avg_walk": 13,
-        "new_listings": 11,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -430,7 +430,7 @@
         "avg_area": 60.5531,
         "avg_age": 0,
         "avg_walk": 8.6923,
-        "new_listings": 17,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -448,7 +448,7 @@
         "avg_area": 96.245,
         "avg_age": 0,
         "avg_walk": 9.8333,
-        "new_listings": 27,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -468,7 +468,7 @@
         "avg_area": 65.58,
         "avg_age": 15,
         "avg_walk": 9.6667,
-        "new_listings": 17,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -486,7 +486,7 @@
         "avg_area": 53.36,
         "avg_age": 11,
         "avg_walk": 12.3333,
-        "new_listings": 22,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -504,7 +504,7 @@
         "avg_area": 62.9443,
         "avg_age": 7.75,
         "avg_walk": 8.3571,
-        "new_listings": 27,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -522,7 +522,7 @@
         "avg_area": 76.7292,
         "avg_age": 7,
         "avg_walk": 12.3333,
-        "new_listings": 15,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -540,7 +540,7 @@
         "avg_area": 67.7667,
         "avg_age": 12.0833,
         "avg_walk": 8.8333,
-        "new_listings": 16,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -558,7 +558,7 @@
         "avg_area": 58.6825,
         "avg_age": 6.625,
         "avg_walk": 9.25,
-        "new_listings": 19,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -576,7 +576,7 @@
         "avg_area": 67.68,
         "avg_age": 12,
         "avg_walk": 10,
-        "new_listings": 12,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -594,7 +594,7 @@
         "avg_area": 54.4467,
         "avg_age": 9.3333,
         "avg_walk": 10.6667,
-        "new_listings": 11,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -612,7 +612,7 @@
         "avg_area": 81.6788,
         "avg_age": 8.5714,
         "avg_walk": 12.25,
-        "new_listings": 8,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -630,7 +630,7 @@
         "avg_area": 74.408,
         "avg_age": 11,
         "avg_walk": 10.4,
-        "new_listings": 15,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -648,7 +648,7 @@
         "avg_area": 128.535,
         "avg_age": null,
         "avg_walk": 8,
-        "new_listings": 21,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -666,7 +666,7 @@
         "avg_area": 66.335,
         "avg_age": null,
         "avg_walk": 8,
-        "new_listings": 17,
+        "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
@@ -675,1857 +675,72 @@
   },
   "changes": {
     "price_reduced": [],
-    "new_listings": [
-      {
-        "uid": "2e6d4e840397",
-        "name": "ＪＲ総武線 吉祥寺駅 3階建 築4年",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 16.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105874653/"
-      },
-      {
-        "uid": "8d8ead45f832",
-        "name": "ベルパルク吉祥寺本町",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 16.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105874651/"
-      },
-      {
-        "uid": "3747bdbdf038",
-        "name": "ベルパルク吉祥寺本町",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 16.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105874652/"
-      },
-      {
-        "uid": "cb8caeae13bc",
-        "name": "NOZOMIO吉祥寺",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 17.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105858134/"
-      },
-      {
-        "uid": "09c6de9a30c2",
-        "name": "クッカ",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 12.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105698648/"
-      },
-      {
-        "uid": "8578fe92802e",
-        "name": "ムーンボウ",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 15.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105351587/"
-      },
-      {
-        "uid": "fd4f8fec1b3e",
-        "name": "ＪＲ総武線 西荻窪駅 2階建 築10年",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 19.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104459233/"
-      },
-      {
-        "uid": "261baf0b930f",
-        "name": "Ｇｏｔｏｓ",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 19.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104459232/"
-      },
-      {
-        "uid": "2191816aaef7",
-        "name": "BLANCHIR.COMME",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 14.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104810087/"
-      },
-      {
-        "uid": "73d0c36e4ee0",
-        "name": "プレミアコンフォート西荻窪",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 15.7,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105258527/"
-      },
-      {
-        "uid": "8da0b0b3c089",
-        "name": "ＪＲ総武線 西荻窪駅 地下1地上5階建 新築",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 21.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105689433/"
-      },
-      {
-        "uid": "63916343fe21",
-        "name": "ＪＲ総武線 西荻窪駅 地下1地上5階建 新築",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 21.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105800077/"
-      },
-      {
-        "uid": "12dde87ee146",
-        "name": "ＪＲ総武線 西荻窪駅 地下1地上5階建 新築",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 22.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000102573036/"
-      },
-      {
-        "uid": "02610e064ca7",
-        "name": "ＪＲ総武線 西荻窪駅 地下1地上5階建 新築",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 22.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000102573035/"
-      },
-      {
-        "uid": "54f07bc7c81c",
-        "name": "ＪＲ総武線 西荻窪駅 地下1地上5階建 新築",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 22.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103046160/"
-      },
-      {
-        "uid": "0bb6767977be",
-        "name": "ＣＯＥＵＲ　ＢＬＡＮＣ西荻窪",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 21.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105689432/"
-      },
-      {
-        "uid": "540e1753f5b7",
-        "name": "ＣＯＥＵＲ　ＢＬＡＮＣ西荻窪",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 21.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105664318/"
-      },
-      {
-        "uid": "288466819030",
-        "name": "ＣＯＥＵＲ　ＢＬＡＮＣ西荻窪",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 22.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000102573026/"
-      },
-      {
-        "uid": "fe0ff49b5ce8",
-        "name": "ＣＯＥＵＲ　ＢＬＡＮＣ西荻窪",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 22.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000102573024/"
-      },
-      {
-        "uid": "c87838b0290d",
-        "name": "ＯＺＩＯ西荻窪II",
-        "station": "西荻窪",
-        "type": "rental",
-        "price": 19.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103099992/"
-      },
-      {
-        "uid": "b600e82b8a19",
-        "name": "ＪＲ中央線 荻窪駅 2階建 築7年",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 17.6,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105578360/"
-      },
-      {
-        "uid": "c99bdfb6e9ef",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 21.4,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104392327/"
-      },
-      {
-        "uid": "769d25dab39d",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 21.4,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104392326/"
-      },
-      {
-        "uid": "1dd7c8adba94",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 21.7,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104392328/"
-      },
-      {
-        "uid": "7a20ae77294c",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 22.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104392330/"
-      },
-      {
-        "uid": "b0a7db4a1635",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 22.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104392331/"
-      },
-      {
-        "uid": "04894d352304",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 22.2,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104392321/"
-      },
-      {
-        "uid": "4cd837e38211",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 22.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104392318/"
-      },
-      {
-        "uid": "54c218c9967c",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 22.9,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103756835/"
-      },
-      {
-        "uid": "8fd714b167cd",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 23.2,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104392329/"
-      },
-      {
-        "uid": "c76521e75a5a",
-        "name": "ＪＲ中央線 荻窪駅 5階建 新築",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 23.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104392332/"
-      },
-      {
-        "uid": "e21c0d218b05",
-        "name": "ＪＲ中央線 荻窪駅 3階建 築13年",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 16.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105711169/"
-      },
-      {
-        "uid": "7db50f328f1f",
-        "name": "ＪＲ中央線 荻窪駅 2階建 築8年",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 23.9,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105722158/"
-      },
-      {
-        "uid": "831c860475f4",
-        "name": "ＪＲ中央線 荻窪駅 2階建 築8年",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 20.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000100189925/"
-      },
-      {
-        "uid": "aa2f56d88afb",
-        "name": "ＪＲ中央線 荻窪駅 2階建 築8年",
-        "station": "荻窪",
-        "type": "rental",
-        "price": 21.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104599350/"
-      },
-      {
-        "uid": "2ff4ad12b8c9",
-        "name": "レガリス高円寺",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 18.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104745511/"
-      },
-      {
-        "uid": "fd3b8bf96a8c",
-        "name": "レジディア高円寺",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 18.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103492512/"
-      },
-      {
-        "uid": "ff20aa74952b",
-        "name": "RESIDENCE KOENJI",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 22.7,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103702576/"
-      },
-      {
-        "uid": "5c44f60f3f58",
-        "name": "トーシンフェニックス高円寺クアトロ",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 14.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000097290919/"
-      },
-      {
-        "uid": "adef93cf67e4",
-        "name": "ＪＲ中央線 高円寺駅 5階建 築20年",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 14.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000097487861/"
-      },
-      {
-        "uid": "28bb381e8805",
-        "name": "フレンシア高円寺北",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 19.2,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104482976/"
-      },
-      {
-        "uid": "1f9200ed0d71",
-        "name": "フレンシア高円寺北",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 20.1,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103118237/"
-      },
-      {
-        "uid": "72fb72dd3bd1",
-        "name": "フレンシア高円寺北",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 20.6,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103717535/"
-      },
-      {
-        "uid": "dd57afe4bc9e",
-        "name": "フレンシア高円寺北",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 20.9,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105300791/"
-      },
-      {
-        "uid": "08d3e50e80b9",
-        "name": "フレンシア高円寺北",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 20.9,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105672976/"
-      },
-      {
-        "uid": "218a5588badc",
-        "name": "フレンシア高円寺北",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 21.4,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103938142/"
-      },
-      {
-        "uid": "eab48f429fcd",
-        "name": "フレンシア高円寺北",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 21.7,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105730846/"
-      },
-      {
-        "uid": "9072fa4db548",
-        "name": "ＪＲ中央線 高円寺駅 地下1地上4階建 築11年",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 17.9,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104459190/"
-      },
-      {
-        "uid": "6d8428ad3c88",
-        "name": "ジェノヴィア高円寺スカイガーデン",
-        "station": "高円寺",
-        "type": "rental",
-        "price": 17.4,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103929318/"
-      },
-      {
-        "uid": "da9110b54b6f",
-        "name": "フルハウス代々木",
-        "station": "代々木",
-        "type": "rental",
-        "price": 23.8,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103727543/"
-      },
-      {
-        "uid": "ce3acf87d792",
-        "name": "ＭＹ ＴＯＷＥＲ ＲＥＳＩＤＥＮＣＥ",
-        "station": "代々木",
-        "type": "rental",
-        "price": 23.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104474357/"
-      },
-      {
-        "uid": "dba389c8345d",
-        "name": "ZOOM新宿南Second",
-        "station": "代々木",
-        "type": "rental",
-        "price": 22.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103551201/"
-      },
-      {
-        "uid": "e9c976d14db2",
-        "name": "ＭＡＬＵＬＡＮＩ千駄ヶ谷",
-        "station": "千駄ヶ谷",
-        "type": "rental",
-        "price": 19.7,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103429254/"
-      },
-      {
-        "uid": "410a85cc1363",
-        "name": "ＪＲ中央線 千駄ケ谷駅 6階建 築12年",
-        "station": "千駄ヶ谷",
-        "type": "rental",
-        "price": 19.7,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103440510/"
-      },
-      {
-        "uid": "d23b2ba7a31b",
-        "name": "ＪＲ中央線 信濃町駅 3階建 築1年",
-        "station": "信濃町",
-        "type": "rental",
-        "price": 16.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105872854/"
-      },
-      {
-        "uid": "aa62ce71e849",
-        "name": "ＬＩＢＲ　ＧＲＡＮＴ　四谷三丁目",
-        "station": "四ツ谷",
-        "type": "rental",
-        "price": 22.6,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104717489/"
-      },
-      {
-        "uid": "c15e5f8a8f67",
-        "name": "ＬＩＢＲ　ＧＲＡＮＴ　四谷三丁目",
-        "station": "四ツ谷",
-        "type": "rental",
-        "price": 22.6,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105210428/"
-      },
-      {
-        "uid": "51c6911df360",
-        "name": "ＬＩＢＲ　ＧＲＡＮＴ　四谷三丁目",
-        "station": "四ツ谷",
-        "type": "rental",
-        "price": 24.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000081626571/"
-      },
-      {
-        "uid": "5e2d2dbfc921",
-        "name": "ＬＩＢＲ　ＧＲＡＮＴ　四谷三丁目",
-        "station": "四ツ谷",
-        "type": "rental",
-        "price": 24.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104957163/"
-      },
-      {
-        "uid": "167ed8088029",
-        "name": "トレステージ四谷",
-        "station": "信濃町",
-        "type": "rental",
-        "price": 19.8,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103542037/"
-      },
-      {
-        "uid": "5c362a9db8d8",
-        "name": "ＡＸＡＳレジデンス外苑",
-        "station": "信濃町",
-        "type": "rental",
-        "price": 21.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105248660/"
-      },
-      {
-        "uid": "669afd96a2e6",
-        "name": "メゾントレフル",
-        "station": "四ツ谷",
-        "type": "rental",
-        "price": 17.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105817590/"
-      },
-      {
-        "uid": "5b7bb354031f",
-        "name": "エステムプラザ市谷外濠公園",
-        "station": "市谷",
-        "type": "rental",
-        "price": 21.55,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105096337/"
-      },
-      {
-        "uid": "187a51c21a96",
-        "name": "ＪＲ総武線 四ツ谷駅 2階建 築15年",
-        "station": "四ツ谷",
-        "type": "rental",
-        "price": 17.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105825597/"
-      },
-      {
-        "uid": "2523cf97eb90",
-        "name": "神楽坂南町ハウス",
-        "station": "飯田橋",
-        "type": "rental",
-        "price": 18.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000047276522/"
-      },
-      {
-        "uid": "83349e5b8903",
-        "name": "神楽坂南町ハウス",
-        "station": "飯田橋",
-        "type": "rental",
-        "price": 20.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104285687/"
-      },
-      {
-        "uid": "7604802fd954",
-        "name": "ＳＵＮＩＶＡＳ飯田橋",
-        "station": "飯田橋",
-        "type": "rental",
-        "price": 23.7,
-        "detail_url": "https://suumo.jp/chintai/jnc_000103447295/"
-      },
-      {
-        "uid": "69d12796d800",
-        "name": "DIPS神楽坂",
-        "station": "飯田橋",
-        "type": "rental",
-        "price": 20.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105848642/"
-      },
-      {
-        "uid": "9cb2ebb7c4b1",
-        "name": "ハイグラウンド神楽坂",
-        "station": "飯田橋",
-        "type": "rental",
-        "price": 22.8,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105872859/"
-      },
-      {
-        "uid": "b69566406ecd",
-        "name": "ハイグラウンド神楽坂",
-        "station": "飯田橋",
-        "type": "rental",
-        "price": 23.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000104809406/"
-      },
-      {
-        "uid": "4d217efc3dac",
-        "name": "アーデン代木上原",
-        "station": "代々木",
-        "type": "rental",
-        "price": 22.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105857778/"
-      },
-      {
-        "uid": "38698369b6ba",
-        "name": "ＳＴＲＩＮＧＳ神山町",
-        "station": "渋谷",
-        "type": "rental",
-        "price": 17.2,
-        "detail_url": "https://suumo.jp/chintai/jnc_000042290805/"
-      },
-      {
-        "uid": "aee2b7343ca5",
-        "name": "ＳＴＲＩＮＧＳ神山町",
-        "station": "渋谷",
-        "type": "rental",
-        "price": 23.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105818262/"
-      },
-      {
-        "uid": "95fb65eb4dc4",
-        "name": "Pearl Homes 元代々木(パールホームズ モトヨヨギ)",
-        "station": "代々木",
-        "type": "rental",
-        "price": 19.2,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105138390/"
-      },
-      {
-        "uid": "2042d8f857e2",
-        "name": "あおば荘",
-        "station": "表参道",
-        "type": "rental",
-        "price": 21.0,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105249364/"
-      },
-      {
-        "uid": "f46937356f22",
-        "name": "K　CITY",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 14.3,
-        "detail_url": "https://www.homes.co.jp/chintai/room/c746e4e980b1c4d3889dc7fe623e5f7983529d59/"
-      },
-      {
-        "uid": "a8e276c2e5d2",
-        "name": "武蔵野ガーデンハウス",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 19.7,
-        "detail_url": "https://www.homes.co.jp/chintai/room/064152916b75bcc7cde300a5521cf828d9cc4c51/"
-      },
-      {
-        "uid": "4d06ecb97e15",
-        "name": "ユーフォリア武蔵野",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 19.0,
-        "detail_url": "https://www.homes.co.jp/chintai/room/b297b33fad3923772d7a4f9cb0192207f714b481/"
-      },
-      {
-        "uid": "f379cdb414e4",
-        "name": "オープンレジデンシア吉祥寺本町テラス",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 23.5,
-        "detail_url": "https://www.homes.co.jp/chintai/room/30f166c63cdfe755fe0900961cf45920d5ecbd0e/"
-      },
-      {
-        "uid": "39f4e42a48d5",
-        "name": "吉祥寺グレース大所",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 18.0,
-        "detail_url": "https://www.homes.co.jp/chintai/room/112275aa592a5ba11f4305273cfabb22b97e8ff0/"
-      },
-      {
-        "uid": "0abdb10be88f",
-        "name": "吉祥寺グレース大所",
-        "station": "吉祥寺",
-        "type": "rental",
-        "price": 18.0,
-        "detail_url": "https://www.homes.co.jp/chintai/room/61800ddc2b61c05c59649ac9fc0b728f27332917/"
-      },
-      {
-        "uid": "afeccd304cfb",
-        "name": "ＤＩＭＯＲＡ　ＹＯＹＯＧＩ",
-        "station": "代々木",
-        "type": "rental",
-        "price": 16.0,
-        "detail_url": "https://www.homes.co.jp/chintai/room/e1cc183049bd8d9695a45fa13021de25bc25bbc9/"
-      },
-      {
-        "uid": "8ad83863848a",
-        "name": "ＤＩＭＯＲＡ　ＹＯＹＯＧＩ",
-        "station": "代々木",
-        "type": "rental",
-        "price": 16.0,
-        "detail_url": "https://www.homes.co.jp/chintai/room/2ab27915916ca309d36a9bb2026654da49829406/"
-      },
-      {
-        "uid": "b67c02b71b75",
-        "name": "コスモシティ市ヶ谷",
-        "station": "市谷",
-        "type": "rental",
-        "price": 18.5,
-        "detail_url": "https://www.homes.co.jp/chintai/room/db0bef5b6bd5f855894a0154ba9dffd0fd872aab/"
-      },
-      {
-        "uid": "9959a908e30b",
-        "name": "コスモシティ市ヶ谷",
-        "station": "市谷",
-        "type": "rental",
-        "price": 18.5,
-        "detail_url": "https://www.homes.co.jp/chintai/room/07a4cd3bafac77f8f54b552fa8676465726948c1/"
-      },
-      {
-        "uid": "2c8412b8fbc7",
-        "name": "コスモシティ市ヶ谷",
-        "station": "市谷",
-        "type": "rental",
-        "price": 18.5,
-        "detail_url": "https://www.homes.co.jp/chintai/room/5decdffc9497bcbbc269e2774c04eb20d8c15d7f/"
-      },
-      {
-        "uid": "9bb526aec1d8",
-        "name": "ファインスクェア上石神井",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": 6500.0,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_nerima/nc_67735706/"
-      },
-      {
-        "uid": "a512c5b84385",
-        "name": "ブランシエラ三鷹下連雀ローレルコート",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": 6200.0,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_mitaka/nc_67731543/"
-      },
-      {
-        "uid": "cdce3619e703",
-        "name": "リビオ吉祥寺南町",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729878/"
-      },
-      {
-        "uid": "ef76fbe95adf",
-        "name": "イニシア調布ステーションサイト",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": 7498.0,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_chofu/nc_67731664/"
-      },
-      {
-        "uid": "a45ab914d105",
-        "name": "クレストプライムタワー東小金井",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_koganei/nc_67731588/"
-      },
-      {
-        "uid": "88ecddff786c",
-        "name": "ザ・パークハウス 吉祥寺プレイス",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729222/"
-      },
-      {
-        "uid": "a1211f6b8a8c",
-        "name": "シティテラス善福寺公園",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": 7900.0,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_nerima/nc_67724876/"
-      },
-      {
-        "uid": "eab96d2bb535",
-        "name": "プラウド吉祥寺本町",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": 12400,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67730928/"
-      },
-      {
-        "uid": "63e0514ed451",
-        "name": "サンウッド吉祥寺南町一丁目",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": 16980,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_20315710/"
-      },
-      {
-        "uid": "ed22dc2996af",
-        "name": "オープンレジデンシア吉祥寺本町テラス",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": 18980,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_20209004/"
-      },
-      {
-        "uid": "cb1de423211b",
-        "name": "サンウッド吉祥寺南町一丁目",
-        "station": "吉祥寺",
-        "type": "new",
-        "price": 24980,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729966/"
-      },
-      {
-        "uid": "45acc9ef8555",
-        "name": "シエリア杉並高井戸",
-        "station": "荻窪",
-        "type": "new",
-        "price": 9498.0,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_suginami/nc_67730176/"
-      },
-      {
-        "uid": "0330acb79966",
-        "name": "ジオ荻窪",
-        "station": "荻窪",
-        "type": "new",
-        "price": 10490,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_suginami/nc_67731071/"
-      },
-      {
-        "uid": "10459caea73a",
-        "name": "サンウッド荻窪",
-        "station": "荻窪",
-        "type": "new",
-        "price": 11990,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_suginami/nc_67730677/"
-      },
-      {
-        "uid": "d2ec7f0c63d6",
-        "name": "ピアース石神井公園",
-        "station": "荻窪",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_nerima/nc_67733883/"
-      },
-      {
-        "uid": "f0132e7c3c0c",
-        "name": "パークホームズ東高円寺",
-        "station": "高円寺",
-        "type": "new",
-        "price": 9000.0,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_suginami/nc_67735099/"
-      },
-      {
-        "uid": "6b7451782c18",
-        "name": "パークシティ中野ブリーズ",
-        "station": "高円寺",
-        "type": "new",
-        "price": 16800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_nakano/nc_78895901/"
-      },
-      {
-        "uid": "92ea1768d313",
-        "name": "パークシティ中野",
-        "station": "高円寺",
-        "type": "new",
-        "price": 16800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_nakano/nc_20299391/"
-      },
-      {
-        "uid": "7fb80e289e89",
-        "name": "パークシティ中野ザタワーブリーズ",
-        "station": "高円寺",
-        "type": "new",
-        "price": 16800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_nakano/nc_20207510/"
-      },
-      {
-        "uid": "61a029cb737a",
-        "name": "パークシティ中野　ザ　タワー　ブリーズ",
-        "station": "高円寺",
-        "type": "new",
-        "price": 16980,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_nakano/nc_20231864/"
-      },
-      {
-        "uid": "7b6c69987b77",
-        "name": "グランドヒルズ南青山",
-        "station": "表参道",
-        "type": "new",
-        "price": 29500,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_minato/nc_67719514/"
-      },
-      {
-        "uid": "764573b1c88a",
-        "name": "クラッシィタワー新宿御苑",
-        "station": "千駄ヶ谷",
-        "type": "new",
-        "price": 36800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_20304666/"
-      },
-      {
-        "uid": "ac5e2e925abd",
-        "name": "サンウッドフラッツ新宿四谷三丁目",
-        "station": "信濃町",
-        "type": "new",
-        "price": 12800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_78905410/"
-      },
-      {
-        "uid": "0ac89a954bbd",
-        "name": "プラウド四谷",
-        "station": "四ツ谷",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_67734365/"
-      },
-      {
-        "uid": "586f26cd1ca1",
-        "name": "ピアース四谷Hills",
-        "station": "四ツ谷",
-        "type": "new",
-        "price": 24900,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_78220867/"
-      },
-      {
-        "uid": "530888325fad",
-        "name": "ピアース四ツ谷Hills",
-        "station": "四ツ谷",
-        "type": "new",
-        "price": 24900,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_20372665/"
-      },
-      {
-        "uid": "f16b6d529b49",
-        "name": "ザ・パークハウス千代田六番町",
-        "station": "四ツ谷",
-        "type": "new",
-        "price": 53800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_chiyoda/nc_79118398/"
-      },
-      {
-        "uid": "58538deb062c",
-        "name": "ディアナコート四谷",
-        "station": "四ツ谷",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_67733884/"
-      },
-      {
-        "uid": "44f25c7a2f88",
-        "name": "ザ・パークハウス 千代田三番町",
-        "station": "市谷",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_chiyoda/nc_67733803/"
-      },
-      {
-        "uid": "caf5a2e251e3",
-        "name": "ザ レジデンス 三番町",
-        "station": "市谷",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_chiyoda/nc_67734943/"
-      },
-      {
-        "uid": "0ddfe5704f6e",
-        "name": "パークコート ザ・三番町ハウス",
-        "station": "市谷",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_chiyoda/nc_67722499/"
-      },
-      {
-        "uid": "f74703fe8d0a",
-        "name": "パークコートザ・三番町ハウス　7階",
-        "station": "市谷",
-        "type": "new",
-        "price": 16980,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_chiyoda/nc_20127580/"
-      },
-      {
-        "uid": "ec50fcc4e93e",
-        "name": "パークコートザ・三番町ハウス",
-        "station": "市谷",
-        "type": "new",
-        "price": 17990,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_chiyoda/nc_20091814/"
-      },
-      {
-        "uid": "6b17f15ded58",
-        "name": "パークコート　ザ三番町・ハウス",
-        "station": "市谷",
-        "type": "new",
-        "price": 27800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_chiyoda/nc_20362323/"
-      },
-      {
-        "uid": "5e0b12a25fc7",
-        "name": "パークコート　ザ・三番町ハウス",
-        "station": "市谷",
-        "type": "new",
-        "price": 62800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_chiyoda/nc_20178358/"
-      },
-      {
-        "uid": "c65722618279",
-        "name": "アトラス文京安藤坂",
-        "station": "飯田橋",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_bunkyo/nc_67733992/"
-      },
-      {
-        "uid": "c8d741aefbc7",
-        "name": "オープンレジデンシア神楽坂プレイス",
-        "station": "飯田橋",
-        "type": "new",
-        "price": 12900,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_20031751/"
-      },
-      {
-        "uid": "5bfc6efd7a18",
-        "name": "プレミスト代沢 Hillside Forest",
-        "station": "渋谷",
-        "type": "new",
-        "price": 20990,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_setagaya/nc_67731933/"
-      },
-      {
-        "uid": "db58ba02d358",
-        "name": "パークコート恵比寿（旧：恵比寿フラワーホーム）",
-        "station": "渋谷",
-        "type": "new",
-        "price": 21800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20208623/"
-      },
-      {
-        "uid": "bdda38821a37",
-        "name": "プラウド渋谷東",
-        "station": "渋谷",
-        "type": "new",
-        "price": 23300,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_78353754/"
-      },
-      {
-        "uid": "4ae94cfcb5f9",
-        "name": "プラウドタワー渋谷",
-        "station": "渋谷",
-        "type": "new",
-        "price": 23480,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_79020596/"
-      },
-      {
-        "uid": "ac9573d3c321",
-        "name": "プラウドタワー渋谷",
-        "station": "渋谷",
-        "type": "new",
-        "price": 23480,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_78961344/"
-      },
-      {
-        "uid": "dfe33fa28278",
-        "name": "プラウド渋谷東",
-        "station": "渋谷",
-        "type": "new",
-        "price": 23980,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_78354220/"
-      },
-      {
-        "uid": "d00ba9b3fed5",
-        "name": "プラウド渋谷東",
-        "station": "渋谷",
-        "type": "new",
-        "price": 24500,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20373722/"
-      },
-      {
-        "uid": "5fa820db144e",
-        "name": "プラウド渋谷東",
-        "station": "渋谷",
-        "type": "new",
-        "price": 24500,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20370021/"
-      },
-      {
-        "uid": "cde9bdb8b05f",
-        "name": "プラウド渋谷東",
-        "station": "渋谷",
-        "type": "new",
-        "price": 24500,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20246272/"
-      },
-      {
-        "uid": "57bd240b703c",
-        "name": "プラウド渋谷東",
-        "station": "渋谷",
-        "type": "new",
-        "price": 24500,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20207590/"
-      },
-      {
-        "uid": "d394d1b3b16b",
-        "name": "プラウド渋谷東",
-        "station": "渋谷",
-        "type": "new",
-        "price": 24500,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20152029/"
-      },
-      {
-        "uid": "beb27de9fe0c",
-        "name": "プラウド渋谷東",
-        "station": "渋谷",
-        "type": "new",
-        "price": 24500,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20145319/"
-      },
-      {
-        "uid": "e7ee3e959319",
-        "name": "プラウド渋谷東",
-        "station": "渋谷",
-        "type": "new",
-        "price": 24500,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20094647/"
-      },
-      {
-        "uid": "67b8df482c6e",
-        "name": "パークタワー渋谷笹塚",
-        "station": "代々木",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_67730111/"
-      },
-      {
-        "uid": "1d56bed18cbb",
-        "name": "グランドメゾン渋谷大山町",
-        "station": "代々木",
-        "type": "new",
-        "price": 39800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20191288/"
-      },
-      {
-        "uid": "63da87b61331",
-        "name": "グランドメゾン渋谷大山町",
-        "station": "代々木",
-        "type": "new",
-        "price": 41900,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20294625/"
-      },
-      {
-        "uid": "ab81595f64da",
-        "name": "グランドメゾン渋谷大山町",
-        "station": "代々木",
-        "type": "new",
-        "price": 45800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20339020/"
-      },
-      {
-        "uid": "c355859ad1fc",
-        "name": "グランドメゾン渋谷大山町",
-        "station": "代々木",
-        "type": "new",
-        "price": 45800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20170619/"
-      },
-      {
-        "uid": "4acf7e74b721",
-        "name": "グランドメゾン渋谷大山町",
-        "station": "代々木",
-        "type": "new",
-        "price": 82000,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20344657/"
-      },
-      {
-        "uid": "95e6c8e1d370",
-        "name": "パークコート青山高樹町 ザ タワー",
-        "station": "表参道",
-        "type": "new",
-        "price": null,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_minato/nc_67730114/"
-      },
-      {
-        "uid": "f8780b303fc5",
-        "name": "プラウドタワー渋谷",
-        "station": "表参道",
-        "type": "new",
-        "price": 29800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_78876127/"
-      },
-      {
-        "uid": "7bc0273b6ffa",
-        "name": "グランドヒルズ南青山",
-        "station": "表参道",
-        "type": "new",
-        "price": 29900,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_minato/nc_20106007/"
-      },
-      {
-        "uid": "6320da60e16b",
-        "name": "プラウドタワー渋谷",
-        "station": "表参道",
-        "type": "new",
-        "price": 34900,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20011967/"
-      },
-      {
-        "uid": "1040478e6c8d",
-        "name": "プラウドタワー渋谷",
-        "station": "表参道",
-        "type": "new",
-        "price": 37980,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_78756260/"
-      },
-      {
-        "uid": "525213715e3d",
-        "name": "プラウドタワー渋谷",
-        "station": "表参道",
-        "type": "new",
-        "price": 38000,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20094029/"
-      },
-      {
-        "uid": "215eb0b0dfac",
-        "name": "パークコート北青山",
-        "station": "表参道",
-        "type": "new",
-        "price": 47500,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_minato/nc_78661430/"
-      },
-      {
-        "uid": "1559b13ee893",
-        "name": "パークコート北青山",
-        "station": "表参道",
-        "type": "new",
-        "price": 85800,
-        "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_minato/nc_20344660/"
-      },
-      {
-        "uid": "a8ca3262cdcf",
-        "name": "エスリール杉並松庵",
-        "station": "西荻窪",
-        "type": "used",
-        "price": 4980.0,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20265681/"
-      },
-      {
-        "uid": "6010c87f9dbf",
-        "name": "ローレルコート杉並松庵",
-        "station": "西荻窪",
-        "type": "used",
-        "price": 12700,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20127508/"
-      },
-      {
-        "uid": "cc586f398b35",
-        "name": "吉祥寺レジデンシア",
-        "station": "西荻窪",
-        "type": "used",
-        "price": 14480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_79039067/"
-      },
-      {
-        "uid": "cd9039760bf0",
-        "name": "グローリオ高円寺",
-        "station": "高円寺",
-        "type": "used",
-        "price": 9299.0,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20252114/"
-      },
-      {
-        "uid": "e93efcdaeb6f",
-        "name": "グローリオ高円寺",
-        "station": "高円寺",
-        "type": "used",
-        "price": 9299.0,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20145998/"
-      },
-      {
-        "uid": "9196ba1eb5be",
-        "name": "グローリオ高円寺",
-        "station": "高円寺",
-        "type": "used",
-        "price": 9299.0,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20477400/"
-      },
-      {
-        "uid": "9a16f7d84241",
-        "name": "プレシス参宮橋",
-        "station": "代々木",
-        "type": "used",
-        "price": 14480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_78682317/"
-      },
-      {
-        "uid": "2fde0c74a763",
-        "name": "パークコート神宮北参道　ザ　タワー",
-        "station": "代々木",
-        "type": "used",
-        "price": 16480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20054220/"
-      },
-      {
-        "uid": "5118ccf56004",
-        "name": "シティハウス神宮北参道",
-        "station": "代々木",
-        "type": "used",
-        "price": 34980,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20102171/"
-      },
-      {
-        "uid": "e3256d27c059",
-        "name": "マジェスティハウス新宿御苑パークナード",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 17480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_79051221/"
-      },
-      {
-        "uid": "4a2cd9d291fe",
-        "name": "VECS♪マジェスティハウス新宿御苑パークナード",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 25500,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78727043/"
-      },
-      {
-        "uid": "6b4d43bb1403",
-        "name": "クラッシィタワー新宿御苑　1703号室",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 29800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78922910/"
-      },
-      {
-        "uid": "a9dbe81bf659",
-        "name": "クラッシィタワー新宿御苑",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 32800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78725482/"
-      },
-      {
-        "uid": "20b667a5897b",
-        "name": "フォルム内藤町",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 37990,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_79134743/"
-      },
-      {
-        "uid": "20d239780dbc",
-        "name": "マジェスティハウス新宿御苑パークナード",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 13500,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20380873/"
-      },
-      {
-        "uid": "1846f2c7ee1e",
-        "name": "マジェスティハウス新宿御苑パークナード",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 13500,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78681542/"
-      },
-      {
-        "uid": "4dd469f990dd",
-        "name": "クラッシィタワー新宿御苑",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 29800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78790755/"
-      },
-      {
-        "uid": "305b2b9cce93",
-        "name": "クラッシィタワー新宿御苑",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 29800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78937109/"
-      },
-      {
-        "uid": "d2789e286421",
-        "name": "クラッシィタワー新宿御苑",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 35000,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20249014/"
-      },
-      {
-        "uid": "937b775f4931",
-        "name": "クラッシィタワー新宿御苑",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 63980,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20333866/"
-      },
-      {
-        "uid": "4170b4202f3a",
-        "name": "ピアース四谷Ｈｉｌｌｓ",
-        "station": "信濃町",
-        "type": "used",
-        "price": 11800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_77544445/"
-      },
-      {
-        "uid": "0b80a44c1847",
-        "name": "Ｂｒｉｌｌｉａ外苑出羽坂",
-        "station": "信濃町",
-        "type": "used",
-        "price": 14800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20125203/"
-      },
-      {
-        "uid": "057d09fe7cd9",
-        "name": "ライオンズ外苑の杜",
-        "station": "信濃町",
-        "type": "used",
-        "price": 16480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78738599/"
-      },
-      {
-        "uid": "d077709ebc5c",
-        "name": "ライオンズ外苑の杜",
-        "station": "信濃町",
-        "type": "used",
-        "price": 16500,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78303207/"
-      },
-      {
-        "uid": "997c49482508",
-        "name": "ライオンズ外苑の杜",
-        "station": "信濃町",
-        "type": "used",
-        "price": 16980,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78163836/"
-      },
-      {
-        "uid": "cf301a75adc5",
-        "name": "ピアース四谷Ｈｉｌｌｓ",
-        "station": "信濃町",
-        "type": "used",
-        "price": 24900,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78223486/"
-      },
-      {
-        "uid": "f182bce3ab01",
-        "name": "ライトコート四谷",
-        "station": "信濃町",
-        "type": "used",
-        "price": 11480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20156732/"
-      },
-      {
-        "uid": "e0581f30bc25",
-        "name": "ライトコート四谷",
-        "station": "信濃町",
-        "type": "used",
-        "price": 11480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20190843/"
-      },
-      {
-        "uid": "8ff1f048345d",
-        "name": "ライトコート四谷",
-        "station": "信濃町",
-        "type": "used",
-        "price": 11480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20224902/"
-      },
-      {
-        "uid": "a19d93722d85",
-        "name": "ガーデンヒルズ四ツ谷迎賓の森",
-        "station": "信濃町",
-        "type": "used",
-        "price": 23600,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20436494/"
-      },
-      {
-        "uid": "b2ace8ab05c9",
-        "name": "ガーデンヒルズ四ツ谷迎賓の森",
-        "station": "信濃町",
-        "type": "used",
-        "price": 23600,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_79219050/"
-      },
-      {
-        "uid": "cc8a1afc6990",
-        "name": "ガーデンヒルズ四ツ谷迎賓の森",
-        "station": "信濃町",
-        "type": "used",
-        "price": 23600,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20340207/"
-      },
-      {
-        "uid": "851f871d2cb2",
-        "name": "Brillia四谷三丁目",
-        "station": "四ツ谷",
-        "type": "used",
-        "price": 12800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_79185254/"
-      },
-      {
-        "uid": "8d5cec2aad9c",
-        "name": "リムテラス四谷ザ・クラス",
-        "station": "四ツ谷",
-        "type": "used",
-        "price": 13000,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78860627/"
-      },
-      {
-        "uid": "d8829ca377de",
-        "name": "ザ・パークハウス市ヶ谷",
-        "station": "四ツ谷",
-        "type": "used",
-        "price": 14000,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20317757/"
-      },
-      {
-        "uid": "7f8d6c0df9c2",
-        "name": "ジオ四谷三栄町",
-        "station": "四ツ谷",
-        "type": "used",
-        "price": 14990,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_79042011/"
-      },
-      {
-        "uid": "ac45c6a800da",
-        "name": "ジオ四谷荒木町",
-        "station": "四ツ谷",
-        "type": "used",
-        "price": 15480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78965021/"
-      },
-      {
-        "uid": "0fbedfa65853",
-        "name": "ザ・パークハウス市ヶ谷",
-        "station": "四ツ谷",
-        "type": "used",
-        "price": 17000,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20289307/"
-      },
-      {
-        "uid": "ca87d8f75e92",
-        "name": "ザ・パークハウス市ヶ谷",
-        "station": "四ツ谷",
-        "type": "used",
-        "price": 17000,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20039883/"
-      },
-      {
-        "uid": "ccac7b107f6e",
-        "name": "グランスイート四谷エクシア",
-        "station": "四ツ谷",
-        "type": "used",
-        "price": 17380,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20315837/"
-      },
-      {
-        "uid": "469e9dcb119c",
-        "name": "九段千鳥ヶ淵テラス",
-        "station": "市谷",
-        "type": "used",
-        "price": 16780,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_chiyoda/nc_20051145/"
-      },
-      {
-        "uid": "5ff128b23ddc",
-        "name": "オープンレジデンシア飯田橋",
-        "station": "飯田橋",
-        "type": "used",
-        "price": 9980.0,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_bunkyo/nc_78959155/"
-      },
-      {
-        "uid": "c4bb0f9ca0eb",
-        "name": "サンクタス神楽坂",
-        "station": "飯田橋",
-        "type": "used",
-        "price": 10500,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_79223470/"
-      },
-      {
-        "uid": "f70bf3d090b2",
-        "name": "プラウド神楽坂マークス",
-        "station": "飯田橋",
-        "type": "used",
-        "price": 13200,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20376694/"
-      },
-      {
-        "uid": "607bd9cad577",
-        "name": "パークリュクス渋谷西原",
-        "station": "代々木",
-        "type": "used",
-        "price": 12480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20453145/"
-      },
-      {
-        "uid": "a2f46a34695a",
-        "name": "オープンレジデンシア上原",
-        "station": "代々木",
-        "type": "used",
-        "price": 13980,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20468734/"
-      },
-      {
-        "uid": "68a810c4e268",
-        "name": "オープンレジデンシア上原",
-        "station": "代々木",
-        "type": "used",
-        "price": 14500,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20387437/"
-      },
-      {
-        "uid": "180876de4180",
-        "name": "オープンレジデンシア代々木上原",
-        "station": "代々木",
-        "type": "used",
-        "price": 15499,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20471156/"
-      },
-      {
-        "uid": "be2c923ccbb9",
-        "name": "◇オープンレジデンシア代々木上原◇",
-        "station": "代々木",
-        "type": "used",
-        "price": 15499,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_79064951/"
-      },
-      {
-        "uid": "406440a3812d",
-        "name": "ザ・パークハウス元代々木町",
-        "station": "代々木",
-        "type": "used",
-        "price": 24800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20279264/"
-      },
-      {
-        "uid": "4d7225d13987",
-        "name": "Ｂｒｉｌｌｉａ　Ｔｏｗｅｒ代々木公園ＣＬＡＳＳＹ",
-        "station": "代々木",
-        "type": "used",
-        "price": 35000,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_79233452/"
-      },
-      {
-        "uid": "4be73f5c81dd",
-        "name": "シティテラス代々木公園",
-        "station": "代々木",
-        "type": "used",
-        "price": 9600.0,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_78737572/"
-      },
-      {
-        "uid": "23b2aaf8cd00",
-        "name": "ブランズ渋谷代々木公園",
-        "station": "代々木",
-        "type": "used",
-        "price": 15500,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20221089/"
-      },
-      {
-        "uid": "5e2cc462fd33",
-        "name": "アトラス青山レジデンシャル",
-        "station": "明治神宮前",
-        "type": "used",
-        "price": 13980,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_78991888/"
-      },
-      {
-        "uid": "6ba197a06213",
-        "name": "アトラス渋谷公園通り",
-        "station": "明治神宮前",
-        "type": "used",
-        "price": 16980,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_79042096/"
-      },
-      {
-        "uid": "7e5f027287cd",
-        "name": "BAOS神宮前",
-        "station": "明治神宮前",
-        "type": "used",
-        "price": 18970,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20329288/"
-      },
-      {
-        "uid": "2e8b22744457",
-        "name": "アトラス渋谷公園通り",
-        "station": "明治神宮前",
-        "type": "used",
-        "price": 23000,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_78991822/"
-      },
-      {
-        "uid": "42ae7b3294da",
-        "name": "【グランリビオ表参道】喧騒は、この門をくぐり抜けない…",
-        "station": "明治神宮前",
-        "type": "used",
-        "price": 52800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20358837/"
-      },
-      {
-        "uid": "65c966cffd40",
-        "name": "テラス渋谷美竹",
-        "station": "明治神宮前",
-        "type": "used",
-        "price": 65800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_76875951/"
-      },
-      {
-        "uid": "279d32448f28",
-        "name": "プラウド神宮前",
-        "station": "明治神宮前",
-        "type": "used",
-        "price": 73800,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_79041707/"
-      },
-      {
-        "uid": "bc38b6b2c413",
-        "name": "オープンレジデンシア表参道est",
-        "station": "表参道",
-        "type": "used",
-        "price": 14370,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_79041994/"
-      },
-      {
-        "uid": "0ed143cba7fd",
-        "name": "南青山マスターズハウス",
-        "station": "表参道",
-        "type": "used",
-        "price": 14480,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_79155014/"
-      },
-      {
-        "uid": "08aecd44c5aa",
-        "name": "アトラス表参道",
-        "station": "表参道",
-        "type": "used",
-        "price": 14580,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20093167/"
-      },
-      {
-        "uid": "fc3be2ef6d04",
-        "name": "オープンレジデンス南青山イーストテラス",
-        "station": "表参道",
-        "type": "used",
-        "price": 15300,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_minato/nc_20417671/"
-      },
-      {
-        "uid": "c087e5ebf60c",
-        "name": "家族の時間を重ねて",
-        "station": "荻窪",
-        "type": "used",
-        "price": 7980.0,
-        "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%9D%89%E4%B8%A6%E5%8C%BA/%E5%AE%B6%E6%97%8F%E3%81%AE%E6%99%82%E9%96%93%E3%82%92%E9%87%8D%E3%81%AD%E3%81%A6"
-      },
-      {
-        "uid": "845ea6251004",
-        "name": "面影のうつろい",
-        "station": "表参道",
-        "type": "used",
-        "price": 29800.0,
-        "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%AF%E5%8C%BA/%E9%9D%A2%E5%BD%B1%E3%81%AE%E3%81%86%E3%81%A4%E3%82%8D%E3%81%84"
-      },
-      {
-        "uid": "5aec61aee727",
-        "name": "空と窓のメゾ",
-        "station": "荻窪",
-        "type": "used",
-        "price": 12800.0,
-        "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%9D%89%E4%B8%A6%E5%8C%BA/%E7%A9%BA%E3%81%A8%E7%AA%93%E3%81%AE%E3%83%A1%E3%82%BE"
-      },
-      {
-        "uid": "1817d55b9784",
-        "name": "",
-        "station": "千駄ヶ谷",
-        "type": "used",
-        "price": 6280.0,
-        "detail_url": "https://cowcamo.jp/short_stories/d0TYubAATII"
-      },
-      {
-        "uid": "d19ca3f09158",
-        "name": "",
-        "station": "明治神宮前",
-        "type": "used",
-        "price": 15980.0,
-        "detail_url": "https://cowcamo.jp/short_stories/ftI57Vp7Rok"
-      },
-      {
-        "uid": "393bc988746c",
-        "name": "",
-        "station": "渋谷",
-        "type": "used",
-        "price": 19800.0,
-        "detail_url": "https://cowcamo.jp/short_stories/aXcTYjjvMic"
-      },
-      {
-        "uid": "9fef9162ee83",
-        "name": "",
-        "station": "代々木",
-        "type": "used",
-        "price": 18980.0,
-        "detail_url": "https://cowcamo.jp/short_stories/CXt3aswYORc"
-      },
-      {
-        "uid": "c2c32e487f5c",
-        "name": "",
-        "station": "代々木",
-        "type": "used",
-        "price": 18800.0,
-        "detail_url": "https://cowcamo.jp/short_stories/QkfrDGlkods"
-      },
-      {
-        "uid": "5c84fc8b2e53",
-        "name": "",
-        "station": "渋谷",
-        "type": "used",
-        "price": 12499.0,
-        "detail_url": "https://cowcamo.jp/short_stories/NdPyH2rjnBQ"
-      }
-    ],
+    "new_listings": [],
     "delisted": [],
     "stale": [],
     "station_summary": {
       "吉祥寺": {
-        "new_count": 23,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "西荻窪": {
-        "new_count": 17,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "荻窪": {
-        "new_count": 21,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "高円寺": {
-        "new_count": 22,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "代々木": {
-        "new_count": 27,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "千駄ヶ谷": {
-        "new_count": 15,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "信濃町": {
-        "new_count": 16,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "四ツ谷": {
-        "new_count": 19,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "市谷": {
-        "new_count": 12,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "飯田橋": {
-        "new_count": 11,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "渋谷": {
-        "new_count": 17,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
@@ -2543,20 +758,20 @@
         "stale_count": 0
       },
       "明治神宮前": {
-        "new_count": 8,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       },
       "表参道": {
-        "new_count": 15,
+        "new_count": 0,
         "delisted_count": 0,
         "price_reduced_count": 0,
         "stale_count": 0
       }
     },
     "summary": {
-      "total_new": 223,
+      "total_new": 0,
       "total_delisted": 0,
       "total_price_reduced": 0,
       "total_stale": 0
@@ -3953,7 +2168,7 @@
       "station": "代々木",
       "age_years": null,
       "age_text": "15年 / 3階建",
-      "image_url": "https://image1.homes.jp/smallimg/image.php?file=http%3A%2F%2Fimg.homes.jp%2F5007%2Frent%2F274247%2F1%2F1%2Fi90z.jpg",
+      "image_url": "https://image1.homes.jp/smallimg/image.php?file=http%3A%2F%2Fimg.homes.jp%2F133153%2Frent%2F504912%2F1%2F1%2Fryzb.jpg",
       "address": "東京都渋谷区代々木3丁目3-8",
       "access": "小田急小田原線 参宮橋駅 徒歩5分 / JR山手線 代々木駅 徒歩10分"
     },

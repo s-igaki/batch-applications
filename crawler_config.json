@@ -20,7 +20,7 @@
   },
   "profiles": [
     {
-      "name": "default",
+      "name": "igaki",
       "stations": {
         "吉祥寺":    {"code": "11640", "region": "tokyo"},
         "西荻窪":    {"code": "28500", "region": "tokyo"},
