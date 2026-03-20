@@ -92,7 +92,8 @@ tr:hover { background: #f8fafc; }
 /* Highlight section */
 .highlights { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 16px; margin-bottom: 20px; }
 .highlight-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
-.highlight-card h3 { font-size: 0.95rem; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+.highlight-card h3 { font-size: 0.95rem; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
+.section-desc, .highlight-card .card-desc { font-size: 0.75rem; color: var(--text-sub); margin-bottom: 10px; }
 .highlight-card ul { list-style: none; font-size: 0.82rem; }
 .highlight-card li { padding: 6px 0; border-bottom: 1px solid #f0f0f0; }
 .highlight-card li:last-child { border-bottom: none; }
@@ -291,10 +292,10 @@ function renderHighlights(filterType) {
   const div = document.createElement('div');
   div.className = 'highlights';
 
-  const makeCard = (title, badge, items, renderItem) => {
+  const makeCard = (title, badge, items, renderItem, desc) => {
     const card = document.createElement('div');
     card.className = 'highlight-card';
-    card.innerHTML = `<h3><span class="badge ${badge}">${items.length}</span> ${title}</h3>`;
+    card.innerHTML = `<h3><span class="badge ${badge}">${items.length}</span> ${title}</h3>${desc ? `<p class="card-desc">${desc}</p>` : ''}`;
     if (items.length === 0) {
       card.innerHTML += '<p style="color:var(--text-sub);font-size:0.82rem">該当なし</p>';
     } else {
@@ -315,13 +316,16 @@ function renderHighlights(filterType) {
   };
 
   div.appendChild(makeCard('新着物件', 'badge-new', newProps, p =>
-    `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${typeLabel(p.type)} / ${formatPrice(p.price_history[0].price, p.type)}</span>`
+    `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${typeLabel(p.type)} / ${formatPrice(p.price_history[0].price, p.type)}</span>`,
+    '前日から新しく掲載された物件を表示'
   ));
   div.appendChild(makeCard('値下げ物件', 'badge-reduced', reducedProps, p =>
-    `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${formatPrice(p.prevPrice, p.type)} → ${formatPrice(p.newPrice, p.type)}</span>`
+    `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${formatPrice(p.prevPrice, p.type)} → ${formatPrice(p.newPrice, p.type)}</span>`,
+    '前回取得時から価格が下がった物件を表示'
   ));
   div.appendChild(makeCard('掲載終了', 'badge-del', delistedProps.slice(0, 20), p =>
-    `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${typeLabel(p.type)} / 最終: ${p.last_seen}</span>`
+    `<span class="hl-name">${p.name}</span> <span class="hl-meta">${p.station} / ${typeLabel(p.type)} / 最終: ${p.last_seen}</span>`,
+    '以前掲載されていたが現在は掲載されていない物件を表示'
   ));
 
   return div;
@@ -341,7 +345,7 @@ function formatPrice(v, type) {
 function renderStationStats(type) {
   const section = document.createElement('div');
   section.className = 'section';
-  section.innerHTML = '<h2>駅別統計</h2>';
+  section.innerHTML = '<h2>駅別統計</h2><p class="section-desc">駅ごとの件数・価格・面積などの統計情報を一覧表示</p>';
 
   const tableWrap = document.createElement('div');
   tableWrap.className = 'table-wrap';
@@ -408,7 +412,7 @@ function fmtNum(v, d) {
 function renderTimeSeries(type) {
   const section = document.createElement('div');
   section.className = 'section';
-  section.innerHTML = '<h2>時系列推移</h2>';
+  section.innerHTML = '<h2>時系列推移</h2><p class="section-desc">日ごとの物件数・価格の変動を駅別にグラフで表示</p>';
 
   const dates = timeSeriesData.dates;
   if (!dates || dates.length < 2) {
@@ -488,7 +492,7 @@ function renderTimeSeries(type) {
 function renderPropertyList(filterType) {
   const section = document.createElement('div');
   section.className = 'section';
-  section.innerHTML = '<h2>物件一覧</h2>';
+  section.innerHTML = '<h2>物件一覧</h2><p class="section-desc">過去に取得した全物件の一覧（検索・フィルター・ソート可能）</p>';
 
   const filterBar = document.createElement('div');
   filterBar.className = 'filter-bar';
