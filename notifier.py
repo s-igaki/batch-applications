@@ -215,7 +215,7 @@ def notify_line_new_listings(profile, changes, all_rental, all_new, all_used):
     # サマリーURLを末尾に追加
     summary_footer = {
         'type': 'text',
-        'text': '📊 サマリーはこちら\nhttps://s-igaki.github.io/batch-applications/index.html',
+        'text': f'📊 サマリーはこちら。プロファイルは{profile.name}を参照。\nhttps://s-igaki.github.io/batch-applications/index.html',
     }
     all_messages.append(summary_footer)
 
