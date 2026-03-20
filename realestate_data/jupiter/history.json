@@ -935,6 +935,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20479805/",
       "area": 78.05,
       "age_years": 10
+    },
+    "0e1e48e416bb": {
+      "name": "ライオンズマンション荻窪第２",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20484307/",
+      "area": 82.94,
+      "age_years": 45
+    },
+    "ae1d009993ae": {
+      "name": "ベルパーク湘南茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 2780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20391794/",
+      "area": 71.14,
+      "age_years": 29
+    },
+    "e7720ccdce18": {
+      "name": "オハナ茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 3880.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20485568/",
+      "area": 73.2,
+      "age_years": 3
     }
   }
 }
