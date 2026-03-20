@@ -269,6 +269,12 @@ function renderConditions(type) {
 /* --- Summary --- */
 function renderSummary() {
   const s = latestData.summary;
+  const wrapper = document.createElement('div');
+  const heading = document.createElement('h3');
+  heading.style.cssText = 'font-size:0.95rem;margin-bottom:10px;color:var(--text-sub)';
+  heading.textContent = '現在の掲載件数';
+  wrapper.appendChild(heading);
+
   const div = document.createElement('div');
   div.className = 'summary-row';
   const cards = [
@@ -283,7 +289,8 @@ function renderSummary() {
     card.innerHTML = `<div class="label">${c.label}</div><div class="value">${c.value}</div><div class="sub">${c.sub}</div>`;
     div.appendChild(card);
   });
-  return div;
+  wrapper.appendChild(div);
+  return wrapper;
 }
 
 /* --- Highlights --- */
