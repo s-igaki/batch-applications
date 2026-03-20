@@ -193,20 +193,21 @@ function render() {
   el.appendChild(renderSummary());
 
   // Main tabs
+  const s = latestData.summary;
   const mainTypes = [
-    ['rental', '賃貸'],
-    ['new', '新築'],
-    ['used', '中古'],
+    ['rental', '賃貸', s.rental_count],
+    ['new', '新築', s.new_count],
+    ['used', '中古', s.used_count],
   ];
   const tabBar = document.createElement('div');
   tabBar.className = 'main-tabs';
   const tabContent = document.createElement('div');
   tabContent.id = 'main-tab-content';
 
-  mainTypes.forEach(([key, label]) => {
+  mainTypes.forEach(([key, label, count]) => {
     const btn = document.createElement('button');
     btn.className = 'main-tab-btn' + (key === activeMainTab ? ' active' : '');
-    btn.textContent = label;
+    btn.textContent = `${label}（${count}）`;
     btn.addEventListener('click', () => {
       activeMainTab = key;
       tabBar.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
