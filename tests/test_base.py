@@ -8,6 +8,8 @@ from crawlers.base import (
     parse_buy_price,
     parse_age_years,
     extract_walk_minutes,
+    extract_walk_text,
+    parse_management_fee,
     make_unique_id,
     fetch_soup,
 )
@@ -121,6 +123,55 @@ class TestExtractWalkMinutes:
 
     def test_no_match(self):
         assert extract_walk_minutes("バス10分") is None
+
+
+# ============================================================
+# extract_walk_text
+# ============================================================
+class TestExtractWalkText:
+    def test_with_station_and_walk(self):
+        assert extract_walk_text("JR総武線/吉祥寺駅 徒歩12分", "吉祥寺") == "吉祥寺駅 徒歩12分"
+
+    def test_station_only(self):
+        assert extract_walk_text("バス10分", "渋谷") == "渋谷駅"
+
+    def test_walk_only(self):
+        assert extract_walk_text("徒歩5分", None) == "徒歩5分"
+
+    def test_empty(self):
+        assert extract_walk_text("", None) == ""
+
+    def test_none(self):
+        assert extract_walk_text(None, None) == ""
+
+
+# ============================================================
+# parse_management_fee
+# ============================================================
+class TestParseManagementFee:
+    def test_yen(self):
+        assert parse_management_fee("5,000円") == 0.5
+
+    def test_man_yen(self):
+        assert parse_management_fee("1万円") == 1.0
+
+    def test_dash(self):
+        assert parse_management_fee("-") is None
+
+    def test_komi(self):
+        assert parse_management_fee("込み") is None
+
+    def test_none(self):
+        assert parse_management_fee(None) is None
+
+    def test_empty(self):
+        assert parse_management_fee("") is None
+
+    def test_small_amount(self):
+        assert parse_management_fee("3000円") == 0.3
+
+    def test_large_amount(self):
+        assert parse_management_fee("15,000円") == 1.5
 
 
 # ============================================================

@@ -98,6 +98,39 @@ def extract_walk_minutes(text):
     return int(m.group(1)) if m else None
 
 
+def extract_walk_text(access_text, station_name):
+    """駅徒歩テキストを生成（例: '吉祥寺駅 徒歩12分'）"""
+    if not access_text:
+        return ''
+    m = re.search(r'徒歩\d+分', access_text)
+    walk_part = m.group(0) if m else ''
+    if station_name and walk_part:
+        return f"{station_name}駅 {walk_part}"
+    if station_name:
+        return f"{station_name}駅"
+    return walk_part
+
+
+def parse_management_fee(text):
+    """管理費・共益費テキストから万円単位の数値を抽出
+    例: '5,000円' → 0.5, '1万円' → 1.0, '-' → None
+    """
+    if not text:
+        return None
+    text = text.replace(',', '').replace('，', '').replace(' ', '')
+    if text in ('-', '—', '―', '–', 'ー', '込み', '不要'):
+        return None
+    # 「X万円」形式
+    m = re.search(r'([\d.]+)\s*万', text)
+    if m:
+        return float(m.group(1))
+    # 「X円」形式 → 万円に変換
+    m = re.search(r'([\d.]+)\s*円', text)
+    if m:
+        return round(float(m.group(1)) / 10000, 4)
+    return None
+
+
 def make_unique_id(url_or_text):
     """URLまたはテキストからユニークIDを生成"""
     return hashlib.md5(url_or_text.encode('utf-8')).hexdigest()[:12]

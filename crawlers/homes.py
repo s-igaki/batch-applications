@@ -7,7 +7,8 @@ from bs4 import BeautifulSoup
 
 from .base import (
     log, fetch_soup, parse_number, parse_buy_price,
-    parse_age_years, extract_walk_minutes, make_unique_id,
+    parse_age_years, extract_walk_minutes, extract_walk_text,
+    parse_management_fee, make_unique_id,
 )
 
 
@@ -144,9 +145,12 @@ class HomesCrawler:
                     'detail_url': building_url,
                     'price': None,
                     'price_text': '',
+                    'management_fee': None,
+                    'management_fee_text': '',
                     'area': None,
                     'area_text': '',
                     'walk_minutes': walk_min,
+                    'walk_text': extract_walk_text(' / '.join(access_texts), matched_station),
                     'station': matched_station,
                     'age_years': age_years,
                     'age_text': age_text,
@@ -181,6 +185,18 @@ class HomesCrawler:
                     if m:
                         rent_val = float(m.group(1))
 
+                # 管理費・共益費
+                mgmt_fee_text = ''
+                mgmt_fee_val = None
+                mgmt_td = row.select_one('td.adminFee')
+                if not mgmt_td:
+                    # 賃料の次のtdを管理費として試行
+                    if price_td:
+                        mgmt_td = price_td.find_next_sibling('td')
+                if mgmt_td:
+                    mgmt_fee_text = mgmt_td.get_text(strip=True)
+                    mgmt_fee_val = parse_management_fee(mgmt_fee_text)
+
                 area_text = ''
                 area_val = None
                 layout_td = row.select_one('td.layout')
@@ -207,9 +223,12 @@ class HomesCrawler:
                     'detail_url': detail_url,
                     'price': rent_val,
                     'price_text': rent_text,
+                    'management_fee': mgmt_fee_val,
+                    'management_fee_text': mgmt_fee_text,
                     'area': area_val,
                     'area_text': area_text,
                     'walk_minutes': walk_min,
+                    'walk_text': extract_walk_text(' / '.join(access_texts), matched_station),
                     'station': matched_station,
                     'age_years': age_years,
                     'age_text': age_text,
@@ -360,6 +379,7 @@ class HomesCrawler:
                 'area': area_val,
                 'area_text': area_text,
                 'walk_minutes': walk_min,
+                'walk_text': extract_walk_text(' / '.join(access_texts), matched_station),
                 'station': matched_station,
                 'age_years': age_years,
                 'age_text': age_text,

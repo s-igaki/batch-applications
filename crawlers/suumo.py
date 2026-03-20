@@ -6,7 +6,8 @@ from urllib.parse import urljoin
 
 from .base import (
     log, fetch_soup, parse_number, parse_buy_price,
-    parse_age_years, extract_walk_minutes, make_unique_id,
+    parse_age_years, extract_walk_minutes, extract_walk_text,
+    parse_management_fee, make_unique_id,
 )
 
 
@@ -160,6 +161,19 @@ class SuumoCrawler:
                 if m:
                     rent_val = float(m.group(1))
 
+            # 管理費・共益費
+            mgmt_fee_text = ''
+            mgmt_fee_val = None
+            if len(tds) >= 5:
+                mgmt_fee_text = tds[3].get_text(strip=True)
+                # rent_spansで賃料を取得済みの場合、tds[3]は管理費の可能性が高い
+                if rent_spans:
+                    mgmt_fee_val = parse_management_fee(mgmt_fee_text)
+                else:
+                    # 賃料がtds[3]から取得された場合、tds[4]が管理費
+                    mgmt_fee_text = tds[4].get_text(strip=True) if len(tds) >= 5 else ''
+                    mgmt_fee_val = parse_management_fee(mgmt_fee_text)
+
             # 間取り・専有面積
             area_text = ''
             area_val = None
@@ -178,9 +192,12 @@ class SuumoCrawler:
                 'detail_url': detail_url,
                 'price': rent_val,
                 'price_text': rent_text,
+                'management_fee': mgmt_fee_val,
+                'management_fee_text': mgmt_fee_text,
                 'area': area_val,
                 'area_text': area_text,
                 'walk_minutes': walk_min_default,
+                'walk_text': extract_walk_text(' / '.join(access_texts), walk_station_default),
                 'station': walk_station_default,
                 'age_years': age_years,
                 'age_text': age_text,
@@ -345,6 +362,7 @@ class SuumoCrawler:
                 'area': area_val,
                 'area_text': area_text,
                 'walk_minutes': walk_min,
+                'walk_text': extract_walk_text(access, walk_station),
                 'station': walk_station,
                 'age_years': age_years,
                 'age_text': age_text,
@@ -440,6 +458,7 @@ class SuumoCrawler:
                 'area': area_val,
                 'area_text': area_text,
                 'walk_minutes': walk_min,
+                'walk_text': extract_walk_text(access, walk_station),
                 'station': walk_station,
                 'age_years': age_years,
                 'age_text': age_text,

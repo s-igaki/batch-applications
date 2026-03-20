@@ -5,7 +5,8 @@ import time
 from urllib.parse import urljoin
 
 from .base import (
-    log, fetch_soup, parse_buy_price, extract_walk_minutes, make_unique_id,
+    log, fetch_soup, parse_buy_price, extract_walk_minutes, extract_walk_text,
+    make_unique_id,
 )
 
 
@@ -113,6 +114,12 @@ class CowcamoCrawler:
                 if len(spans) >= 2:
                     address = spans[1].get_text(strip=True)
 
+            access_raw = ''
+            if misc:
+                spans = misc.select('span')
+                if spans:
+                    access_raw = spans[0].get_text(strip=True)
+
             return {
                 'source': 'cowcamo',
                 'type': '中古',
@@ -123,12 +130,13 @@ class CowcamoCrawler:
                 'area': area_val,
                 'area_text': area_text,
                 'walk_minutes': walk_min,
+                'walk_text': extract_walk_text(access_raw, walk_station),
                 'station': walk_station,
                 'age_years': None,
                 'age_text': '',
                 'image_url': image_url,
                 'address': address,
-                'access': '',
+                'access': access_raw,
             }
         except Exception as e:
             log(f"  cowcamoパースエラー: {e}")
