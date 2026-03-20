@@ -35,6 +35,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           LINE_CLIENT_ID: ${{ secrets.LINE_CLIENT_ID }}
           LINE_CLIENT_SECRET: ${{ secrets.LINE_CLIENT_SECRET }}
+          YAMADA_LINE_CLIENT_ID: ${{ secrets.YAMADA_LINE_CLIENT_ID }}
+          YAMADA_LINE_CLIENT_SECRET: ${{ secrets.YAMADA_LINE_CLIENT_SECRET }}
         run: python ./realestate_crawler.py
 
       - name: Commit and push generated data
