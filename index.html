@@ -44,8 +44,10 @@ header h1 { font-size: 1.4rem; }
 .cond-item b { color: var(--text); }
 
 /* Main Tabs */
-.main-tabs { display: flex; gap: 0; margin-bottom: 20px; border-bottom: 2px solid var(--border); }
-.main-tab-btn { padding: 12px 28px; border: none; background: none; cursor: pointer; font-size: 1rem; color: var(--text-sub); font-weight: 500; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
+.main-tabs { display: flex; gap: 0; margin-bottom: 20px; border-bottom: 2px solid var(--border); background: var(--bg); transition: all 0.25s ease; z-index: 100; }
+.main-tabs.sticky { position: fixed; top: 0; left: 0; right: 0; margin-bottom: 0; padding: 0 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.main-tabs.sticky .main-tab-btn { padding: 6px 20px; font-size: 0.85rem; }
+.main-tab-btn { padding: 12px 28px; border: none; background: none; cursor: pointer; font-size: 1rem; color: var(--text-sub); font-weight: 500; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.25s ease; }
 .main-tab-btn:hover { color: var(--accent); }
 .main-tab-btn.active { color: var(--accent); font-weight: 700; border-bottom-color: var(--accent); }
 
@@ -216,9 +218,33 @@ function render() {
     tabBar.appendChild(btn);
   });
 
+  // Placeholder to prevent content jump when tabs become fixed
+  const tabPlaceholder = document.createElement('div');
+  tabPlaceholder.id = 'tab-placeholder';
+  tabPlaceholder.style.display = 'none';
+
   el.appendChild(tabBar);
+  el.appendChild(tabPlaceholder);
   el.appendChild(tabContent);
   renderTabContent(tabContent, activeMainTab);
+
+  // Sticky tab on scroll
+  const onScroll = () => {
+    const rect = tabPlaceholder.getBoundingClientRect();
+    if (rect.top <= 0) {
+      if (!tabBar.classList.contains('sticky')) {
+        tabPlaceholder.style.display = 'block';
+        tabPlaceholder.style.height = tabBar.offsetHeight + 'px';
+        tabBar.classList.add('sticky');
+      }
+    } else {
+      tabBar.classList.remove('sticky');
+      tabPlaceholder.style.display = 'none';
+    }
+  };
+  window.removeEventListener('scroll', window._tabScrollHandler);
+  window._tabScrollHandler = onScroll;
+  window.addEventListener('scroll', onScroll, { passive: true });
 }
 
 function renderTabContent(container, type) {
