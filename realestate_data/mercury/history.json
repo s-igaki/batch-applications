@@ -3726,6 +3726,10 @@
         {
           "date": "2026-03-20",
           "price": 7499.0
+        },
+        {
+          "date": "2026-03-20",
+          "price": 7399.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_78022288/",
@@ -4835,6 +4839,198 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000105853831/",
       "area": 43.19,
       "age_years": 10
+    },
+    "cae8a8334a23": {
+      "name": "キングハウス吉祥寺A棟",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 15.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105788730/",
+      "area": 44.32,
+      "age_years": 13
+    },
+    "ca4287639d8c": {
+      "name": "PRATIQUE西荻窪",
+      "type": "rental",
+      "station": "西荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 19.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104156870/",
+      "area": 43.22,
+      "age_years": 0
+    },
+    "ef07e063f4e9": {
+      "name": "LEGALAND荻窪ANNEX",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 17.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000094204037/",
+      "area": 40.74,
+      "age_years": 2
+    },
+    "272665d05fa2": {
+      "name": "ＭＡＩＴＲＩ　ＹＯＴＳＵＹＡ（マイトリィ四ツ谷）",
+      "type": "rental",
+      "station": "四ツ谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 20.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105381998/",
+      "area": 43.93,
+      "age_years": 3
+    },
+    "778dc7892b42": {
+      "name": "ＭＡＩＴＲＩ　ＹＯＴＳＵＹＡ（マイトリィ四ツ谷）",
+      "type": "rental",
+      "station": "四ツ谷",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 23.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000103473376/",
+      "area": 45.79,
+      "age_years": 3
+    },
+    "de3926bbcd7d": {
+      "name": "SOU YOYOGIKOUEN",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 19.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000098942315/",
+      "area": 40.2,
+      "age_years": 7
+    },
+    "0a6184cbe6bd": {
+      "name": "SOU YOYOGIKOUEN",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 21.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105034988/",
+      "area": 44.7,
+      "age_years": 7
+    },
+    "039d61d79bb3": {
+      "name": "東京メトロ千代田線 代々木公園駅 地下1地上3階建 築7年",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 19.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000099086136/",
+      "area": 40.2,
+      "age_years": 7
+    },
+    "da8d9ac94dd7": {
+      "name": "THE　KITA",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 69800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_78063221/",
+      "area": 123.96,
+      "age_years": 6
+    },
+    "a93cd6db1860": {
+      "name": "ブランズ神楽坂",
+      "type": "used",
+      "station": "飯田橋",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 16490
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78313029/",
+      "area": 60.03,
+      "age_years": 4
+    },
+    "c13a6486c679": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 4599.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20479805/",
+      "area": 78.05,
+      "age_years": 10
+    },
+    "3dd943fa0161": {
+      "name": "武蔵野市吉祥寺北町4丁目",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-20",
+      "last_seen": "2026-03-20",
+      "price_history": [
+        {
+          "date": "2026-03-20",
+          "price": 13000
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_musashino/nc_78267474/",
+      "area": 91.87,
+      "age_years": 7
     }
   }
 }

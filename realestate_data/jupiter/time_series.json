@@ -6,37 +6,37 @@
     "吉祥寺": {
       "rental": {
         "count": [
-          1
+          0
         ],
         "median_price": [
-          15.0
+          null
         ],
         "median_price_per_sqm": [
-          0.2331
+          null
         ],
         "p25_price_per_sqm": [
-          0.2331
+          null
         ],
         "avg_price": [
-          15.0
+          null
         ],
         "min_price": [
-          15.0
+          null
         ],
         "avg_area": [
-          64.36
+          null
         ],
         "avg_age": [
-          4
+          null
         ],
         "avg_walk": [
-          5
+          null
         ],
         "new_listings": [
           0
         ],
         "delisted": [
-          0
+          1
         ],
         "price_reduced": [
           0
@@ -94,13 +94,13 @@
           4439.5
         ],
         "median_price_per_sqm": [
-          59.4184
+          58.7779
         ],
         "p25_price_per_sqm": [
           53.1816
         ],
         "avg_price": [
-          4049.5
+          4039.5
         ],
         "min_price": [
           2380.0
@@ -115,10 +115,10 @@
           3.9
         ],
         "new_listings": [
-          0
+          1
         ],
         "delisted": [
-          0
+          1
         ],
         "price_reduced": [
           0
@@ -588,31 +588,31 @@
       },
       "used": {
         "count": [
-          9
+          10
         ],
         "median_price": [
           4299.0
         ],
         "median_price_per_sqm": [
-          56.0949
+          56.6508
         ],
         "p25_price_per_sqm": [
           51.5695
         ],
         "avg_price": [
-          4139.3333
+          4155.3
         ],
         "min_price": [
           2150.0
         ],
         "avg_area": [
-          80.08
+          78.24
         ],
         "avg_age": [
-          29.7778
+          30.7
         ],
         "avg_walk": [
-          9.6667
+          9.5
         ],
         "new_listings": [
           0
@@ -713,31 +713,31 @@
       },
       "used": {
         "count": [
-          1
+          0
         ],
         "median_price": [
-          4299.0
+          null
         ],
         "median_price_per_sqm": [
-          69.6984
+          null
         ],
         "p25_price_per_sqm": [
-          69.6984
+          null
         ],
         "avg_price": [
-          4299.0
+          null
         ],
         "min_price": [
-          4299.0
+          null
         ],
         "avg_area": [
-          61.68
+          null
         ],
         "avg_age": [
-          39
+          null
         ],
         "avg_walk": [
-          3
+          null
         ],
         "new_listings": [
           0
@@ -844,16 +844,16 @@
           4235.0
         ],
         "median_price_per_sqm": [
-          46.8288
+          45.0657
         ],
         "p25_price_per_sqm": [
           41.9419
         ],
         "avg_price": [
-          4347.125
+          4309.625
         ],
         "min_price": [
-          3780.0
+          3690.0
         ],
         "avg_area": [
           98.3825
@@ -871,7 +871,7 @@
           0
         ],
         "price_reduced": [
-          0
+          1
         ],
         "stale": [
           0
@@ -975,7 +975,7 @@
           36.2169
         ],
         "avg_price": [
-          3518.1364
+          3513.5909
         ],
         "min_price": [
           2490.0
@@ -996,7 +996,7 @@
           0
         ],
         "price_reduced": [
-          0
+          1
         ],
         "stale": [
           0
@@ -1007,13 +1007,13 @@
   "overall": {
     "rental": {
       "count": [
-        4
+        3
       ],
       "median_price": [
-        14.95
+        14.9
       ],
       "median_price_per_sqm": [
-        0.2527
+        0.2723
       ]
     },
     "new": {
@@ -1032,10 +1032,10 @@
         53
       ],
       "median_price": [
-        4299.0
+        4369.25
       ],
       "median_price_per_sqm": [
-        59.4184
+        57.7143
       ]
     }
   }
