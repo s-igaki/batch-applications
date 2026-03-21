@@ -1,129 +1,169 @@
 {
   "dates": [
-    "2026-03-20"
+    "2026-03-20",
+    "2026-03-21"
   ],
   "stations": {
     "吉祥寺": {
       "rental": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          1,
           1
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "new": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "used": {
         "count": [
+          10,
           10
         ],
         "median_price": [
+          4439.5,
           4439.5
         ],
         "median_price_per_sqm": [
+          58.7779,
           58.7779
         ],
         "p25_price_per_sqm": [
+          53.1816,
           53.1816
         ],
         "avg_price": [
+          4039.5,
           4039.5
         ],
         "min_price": [
+          2380.0,
           2380.0
         ],
         "avg_area": [
+          70.629,
           70.629
         ],
         "avg_age": [
+          37.6,
           37.6
         ],
         "avg_walk": [
+          3.9,
           3.9
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          1,
           1
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       }
@@ -131,124 +171,163 @@
     "西荻窪": {
       "rental": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "new": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "used": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       }
@@ -256,124 +335,163 @@
     "荻窪": {
       "rental": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "new": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "used": {
         "count": [
+          2,
           2
         ],
         "median_price": [
+          4589.0,
           4589.0
         ],
         "median_price_per_sqm": [
+          65.5662,
           65.5662
         ],
         "p25_price_per_sqm": [
+          54.015,
           54.015
         ],
         "avg_price": [
+          4589.0,
           4589.0
         ],
         "min_price": [
+          4480.0,
           4480.0
         ],
         "avg_area": [
+          71.93,
           71.93
         ],
         "avg_age": [
+          49.5,
           49.5
         ],
         "avg_walk": [
+          7,
           7
         ],
         "new_listings": [
-          1
+          1,
+          0
         ],
         "delisted": [
+          1,
           1
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       }
@@ -381,124 +499,163 @@
     "阿佐ヶ谷": {
       "rental": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "new": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "used": {
         "count": [
+          1,
           1
         ],
         "median_price": [
+          4480.0,
           4480.0
         ],
         "median_price_per_sqm": [
+          65.9502,
           65.9502
         ],
         "p25_price_per_sqm": [
+          65.9502,
           65.9502
         ],
         "avg_price": [
+          4480.0,
           4480.0
         ],
         "min_price": [
+          4480.0,
           4480.0
         ],
         "avg_area": [
+          67.93,
           67.93
         ],
         "avg_age": [
+          67,
           67
         ],
         "avg_walk": [
+          8,
           8
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       }
@@ -506,124 +663,163 @@
     "片瀬江ノ島": {
       "rental": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "new": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "used": {
         "count": [
-          10
+          10,
+          9
         ],
         "median_price": [
+          4299.0,
           4299.0
         ],
         "median_price_per_sqm": [
-          56.6508
+          56.6508,
+          56.0949
         ],
         "p25_price_per_sqm": [
+          51.5695,
           51.5695
         ],
         "avg_price": [
-          4155.3
+          4155.3,
+          4139.3333
         ],
         "min_price": [
+          2150.0,
           2150.0
         ],
         "avg_area": [
-          78.24
+          78.24,
+          80.08
         ],
         "avg_age": [
-          30.7
+          30.7,
+          29.7778
         ],
         "avg_walk": [
-          9.5
+          9.5,
+          9.6667
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       }
@@ -631,124 +827,163 @@
     "江ノ島": {
       "rental": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "new": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "used": {
         "count": [
-          0
+          0,
+          1
         ],
         "median_price": [
-          null
+          null,
+          4299.0
         ],
         "median_price_per_sqm": [
-          null
+          null,
+          69.6984
         ],
         "p25_price_per_sqm": [
-          null
+          null,
+          69.6984
         ],
         "avg_price": [
-          null
+          null,
+          4299.0
         ],
         "min_price": [
-          null
+          null,
+          4299.0
         ],
         "avg_area": [
-          null
+          null,
+          61.68
         ],
         "avg_age": [
-          null
+          null,
+          39
         ],
         "avg_walk": [
-          null
+          null,
+          3
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       }
@@ -756,124 +991,163 @@
     "鎌倉": {
       "rental": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "new": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "used": {
         "count": [
+          8,
           8
         ],
         "median_price": [
+          4235.0,
           4235.0
         ],
         "median_price_per_sqm": [
+          45.0657,
           45.0657
         ],
         "p25_price_per_sqm": [
+          41.9419,
           41.9419
         ],
         "avg_price": [
+          4309.625,
           4309.625
         ],
         "min_price": [
+          3690.0,
           3690.0
         ],
         "avg_area": [
+          98.3825,
           98.3825
         ],
         "avg_age": [
+          26.875,
           26.875
         ],
         "avg_walk": [
+          11.25,
           11.25
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       }
@@ -881,124 +1155,163 @@
     "茅ヶ崎": {
       "rental": {
         "count": [
+          3,
           3
         ],
         "median_price": [
+          14.9,
           14.9
         ],
         "median_price_per_sqm": [
-          0.2723
-        ],
-        "p25_price_per_sqm": [
+          0.2723,
           0.2686
         ],
+        "p25_price_per_sqm": [
+          0.2686,
+          0.2534
+        ],
         "avg_price": [
+          14.8667,
           14.8667
         ],
         "min_price": [
+          14.7,
           14.7
         ],
         "avg_area": [
-          54.72
+          54.72,
+          56.0833
         ],
         "avg_age": [
+          0,
           0
         ],
         "avg_walk": [
+          14,
           14
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "new": {
         "count": [
+          0,
           0
         ],
         "median_price": [
+          null,
           null
         ],
         "median_price_per_sqm": [
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null
         ],
         "avg_price": [
+          null,
           null
         ],
         "min_price": [
+          null,
           null
         ],
         "avg_area": [
+          null,
           null
         ],
         "avg_age": [
+          null,
           null
         ],
         "avg_walk": [
+          null,
           null
         ],
         "new_listings": [
+          0,
           0
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       },
       "used": {
         "count": [
-          24
+          24,
+          25
         ],
         "median_price": [
+          3580.0,
           3580.0
         ],
         "median_price_per_sqm": [
-          41.6099
+          41.6099,
+          41.1778
         ],
         "p25_price_per_sqm": [
+          36.2393,
           36.2393
         ],
         "avg_price": [
-          3498.2917
+          3498.2917,
+          3501.56
         ],
         "min_price": [
+          2490.0,
           2490.0
         ],
         "avg_area": [
-          81.7458
+          81.7458,
+          81.956
         ],
         "avg_age": [
-          22.3333
+          22.3333,
+          22.4
         ],
         "avg_walk": [
-          8.6087
+          8.6087,
+          8.5417
         ],
         "new_listings": [
-          2
+          2,
+          1
         ],
         "delisted": [
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0
         ],
         "stale": [
+          0,
           0
         ]
       }
@@ -1007,35 +1320,44 @@
   "overall": {
     "rental": {
       "count": [
+        3,
         3
       ],
       "median_price": [
+        14.9,
         14.9
       ],
       "median_price_per_sqm": [
-        0.2723
+        0.2723,
+        0.2686
       ]
     },
     "new": {
       "count": [
+        0,
         0
       ],
       "median_price": [
+        null,
         null
       ],
       "median_price_per_sqm": [
+        null,
         null
       ]
     },
     "used": {
       "count": [
-        55
+        55,
+        56
       ],
       "median_price": [
-        4369.25
+        4369.25,
+        4299.0
       ],
       "median_price_per_sqm": [
-        57.7143
+        57.7143,
+        58.7779
       ]
     }
   }
