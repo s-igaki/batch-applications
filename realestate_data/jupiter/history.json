@@ -1103,6 +1103,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20345932/",
       "area": 107.64,
       "age_years": 3
+    },
+    "f5ad7a2bb152": {
+      "name": "三鷹ナショナルコート１号棟",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "price_history": [
+        {
+          "date": "2026-03-23",
+          "price": 4199.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20504964/",
+      "area": 69.28,
+      "age_years": 52
     }
   }
 }
