@@ -1093,7 +1093,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-23",
+      "last_seen": "2026-03-24",
       "price_history": [
         {
           "date": "2026-03-23",
@@ -1135,6 +1135,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_20453627/",
       "area": 86.12,
       "age_years": 23
+    },
+    "606da313dbd3": {
+      "name": "リブリ・腰越",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "price_history": [
+        {
+          "date": "2026-03-24",
+          "price": 10.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104231202/",
+      "area": 52.17,
+      "age_years": 10
     }
   }
 }
