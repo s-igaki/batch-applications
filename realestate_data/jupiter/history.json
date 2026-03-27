@@ -69,7 +69,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -85,7 +85,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -117,7 +117,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -137,11 +137,15 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-23",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
           "price": 4499.0
+        },
+        {
+          "date": "2026-03-27",
+          "price": 4199.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20471077/",
@@ -185,7 +189,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -205,7 +209,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -221,7 +225,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -253,7 +257,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -273,7 +277,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -293,7 +297,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -309,7 +313,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -325,7 +329,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -373,7 +377,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -389,7 +393,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -405,7 +409,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -425,7 +429,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -457,7 +461,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -489,7 +493,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -505,7 +509,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -553,7 +557,7 @@
       "type": "used",
       "station": "阿佐ヶ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -569,7 +573,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -585,7 +589,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -601,7 +605,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -633,7 +637,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -649,7 +653,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -665,7 +669,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -681,7 +685,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -713,7 +717,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -729,7 +733,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -745,7 +749,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -761,7 +765,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -777,7 +781,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -797,7 +801,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -813,7 +817,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -829,7 +833,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -845,7 +849,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -861,7 +865,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -877,7 +881,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -909,7 +913,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -925,7 +929,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -941,7 +945,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -957,7 +961,7 @@
       "type": "used",
       "station": "荻窪",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -973,7 +977,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -1005,7 +1009,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-21",
@@ -1053,7 +1057,7 @@
       "type": "used",
       "station": "阿佐ヶ谷",
       "first_seen": "2026-03-22",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-22",
@@ -1101,7 +1105,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-23",
@@ -1117,7 +1121,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-23",
@@ -1133,7 +1137,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-24",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-24",
@@ -1197,7 +1201,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-03-26",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-26",
@@ -1213,7 +1217,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-03-26",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-26",
@@ -1229,7 +1233,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-03-26",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-26",
@@ -1245,7 +1249,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-26",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-26",
@@ -1261,7 +1265,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-26",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-26",
@@ -1293,7 +1297,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-26",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-26",
@@ -1309,7 +1313,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-26",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-26",
@@ -1319,6 +1323,38 @@
       "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20404295/",
       "area": 80.25,
       "age_years": 25
+    },
+    "4eb47af13982": {
+      "name": "エクセランパレＢ",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "price_history": [
+        {
+          "date": "2026-03-27",
+          "price": 7.75
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106046865/",
+      "area": 72.75,
+      "age_years": 9
+    },
+    "5090be525c4e": {
+      "name": "パークホームズ湘南茅ヶ崎海岸",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "price_history": [
+        {
+          "date": "2026-03-27",
+          "price": 4280.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20510301/",
+      "area": 72.41,
+      "age_years": 22
     }
   }
 }
