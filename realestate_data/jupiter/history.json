@@ -345,7 +345,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -361,7 +361,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -382,6 +382,10 @@
         {
           "date": "2026-03-20",
           "price": 3280.0
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3180.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_hiratsuka/nc_20010553/",
@@ -1041,7 +1045,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-03-22",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-22",
@@ -1073,7 +1077,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "price_history": [
         {
           "date": "2026-03-23",
@@ -1355,6 +1359,54 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20510301/",
       "area": 72.41,
       "age_years": 22
+    },
+    "4e6e441bdf35": {
+      "name": "ライオンズマンション荻窪第２",
+      "type": "used",
+      "station": "荻窪",
+      "first_seen": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "price_history": [
+        {
+          "date": "2026-03-27",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20530749/",
+      "area": 82.94,
+      "age_years": 45
+    },
+    "0b25aaaff90a": {
+      "name": "",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "price_history": [
+        {
+          "date": "2026-03-27",
+          "price": 4599.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20476734/",
+      "area": 78.05,
+      "age_years": 10
+    },
+    "7d6e21a9e7b7": {
+      "name": "茅ヶ崎市東海岸北2丁目　中古戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "price_history": [
+        {
+          "date": "2026-03-27",
+          "price": 4600.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78698779/",
+      "area": 72.96,
+      "age_years": 3
     }
   }
 }
