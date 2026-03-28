@@ -23,8 +23,7 @@
       "name": "mercury",
       "stations": {
         "吉祥寺":    {"code": "11640", "region": "tokyo"},
-        "西荻窪":    {"code": "28500", "region": "tokyo"},
-        "荻窪":      {"code": "06640", "region": "tokyo"},
+        "中野":      {"code": "27280", "region": "tokyo"},
         "高円寺":    {"code": "13930", "region": "tokyo"},
         "代々木":    {"code": "41280", "region": "tokyo"},
         "千駄ヶ谷":  {"code": "21520", "region": "tokyo"},
@@ -40,7 +39,8 @@
       },
       "homes_areas": {
         "tokyo/musashino-city":  ["吉祥寺"],
-        "tokyo/suginami-city":   ["西荻窪", "荻窪", "高円寺"],
+        "tokyo/nakano-city":     ["中野"],
+        "tokyo/suginami-city":   ["高円寺"],
         "tokyo/shibuya-city":    ["代々木", "千駄ヶ谷", "渋谷", "代々木上原", "代々木公園", "明治神宮前", "表参道"],
         "tokyo/shinjuku-city":   ["信濃町", "四ツ谷", "市谷"],
         "tokyo/chiyoda-city":    ["飯田橋", "市谷"],
@@ -51,7 +51,8 @@
           "enabled": true,
           "min_area": 40,
           "max_age": 20,
-          "max_rent": 24.0
+          "max_rent": 24.0,
+          "max_walk": 5
         },
         "new": {
           "enabled": true,
