@@ -5,7 +5,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-28",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -1045,7 +1045,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-03-22",
-      "last_seen": "2026-03-27",
+      "last_seen": "2026-03-28",
       "price_history": [
         {
           "date": "2026-03-22",
@@ -1407,6 +1407,86 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78698779/",
       "area": 72.96,
       "age_years": 3
+    },
+    "96e32a3ca3b7": {
+      "name": "ムーンボウ",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "price_history": [
+        {
+          "date": "2026-03-28",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106074229/",
+      "area": 64.36,
+      "age_years": 4
+    },
+    "d51d59ea2c67": {
+      "name": "江ノ島電鉄線 鎌倉駅 2階建 築10年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "price_history": [
+        {
+          "date": "2026-03-28",
+          "price": 12.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106083117/",
+      "area": 56.2,
+      "age_years": 10
+    },
+    "5e604fe2b276": {
+      "name": "財住協13三鷹マンション",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "price_history": [
+        {
+          "date": "2026-03-28",
+          "price": 3500.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20537400/",
+      "area": 86.08,
+      "age_years": 45
+    },
+    "cf2078c5326b": {
+      "name": "シーサイド片瀬江ノ島",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "price_history": [
+        {
+          "date": "2026-03-28",
+          "price": 4199.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20218992/",
+      "area": 61.68,
+      "age_years": 39
+    },
+    "fa569a53569f": {
+      "name": "茅ヶ崎グランドハイツB",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "price_history": [
+        {
+          "date": "2026-03-28",
+          "price": 3080.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20538628/",
+      "area": 68.13,
+      "age_years": 40
     }
   }
 }

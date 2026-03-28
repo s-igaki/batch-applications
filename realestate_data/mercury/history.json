@@ -85,7 +85,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-28",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2873,7 +2873,7 @@
       "type": "used",
       "station": "信濃町",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-27",
+      "last_seen": "2026-03-28",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -5029,7 +5029,7 @@
       "type": "used",
       "station": "飯田橋",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-27",
+      "last_seen": "2026-03-28",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -6917,7 +6917,7 @@
       "type": "used",
       "station": "飯田橋",
       "first_seen": "2026-03-22",
-      "last_seen": "2026-03-23",
+      "last_seen": "2026-03-28",
       "price_history": [
         {
           "date": "2026-03-22",
@@ -7845,7 +7845,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-03-25",
-      "last_seen": "2026-03-27",
+      "last_seen": "2026-03-28",
       "price_history": [
         {
           "date": "2026-03-25",
@@ -9578,6 +9578,70 @@
       "detail_url": "https://cowcamo.jp/short_stories/EJWBHlQj9Kc",
       "area": 54.8,
       "age_years": null
+    },
+    "96e32a3ca3b7": {
+      "name": "ムーンボウ",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "price_history": [
+        {
+          "date": "2026-03-28",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106074229/",
+      "area": 64.36,
+      "age_years": 4
+    },
+    "6eef8da6bbd6": {
+      "name": "イーストポイント中野",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "price_history": [
+        {
+          "date": "2026-03-28",
+          "price": 21.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104873401/",
+      "area": 44.47,
+      "age_years": 17
+    },
+    "705143a09579": {
+      "name": "エステムプラザ市谷外濠公園",
+      "type": "used",
+      "station": "四ツ谷",
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "price_history": [
+        {
+          "date": "2026-03-28",
+          "price": 8999.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78990982/",
+      "area": 40.98,
+      "age_years": 11
+    },
+    "e8fe24901d63": {
+      "name": "アトラス青山レジデンシャル",
+      "type": "used",
+      "station": "表参道",
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "price_history": [
+        {
+          "date": "2026-03-28",
+          "price": 13980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_78810214/",
+      "area": 43.04,
+      "age_years": 3
     }
   }
 }
