@@ -1,6 +1,111 @@
 {
   "snapshots": [
     {
+      "file": "2026-03-27_213114.json",
+      "date": "2026-03-27T21:31:14.862810",
+      "rental_count": 73,
+      "new_count": 61,
+      "used_count": 80
+    },
+    {
+      "file": "2026-03-27_095110.json",
+      "date": "2026-03-27T09:51:10.729070",
+      "rental_count": 68,
+      "new_count": 60,
+      "used_count": 82
+    },
+    {
+      "file": "2026-03-26_212848.json",
+      "date": "2026-03-26T21:28:48.876180",
+      "rental_count": 79,
+      "new_count": 60,
+      "used_count": 79
+    },
+    {
+      "file": "2026-03-26_095911.json",
+      "date": "2026-03-26T09:59:11.176236",
+      "rental_count": 79,
+      "new_count": 61,
+      "used_count": 76
+    },
+    {
+      "file": "2026-03-25_213527.json",
+      "date": "2026-03-25T21:35:27.937335",
+      "rental_count": 69,
+      "new_count": 61,
+      "used_count": 79
+    },
+    {
+      "file": "2026-03-25_094903.json",
+      "date": "2026-03-25T09:49:03.761091",
+      "rental_count": 74,
+      "new_count": 61,
+      "used_count": 79
+    },
+    {
+      "file": "2026-03-24_213455.json",
+      "date": "2026-03-24T21:34:55.473062",
+      "rental_count": 77,
+      "new_count": 61,
+      "used_count": 79
+    },
+    {
+      "file": "2026-03-24_095224.json",
+      "date": "2026-03-24T09:52:24.175320",
+      "rental_count": 55,
+      "new_count": 61,
+      "used_count": 79
+    },
+    {
+      "file": "2026-03-23_213257.json",
+      "date": "2026-03-23T21:32:57.009049",
+      "rental_count": 57,
+      "new_count": 63,
+      "used_count": 79
+    },
+    {
+      "file": "2026-03-23_100019.json",
+      "date": "2026-03-23T10:00:19.337253",
+      "rental_count": 64,
+      "new_count": 64,
+      "used_count": 78
+    },
+    {
+      "file": "2026-03-22_212301.json",
+      "date": "2026-03-22T21:23:01.019729",
+      "rental_count": 76,
+      "new_count": 64,
+      "used_count": 77
+    },
+    {
+      "file": "2026-03-22_092908.json",
+      "date": "2026-03-22T09:29:08.886652",
+      "rental_count": 78,
+      "new_count": 64,
+      "used_count": 76
+    },
+    {
+      "file": "2026-03-21_212142.json",
+      "date": "2026-03-21T21:21:42.605905",
+      "rental_count": 71,
+      "new_count": 66,
+      "used_count": 78
+    },
+    {
+      "file": "2026-03-21_092853.json",
+      "date": "2026-03-21T09:28:53.284795",
+      "rental_count": 82,
+      "new_count": 66,
+      "used_count": 75
+    },
+    {
+      "file": "2026-03-20_212751.json",
+      "date": "2026-03-20T21:27:51.483873",
+      "rental_count": 74,
+      "new_count": 64,
+      "used_count": 74
+    },
+    {
       "file": "2026-03-20_093819.json",
       "date": "2026-03-20T09:38:19.240574",
       "rental_count": 80,

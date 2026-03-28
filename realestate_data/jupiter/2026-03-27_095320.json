@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-03-27T21:33:30.570593",
+  "crawled_at": "2026-03-27T09:53:20.852519",
   "profile": "jupiter",
   "conditions": {
     "stations": [
@@ -17,13 +17,13 @@
     "max_rent_man": 15.0
   },
   "summary": {
-    "rental_count": 3,
+    "rental_count": 6,
     "new_count": 0,
-    "used_count": 54,
-    "suumo_rental": 3,
+    "used_count": 51,
+    "suumo_rental": 6,
     "suumo_new": 0,
-    "suumo_used": 25,
-    "suumo_used_ikkodate": 29,
+    "suumo_used": 23,
+    "suumo_used_ikkodate": 28,
     "homes_rental": 0,
     "homes_new": 0,
     "homes_used": 0,
@@ -31,39 +31,57 @@
   },
   "station_stats": {
     "rental": {
-      "鎌倉": {
+      "江ノ島": {
         "count": 2,
-        "avg_price": 13.45,
-        "median_price": 13.45,
+        "avg_price": 13.5,
+        "median_price": 13.5,
+        "min_price": 13.5,
+        "max_price": 13.5,
+        "avg_price_per_sqm": 0.1941,
+        "median_price_per_sqm": 0.1941,
+        "p25_price_per_sqm": 0.1941,
+        "p75_price_per_sqm": 0.1941,
+        "avg_area": 69.56,
+        "avg_age": 10,
+        "avg_walk": 8,
+        "new_listings": 0,
+        "delisted": 0,
+        "price_reduced": 0,
+        "stale_count": 0
+      },
+      "鎌倉": {
+        "count": 1,
+        "avg_price": 12.0,
+        "median_price": 12.0,
         "min_price": 12.0,
-        "max_price": 14.9,
-        "avg_price_per_sqm": 0.2542,
-        "median_price_per_sqm": 0.2542,
+        "max_price": 12.0,
+        "avg_price_per_sqm": 0.2135,
+        "median_price_per_sqm": 0.2135,
         "p25_price_per_sqm": 0.2135,
-        "p75_price_per_sqm": 0.295,
-        "avg_area": 53.35,
-        "avg_age": 5,
-        "avg_walk": 13.5,
+        "p75_price_per_sqm": 0.2135,
+        "avg_area": 56.2,
+        "avg_age": 10,
+        "avg_walk": 14,
         "new_listings": 0,
         "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
       },
       "茅ヶ崎": {
-        "count": 1,
-        "avg_price": 7.75,
-        "median_price": 7.75,
+        "count": 3,
+        "avg_price": 11.5833,
+        "median_price": 12.1,
         "min_price": 7.75,
-        "max_price": 7.75,
-        "avg_price_per_sqm": 0.1065,
-        "median_price_per_sqm": 0.1065,
+        "max_price": 14.9,
+        "avg_price_per_sqm": 0.1925,
+        "median_price_per_sqm": 0.2322,
         "p25_price_per_sqm": 0.1065,
-        "p75_price_per_sqm": 0.1065,
-        "avg_area": 72.75,
-        "avg_age": 9,
-        "avg_walk": 4,
-        "new_listings": 0,
-        "delisted": 2,
+        "p75_price_per_sqm": 0.2388,
+        "avg_area": 62.5233,
+        "avg_age": 11.6667,
+        "avg_walk": 9,
+        "new_listings": 1,
+        "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
       }
@@ -71,21 +89,21 @@
     "new": {},
     "used": {
       "吉祥寺": {
-        "count": 11,
-        "avg_price": 4204.6364,
+        "count": 10,
+        "avg_price": 4183.3,
         "median_price": 4299.0,
         "min_price": 2999.0,
         "max_price": 4599.0,
-        "avg_price_per_sqm": 57.4706,
-        "median_price_per_sqm": 58.9238,
+        "avg_price_per_sqm": 57.5568,
+        "median_price_per_sqm": 58.7779,
         "p25_price_per_sqm": 54.8162,
         "p75_price_per_sqm": 60.6091,
-        "avg_area": 73.2282,
-        "avg_age": 35.7273,
-        "avg_walk": 4.2727,
-        "new_listings": 1,
+        "avg_area": 72.778,
+        "avg_age": 34.9,
+        "avg_walk": 4.2,
+        "new_listings": 0,
         "delisted": 1,
-        "price_reduced": 0,
+        "price_reduced": 1,
         "stale_count": 0
       },
       "荻窪": {
@@ -101,8 +119,8 @@
         "avg_area": 82.94,
         "avg_age": 45,
         "avg_walk": 2,
-        "new_listings": 1,
-        "delisted": 1,
+        "new_listings": 0,
+        "delisted": 0,
         "price_reduced": 0,
         "stale_count": 0
       },
@@ -143,21 +161,21 @@
         "stale_count": 0
       },
       "茅ヶ崎": {
-        "count": 25,
-        "avg_price": 3597.96,
+        "count": 23,
+        "avg_price": 3576.5217,
         "median_price": 3580.0,
-        "min_price": 2580.0,
-        "max_price": 4600.0,
-        "avg_price_per_sqm": 45.0365,
+        "min_price": 2490.0,
+        "max_price": 4580.0,
+        "avg_price_per_sqm": 45.208,
         "median_price_per_sqm": 41.1778,
         "p25_price_per_sqm": 37.4121,
         "p75_price_per_sqm": 49.241,
-        "avg_area": 82.2088,
-        "avg_age": 20.28,
-        "avg_walk": 8.0833,
+        "avg_area": 81.0435,
+        "avg_age": 21.1739,
+        "avg_walk": 7.9545,
         "new_listings": 1,
-        "delisted": 3,
-        "price_reduced": 1,
+        "delisted": 2,
+        "price_reduced": 0,
         "stale_count": 0
       },
       "阿佐ヶ谷": {
@@ -183,42 +201,34 @@
   "changes": {
     "price_reduced": [
       {
-        "uid": "9484683b19b8",
-        "name": "エムズタワー宝町",
-        "station": "茅ヶ崎",
+        "uid": "027be00ba919",
+        "name": "三鷹ナショナルコート１号棟",
+        "station": "吉祥寺",
         "type": "used",
-        "old_price": 3280.0,
-        "new_price": 3180.0,
-        "change_pct": -3.0,
-        "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_hiratsuka/nc_20010553/",
-        "area": 61.42,
+        "old_price": 4499.0,
+        "new_price": 4199.0,
+        "change_pct": -6.7,
+        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20471077/",
+        "area": 69.28,
         "first_seen": "2026-03-20"
       }
     ],
     "new_listings": [
       {
-        "uid": "4e6e441bdf35",
-        "name": "ライオンズマンション荻窪第２",
-        "station": "荻窪",
-        "type": "used",
-        "price": 4480.0,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20530749/"
+        "uid": "4eb47af13982",
+        "name": "エクセランパレＢ",
+        "station": "茅ヶ崎",
+        "type": "rental",
+        "price": 7.75,
+        "detail_url": "https://suumo.jp/chintai/jnc_000106046865/"
       },
       {
-        "uid": "0b25aaaff90a",
-        "name": "",
-        "station": "吉祥寺",
-        "type": "used",
-        "price": 4599.0,
-        "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20476734/"
-      },
-      {
-        "uid": "7d6e21a9e7b7",
-        "name": "茅ヶ崎市東海岸北2丁目　中古戸建",
+        "uid": "5090be525c4e",
+        "name": "パークホームズ湘南茅ヶ崎海岸",
         "station": "茅ヶ崎",
         "type": "used",
-        "price": 4600.0,
-        "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78698779/"
+        "price": 4280.0,
+        "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20510301/"
       }
     ],
     "delisted": [
@@ -231,26 +241,6 @@
         "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20239621/",
         "first_seen": "2026-03-20",
         "last_seen": "2026-03-26"
-      },
-      {
-        "uid": "db6fd4fc256f",
-        "name": "茅ヶ崎ニューライフ",
-        "station": "茅ヶ崎",
-        "type": "used",
-        "last_price": 2490.0,
-        "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20198331/",
-        "first_seen": "2026-03-20",
-        "last_seen": "2026-03-27"
-      },
-      {
-        "uid": "dc84e94ea450",
-        "name": "関町南2丁目戸建",
-        "station": "吉祥寺",
-        "type": "used",
-        "last_price": 4480.0,
-        "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nerima/nc_78081291/",
-        "first_seen": "2026-03-20",
-        "last_seen": "2026-03-27"
       },
       {
         "uid": "e706c58d4005",
@@ -273,16 +263,6 @@
         "last_seen": "2026-03-26"
       },
       {
-        "uid": "0e1e48e416bb",
-        "name": "ライオンズマンション荻窪第２",
-        "station": "荻窪",
-        "type": "used",
-        "last_price": 4480.0,
-        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20484307/",
-        "first_seen": "2026-03-20",
-        "last_seen": "2026-03-27"
-      },
-      {
         "uid": "e7720ccdce18",
         "name": "オハナ茅ヶ崎",
         "station": "茅ヶ崎",
@@ -293,44 +273,14 @@
         "last_seen": "2026-03-26"
       },
       {
-        "uid": "b1778ec9eb4a",
-        "name": "サンブランシュ片瀬山B棟",
-        "station": "江ノ島",
-        "type": "rental",
-        "last_price": 13.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000106000813/",
-        "first_seen": "2026-03-26",
-        "last_seen": "2026-03-27"
-      },
-      {
-        "uid": "a5ec3a539260",
-        "name": "江ノ島電鉄線 柳小路駅 地上2階建 築10年",
-        "station": "江ノ島",
-        "type": "rental",
-        "last_price": 13.5,
-        "detail_url": "https://suumo.jp/chintai/jnc_000106020844/",
-        "first_seen": "2026-03-26",
-        "last_seen": "2026-03-27"
-      },
-      {
-        "uid": "90867390fc6a",
-        "name": "パフィオ湘南",
-        "station": "茅ヶ崎",
-        "type": "rental",
-        "last_price": 12.1,
-        "detail_url": "https://suumo.jp/chintai/jnc_000105995117/",
-        "first_seen": "2026-03-26",
-        "last_seen": "2026-03-27"
-      },
-      {
-        "uid": "9f9b2222e42d",
-        "name": "セレナ東海岸北Ａ",
-        "station": "茅ヶ崎",
-        "type": "rental",
-        "last_price": 14.9,
-        "detail_url": "https://suumo.jp/chintai/jnc_000094931843/",
-        "first_seen": "2026-03-26",
-        "last_seen": "2026-03-27"
+        "uid": "b4fb2416ccfa",
+        "name": "三鷹ナショナルコート【井の頭恩賜公園徒歩16分】",
+        "station": "吉祥寺",
+        "type": "used",
+        "last_price": 4299.0,
+        "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_79110874/",
+        "first_seen": "2026-03-23",
+        "last_seen": "2026-03-26"
       },
       {
         "uid": "0bdaa78545e8",
@@ -359,9 +309,9 @@
           "stale_count": 0
         },
         "used": {
-          "new_count": 1,
+          "new_count": 0,
           "delisted_count": 1,
-          "price_reduced_count": 0,
+          "price_reduced_count": 1,
           "stale_count": 0
         }
       },
@@ -399,8 +349,8 @@
           "stale_count": 0
         },
         "used": {
-          "new_count": 1,
-          "delisted_count": 1,
+          "new_count": 0,
+          "delisted_count": 0,
           "price_reduced_count": 0,
           "stale_count": 0
         }
@@ -448,7 +398,7 @@
       "江ノ島": {
         "rental": {
           "new_count": 0,
-          "delisted_count": 2,
+          "delisted_count": 0,
           "price_reduced_count": 0,
           "stale_count": 0
         },
@@ -487,8 +437,8 @@
       },
       "茅ヶ崎": {
         "rental": {
-          "new_count": 0,
-          "delisted_count": 2,
+          "new_count": 1,
+          "delisted_count": 0,
           "price_reduced_count": 0,
           "stale_count": 0
         },
@@ -500,20 +450,60 @@
         },
         "used": {
           "new_count": 1,
-          "delisted_count": 3,
-          "price_reduced_count": 1,
+          "delisted_count": 2,
+          "price_reduced_count": 0,
           "stale_count": 0
         }
       }
     },
     "summary": {
-      "total_new": 3,
-      "total_delisted": 12,
+      "total_new": 2,
+      "total_delisted": 6,
       "total_price_reduced": 1,
       "total_stale": 0
     }
   },
   "rental": [
+    {
+      "source": "SUUMO",
+      "type": "賃貸",
+      "name": "サンブランシュ片瀬山B棟",
+      "detail_url": "https://suumo.jp/chintai/jnc_000106000813/",
+      "price": 13.5,
+      "price_text": "13.5万円-",
+      "management_fee": 13.5,
+      "management_fee_text": "13.5万円13.5万円",
+      "area": 69.56,
+      "area_text": "69.56m²",
+      "walk_minutes": 8,
+      "walk_text": "江ノ島駅",
+      "station": "江ノ島",
+      "age_years": 10,
+      "age_text": "築10年",
+      "image_url": "https://img01.suumo.com/front/gazo/fr/bukken/182/100497991182/100497991182_go.jpg",
+      "address": "神奈川県藤沢市片瀬１",
+      "access": "江ノ島電鉄線/柳小路駅 歩8分 / 湘南モノレール/片瀬山駅 歩17分 / 江ノ島電鉄線/鵠沼駅 歩9分"
+    },
+    {
+      "source": "SUUMO",
+      "type": "賃貸",
+      "name": "江ノ島電鉄線 柳小路駅 地上2階建 築10年",
+      "detail_url": "https://suumo.jp/chintai/jnc_000106020844/",
+      "price": 13.5,
+      "price_text": "13.5万円-",
+      "management_fee": 13.5,
+      "management_fee_text": "13.5万円13.5万円",
+      "area": 69.56,
+      "area_text": "69.56m²",
+      "walk_minutes": 8,
+      "walk_text": "江ノ島駅",
+      "station": "江ノ島",
+      "age_years": 10,
+      "age_text": "築10年",
+      "image_url": "https://img01.suumo.com/front/gazo/fr/bukken/126/100498161126/100498161126_go.jpg",
+      "address": "神奈川県藤沢市片瀬１",
+      "access": "江ノ島電鉄線/柳小路駅 歩8分 / 江ノ島電鉄線/鵠沼駅 歩9分 / 江ノ島電鉄線/石上駅 歩9分"
+    },
     {
       "source": "SUUMO",
       "type": "賃貸",
@@ -537,22 +527,42 @@
     {
       "source": "SUUMO",
       "type": "賃貸",
-      "name": "鎌倉材木座住宅",
-      "detail_url": "https://suumo.jp/chintai/jnc_000105330644/",
+      "name": "パフィオ湘南",
+      "detail_url": "https://suumo.jp/chintai/jnc_000105995117/",
+      "price": 12.1,
+      "price_text": "12.1万円4000円",
+      "management_fee": 12.1,
+      "management_fee_text": "12.1万円12.1万円",
+      "area": 50.66,
+      "area_text": "50.66m²",
+      "walk_minutes": 6,
+      "walk_text": "茅ヶ崎駅",
+      "station": "茅ヶ崎",
+      "age_years": 14,
+      "age_text": "築14年",
+      "image_url": "https://img01.suumo.com/front/gazo/fr/bukken/790/100498114790/100498114790_go.jpg",
+      "address": "神奈川県茅ヶ崎市東海岸北１",
+      "access": "ＪＲ東海道本線/茅ケ崎駅 歩6分 / ＪＲ相模線/北茅ケ崎駅 歩22分 / 湘南新宿ライン高海/辻堂駅 車14分(4.2km)"
+    },
+    {
+      "source": "SUUMO",
+      "type": "賃貸",
+      "name": "セレナ東海岸北Ａ",
+      "detail_url": "https://suumo.jp/chintai/jnc_000094931843/",
       "price": 14.9,
       "price_text": "14.9万円6000円",
-      "management_fee": null,
-      "management_fee_text": "--",
-      "area": 50.5,
-      "area_text": "50.5m²",
-      "walk_minutes": 13,
-      "walk_text": "鎌倉駅",
-      "station": "鎌倉",
-      "age_years": 0,
-      "age_text": "新築",
-      "image_url": "https://img01.suumo.com/front/gazo/fr/bukken/319/100492693319/100492693319_go.jpg",
-      "address": "神奈川県鎌倉市材木座２",
-      "access": "ＪＲ横須賀線/鎌倉駅 歩13分 / 江ノ島電鉄線/和田塚駅 歩14分 / 湘南新宿ライン宇須/北鎌倉駅 歩47分"
+      "management_fee": 14.9,
+      "management_fee_text": "-14.9万円",
+      "area": 64.16,
+      "area_text": "64.16m²",
+      "walk_minutes": 17,
+      "walk_text": "茅ヶ崎駅",
+      "station": "茅ヶ崎",
+      "age_years": 12,
+      "age_text": "築12年",
+      "image_url": "https://img01.suumo.com/front/gazo/fr/bukken/774/100498114774/100498114774_go.jpg",
+      "address": "神奈川県茅ヶ崎市東海岸南５",
+      "access": "ＪＲ東海道本線/茅ケ崎駅 歩17分 / ＪＲ相模線/北茅ケ崎駅 歩29分 / ＪＲ東海道本線/辻堂駅 車12分(3.3km)"
     },
     {
       "source": "SUUMO",
@@ -616,24 +626,6 @@
     {
       "source": "SUUMO",
       "type": "中古",
-      "name": "三鷹ナショナルコート１号棟",
-      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20504964/",
-      "price": 4199.0,
-      "price_text": "4199万円",
-      "area": 69.28,
-      "area_text": "69.28m2（20.95坪）（壁芯）",
-      "walk_minutes": 5,
-      "walk_text": "吉祥寺駅",
-      "station": "吉祥寺",
-      "age_years": 52,
-      "age_text": "1974年9月",
-      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F964%2F20504964%2F20504964_0016.jpg&w=192&h=144",
-      "address": "東京都三鷹市牟礼６-24-12",
-      "access": "ＪＲ総武線「吉祥寺」バス8分停歩5分"
-    },
-    {
-      "source": "SUUMO",
-      "type": "中古",
       "name": "三鷹ナショナルコート1号棟",
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20352674/",
       "price": 4199.0,
@@ -648,6 +640,24 @@
       "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F674%2F20352674%2F20352674_0045.jpg&w=192&h=144",
       "address": "東京都三鷹市牟礼６",
       "access": "ＪＲ中央線「吉祥寺」バス8分停歩5分"
+    },
+    {
+      "source": "SUUMO",
+      "type": "中古",
+      "name": "三鷹ナショナルコート１号棟",
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20504964/",
+      "price": 4199.0,
+      "price_text": "4199万円",
+      "area": 69.28,
+      "area_text": "69.28m2（20.95坪）（壁芯）",
+      "walk_minutes": 5,
+      "walk_text": "吉祥寺駅",
+      "station": "吉祥寺",
+      "age_years": 52,
+      "age_text": "1974年9月",
+      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F964%2F20504964%2F20504964_0016.jpg&w=192&h=144",
+      "address": "東京都三鷹市牟礼６-24-12",
+      "access": "ＪＲ総武線「吉祥寺」バス8分停歩5分"
     },
     {
       "source": "SUUMO",
@@ -670,36 +680,18 @@
     {
       "source": "SUUMO",
       "type": "中古",
-      "name": "三鷹ナショナルコート【井の頭恩賜公園徒歩16分】",
-      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_79110874/",
-      "price": 4299.0,
-      "price_text": "4299万円",
-      "area": 69.28,
-      "area_text": "69.28m2",
-      "walk_minutes": 5,
-      "walk_text": "吉祥寺駅",
-      "station": "吉祥寺",
-      "age_years": 52,
-      "age_text": "1974年9月",
-      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F874%2F79110874%2F79110874_0041.jpg&w=192&h=144",
-      "address": "東京都三鷹市牟礼６",
-      "access": "ＪＲ中央線「吉祥寺」バス14分停歩5分"
-    },
-    {
-      "source": "SUUMO",
-      "type": "中古",
       "name": "ライオンズマンション荻窪第２",
-      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20530749/",
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20484307/",
       "price": 4480.0,
       "price_text": "4480万円",
       "area": 82.94,
-      "area_text": "82.94m2（25.08坪）（壁芯）",
+      "area_text": "82.94m2（壁芯）",
       "walk_minutes": 2,
       "walk_text": "荻窪駅 徒歩2分",
       "station": "荻窪",
       "age_years": 45,
       "age_text": "1981年6月",
-      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F749%2F20530749%2F20530749_0018.jpg&w=192&h=144",
+      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F307%2F20484307%2F20484307_0018.jpg&w=192&h=144",
       "address": "東京都杉並区荻窪５-17-15",
       "access": "ＪＲ総武線「荻窪」徒歩2分"
     },
@@ -832,20 +824,20 @@
     {
       "source": "SUUMO",
       "type": "中古",
-      "name": "ダイアパレス・エクシード茅ヶ崎",
-      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_79020065/",
-      "price": 2599.0,
-      "price_text": "2599万円",
-      "area": 96.21,
-      "area_text": "96.21m2（29.10坪）（壁芯）",
-      "walk_minutes": 4,
-      "walk_text": "茅ヶ崎駅",
+      "name": "茅ヶ崎ニューライフ",
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20198331/",
+      "price": 2490.0,
+      "price_text": "2490万円",
+      "area": 68.71,
+      "area_text": "68.71m2（20.78坪）（壁芯）",
+      "walk_minutes": 15,
+      "walk_text": "茅ヶ崎駅 徒歩15分",
       "station": "茅ヶ崎",
-      "age_years": 37,
-      "age_text": "1989年9月",
-      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F065%2F79020065%2F79020065_0031.jpg&w=192&h=144",
-      "address": "神奈川県茅ヶ崎市今宿",
-      "access": "ＪＲ東海道本線「茅ケ崎」バス9分停歩4分"
+      "age_years": 49,
+      "age_text": "1977年6月",
+      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F331%2F20198331%2F20198331_0016.jpg&w=192&h=144",
+      "address": "神奈川県茅ヶ崎市十間坂３",
+      "access": "ＪＲ東海道本線「茅ケ崎」徒歩15分"
     },
     {
       "source": "SUUMO",
@@ -868,28 +860,10 @@
     {
       "source": "SUUMO",
       "type": "中古",
-      "name": "ダイアパレス茅ヶ崎南湖",
-      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_77429455/",
-      "price": 3080.0,
-      "price_text": "3080万円",
-      "area": 90.76,
-      "area_text": "90.76m2",
-      "walk_minutes": 18,
-      "walk_text": "茅ヶ崎駅 徒歩18分",
-      "station": "茅ヶ崎",
-      "age_years": 29,
-      "age_text": "1997年3月",
-      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F455%2F77429455%2F77429455_0018.jpg&w=192&h=144",
-      "address": "神奈川県茅ヶ崎市南湖１",
-      "access": "ＪＲ東海道本線「茅ケ崎」徒歩18分"
-    },
-    {
-      "source": "SUUMO",
-      "type": "中古",
       "name": "エムズタワー宝町",
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_hiratsuka/nc_20010553/",
-      "price": 3180.0,
-      "price_text": "3180万円",
+      "price": 3280.0,
+      "price_text": "3280万円",
       "area": 61.42,
       "area_text": "61.42m2（壁芯）",
       "walk_minutes": null,
@@ -1066,6 +1040,24 @@
     {
       "source": "SUUMO",
       "type": "中古一戸建て",
+      "name": "関町南2丁目戸建",
+      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nerima/nc_78081291/",
+      "price": 4480.0,
+      "price_text": "4480万円",
+      "area": 69.6,
+      "area_text": "69.6m2（21.05坪）（登記）",
+      "walk_minutes": 1,
+      "walk_text": "吉祥寺駅",
+      "station": "吉祥寺",
+      "age_years": 18,
+      "age_text": "2008年6月",
+      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F291%2F78081291%2F78081291_0001.jpg&w=192&h=144",
+      "address": "東京都練馬区関町南２",
+      "access": "ＪＲ中央線「吉祥寺」バス13分停歩1分"
+    },
+    {
+      "source": "SUUMO",
+      "type": "中古一戸建て",
       "name": "三鷹市深大寺2丁目 戸建て",
       "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_mitaka/nc_20453627/",
       "price": 4580.0,
@@ -1080,24 +1072,6 @@
       "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F627%2F20453627%2F20453627_0013.jpg&w=192&h=144",
       "address": "東京都三鷹市深大寺２",
       "access": "ＪＲ中央線「吉祥寺」バス25分停歩5分"
-    },
-    {
-      "source": "SUUMO",
-      "type": "中古一戸建て",
-      "name": "",
-      "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_nishitokyo/nc_20476734/",
-      "price": 4599.0,
-      "price_text": "4599万円",
-      "area": 78.05,
-      "area_text": "78.05m2（23.61坪）（登記）",
-      "walk_minutes": 1,
-      "walk_text": "吉祥寺駅",
-      "station": "吉祥寺",
-      "age_years": 10,
-      "age_text": "2016年9月",
-      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F734%2F20476734%2F20476734_0108.jpg&w=192&h=144",
-      "address": "東京都西東京市新町５",
-      "access": "京王井の頭線「吉祥寺」バス20分停歩1分"
     },
     {
       "source": "SUUMO",
@@ -1372,24 +1346,6 @@
     {
       "source": "SUUMO",
       "type": "中古一戸建て",
-      "name": "勾配天井×天窓が織りなす開放感。「辻堂」駅徒歩圏内の…",
-      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20429750/",
-      "price": 3490.0,
-      "price_text": "3490万円",
-      "area": 73.31,
-      "area_text": "73.31m2（登記）",
-      "walk_minutes": 2,
-      "walk_text": "茅ヶ崎駅",
-      "station": "茅ヶ崎",
-      "age_years": 30,
-      "age_text": "1996年9月",
-      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F750%2F20429750%2F20429750_0001.jpg&w=192&h=144",
-      "address": "神奈川県茅ヶ崎市出口町",
-      "access": "ＪＲ東海道本線「茅ケ崎」バス11分停歩2分"
-    },
-    {
-      "source": "SUUMO",
-      "type": "中古一戸建て",
       "name": "茅ヶ崎市中海岸中古戸建",
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78560908/",
       "price": 3490.0,
@@ -1404,6 +1360,24 @@
       "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F908%2F78560908%2F78560908_0002.jpg&w=192&h=144",
       "address": "神奈川県茅ヶ崎市中海岸２",
       "access": "ＪＲ東海道本線「茅ケ崎」徒歩12分"
+    },
+    {
+      "source": "SUUMO",
+      "type": "中古一戸建て",
+      "name": "勾配天井×天窓が織りなす開放感。「辻堂」駅徒歩圏内の…",
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20429750/",
+      "price": 3490.0,
+      "price_text": "3490万円",
+      "area": 73.31,
+      "area_text": "73.31m2（登記）",
+      "walk_minutes": 2,
+      "walk_text": "茅ヶ崎駅",
+      "station": "茅ヶ崎",
+      "age_years": 30,
+      "age_text": "1996年9月",
+      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F750%2F20429750%2F20429750_0001.jpg&w=192&h=144",
+      "address": "神奈川県茅ヶ崎市出口町",
+      "access": "ＪＲ東海道本線「茅ケ崎」バス11分停歩2分"
     },
     {
       "source": "SUUMO",
@@ -1530,24 +1504,6 @@
       "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F932%2F20345932%2F20345932_0015.jpg&w=192&h=144",
       "address": "神奈川県藤沢市遠藤",
       "access": "ＪＲ東海道本線「茅ケ崎」バス19分停歩1分"
-    },
-    {
-      "source": "SUUMO",
-      "type": "中古一戸建て",
-      "name": "茅ヶ崎市東海岸北2丁目　中古戸建",
-      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78698779/",
-      "price": 4600.0,
-      "price_text": "4600万円",
-      "area": 72.96,
-      "area_text": "72.96m2（22.07坪）（登記）",
-      "walk_minutes": 12,
-      "walk_text": "茅ヶ崎駅 徒歩12分",
-      "station": "茅ヶ崎",
-      "age_years": 3,
-      "age_text": "2023年8月",
-      "image_url": "https://img01.suumo.com/jj/resizeImage?src=gazo%2Fbukken%2F030%2FN010000%2Fimg%2F779%2F78698779%2F78698779_0002.jpg&w=192&h=144",
-      "address": "神奈川県茅ヶ崎市東海岸北２",
-      "access": "ＪＲ東海道本線「茅ケ崎」徒歩12分"
     }
   ]
 }
