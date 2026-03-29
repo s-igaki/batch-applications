@@ -789,7 +789,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-27",
+      "last_seen": "2026-03-29",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2989,7 +2989,7 @@
       "type": "used",
       "station": "四ツ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -9504,7 +9504,7 @@
       "type": "used",
       "station": "中野",
       "first_seen": "2026-03-28",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "price_history": [
         {
           "date": "2026-03-28",
@@ -9653,6 +9653,182 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_nakano/nc_67729434/",
       "area": 56.63,
       "age_years": 0
+    },
+    "d1d7854fa82e": {
+      "name": "ＪＲ中央線 中野駅 12階建 新築",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 19.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104910060/",
+      "area": 40.15,
+      "age_years": 0
+    },
+    "5f8269b18d29": {
+      "name": "ＪＲ中央線 中野駅 12階建 新築",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 19.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104920114/",
+      "area": 40.15,
+      "age_years": 0
+    },
+    "c1bd823d848c": {
+      "name": "ＪＲ中央線 中野駅 12階建 新築",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 19.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104920117/",
+      "area": 40.15,
+      "age_years": 0
+    },
+    "f8e9e1e8fcd7": {
+      "name": "ＪＲ中央線 中野駅 12階建 新築",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 19.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104920120/",
+      "area": 40.15,
+      "age_years": 0
+    },
+    "3227a9c59a3a": {
+      "name": "ＪＲ中央線 中野駅 12階建 新築",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 19.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104928787/",
+      "area": 40.15,
+      "age_years": 0
+    },
+    "8effbbcd3973": {
+      "name": "ＪＲ中央線 中野駅 12階建 新築",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104928790/",
+      "area": 40.15,
+      "age_years": 0
+    },
+    "3327e3ade74d": {
+      "name": "ＪＲ中央線 中野駅 12階建 新築",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 20.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104928793/",
+      "area": 40.15,
+      "age_years": 0
+    },
+    "b548356fe19d": {
+      "name": "ＪＲ中央線 中野駅 12階建 新築",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 20.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104928781/",
+      "area": 40.15,
+      "age_years": 0
+    },
+    "54d7a93b7813": {
+      "name": "ＪＲ中央線 中野駅 5階建 築17年",
+      "type": "rental",
+      "station": "中野",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 21.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104881942/",
+      "area": 44.47,
+      "age_years": 17
+    },
+    "ece158d54822": {
+      "name": "グランドメゾン渋谷大山町",
+      "type": "new",
+      "station": "代々木",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 58800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20541857/",
+      "area": 118.67,
+      "age_years": 0
+    },
+    "3dac644198af": {
+      "name": "オープンレジデンシア四谷",
+      "type": "used",
+      "station": "信濃町",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "price_history": [
+        {
+          "date": "2026-03-29",
+          "price": 9980.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20542900/",
+      "area": 53.52,
+      "age_years": 6
     }
   }
 }
