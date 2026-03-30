@@ -18,55 +18,77 @@ class SuumoCrawler:
         self.session = session
         self.profile = profile
 
+    @staticmethod
+    def _area_slug_to_suumo(area_slug):
+        """homes_areasのスラグからSUUMOのリージョンとエリアコードを導出"""
+        parts = area_slug.split('/')
+        region = parts[0]
+        city = parts[1].replace('-city', '')
+        return region, f"sc_{city}"
+
+    def _build_suumo_urls(self, base_path, area_slug, use_town_codes=True):
+        """エリアのSUUMO検索URL一覧を生成（町名oz_コードがあれば町名別、なければエリア全体）"""
+        region, sc_code = self._area_slug_to_suumo(area_slug)
+        town_codes = self.profile.get_suumo_town_urls(area_slug) if use_town_codes else {}
+
+        urls = []
+        if town_codes:
+            for town_name, oz_code in town_codes.items():
+                url = f"{self.BASE}{base_path}{region}/{sc_code}/{oz_code}/"
+                urls.append((town_name, url))
+        else:
+            urls.append((f"{region}/{sc_code}", f"{self.BASE}{base_path}{region}/{sc_code}/"))
+        return urls
+
     # --- 賃貸 ---
     def crawl_rental(self):
-        """SUUMO賃貸物件をクロール"""
+        """SUUMO賃貸物件をクロール（エリア別・町名別）"""
         log("SUUMO 賃貸クロール開始...")
         all_properties = {}
 
-        for station_name, station_code in self.profile.stations.items():
-            region = self.profile.get_station_region(station_name)
-            log(f"  駅: {station_name} (ek_{station_code}, {region})")
-            url = f"{self.BASE}/chintai/{region}/ek_{station_code}/"
+        for area_slug in self.profile.homes_areas:
+            urls = self._build_suumo_urls('/chintai/', area_slug)
+            for label, url in urls:
+                log(f"  エリア: {area_slug} / {label}")
 
-            for page in range(1, self.profile.max_pages + 1):
-                params = {'page': page} if page > 1 else None
-                soup = fetch_soup(self.session, url, params)
-                if not soup:
-                    break
+                for page in range(1, self.profile.max_pages + 1):
+                    params = {'page': page} if page > 1 else None
+                    soup = fetch_soup(self.session, url, params)
+                    if not soup:
+                        break
 
-                items = soup.select('.cassetteitem')
-                if not items:
-                    break
+                    items = soup.select('.cassetteitem')
+                    if not items:
+                        break
 
-                new_count = 0
-                for item in items:
-                    props = self._parse_rental_cassetteitem(item, station_name)
-                    for p in props:
-                        if not p.get('station'):
-                            continue
-                        if not self.profile.should_include(p, 'rental'):
-                            continue
-                        uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
-                        if uid not in all_properties:
-                            all_properties[uid] = p
-                            new_count += 1
+                    new_count = 0
+                    for item in items:
+                        props = self._parse_rental_cassetteitem(item, area_slug)
+                        for p in props:
+                            if not p.get('station'):
+                                continue
+                            if not self.profile.should_include(p, 'rental'):
+                                continue
+                            uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
+                            if uid not in all_properties:
+                                all_properties[uid] = p
+                                new_count += 1
 
-                log(f"    ページ{page}: {len(items)}棟, 新規{new_count}件")
+                    log(f"    ページ{page}: {len(items)}棟, 新規{new_count}件")
 
-                next_link = soup.select_one('.pagination-parts a[rel="next"], .paginate_set-nav a:last-child')
-                if not next_link:
-                    break
+                    next_link = soup.select_one('.pagination-parts a[rel="next"], .paginate_set-nav a:last-child')
+                    if not next_link:
+                        break
+
+                    time.sleep(self.profile.request_delay)
 
                 time.sleep(self.profile.request_delay)
-
-            time.sleep(self.profile.request_delay)
 
         result = list(all_properties.values())
         log(f"  SUUMO賃貸: 合計{len(result)}件")
         return result
 
-    def _parse_rental_cassetteitem(self, item, search_station):
+    def _parse_rental_cassetteitem(self, item, area_slug):
         """SUUMO賃貸のcassetteitemをパース（1棟=複数部屋）"""
         properties = []
 
@@ -118,6 +140,14 @@ class SuumoCrawler:
                 break
         if walk_min_default is None and access_texts:
             walk_min_default = extract_walk_minutes(access_texts[0])
+
+        # 駅マッチしない場合、町名で住所マッチを試みる
+        if not walk_station_default:
+            matched_town = self.profile.address_matches_town(address, area_slug)
+            if matched_town:
+                walk_station_default = matched_town
+                if not walk_min_default and access_texts:
+                    walk_min_default = extract_walk_minutes(access_texts[0])
 
         # 部屋ごとの情報
         rows = item.select('table.cassetteitem_other tbody tr.js-cassette_link')
@@ -225,7 +255,7 @@ class SuumoCrawler:
         return self._crawl_buy_type('chukoikkodate', '中古一戸建て', url_prefix='/')
 
     def _crawl_buy_type(self, path_segment, type_label, url_prefix='/ms/'):
-        """SUUMO売買物件（新築/中古/一戸建て）をクロール"""
+        """SUUMO売買物件（新築/中古/一戸建て）をクロール（エリア別・町名別）"""
         all_properties = {}
 
         if type_label == '新築':
@@ -234,57 +264,62 @@ class SuumoCrawler:
             prop_type = 'used_kodate'
         else:
             prop_type = 'used_mansion'
-        for station_name, station_code in self.profile.stations.items():
-            region = self.profile.get_station_region(station_name)
-            log(f"  駅: {station_name} ({region})")
-            url = f"{self.BASE}{url_prefix}{path_segment}/{region}/ek_{station_code}/"
 
-            for page in range(1, self.profile.max_pages + 1):
-                params = {'page': page} if page > 1 else None
-                soup = fetch_soup(self.session, url, params)
-                if not soup:
-                    break
+        # 新築マンションはoz_コード（町名別URL）非対応のためエリア全体で検索
+        use_town_codes = (type_label != '新築')
+        base_path = f"{url_prefix}{path_segment}/"
 
-                units = soup.select('.property_unit')
-                if not units:
-                    break
+        for area_slug in self.profile.homes_areas:
+            urls = self._build_suumo_urls(base_path, area_slug, use_town_codes=use_town_codes)
+            for label, url in urls:
+                log(f"  エリア: {area_slug} / {label}")
 
-                new_count = 0
-                for unit in units:
-                    p = self._parse_property_unit(unit, station_name, type_label)
-                    if not p:
-                        continue
-                    if not p.get('station'):
-                        continue
-                    if not self.profile.should_include(p, prop_type):
-                        continue
-                    uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
-                    if uid not in all_properties:
-                        all_properties[uid] = p
-                        new_count += 1
+                for page in range(1, self.profile.max_pages + 1):
+                    params = {'page': page} if page > 1 else None
+                    soup = fetch_soup(self.session, url, params)
+                    if not soup:
+                        break
 
-                log(f"    ページ{page}: {len(units)}件, 新規{new_count}件")
+                    units = soup.select('.property_unit')
+                    if not units:
+                        break
 
-                next_link = soup.select_one('.pagination-parts a[rel="next"], .paginate_set-nav a:last-child')
-                if not next_link:
-                    break
+                    new_count = 0
+                    for unit in units:
+                        p = self._parse_property_unit(unit, area_slug, type_label)
+                        if not p:
+                            continue
+                        if not p.get('station'):
+                            continue
+                        if not self.profile.should_include(p, prop_type):
+                            continue
+                        uid = make_unique_id(p.get('detail_url', '') or p.get('name', ''))
+                        if uid not in all_properties:
+                            all_properties[uid] = p
+                            new_count += 1
+
+                    log(f"    ページ{page}: {len(units)}件, 新規{new_count}件")
+
+                    next_link = soup.select_one('.pagination-parts a[rel="next"], .paginate_set-nav a:last-child')
+                    if not next_link:
+                        break
+
+                    time.sleep(self.profile.request_delay)
 
                 time.sleep(self.profile.request_delay)
-
-            time.sleep(self.profile.request_delay)
 
         result = list(all_properties.values())
         log(f"  SUUMO {type_label}: 合計{len(result)}件")
         return result
 
-    def _parse_property_unit(self, unit, search_station, type_label):
+    def _parse_property_unit(self, unit, area_slug, type_label):
         """SUUMO売買のproperty_unitをパース（中古dt/dd形式 & 新築cassette形式 両対応）"""
         is_cassette = bool(unit.select_one('.cassette_header-title, .cassette_basic'))
         if is_cassette:
-            return self._parse_cassette_unit(unit, search_station, type_label)
-        return self._parse_dottable_unit(unit, search_station, type_label)
+            return self._parse_cassette_unit(unit, area_slug, type_label)
+        return self._parse_dottable_unit(unit, area_slug, type_label)
 
-    def _parse_cassette_unit(self, unit, search_station, type_label):
+    def _parse_cassette_unit(self, unit, area_slug, type_label):
         """SUUMO新築マンションのcassette形式をパース"""
         try:
             name = ''
@@ -335,6 +370,12 @@ class SuumoCrawler:
                         walk_station = matched
                     walk_min = extract_walk_minutes(access)
 
+            # 駅マッチしない場合、町名で住所マッチを試みる
+            if not walk_station:
+                matched_town = self.profile.address_matches_town(address, area_slug)
+                if matched_town:
+                    walk_station = matched_town
+
             price_text = ''
             price_val = None
             price_el = unit.select_one('.cassette_price-accent')
@@ -382,7 +423,7 @@ class SuumoCrawler:
             log(f"  新築パースエラー: {e}")
             return None
 
-    def _parse_dottable_unit(self, unit, search_station, type_label):
+    def _parse_dottable_unit(self, unit, area_slug, type_label):
         """SUUMO中古マンションのdt/dd（dottable）形式をパース"""
         try:
             name = ''
@@ -439,6 +480,12 @@ class SuumoCrawler:
                     if matched:
                         walk_station = matched
                     walk_min = extract_walk_minutes(access)
+
+            # 駅マッチしない場合、町名で住所マッチを試みる
+            if not walk_station:
+                matched_town = self.profile.address_matches_town(address, area_slug)
+                if matched_town:
+                    walk_station = matched_town
 
             area_text = ''
             area_val = None

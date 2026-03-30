@@ -23,14 +23,11 @@
       "name": "mercury",
       "stations": {
         "吉祥寺":    {"code": "11640", "region": "tokyo"},
-        "中野":      {"code": "27280", "region": "tokyo"},
-        "高円寺":    {"code": "13930", "region": "tokyo"},
         "代々木":    {"code": "41280", "region": "tokyo"},
         "千駄ヶ谷":  {"code": "21520", "region": "tokyo"},
         "信濃町":    {"code": "17470", "region": "tokyo"},
         "四ツ谷":    {"code": "41160", "region": "tokyo"},
         "市谷":      {"code": "02980", "region": "tokyo"},
-        "飯田橋":    {"code": "01820", "region": "tokyo"},
         "渋谷":      {"code": "17640", "region": "tokyo"},
         "代々木上原": {"code": "41290", "region": "tokyo"},
         "代々木公園": {"code": "41300", "region": "tokyo"},
@@ -38,9 +35,27 @@
         "表参道":    {"code": "07240", "region": "tokyo"}
       },
       "homes_areas": {
-        "tokyo/musashino-city":  {"stations": ["吉祥寺"], "towns": ["吉祥寺南町", "御殿山"]},
-        "tokyo/shibuya-city":    {"stations": ["代々木", "千駄ヶ谷", "渋谷", "代々木上原", "代々木公園", "明治神宮前", "表参道"], "towns": ["千駄ヶ谷"]},
-        "tokyo/shinjuku-city":   {"stations": ["信濃町", "四ツ谷", "市谷"], "towns": ["大京町", "内藤町", "四谷"]}
+        "tokyo/musashino-city": {
+          "stations": ["吉祥寺"],
+          "towns": {
+            "吉祥寺南町": "oz_13203004",
+            "御殿山":     "oz_13203006"
+          }
+        },
+        "tokyo/shibuya-city": {
+          "stations": ["代々木", "千駄ヶ谷", "渋谷", "代々木上原", "代々木公園", "明治神宮前", "表参道"],
+          "towns": {
+            "千駄ヶ谷": "oz_13113017"
+          }
+        },
+        "tokyo/shinjuku-city": {
+          "stations": ["信濃町", "四ツ谷", "市谷"],
+          "towns": {
+            "大京町": "oz_13104052",
+            "内藤町": "oz_13104062",
+            "四谷":   "oz_13104092"
+          }
+        }
       },
       "conditions": {
         "rental": {

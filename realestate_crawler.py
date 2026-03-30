@@ -69,16 +69,21 @@ class ProfileConfig:
                 self.station_regions[name] = 'tokyo'
 
         # homes_areas: リスト形式（従来）とオブジェクト形式（stations/towns）両対応
+        # towns はリスト形式 ["町名", ...] または辞書形式 {"町名": "oz_code", ...} に対応
         raw_homes_areas = profile_dict.get('homes_areas', {})
         self.homes_areas = {}   # {area_slug: [station_names]}
-        self.homes_towns = {}   # {area_slug: [town_names]}
+        self.homes_towns = {}   # {area_slug: {town_name: oz_code or None}}
         for area_slug, val in raw_homes_areas.items():
             if isinstance(val, dict):
                 self.homes_areas[area_slug] = val.get('stations', [])
-                self.homes_towns[area_slug] = val.get('towns', [])
+                raw_towns = val.get('towns', {})
+                if isinstance(raw_towns, list):
+                    self.homes_towns[area_slug] = {t: None for t in raw_towns}
+                else:
+                    self.homes_towns[area_slug] = raw_towns
             else:
                 self.homes_areas[area_slug] = val
-                self.homes_towns[area_slug] = []
+                self.homes_towns[area_slug] = {}
 
         # 条件のパース（フラット形式 or 種類別形式 両対応）
         cond = profile_dict.get('conditions', {})
@@ -202,11 +207,16 @@ class ProfileConfig:
         """住所に対象町名が含まれるか確認し、町名を返す"""
         if not address:
             return None
-        towns = self.homes_towns.get(area_slug, [])
+        towns = self.homes_towns.get(area_slug, {})
         for town in towns:
             if town in address:
                 return town
         return None
+
+    def get_suumo_town_urls(self, area_slug):
+        """エリアのSUUMO町名別URL用oz_コードを返す: {町名: oz_code}"""
+        towns = self.homes_towns.get(area_slug, {})
+        return {name: code for name, code in towns.items() if code}
 
 
 # ============================================================
