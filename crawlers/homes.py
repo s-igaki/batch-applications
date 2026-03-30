@@ -42,7 +42,7 @@ class HomesCrawler:
 
                 new_count = 0
                 for bldg in buildings:
-                    props = self._parse_rental_building(bldg)
+                    props = self._parse_rental_building(bldg, area_slug)
                     for p in props:
                         if p.get('station') is None:
                             continue
@@ -67,7 +67,7 @@ class HomesCrawler:
         log(f"  HOMES賃貸: 合計{len(result)}件")
         return result
 
-    def _parse_rental_building(self, bldg):
+    def _parse_rental_building(self, bldg, area_slug=None):
         """HOMES賃貸のprg-buildingをパース"""
         properties = []
         try:
@@ -126,8 +126,15 @@ class HomesCrawler:
                     walk_min = extract_walk_minutes(acc)
                     break
 
+            # 駅マッチしない場合、町名で住所マッチを試みる
             if not matched_station:
-                return []
+                matched_town = self.profile.address_matches_town(address, area_slug)
+                if matched_town:
+                    matched_station = matched_town
+                    if access_texts:
+                        walk_min = extract_walk_minutes(access_texts[0])
+                else:
+                    return []
 
             building_url = ''
             link = bldg.select_one('.prg-bukkenNameAnchor')
@@ -274,7 +281,7 @@ class HomesCrawler:
 
                 new_count = 0
                 for bldg in buildings:
-                    p = self._parse_buy_building(bldg, type_label)
+                    p = self._parse_buy_building(bldg, type_label, area_slug)
                     if not p or not p.get('station'):
                         continue
                     if not self.profile.should_include(p, prop_type):
@@ -298,7 +305,7 @@ class HomesCrawler:
         log(f"  HOMES {type_label}: 合計{len(result)}件")
         return result
 
-    def _parse_buy_building(self, bldg, type_label):
+    def _parse_buy_building(self, bldg, type_label, area_slug=None):
         """HOMES売買物件をパース"""
         try:
             name = ''
@@ -338,6 +345,14 @@ class HomesCrawler:
                     matched_station = matched
                     walk_min = extract_walk_minutes(acc)
                     break
+
+            # 駅マッチしない場合、町名で住所マッチを試みる
+            if not matched_station and area_slug:
+                matched_town = self.profile.address_matches_town(address, area_slug)
+                if matched_town:
+                    matched_station = matched_town
+                    if access_texts:
+                        walk_min = extract_walk_minutes(access_texts[0])
 
             price_text = ''
             price_val = None

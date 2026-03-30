@@ -38,21 +38,17 @@
         "表参道":    {"code": "07240", "region": "tokyo"}
       },
       "homes_areas": {
-        "tokyo/musashino-city":  ["吉祥寺"],
-        "tokyo/nakano-city":     ["中野"],
-        "tokyo/suginami-city":   ["高円寺"],
-        "tokyo/shibuya-city":    ["代々木", "千駄ヶ谷", "渋谷", "代々木上原", "代々木公園", "明治神宮前", "表参道"],
-        "tokyo/shinjuku-city":   ["信濃町", "四ツ谷", "市谷"],
-        "tokyo/chiyoda-city":    ["飯田橋", "市谷"],
-        "tokyo/minato-city":     ["表参道"]
+        "tokyo/musashino-city":  {"stations": ["吉祥寺"], "towns": ["吉祥寺南町", "御殿山"]},
+        "tokyo/shibuya-city":    {"stations": ["代々木", "千駄ヶ谷", "渋谷", "代々木上原", "代々木公園", "明治神宮前", "表参道"], "towns": ["千駄ヶ谷"]},
+        "tokyo/shinjuku-city":   {"stations": ["信濃町", "四ツ谷", "市谷"], "towns": ["大京町", "内藤町", "四谷"]}
       },
       "conditions": {
         "rental": {
           "enabled": true,
           "min_area": 40,
           "max_age": 20,
-          "max_rent": 24.0,
-          "max_walk": 5
+          "max_rent": 25.0,
+          "max_walk": 10
         },
         "new": {
           "enabled": true,

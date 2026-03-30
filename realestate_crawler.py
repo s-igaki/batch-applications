@@ -68,7 +68,17 @@ class ProfileConfig:
                 self.stations[name] = val
                 self.station_regions[name] = 'tokyo'
 
-        self.homes_areas = profile_dict.get('homes_areas', {})
+        # homes_areas: リスト形式（従来）とオブジェクト形式（stations/towns）両対応
+        raw_homes_areas = profile_dict.get('homes_areas', {})
+        self.homes_areas = {}   # {area_slug: [station_names]}
+        self.homes_towns = {}   # {area_slug: [town_names]}
+        for area_slug, val in raw_homes_areas.items():
+            if isinstance(val, dict):
+                self.homes_areas[area_slug] = val.get('stations', [])
+                self.homes_towns[area_slug] = val.get('towns', [])
+            else:
+                self.homes_areas[area_slug] = val
+                self.homes_towns[area_slug] = []
 
         # 条件のパース（フラット形式 or 種類別形式 両対応）
         cond = profile_dict.get('conditions', {})
@@ -186,6 +196,16 @@ class ProfileConfig:
         for alias, canonical in self.station_aliases.items():
             if alias in text and canonical in self.stations:
                 return canonical
+        return None
+
+    def address_matches_town(self, address, area_slug):
+        """住所に対象町名が含まれるか確認し、町名を返す"""
+        if not address:
+            return None
+        towns = self.homes_towns.get(area_slug, [])
+        for town in towns:
+            if town in address:
+                return town
         return None
 
 
