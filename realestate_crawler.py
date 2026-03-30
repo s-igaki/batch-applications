@@ -218,6 +218,13 @@ class ProfileConfig:
         towns = self.homes_towns.get(area_slug, {})
         return {name: code for name, code in towns.items() if code}
 
+    def all_labels(self):
+        """駅名＋町名の全ラベルを返す（統計・時系列の集計キー用）"""
+        labels = set(self.stations.keys())
+        for towns in self.homes_towns.values():
+            labels.update(towns.keys())
+        return labels
+
 
 # ============================================================
 # プロファイル実行
@@ -227,7 +234,8 @@ def run_profile(profile):
     log("")
     log("=" * 50)
     log(f"プロファイル: {profile.name}")
-    log(f"対象駅: {', '.join(profile.stations.keys())}")
+    all_labels = profile.all_labels()
+    log(f"対象駅/町名: {', '.join(sorted(all_labels))}")
     log(f"条件: 面積{profile.min_area}㎡以上, 築{profile.max_age}年以内, 賃貸{profile.max_rent}万円以下")
     log("=" * 50)
 
@@ -273,11 +281,11 @@ def run_profile(profile):
     )
     save_history(profile.data_dir, history)
 
-    # 変動サマリ集計
-    changes = compute_changes_summary(changes, profile.stations)
+    # 変動サマリ集計（駅名＋町名の全ラベルで集計）
+    changes = compute_changes_summary(changes, all_labels)
 
     # 駅別統計に変動情報をマージ
-    for st in profile.stations:
+    for st in all_labels:
         for prop_type in ['rental', 'new', 'used']:
             ch = changes.get('station_summary', {}).get(st, {}).get(prop_type, {})
             if st in station_stats[prop_type]:
@@ -291,14 +299,14 @@ def run_profile(profile):
     # 時系列データ更新
     log("時系列データ更新中...")
     ts = load_time_series(profile.data_dir)
-    ts = update_time_series(ts, today_str, station_stats, changes, profile.stations)
+    ts = update_time_series(ts, today_str, station_stats, changes, all_labels)
     save_time_series(profile.data_dir, ts)
 
     data = {
         'crawled_at': datetime.now().isoformat(),
         'profile': profile.name,
         'conditions': {
-            'stations': list(profile.stations.keys()),
+            'stations': sorted(all_labels),
             'min_area_sqm': profile.min_area,
             'max_age_years': profile.max_age,
             'max_rent_man': profile.max_rent,
