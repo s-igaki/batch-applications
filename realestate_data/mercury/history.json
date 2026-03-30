@@ -7573,7 +7573,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-03-24",
-      "last_seen": "2026-03-27",
+      "last_seen": "2026-03-30",
       "price_history": [
         {
           "date": "2026-03-24",
@@ -10197,6 +10197,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20427339/",
       "area": 116.14,
       "age_years": 2
+    },
+    "9e3c2819550b": {
+      "name": "",
+      "type": "used",
+      "station": "信濃町",
+      "first_seen": "2026-03-30",
+      "last_seen": "2026-03-30",
+      "price_history": [
+        {
+          "date": "2026-03-30",
+          "price": 6180.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/short_stories/v33qa6yt1OE",
+      "area": 45.27,
+      "age_years": null
     }
   }
 }
