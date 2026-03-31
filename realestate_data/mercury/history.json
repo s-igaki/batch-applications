@@ -2008,6 +2008,10 @@
         {
           "date": "2026-03-20",
           "price": 23480
+        },
+        {
+          "date": "2026-03-31",
+          "price": 22480
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_78961344/",
@@ -2067,7 +2071,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-29",
+      "last_seen": "2026-03-31",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -10261,6 +10265,86 @@
       "detail_url": "https://cowcamo.jp/short_stories/SfiYa9RhLzU",
       "area": 53.52,
       "age_years": null
+    },
+    "faec7c761e20": {
+      "name": "コンフォリア原宿",
+      "type": "rental",
+      "station": "明治神宮前",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 24.4
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/9f9f44efcda1610a4330e34a009886a663e75184/",
+      "area": 43.92,
+      "age_years": null
+    },
+    "6f3f2d7ef79b": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 24500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20559804/",
+      "area": 61.11,
+      "age_years": 0
+    },
+    "4c6c1f48ef49": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 13500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20222867/",
+      "area": 55.95,
+      "age_years": 12
+    },
+    "4b5a59f658a8": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 21000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20417672/",
+      "area": 74.04,
+      "age_years": 12
+    },
+    "8ae6a9037086": {
+      "name": "ディアナコート御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 18980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20186846/",
+      "area": 63.5,
+      "age_years": 6
     }
   }
 }

@@ -2003,6 +2003,182 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20430627/",
       "area": 93.56,
       "age_years": 13
+    },
+    "bfcfd2244e02": {
+      "name": "ＪＲ京浜東北線 大船駅 3階建 築6年",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 14.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106148914/",
+      "area": 55.0,
+      "age_years": 6
+    },
+    "e963cb21c4dc": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 9.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105537314/",
+      "area": 50.35,
+      "age_years": 0
+    },
+    "0105dde3a736": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 9.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105537313/",
+      "area": 50.35,
+      "age_years": 0
+    },
+    "71077395be98": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 9.35
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105537316/",
+      "area": 50.35,
+      "age_years": 0
+    },
+    "b6e5b317f2e5": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 10.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105537309/",
+      "area": 58.35,
+      "age_years": 0
+    },
+    "5106f0273bb7": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 10.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105537308/",
+      "area": 58.35,
+      "age_years": 0
+    },
+    "4a2505ffd631": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 10.25
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105723818/",
+      "area": 58.42,
+      "age_years": 0
+    },
+    "673ce32712f3": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 10.25
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105537310/",
+      "area": 58.35,
+      "age_years": 0
+    },
+    "b79d489f2e8b": {
+      "name": "コスモ茅ヶ崎プレシオ",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 2480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20413789/",
+      "area": 86.7,
+      "age_years": 37
+    },
+    "4c5f0ea68e1e": {
+      "name": "ダイアパレス・エクシード茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 2599.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20379820/",
+      "area": 96.21,
+      "age_years": 37
+    },
+    "e6b0ccf73c7b": {
+      "name": "茅ヶ崎市萩園 中古戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "price_history": [
+        {
+          "date": "2026-03-31",
+          "price": 2480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_79085146/",
+      "area": 81.14,
+      "age_years": 24
     }
   }
 }
