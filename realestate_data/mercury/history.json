@@ -10120,6 +10120,10 @@
         {
           "date": "2026-03-30",
           "price": 64800
+        },
+        {
+          "date": "2026-04-01",
+          "price": 62800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20212271/",
@@ -10349,6 +10353,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20186846/",
       "area": 63.5,
       "age_years": 6
+    },
+    "2de6a14d2fbc": {
+      "name": "サンウッド吉祥寺南町一丁目",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-01",
+      "last_seen": "2026-04-01",
+      "price_history": [
+        {
+          "date": "2026-04-01",
+          "price": 11980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20564565/",
+      "area": 45.36,
+      "age_years": 1
     }
   }
 }

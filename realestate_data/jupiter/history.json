@@ -2211,6 +2211,70 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20496089/",
       "area": 82.8,
       "age_years": 35
+    },
+    "e0556a024a2c": {
+      "name": "江ノ島電鉄線 江ノ島駅 地上2階建 築5年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-01",
+      "last_seen": "2026-04-01",
+      "price_history": [
+        {
+          "date": "2026-04-01",
+          "price": 12.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106169270/",
+      "area": 52.99,
+      "age_years": 5
+    },
+    "e0e79b72f932": {
+      "name": "Earth terrace",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-01",
+      "last_seen": "2026-04-01",
+      "price_history": [
+        {
+          "date": "2026-04-01",
+          "price": 13.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000082084295/",
+      "area": 67.9,
+      "age_years": 10
+    },
+    "4a1c7c6636f0": {
+      "name": "メゾン・ド・ボンペール",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-01",
+      "last_seen": "2026-04-01",
+      "price_history": [
+        {
+          "date": "2026-04-01",
+          "price": 10.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106169265/",
+      "area": 56.1,
+      "age_years": 13
+    },
+    "680360a122df": {
+      "name": "藤沢市白旗2丁目　中古戸建",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-01",
+      "last_seen": "2026-04-01",
+      "price_history": [
+        {
+          "date": "2026-04-01",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20392305/",
+      "area": 124.9,
+      "age_years": 19
     }
   }
 }
