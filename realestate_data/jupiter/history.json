@@ -2371,6 +2371,118 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_79225756/",
       "area": 79.48,
       "age_years": 16
+    },
+    "5d126f1e9c10": {
+      "name": "アミスタ湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-02",
+      "last_seen": "2026-04-02",
+      "price_history": [
+        {
+          "date": "2026-04-02",
+          "price": 11.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106122040/",
+      "area": 50.0,
+      "age_years": 4
+    },
+    "102a654a2edb": {
+      "name": "アミスタ湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-02",
+      "last_seen": "2026-04-02",
+      "price_history": [
+        {
+          "date": "2026-04-02",
+          "price": 12.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106200654/",
+      "area": 51.04,
+      "age_years": 4
+    },
+    "e1b33165486d": {
+      "name": "アミスタ湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-02",
+      "last_seen": "2026-04-02",
+      "price_history": [
+        {
+          "date": "2026-04-02",
+          "price": 12.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106122042/",
+      "area": 50.0,
+      "age_years": 4
+    },
+    "6daaa7667b95": {
+      "name": "アルスノーヴァ",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-04-02",
+      "last_seen": "2026-04-02",
+      "price_history": [
+        {
+          "date": "2026-04-02",
+          "price": 14.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106200634/",
+      "area": 55.0,
+      "age_years": 6
+    },
+    "cc5223fb18cc": {
+      "name": "【亀井野・中古戸建】　内外装リフォーム済み♪",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-02",
+      "last_seen": "2026-04-02",
+      "price_history": [
+        {
+          "date": "2026-04-02",
+          "price": 4650.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20566939/",
+      "area": 87.77,
+      "age_years": 24
+    },
+    "b995e29c5b6c": {
+      "name": "◇◆藤沢市湘南台7丁目　中古戸建◆◇",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-02",
+      "last_seen": "2026-04-02",
+      "price_history": [
+        {
+          "date": "2026-04-02",
+          "price": 4680.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20221283/",
+      "area": 101.43,
+      "age_years": 30
+    },
+    "49034f055021": {
+      "name": "茅ヶ崎市松尾",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-02",
+      "last_seen": "2026-04-02",
+      "price_history": [
+        {
+          "date": "2026-04-02",
+          "price": 3380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20571185/",
+      "area": 93.56,
+      "age_years": 13
     }
   }
 }
