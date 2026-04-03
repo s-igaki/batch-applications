@@ -10541,6 +10541,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20488546/",
       "area": 79.14,
       "age_years": 2
+    },
+    "b565ebb1b9b5": {
+      "name": "テアトル神南",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "price_history": [
+        {
+          "date": "2026-04-03",
+          "price": 24.8
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/f15ef6ecf85b979dbf78fce69cb0b58ddd063969/",
+      "area": 46.97,
+      "age_years": null
+    },
+    "8ba7b4caa6b2": {
+      "name": "テアトル神南",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "price_history": [
+        {
+          "date": "2026-04-03",
+          "price": 24.8
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/ed45e8a1f64029b3bd30aa467ca1efcc47be11bb/",
+      "area": 46.97,
+      "age_years": null
     }
   }
 }
