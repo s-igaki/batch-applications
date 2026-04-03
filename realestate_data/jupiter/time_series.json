@@ -13,7 +13,8 @@
     "2026-03-30",
     "2026-03-31",
     "2026-04-01",
-    "2026-04-02"
+    "2026-04-02",
+    "2026-04-03"
   ],
   "stations": {
     "吉祥寺": {
@@ -28,6 +29,7 @@
           0,
           0,
           2,
+          0,
           0,
           0,
           0,
@@ -48,6 +50,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "median_price_per_sqm": [
@@ -60,6 +63,7 @@
           null,
           null,
           0.2331,
+          null,
           null,
           null,
           null,
@@ -80,6 +84,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_price": [
@@ -92,6 +97,7 @@
           null,
           null,
           15.0,
+          null,
           null,
           null,
           null,
@@ -112,6 +118,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_area": [
@@ -124,6 +131,7 @@
           null,
           null,
           64.36,
+          null,
           null,
           null,
           null,
@@ -144,6 +152,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_walk": [
@@ -156,6 +165,7 @@
           null,
           null,
           5,
+          null,
           null,
           null,
           null,
@@ -176,6 +186,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "delisted": [
@@ -190,6 +201,7 @@
           0,
           2,
           2,
+          0,
           0,
           0,
           0
@@ -208,9 +220,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -242,9 +256,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -274,9 +290,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -306,9 +324,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -338,9 +358,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -370,9 +392,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -402,6 +426,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -418,9 +443,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -452,6 +479,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
@@ -465,6 +493,7 @@
           4299.0,
           4249.0,
           4249.0,
+          null,
           null,
           null,
           null,
@@ -484,6 +513,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
@@ -497,6 +527,7 @@
           54.8162,
           54.8162,
           54.8162,
+          null,
           null,
           null,
           null,
@@ -516,6 +547,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
@@ -529,6 +561,7 @@
           2999.0,
           2999.0,
           2999.0,
+          null,
           null,
           null,
           null,
@@ -548,6 +581,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
@@ -561,6 +595,7 @@
           35.7273,
           36.3,
           36.3,
+          null,
           null,
           null,
           null,
@@ -580,6 +615,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
@@ -592,6 +628,7 @@
           1,
           1,
           1,
+          0,
           0,
           0,
           0,
@@ -612,6 +649,7 @@
           10,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -628,9 +666,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -664,9 +704,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -696,9 +738,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -728,9 +772,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -760,9 +806,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -792,9 +840,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -824,6 +874,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -840,9 +891,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -874,9 +927,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -906,9 +961,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -938,9 +995,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -970,9 +1029,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -1002,9 +1063,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -1034,6 +1097,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -1050,9 +1114,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -1084,9 +1150,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -1116,9 +1184,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -1148,9 +1218,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -1180,9 +1252,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -1212,9 +1286,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -1244,6 +1320,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -1260,9 +1337,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -1296,9 +1375,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -1328,9 +1409,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -1360,9 +1443,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -1392,9 +1477,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -1424,9 +1511,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -1456,6 +1545,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -1472,9 +1562,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -1506,9 +1598,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -1538,9 +1632,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -1570,9 +1666,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -1602,9 +1700,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -1634,9 +1734,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -1666,6 +1768,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -1682,9 +1785,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -1716,6 +1821,7 @@
           0,
           0,
           0,
+          1,
           1
         ],
         "median_price": [
@@ -1732,6 +1838,7 @@
           null,
           null,
           null,
+          4930.0,
           4930.0
         ],
         "median_price_per_sqm": [
@@ -1748,6 +1855,7 @@
           null,
           null,
           null,
+          32.8579,
           32.8579
         ],
         "p25_price_per_sqm": [
@@ -1764,6 +1872,7 @@
           null,
           null,
           null,
+          32.8579,
           32.8579
         ],
         "avg_price": [
@@ -1780,6 +1889,7 @@
           null,
           null,
           null,
+          4930.0,
           4930.0
         ],
         "min_price": [
@@ -1796,6 +1906,7 @@
           null,
           null,
           null,
+          4930.0,
           4930.0
         ],
         "avg_area": [
@@ -1812,6 +1923,7 @@
           null,
           null,
           null,
+          150.04,
           150.04
         ],
         "avg_age": [
@@ -1828,6 +1940,7 @@
           null,
           null,
           null,
+          38,
           38
         ],
         "avg_walk": [
@@ -1844,6 +1957,7 @@
           null,
           null,
           null,
+          4,
           4
         ],
         "new_listings": [
@@ -1855,6 +1969,7 @@
           0,
           0,
           1,
+          0,
           0,
           0,
           0,
@@ -1876,6 +1991,7 @@
           1,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -1892,9 +2008,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -1928,9 +2046,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -1960,9 +2080,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -1992,9 +2114,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -2024,9 +2148,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -2056,9 +2182,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -2088,6 +2216,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -2104,9 +2233,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -2138,9 +2269,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -2170,9 +2303,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -2202,9 +2337,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -2234,9 +2371,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -2266,9 +2405,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -2298,6 +2439,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -2314,9 +2456,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -2348,6 +2492,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
@@ -2361,6 +2506,7 @@
           3580.0,
           3580.0,
           3580.0,
+          null,
           null,
           null,
           null,
@@ -2380,6 +2526,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
@@ -2393,6 +2540,7 @@
           40.0538,
           40.0538,
           40.0538,
+          null,
           null,
           null,
           null,
@@ -2412,6 +2560,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
@@ -2425,6 +2574,7 @@
           2680.0,
           2680.0,
           2680.0,
+          null,
           null,
           null,
           null,
@@ -2444,6 +2594,7 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
@@ -2457,6 +2608,7 @@
           56.5,
           56.5,
           56.5,
+          null,
           null,
           null,
           null,
@@ -2476,12 +2628,14 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
           0,
           0,
           1,
+          0,
           0,
           0,
           0,
@@ -2508,6 +2662,7 @@
           2,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -2524,9 +2679,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -2560,9 +2717,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -2592,9 +2751,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -2624,9 +2785,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -2656,9 +2819,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -2688,9 +2853,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -2720,6 +2887,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -2736,9 +2904,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -2770,9 +2940,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -2802,9 +2974,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -2834,9 +3008,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -2866,9 +3042,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -2898,9 +3076,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -2930,6 +3110,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -2946,9 +3127,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -2980,6 +3163,7 @@
           1,
           1,
           1,
+          1,
           1
         ],
         "median_price": [
@@ -2993,6 +3177,7 @@
           4249.0,
           4249.0,
           4299.0,
+          3480.0,
           3480.0,
           3480.0,
           3480.0,
@@ -3012,12 +3197,14 @@
           48.7668,
           48.7668,
           48.7668,
+          48.7668,
           48.7668
         ],
         "p25_price_per_sqm": [
           51.5695,
           51.5695,
           51.5695,
+          48.7668,
           48.7668,
           48.7668,
           48.7668,
@@ -3044,6 +3231,7 @@
           3480.0,
           3480.0,
           3480.0,
+          3480.0,
           3480.0
         ],
         "min_price": [
@@ -3057,6 +3245,7 @@
           2150.0,
           2150.0,
           2150.0,
+          3480.0,
           3480.0,
           3480.0,
           3480.0,
@@ -3076,6 +3265,7 @@
           71.36,
           71.36,
           71.36,
+          71.36,
           71.36
         ],
         "avg_age": [
@@ -3089,6 +3279,7 @@
           31.875,
           31.875,
           29.7778,
+          46,
           46,
           46,
           46,
@@ -3108,6 +3299,7 @@
           12,
           12,
           12,
+          12,
           12
         ],
         "new_listings": [
@@ -3120,6 +3312,7 @@
           0,
           0,
           1,
+          0,
           0,
           0,
           0,
@@ -3140,9 +3333,11 @@
           8,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0,
           0,
           0,
@@ -3172,7 +3367,8 @@
           0,
           0,
           0,
-          0
+          0,
+          1
         ]
       }
     },
@@ -3192,7 +3388,8 @@
           1,
           0,
           3,
-          7
+          7,
+          4
         ],
         "median_price": [
           null,
@@ -3208,7 +3405,8 @@
           10.7,
           null,
           12.2,
-          10.3
+          10.3,
+          11.85
         ],
         "median_price_per_sqm": [
           null,
@@ -3224,7 +3422,8 @@
           0.1919,
           null,
           0.2003,
-          0.1836
+          0.1836,
+          0.2346
         ],
         "p25_price_per_sqm": [
           null,
@@ -3240,7 +3439,8 @@
           0.1919,
           null,
           0.1836,
-          0.163
+          0.163,
+          0.234
         ],
         "avg_price": [
           null,
@@ -3256,7 +3456,8 @@
           10.7,
           null,
           12.0333,
-          10.3
+          10.3,
+          11.5
         ],
         "min_price": [
           null,
@@ -3272,7 +3473,8 @@
           10.7,
           null,
           10.3,
-          8.7
+          8.7,
+          10.3
         ],
         "avg_area": [
           null,
@@ -3288,7 +3490,8 @@
           55.75,
           null,
           58.9967,
-          52.46
+          52.46,
+          51.785
         ],
         "avg_age": [
           null,
@@ -3304,7 +3507,8 @@
           12,
           null,
           9.3333,
-          9.5714
+          9.5714,
+          6.25
         ],
         "avg_walk": [
           null,
@@ -3320,7 +3524,8 @@
           8,
           null,
           12.3333,
-          10.4286
+          10.4286,
+          7.75
         ],
         "new_listings": [
           0,
@@ -3336,7 +3541,8 @@
           1,
           0,
           3,
-          3
+          3,
+          0
         ],
         "delisted": [
           0,
@@ -3352,9 +3558,11 @@
           2,
           2,
           1,
-          3
+          3,
+          4
         ],
         "price_reduced": [
+          0,
           0,
           0,
           0,
@@ -3371,6 +3579,7 @@
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -3402,9 +3611,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -3434,9 +3645,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -3466,9 +3679,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -3498,9 +3713,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -3530,9 +3747,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -3562,6 +3781,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -3578,9 +3798,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -3612,7 +3834,8 @@
           22,
           23,
           23,
-          25
+          25,
+          23
         ],
         "median_price": [
           null,
@@ -3628,7 +3851,8 @@
           3638.5,
           3697.0,
           3730.0,
-          3999.0
+          3999.0,
+          3750.0
         ],
         "median_price_per_sqm": [
           null,
@@ -3644,7 +3868,8 @@
           36.4591,
           37.7305,
           35.8687,
-          39.5836
+          39.5836,
+          38.8331
         ],
         "p25_price_per_sqm": [
           null,
@@ -3657,6 +3882,7 @@
           null,
           68.0772,
           68.0772,
+          33.7725,
           33.7725,
           33.7725,
           33.7725,
@@ -3676,7 +3902,8 @@
           3460.4091,
           3526.4783,
           3583.0,
-          3718.24
+          3718.24,
+          3635.913
         ],
         "min_price": [
           null,
@@ -3689,6 +3916,7 @@
           null,
           4199.0,
           4199.0,
+          2190.0,
           2190.0,
           2190.0,
           2190.0,
@@ -3708,7 +3936,8 @@
           92.0795,
           90.9457,
           92.0465,
-          90.9088
+          90.9088,
+          90.5878
         ],
         "avg_age": [
           null,
@@ -3724,7 +3953,8 @@
           27.4091,
           28.2174,
           28.3478,
-          30.24
+          30.24,
+          30.5217
         ],
         "avg_walk": [
           null,
@@ -3740,7 +3970,8 @@
           10.8636,
           10.5217,
           10.2609,
-          11.48
+          11.48,
+          11.3913
         ],
         "new_listings": [
           0,
@@ -3756,7 +3987,8 @@
           0,
           0,
           1,
-          2
+          2,
+          0
         ],
         "delisted": [
           0,
@@ -3772,9 +4004,11 @@
           1,
           0,
           2,
-          2
+          2,
+          3
         ],
         "price_reduced": [
+          0,
           0,
           0,
           0,
@@ -3791,6 +4025,7 @@
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -3824,6 +4059,7 @@
           0,
           1,
           0,
+          1,
           1
         ],
         "median_price": [
@@ -3840,6 +4076,7 @@
           null,
           14.2,
           null,
+          14.2,
           14.2
         ],
         "median_price_per_sqm": [
@@ -3856,6 +4093,7 @@
           null,
           0.2582,
           null,
+          0.2582,
           0.2582
         ],
         "p25_price_per_sqm": [
@@ -3872,6 +4110,7 @@
           null,
           0.2582,
           null,
+          0.2582,
           0.2582
         ],
         "avg_price": [
@@ -3888,6 +4127,7 @@
           null,
           14.2,
           null,
+          14.2,
           14.2
         ],
         "min_price": [
@@ -3904,6 +4144,7 @@
           null,
           14.2,
           null,
+          14.2,
           14.2
         ],
         "avg_area": [
@@ -3920,6 +4161,7 @@
           null,
           55.0,
           null,
+          55.0,
           55.0
         ],
         "avg_age": [
@@ -3936,6 +4178,7 @@
           null,
           6,
           null,
+          6,
           6
         ],
         "avg_walk": [
@@ -3952,6 +4195,7 @@
           null,
           20,
           null,
+          20,
           20
         ],
         "new_listings": [
@@ -3968,7 +4212,8 @@
           0,
           1,
           0,
-          1
+          1,
+          0
         ],
         "delisted": [
           0,
@@ -3984,9 +4229,11 @@
           1,
           1,
           2,
-          1
+          1,
+          0
         ],
         "price_reduced": [
+          0,
           0,
           0,
           0,
@@ -4003,6 +4250,7 @@
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -4034,9 +4282,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -4066,9 +4316,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -4098,9 +4350,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -4130,9 +4384,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -4162,9 +4418,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -4194,9 +4452,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0,
           0,
           0,
@@ -4226,6 +4486,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       },
@@ -4241,6 +4502,7 @@
           7,
           7,
           7,
+          5,
           5,
           5,
           5,
@@ -4260,6 +4522,7 @@
           4480.0,
           4480.0,
           4480.0,
+          4480.0,
           4480.0
         ],
         "median_price_per_sqm": [
@@ -4273,6 +4536,7 @@
           43.3709,
           43.3709,
           43.3709,
+          36.7695,
           36.7695,
           36.7695,
           36.7695,
@@ -4292,6 +4556,7 @@
           35.0948,
           35.0948,
           35.0948,
+          35.0948,
           35.0948
         ],
         "avg_price": [
@@ -4305,6 +4570,7 @@
           4242.4286,
           4242.4286,
           4242.4286,
+          4307.2,
           4307.2,
           4307.2,
           4307.2,
@@ -4324,6 +4590,7 @@
           3480.0,
           3480.0,
           3480.0,
+          3480.0,
           3480.0
         ],
         "avg_area": [
@@ -4337,6 +4604,7 @@
           100.4543,
           100.4543,
           100.4543,
+          109.482,
           109.482,
           109.482,
           109.482,
@@ -4356,6 +4624,7 @@
           30.6,
           30.6,
           30.6,
+          30.6,
           30.6
         ],
         "avg_walk": [
@@ -4369,6 +4638,7 @@
           10.7143,
           10.7143,
           10.7143,
+          11.6,
           11.6,
           11.6,
           11.6,
@@ -4388,6 +4658,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "delisted": [
@@ -4404,9 +4675,11 @@
           6,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
+          0,
           0,
           0,
           0,
@@ -4436,7 +4709,8 @@
           0,
           0,
           0,
-          0
+          0,
+          1
         ]
       }
     },
@@ -4456,6 +4730,7 @@
           0,
           7,
           0,
+          0,
           0
         ],
         "median_price": [
@@ -4471,6 +4746,7 @@
           12.1,
           null,
           10.05,
+          null,
           null,
           null
         ],
@@ -4488,6 +4764,7 @@
           null,
           0.1757,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
@@ -4503,6 +4780,7 @@
           0.2388,
           null,
           0.1722,
+          null,
           null,
           null
         ],
@@ -4520,6 +4798,7 @@
           null,
           9.7214,
           null,
+          null,
           null
         ],
         "min_price": [
@@ -4535,6 +4814,7 @@
           12.1,
           null,
           9.05,
+          null,
           null,
           null
         ],
@@ -4552,6 +4832,7 @@
           null,
           54.9314,
           null,
+          null,
           null
         ],
         "avg_age": [
@@ -4567,6 +4848,7 @@
           14,
           null,
           0,
+          null,
           null,
           null
         ],
@@ -4584,6 +4866,7 @@
           null,
           1,
           null,
+          null,
           null
         ],
         "new_listings": [
@@ -4599,6 +4882,7 @@
           0,
           0,
           7,
+          0,
           0,
           0
         ],
@@ -4616,9 +4900,11 @@
           1,
           0,
           8,
-          1
+          1,
+          0
         ],
         "price_reduced": [
+          0,
           0,
           0,
           0,
@@ -4635,6 +4921,7 @@
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -4666,9 +4953,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "median_price": [
+          null,
           null,
           null,
           null,
@@ -4698,9 +4987,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "p25_price_per_sqm": [
+          null,
           null,
           null,
           null,
@@ -4730,9 +5021,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "min_price": [
+          null,
           null,
           null,
           null,
@@ -4762,9 +5055,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "avg_age": [
+          null,
           null,
           null,
           null,
@@ -4794,9 +5089,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "new_listings": [
+          0,
           0,
           0,
           0,
@@ -4826,6 +5123,7 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "price_reduced": [
@@ -4842,9 +5140,11 @@
           0,
           0,
           0,
+          0,
           0
         ],
         "stale": [
+          0,
           0,
           0,
           0,
@@ -4876,7 +5176,8 @@
           18,
           18,
           18,
-          19
+          19,
+          20
         ],
         "median_price": [
           3580.0,
@@ -4892,7 +5193,8 @@
           3535.0,
           3339.5,
           3339.5,
-          3380.0
+          3380.0,
+          3339.5
         ],
         "median_price_per_sqm": [
           41.6099,
@@ -4908,7 +5210,8 @@
           43.1928,
           39.295,
           39.295,
-          37.4121
+          37.4121,
+          37.1991
         ],
         "p25_price_per_sqm": [
           36.2393,
@@ -4922,6 +5225,7 @@
           37.4121,
           37.4121,
           36.2353,
+          36.1265,
           36.1265,
           36.1265,
           36.1265
@@ -4940,7 +5244,8 @@
           3496.2222,
           3357.3889,
           3357.3889,
-          3358.5789
+          3358.5789,
+          3319.65
         ],
         "min_price": [
           2490.0,
@@ -4954,6 +5259,7 @@
           2580.0,
           2580.0,
           2580.0,
+          2480.0,
           2480.0,
           2480.0,
           2480.0
@@ -4972,7 +5278,8 @@
           79.1394,
           79.83,
           79.83,
-          80.5526
+          80.5526,
+          80.8405
         ],
         "avg_age": [
           22.3333,
@@ -4988,7 +5295,8 @@
           22.0556,
           23.1667,
           23.1667,
-          22.6316
+          22.6316,
+          23.55
         ],
         "avg_walk": [
           8.6087,
@@ -5004,7 +5312,8 @@
           8.7222,
           7.5,
           7.5,
-          7.2632
+          7.2632,
+          7.75
         ],
         "new_listings": [
           2,
@@ -5020,6 +5329,7 @@
           1,
           3,
           0,
+          1,
           1
         ],
         "delisted": [
@@ -5036,6 +5346,7 @@
           7,
           4,
           4,
+          0,
           0
         ],
         "price_reduced": [
@@ -5050,6 +5361,7 @@
           0,
           0,
           1,
+          0,
           0,
           0,
           0
@@ -5068,7 +5380,8 @@
           0,
           0,
           0,
-          0
+          0,
+          10
         ]
       }
     }
@@ -5089,7 +5402,8 @@
         1,
         8,
         3,
-        8
+        8,
+        5
       ],
       "median_price": [
         14.9,
@@ -5105,7 +5419,8 @@
         10.7,
         12.125,
         12.2,
-        12.25
+        12.25,
+        13.025
       ],
       "median_price_per_sqm": [
         0.2723,
@@ -5121,11 +5436,13 @@
         0.1919,
         0.2169,
         0.2003,
-        0.2209
+        0.2209,
+        0.2464
       ]
     },
     "new": {
       "count": [
+        0,
         0,
         0,
         0,
@@ -5155,9 +5472,11 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "median_price_per_sqm": [
+        null,
         null,
         null,
         null,
@@ -5189,7 +5508,8 @@
         46,
         47,
         47,
-        51
+        51,
+        50
       ],
       "median_price": [
         4369.25,
@@ -5205,7 +5525,8 @@
         3586.75,
         3588.5,
         3605.0,
-        3999.0
+        3999.0,
+        3750.0
       ],
       "median_price_per_sqm": [
         57.7143,
@@ -5221,7 +5542,8 @@
         39.9811,
         38.5127,
         38.0323,
-        37.4121
+        37.4121,
+        37.1991
       ]
     }
   }
