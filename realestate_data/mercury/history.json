@@ -1503,6 +1503,10 @@
         {
           "date": "2026-03-20",
           "price": 16980
+        },
+        {
+          "date": "2026-04-04",
+          "price": 15480
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_20315710/",
@@ -10036,6 +10040,10 @@
         {
           "date": "2026-03-30",
           "price": 19980
+        },
+        {
+          "date": "2026-04-04",
+          "price": 18980
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20342635/",
@@ -10387,7 +10395,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-03",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10403,7 +10411,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-03",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10419,7 +10427,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-03",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10435,7 +10443,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-03",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10573,6 +10581,22 @@
       "detail_url": "https://www.homes.co.jp/chintai/room/ed45e8a1f64029b3bd30aa467ca1efcc47be11bb/",
       "area": 46.97,
       "age_years": null
+    },
+    "7badd8c6a9d9": {
+      "name": "オープンレジデンシア吉祥寺本町テラス",
+      "type": "new",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "price_history": [
+        {
+          "date": "2026-04-04",
+          "price": 18980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_78674441/",
+      "area": 81.1,
+      "age_years": 0
     }
   }
 }

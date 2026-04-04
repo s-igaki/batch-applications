@@ -2029,7 +2029,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-03-31",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2045,7 +2045,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-03-31",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2061,7 +2061,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-03-31",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2077,7 +2077,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-03-31",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2093,7 +2093,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-03-31",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2109,7 +2109,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-03-31",
+      "last_seen": "2026-04-04",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2562,6 +2562,10 @@
         {
           "date": "2026-04-03",
           "price": 3697.0
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3497.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20580004/",
@@ -2583,6 +2587,118 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000106242431/",
       "area": 54.89,
       "age_years": 13
+    },
+    "6bd7c7342940": {
+      "name": "エスポワール湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "price_history": [
+        {
+          "date": "2026-04-04",
+          "price": 8.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105320407/",
+      "area": 57.64,
+      "age_years": 14
+    },
+    "ac5e30a2934b": {
+      "name": "サニー",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "price_history": [
+        {
+          "date": "2026-04-04",
+          "price": 7.89
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106242436/",
+      "area": 55.1,
+      "age_years": 11
+    },
+    "b482fe810444": {
+      "name": "サニー",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "price_history": [
+        {
+          "date": "2026-04-04",
+          "price": 8.95
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105882931/",
+      "area": 55.1,
+      "age_years": 11
+    },
+    "4099805b5a04": {
+      "name": "サニー",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "price_history": [
+        {
+          "date": "2026-04-04",
+          "price": 9.15
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104911913/",
+      "area": 55.1,
+      "age_years": 11
+    },
+    "63caac93362f": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "price_history": [
+        {
+          "date": "2026-04-04",
+          "price": 9.35
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105537311/",
+      "area": 50.42,
+      "age_years": 0
+    },
+    "3ca61e1fc538": {
+      "name": "＼カースペース３台×庭／　松が丘二丁目中古戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "price_history": [
+        {
+          "date": "2026-04-04",
+          "price": 3780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20591225/",
+      "area": 81.15,
+      "age_years": 16
+    },
+    "6cf356afc14e": {
+      "name": "＼カースペース３台×庭／　松が丘二丁目中古戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "price_history": [
+        {
+          "date": "2026-04-04",
+          "price": 3780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20591214/",
+      "area": 81.15,
+      "age_years": 16
     }
   }
 }
