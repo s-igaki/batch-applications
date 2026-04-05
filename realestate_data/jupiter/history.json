@@ -2253,7 +2253,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-01",
-      "last_seen": "2026-04-02",
+      "last_seen": "2026-04-05",
       "price_history": [
         {
           "date": "2026-04-01",
@@ -2699,6 +2699,70 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20591214/",
       "area": 81.15,
       "age_years": 16
+    },
+    "daa876f0cbde": {
+      "name": "BLESS辻堂～ブレス～",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "price_history": [
+        {
+          "date": "2026-04-05",
+          "price": 13.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106200653/",
+      "area": 50.23,
+      "age_years": 8
+    },
+    "850a9a6f9f54": {
+      "name": "クリオ藤沢善行伍番館",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "price_history": [
+        {
+          "date": "2026-04-05",
+          "price": 3380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20583992/",
+      "area": 60.1,
+      "age_years": 30
+    },
+    "749c4f9896c0": {
+      "name": "",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "price_history": [
+        {
+          "date": "2026-04-05",
+          "price": 4697.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20595614/",
+      "area": 85.85,
+      "age_years": 9
+    },
+    "e7c348ff8d18": {
+      "name": "茅ヶ崎市高田1丁目",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "price_history": [
+        {
+          "date": "2026-04-05",
+          "price": 2680.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20595769/",
+      "area": 86.34,
+      "age_years": 42
     }
   }
 }

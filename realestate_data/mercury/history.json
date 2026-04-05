@@ -10395,7 +10395,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10411,7 +10411,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10427,7 +10427,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10443,7 +10443,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10596,6 +10596,22 @@
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_78674441/",
       "area": 81.1,
+      "age_years": 0
+    },
+    "1b620eaf6b0c": {
+      "name": "プラウドタワー渋谷",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "price_history": [
+        {
+          "date": "2026-04-05",
+          "price": 24000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20594928/",
+      "area": 74.47,
       "age_years": 0
     }
   }
