@@ -1,6 +1,13 @@
 {
   "snapshots": [
     {
+      "file": "2026-04-07_213947.json",
+      "date": "2026-04-07T21:39:47.209709",
+      "rental_count": 18,
+      "new_count": 0,
+      "used_count": 51
+    },
+    {
       "file": "2026-04-07_100456.json",
       "date": "2026-04-07T10:04:56.380993",
       "rental_count": 9,

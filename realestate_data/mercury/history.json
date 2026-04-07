@@ -1487,6 +1487,10 @@
         {
           "date": "2026-03-20",
           "price": 12400
+        },
+        {
+          "date": "2026-04-07",
+          "price": 12438
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67730928/",
@@ -10653,6 +10657,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/tmKBCmEv8zI",
       "area": 41.31,
       "age_years": null
+    },
+    "0765474aadf9": {
+      "name": "（仮称）原宿パークマンション（建替中）",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "price_history": [
+        {
+          "date": "2026-04-07",
+          "price": 13560
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20258559/",
+      "area": 80.12,
+      "age_years": 0
     }
   }
 }

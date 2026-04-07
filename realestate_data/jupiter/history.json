@@ -2029,7 +2029,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-07",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2045,7 +2045,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-07",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2061,7 +2061,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-07",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2077,7 +2077,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-07",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2093,7 +2093,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-07",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2205,7 +2205,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-01",
-      "last_seen": "2026-04-06",
+      "last_seen": "2026-04-07",
       "price_history": [
         {
           "date": "2026-04-01",
@@ -2657,7 +2657,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-04",
-      "last_seen": "2026-04-04",
+      "last_seen": "2026-04-07",
       "price_history": [
         {
           "date": "2026-04-04",
@@ -2875,6 +2875,118 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000106250902/",
       "area": 65.6,
       "age_years": 2
+    },
+    "af530f06dddd": {
+      "name": "小田急江ノ島線 鵠沼海岸駅 2階建 築12年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "price_history": [
+        {
+          "date": "2026-04-07",
+          "price": 13.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106310468/",
+      "area": 56.77,
+      "age_years": 12
+    },
+    "26e0c712c782": {
+      "name": "エスペリア",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "price_history": [
+        {
+          "date": "2026-04-07",
+          "price": 10.1
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106299145/",
+      "area": 50.53,
+      "age_years": 0
+    },
+    "0fcc941fa7ca": {
+      "name": "エスペリア",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "price_history": [
+        {
+          "date": "2026-04-07",
+          "price": 10.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106299146/",
+      "area": 50.53,
+      "age_years": 0
+    },
+    "47e11aa79faa": {
+      "name": "エスペリア",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "price_history": [
+        {
+          "date": "2026-04-07",
+          "price": 10.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106299144/",
+      "area": 50.53,
+      "age_years": 0
+    },
+    "36ec2d0c1bff": {
+      "name": "ＦｌｏｒｉａII（フローリアII）",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "price_history": [
+        {
+          "date": "2026-04-07",
+          "price": 12.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106242410/",
+      "area": 71.07,
+      "age_years": 3
+    },
+    "bff0e3f42548": {
+      "name": "Ｎｏｂｌｅ　北鎌倉",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "price_history": [
+        {
+          "date": "2026-04-07",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104549956/",
+      "area": 53.37,
+      "age_years": 9
+    },
+    "3bf204c7c61b": {
+      "name": "ＪＲ横須賀線 北鎌倉駅 2階建 築9年",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "price_history": [
+        {
+          "date": "2026-04-07",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104569070/",
+      "area": 53.37,
+      "age_years": 9
     }
   }
 }
