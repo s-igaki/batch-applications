@@ -2147,7 +2147,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-05",
+      "last_seen": "2026-04-08",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -10673,6 +10673,54 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20258559/",
       "area": 80.12,
       "age_years": 0
+    },
+    "be0c41dab05a": {
+      "name": "アイビス市ヶ谷（IBIS市ヶ谷）",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "price_history": [
+        {
+          "date": "2026-04-08",
+          "price": 24.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/65b27f456821be3b975c069299a76e6739c7b2ad/",
+      "area": 43.78,
+      "age_years": null
+    },
+    "5c575a0edcda": {
+      "name": "アイビス市ヶ谷（IBIS市ヶ谷）",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "price_history": [
+        {
+          "date": "2026-04-08",
+          "price": 24.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/5e7603c17782d94315656525f21b5b3937093ba6/",
+      "area": 43.78,
+      "age_years": null
+    },
+    "bf6d14b13282": {
+      "name": "プラウド新宿御苑エンパイア",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "price_history": [
+        {
+          "date": "2026-04-08",
+          "price": 55000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20612457/",
+      "area": 110.19,
+      "age_years": 16
     }
   }
 }
