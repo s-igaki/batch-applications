@@ -3051,6 +3051,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000106348638/",
       "area": 56.06,
       "age_years": 2
+    },
+    "03dcbcc9c420": {
+      "name": "藤沢本町",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "price_history": [
+        {
+          "date": "2026-04-09",
+          "price": 3999.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20619566/",
+      "area": 80.11,
+      "age_years": 38
+    },
+    "7118420ee33b": {
+      "name": "オープンセレクション茅ケ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "price_history": [
+        {
+          "date": "2026-04-09",
+          "price": 4500.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78698949/",
+      "area": 87.25,
+      "age_years": 3
     }
   }
 }

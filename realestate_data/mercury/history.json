@@ -2136,6 +2136,10 @@
         {
           "date": "2026-03-20",
           "price": 24500
+        },
+        {
+          "date": "2026-04-09",
+          "price": 22900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20145319/",
@@ -10332,6 +10336,10 @@
         {
           "date": "2026-03-31",
           "price": 24500
+        },
+        {
+          "date": "2026-04-09",
+          "price": 22900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20559804/",
@@ -10752,6 +10760,38 @@
       ],
       "detail_url": "https://cowcamo.jp/short_stories/2IOzE6isycs",
       "area": 49.71,
+      "age_years": null
+    },
+    "ab1973f1c575": {
+      "name": "Habitat　Kamada",
+      "type": "rental",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "price_history": [
+        {
+          "date": "2026-04-09",
+          "price": 22.4
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/a6f09e8988e9d72058a542aa1dd7d63fdfd674b2/",
+      "area": 52.76,
+      "age_years": null
+    },
+    "13811bf49a76": {
+      "name": "Habitat　Kamada",
+      "type": "rental",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "price_history": [
+        {
+          "date": "2026-04-09",
+          "price": 22.4
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/aed3aa35fe8c7dbce87955b8272a0e2d07556322/",
+      "area": 52.76,
       "age_years": null
     }
   }
