@@ -2156,6 +2156,10 @@
         {
           "date": "2026-03-20",
           "price": 24500
+        },
+        {
+          "date": "2026-04-10",
+          "price": 22900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20094647/",
@@ -10771,7 +10775,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-04-09",
+      "last_seen": "2026-04-10",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -10787,7 +10791,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-04-09",
+      "last_seen": "2026-04-10",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -10828,6 +10832,54 @@
       ],
       "detail_url": "https://cowcamo.jp/short_stories/4jQzro4UqhA",
       "area": 96.43,
+      "age_years": null
+    },
+    "06ab2107be61": {
+      "name": "JR中央線 三鷹駅 バス7分 武蔵野中央公園下車 徒歩3分",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "price_history": [
+        {
+          "date": "2026-04-10",
+          "price": 7.9
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/830bf8d81f72d845f12c5863486e9f161bfa2fea/",
+      "area": 40.92,
+      "age_years": null
+    },
+    "8a099d622797": {
+      "name": "ディアナコート御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "price_history": [
+        {
+          "date": "2026-04-10",
+          "price": 18980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20629168/",
+      "area": 63.5,
+      "age_years": 6
+    },
+    "2e6946527333": {
+      "name": "レトロモダン建築で暮らす",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "price_history": [
+        {
+          "date": "2026-04-10",
+          "price": 24800.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%8B%E8%B0%B7%E5%8C%BA/%E3%83%AC%E3%83%88%E3%83%AD%E3%83%A2%E3%83%80%E3%83%B3%E5%BB%BA%E7%AF%89%E3%81%A7%E6%9A%AE%E3%82%89%E3%81%99",
+      "area": 130.63,
       "age_years": null
     }
   }
