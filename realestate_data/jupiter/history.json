@@ -1490,6 +1490,10 @@
         {
           "date": "2026-03-28",
           "price": 3080.0
+        },
+        {
+          "date": "2026-04-11",
+          "price": 2999.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20538628/",
@@ -3191,6 +3195,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20618680/",
       "area": 63.35,
       "age_years": 31
+    },
+    "24889e5e2fbd": {
+      "name": "ストーク",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "price_history": [
+        {
+          "date": "2026-04-11",
+          "price": 11.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106416011/",
+      "area": 60.0,
+      "age_years": 14
+    },
+    "95dde7158beb": {
+      "name": "サンリット・ガ－デンＡ棟",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "price_history": [
+        {
+          "date": "2026-04-11",
+          "price": 7.55
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106403611/",
+      "area": 57.64,
+      "age_years": 11
     }
   }
 }

@@ -10616,6 +10616,10 @@
         {
           "date": "2026-04-04",
           "price": 18980
+        },
+        {
+          "date": "2026-04-11",
+          "price": 18480
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_78674441/",
@@ -10881,6 +10885,38 @@
       "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%8B%E8%B0%B7%E5%8C%BA/%E3%83%AC%E3%83%88%E3%83%AD%E3%83%A2%E3%83%80%E3%83%B3%E5%BB%BA%E7%AF%89%E3%81%A7%E6%9A%AE%E3%82%89%E3%81%99",
       "area": 130.63,
       "age_years": null
+    },
+    "4878e3478a9b": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "price_history": [
+        {
+          "date": "2026-04-11",
+          "price": 25900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20552349/",
+      "area": 70.71,
+      "age_years": 0
+    },
+    "8da49e4de24d": {
+      "name": "ファインスクェア吉祥寺ザ・プレミアム",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "price_history": [
+        {
+          "date": "2026-04-11",
+          "price": 17500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20636379/",
+      "area": 70.17,
+      "age_years": 13
     }
   }
 }
