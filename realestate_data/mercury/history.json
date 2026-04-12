@@ -2273,7 +2273,7 @@
       "type": "new",
       "station": "表参道",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-29",
+      "last_seen": "2026-04-12",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -10933,6 +10933,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000103316446/",
       "area": 50.53,
       "age_years": 19
+    },
+    "3b66756a41dc": {
+      "name": "オープンレジデンシア吉祥寺本町テラス",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "price_history": [
+        {
+          "date": "2026-04-12",
+          "price": 23.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/73d70861371e53e4e4782e0292f4b2b9491b36ec/",
+      "area": 43.66,
+      "age_years": null
+    },
+    "f16c3e724772": {
+      "name": "THE 新宿御苑フロント｜駅歩6分｜富士(Mt.Fu…",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "price_history": [
+        {
+          "date": "2026-04-12",
+          "price": 34980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20636709/",
+      "area": 85.75,
+      "age_years": 17
     }
   }
 }

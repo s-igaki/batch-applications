@@ -3243,6 +3243,102 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000105399244/",
       "area": 50.71,
       "age_years": 11
+    },
+    "d84c105e3bc1": {
+      "name": "ヴェルドミール伍番館",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "price_history": [
+        {
+          "date": "2026-04-12",
+          "price": 11.1
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106083124/",
+      "area": 58.67,
+      "age_years": 3
+    },
+    "a6f4006a21b6": {
+      "name": "ソレイユ湘南太平台A",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "price_history": [
+        {
+          "date": "2026-04-12",
+          "price": 12.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000096661119/",
+      "area": 50.91,
+      "age_years": 2
+    },
+    "0564872f4bfd": {
+      "name": "ソレイユ湘南太平台A",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "price_history": [
+        {
+          "date": "2026-04-12",
+          "price": 12.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106429883/",
+      "area": 50.91,
+      "age_years": 2
+    },
+    "90b12c04f3aa": {
+      "name": "藤沢市鵠沼神明4丁目☆彡リフォーム済中古戸建♪間仕切…",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "price_history": [
+        {
+          "date": "2026-04-12",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20614729/",
+      "area": 79.48,
+      "age_years": 16
+    },
+    "6d537a752bee": {
+      "name": "◇◆鎌倉市手広２丁目　中古戸建◆◇",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "price_history": [
+        {
+          "date": "2026-04-12",
+          "price": 4697.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20640423/",
+      "area": 85.85,
+      "age_years": 9
+    },
+    "00ba2b1d2d6c": {
+      "name": "茅ヶ崎市西久保",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "price_history": [
+        {
+          "date": "2026-04-12",
+          "price": 3399.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20641789/",
+      "area": 102.25,
+      "age_years": 23
     }
   }
 }
