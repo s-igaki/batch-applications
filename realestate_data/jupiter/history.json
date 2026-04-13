@@ -1622,6 +1622,10 @@
         {
           "date": "2026-03-30",
           "price": 3198.0
+        },
+        {
+          "date": "2026-04-13",
+          "price": 3098.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_79075547/",
@@ -1917,7 +1921,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-10",
+      "last_seen": "2026-04-13",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -2285,7 +2289,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-01",
-      "last_seen": "2026-04-03",
+      "last_seen": "2026-04-13",
       "price_history": [
         {
           "date": "2026-04-01",
@@ -3078,6 +3082,10 @@
         {
           "date": "2026-04-09",
           "price": 3999.0
+        },
+        {
+          "date": "2026-04-13",
+          "price": 3899.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20619566/",
@@ -3089,7 +3097,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-04-10",
+      "last_seen": "2026-04-13",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -3137,7 +3145,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-11",
-      "last_seen": "2026-04-12",
+      "last_seen": "2026-04-13",
       "price_history": [
         {
           "date": "2026-04-11",
@@ -3371,6 +3379,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20642343/",
       "area": 80.11,
       "age_years": 38
+    },
+    "3efe7143a790": {
+      "name": "カーサルジェンドVI",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "price_history": [
+        {
+          "date": "2026-04-13",
+          "price": 11.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104762406/",
+      "area": 58.13,
+      "age_years": 0
+    },
+    "e9dce490fd7a": {
+      "name": "カーサルジェンドVI",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "price_history": [
+        {
+          "date": "2026-04-13",
+          "price": 11.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104762407/",
+      "area": 58.13,
+      "age_years": 0
+    },
+    "70dbe08ce789": {
+      "name": "カーサルジェンドVI",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "price_history": [
+        {
+          "date": "2026-04-13",
+          "price": 11.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104762405/",
+      "area": 58.06,
+      "age_years": 0
     }
   }
 }

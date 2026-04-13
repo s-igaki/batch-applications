@@ -2120,6 +2120,10 @@
         {
           "date": "2026-03-20",
           "price": 24500
+        },
+        {
+          "date": "2026-04-13",
+          "price": 22900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20152029/",
@@ -9992,6 +9996,10 @@
         {
           "date": "2026-03-30",
           "price": 24980
+        },
+        {
+          "date": "2026-04-13",
+          "price": 24780
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20390486/",
@@ -10981,6 +10989,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78857955/",
       "area": 74.92,
       "age_years": 2
+    },
+    "601f09246c20": {
+      "name": "フォルム内藤町14F",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "price_history": [
+        {
+          "date": "2026-04-13",
+          "price": 31700
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20647705/",
+      "area": 92.56,
+      "age_years": 17
     }
   }
 }
