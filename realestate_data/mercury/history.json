@@ -11000,11 +11000,31 @@
         {
           "date": "2026-04-13",
           "price": 31700
+        },
+        {
+          "date": "2026-04-14",
+          "price": 32000
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20647705/",
       "area": 92.56,
       "age_years": 17
+    },
+    "aeab42be9c38": {
+      "name": "プラウドタワー渋谷",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "price_history": [
+        {
+          "date": "2026-04-14",
+          "price": 29900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20387687/",
+      "area": 77.11,
+      "age_years": 0
     }
   }
 }

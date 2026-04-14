@@ -2741,7 +2741,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-04-10",
+      "last_seen": "2026-04-14",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -3427,6 +3427,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000104762405/",
       "area": 58.06,
       "age_years": 0
+    },
+    "4271c098225a": {
+      "name": "ベルフォーレ井草",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "price_history": [
+        {
+          "date": "2026-04-14",
+          "price": 14.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104624570/",
+      "area": 52.16,
+      "age_years": 3
+    },
+    "3ea072cd7305": {
+      "name": "DL蒼の杜　空　[ネット付・京和風D-ROOM]",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "price_history": [
+        {
+          "date": "2026-04-14",
+          "price": 12.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105938673/",
+      "area": 60.13,
+      "age_years": 6
     }
   }
 }
