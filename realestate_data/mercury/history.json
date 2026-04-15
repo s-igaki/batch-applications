@@ -2088,6 +2088,10 @@
         {
           "date": "2026-03-20",
           "price": 24500
+        },
+        {
+          "date": "2026-04-15",
+          "price": 22900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20246272/",
@@ -10427,7 +10431,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-14",
+      "last_seen": "2026-04-15",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10459,7 +10463,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-14",
+      "last_seen": "2026-04-15",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10931,7 +10935,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-04-14",
+      "last_seen": "2026-04-15",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -10979,7 +10983,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-04-13",
-      "last_seen": "2026-04-13",
+      "last_seen": "2026-04-15",
       "price_history": [
         {
           "date": "2026-04-13",
@@ -11041,6 +11045,22 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20559805/",
       "area": 71.62,
       "age_years": 0
+    },
+    "d1375a08fc2f": {
+      "name": "ガーデンクレスト",
+      "type": "rental",
+      "station": "大京町",
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "price_history": [
+        {
+          "date": "2026-04-15",
+          "price": 19.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106472501/",
+      "area": 50.53,
+      "age_years": 19
     }
   }
 }
