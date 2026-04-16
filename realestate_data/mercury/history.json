@@ -11137,6 +11137,22 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20663349/",
       "area": 71.62,
       "age_years": 0
+    },
+    "ddce026f883e": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "price_history": [
+        {
+          "date": "2026-04-16",
+          "price": 22900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20664453/",
+      "area": 61.11,
+      "age_years": 0
     }
   }
 }

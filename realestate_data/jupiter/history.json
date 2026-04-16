@@ -345,7 +345,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-12",
+      "last_seen": "2026-04-16",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -1526,6 +1526,10 @@
         {
           "date": "2026-03-30",
           "price": 2190.0
+        },
+        {
+          "date": "2026-04-16",
+          "price": 2090.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_79171635/",
@@ -3507,6 +3511,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78267796/",
       "area": 98.12,
       "age_years": 3
+    },
+    "017ce8adf30b": {
+      "name": "湘南モノレール 片瀬山駅 2階建 築13年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "price_history": [
+        {
+          "date": "2026-04-16",
+          "price": 11.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106510061/",
+      "area": 63.42,
+      "age_years": 13
+    },
+    "04f4b1554a2d": {
+      "name": "◇ヴィラヴェール藤沢☆彡空室につき即入居可◎＃閑静な…",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "price_history": [
+        {
+          "date": "2026-04-16",
+          "price": 1980.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_78861704/",
+      "area": 65.7,
+      "age_years": 31
+    },
+    "c5d479648b8e": {
+      "name": "【明治地所のオリジナル専任物件】茅ヶ崎市室田２丁目",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "price_history": [
+        {
+          "date": "2026-04-16",
+          "price": 2740.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_79095707/",
+      "area": 90.46,
+      "age_years": 18
     }
   }
 }
