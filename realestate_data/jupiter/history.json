@@ -474,6 +474,10 @@
         {
           "date": "2026-03-20",
           "price": 4580.0
+        },
+        {
+          "date": "2026-04-17",
+          "price": 4490.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20093213/",
@@ -989,7 +993,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-31",
+      "last_seen": "2026-04-17",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2505,7 +2509,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-13",
+      "last_seen": "2026-04-17",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -2797,7 +2801,7 @@
       "type": "rental",
       "station": "荻窪",
       "first_seen": "2026-04-06",
-      "last_seen": "2026-04-07",
+      "last_seen": "2026-04-17",
       "price_history": [
         {
           "date": "2026-04-06",
@@ -3563,6 +3567,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_79095707/",
       "area": 90.46,
       "age_years": 18
+    },
+    "a2006decddcf": {
+      "name": "ベルドミール井草",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "price_history": [
+        {
+          "date": "2026-04-17",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105544769/",
+      "area": 59.62,
+      "age_years": 14
+    },
+    "d5f5ae9b9e56": {
+      "name": "稲村ツリーIII",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "price_history": [
+        {
+          "date": "2026-04-17",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106550273/",
+      "area": 62.97,
+      "age_years": 6
+    },
+    "5e62b075c2fe": {
+      "name": "江ノ島電鉄線 稲村ヶ崎駅 2階建 築6年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "price_history": [
+        {
+          "date": "2026-04-17",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106557211/",
+      "area": 62.97,
+      "age_years": 6
     }
   }
 }
