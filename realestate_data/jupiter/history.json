@@ -1933,7 +1933,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-17",
+      "last_seen": "2026-04-18",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -3695,6 +3695,38 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20676858/",
       "area": 97.49,
       "age_years": 30
+    },
+    "70b2d76f7f95": {
+      "name": "リブェール湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "price_history": [
+        {
+          "date": "2026-04-18",
+          "price": 9.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106578231/",
+      "area": 52.9,
+      "age_years": 4
+    },
+    "2c5ab290a765": {
+      "name": "リブェール湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "price_history": [
+        {
+          "date": "2026-04-18",
+          "price": 10.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106578232/",
+      "area": 51.7,
+      "age_years": 4
     }
   }
 }
