@@ -3589,7 +3589,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-04-18",
+      "last_seen": "2026-04-19",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -3727,6 +3727,134 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000106578232/",
       "area": 51.7,
       "age_years": 4
+    },
+    "36cca808ced5": {
+      "name": "アルモ湘南II",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "price_history": [
+        {
+          "date": "2026-04-19",
+          "price": 10.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105764380/",
+      "area": 53.73,
+      "age_years": 7
+    },
+    "2053146d0513": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　II",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "price_history": [
+        {
+          "date": "2026-04-19",
+          "price": 13.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104251210/",
+      "area": 54.64,
+      "age_years": 0
+    },
+    "6e4df0b22311": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　II",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "price_history": [
+        {
+          "date": "2026-04-19",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104251213/",
+      "area": 54.64,
+      "age_years": 0
+    },
+    "d9c55afee13a": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　II",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "price_history": [
+        {
+          "date": "2026-04-19",
+          "price": 14.1
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104874143/",
+      "area": 50.13,
+      "age_years": 0
+    },
+    "e6979d584eb2": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　II",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "price_history": [
+        {
+          "date": "2026-04-19",
+          "price": 14.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104251214/",
+      "area": 50.13,
+      "age_years": 0
+    },
+    "f96fcc715ba8": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　II",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "price_history": [
+        {
+          "date": "2026-04-19",
+          "price": 14.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000104251215/",
+      "area": 57.6,
+      "age_years": 0
+    },
+    "f4158b2eb8e5": {
+      "name": "シャンテ　くげぬま",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "price_history": [
+        {
+          "date": "2026-04-19",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106541137/",
+      "area": 57.8,
+      "age_years": 5
+    },
+    "e1f88e1f1b16": {
+      "name": "ダイアパレスエクシード茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "price_history": [
+        {
+          "date": "2026-04-19",
+          "price": 2790.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20691070/",
+      "area": 93.42,
+      "age_years": 37
     }
   }
 }
