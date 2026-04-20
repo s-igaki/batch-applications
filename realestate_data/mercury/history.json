@@ -11233,6 +11233,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/ehRrNk9mpig",
       "area": 78.59,
       "age_years": null
+    },
+    "78312f0ee43c": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "price": 24800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20698138/",
+      "area": 70.71,
+      "age_years": 0
     }
   }
 }
