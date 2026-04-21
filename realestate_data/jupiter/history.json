@@ -1781,7 +1781,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-21",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -3903,6 +3903,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20698895/",
       "area": 80.11,
       "age_years": 38
+    },
+    "b36d2d6b9250": {
+      "name": "◇藤沢市白旗4丁目　フルリノベーション済住宅◇",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "price_history": [
+        {
+          "date": "2026-04-21",
+          "price": 3497.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20618743/",
+      "area": 90.67,
+      "age_years": 28
     }
   }
 }
