@@ -10180,6 +10180,10 @@
         {
           "date": "2026-04-01",
           "price": 62800
+        },
+        {
+          "date": "2026-04-22",
+          "price": 59800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20212271/",
@@ -11079,7 +11083,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-04-16",
-      "last_seen": "2026-04-19",
+      "last_seen": "2026-04-22",
       "price_history": [
         {
           "date": "2026-04-16",
@@ -11095,7 +11099,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-04-16",
-      "last_seen": "2026-04-16",
+      "last_seen": "2026-04-22",
       "price_history": [
         {
           "date": "2026-04-16",
