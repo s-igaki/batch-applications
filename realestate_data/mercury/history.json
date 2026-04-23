@@ -1413,7 +1413,7 @@
       "type": "new",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729878/",
       "area": 84.38,
@@ -1455,7 +1455,7 @@
       "type": "new",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729222/",
       "area": 63.61,
@@ -1482,7 +1482,7 @@
       "type": "new",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -1502,7 +1502,7 @@
       "type": "new",
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -1741,7 +1741,7 @@
       "type": "new",
       "station": "四ツ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_67734365/",
       "area": 70.07,
@@ -1995,7 +1995,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2015,7 +2015,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2083,7 +2083,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2119,7 +2119,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2139,7 +2139,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2159,7 +2159,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2517,7 +2517,7 @@
       "type": "used",
       "station": "代々木",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2549,7 +2549,7 @@
       "type": "used",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2569,7 +2569,7 @@
       "type": "used",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2601,7 +2601,7 @@
       "type": "used",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2669,7 +2669,7 @@
       "type": "used",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2689,7 +2689,7 @@
       "type": "used",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2725,7 +2725,7 @@
       "type": "used",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -5065,7 +5065,7 @@
       "type": "used",
       "station": "代々木",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -7033,7 +7033,7 @@
       "type": "used",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-23",
@@ -9923,7 +9923,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -9939,7 +9939,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -9955,7 +9955,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -9971,7 +9971,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -9987,7 +9987,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10003,7 +10003,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10023,7 +10023,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10055,7 +10055,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10071,7 +10071,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10091,7 +10091,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10107,7 +10107,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10123,7 +10123,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10139,7 +10139,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10155,7 +10155,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10171,7 +10171,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10211,7 +10211,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10295,7 +10295,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -10359,7 +10359,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -10395,7 +10395,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-20",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -10411,7 +10411,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -10427,7 +10427,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-04-01",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-01",
@@ -10587,7 +10587,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-04-03",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-03",
@@ -10635,7 +10635,7 @@
       "type": "new",
       "station": "吉祥寺",
       "first_seen": "2026-04-04",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-04",
@@ -10655,7 +10655,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -10671,7 +10671,7 @@
       "type": "used",
       "station": "表参道",
       "first_seen": "2026-04-06",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-06",
@@ -10719,7 +10719,7 @@
       "type": "rental",
       "station": "市谷",
       "first_seen": "2026-04-08",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-08",
@@ -10735,7 +10735,7 @@
       "type": "rental",
       "station": "市谷",
       "first_seen": "2026-04-08",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-08",
@@ -10751,7 +10751,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-04-08",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-08",
@@ -10883,7 +10883,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-10",
@@ -10947,7 +10947,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -10963,7 +10963,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -10979,7 +10979,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -10999,7 +10999,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-04-13",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-13",
@@ -11067,7 +11067,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-04-15",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-15",
@@ -11147,7 +11147,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-16",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-16",
@@ -11163,7 +11163,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -11179,7 +11179,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -11211,7 +11211,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-20",
@@ -11227,7 +11227,7 @@
       "type": "used",
       "station": "代々木",
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-20",
@@ -11243,7 +11243,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-20",
@@ -11259,7 +11259,7 @@
       "type": "used",
       "station": "代々木",
       "first_seen": "2026-04-21",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-21",
@@ -11301,6 +11301,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000106634621/",
       "area": 44.08,
       "age_years": 9
+    },
+    "ff390e23d1f4": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "price_history": [
+        {
+          "date": "2026-04-23",
+          "price": 22900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20710871/",
+      "area": 61.11,
+      "age_years": 0
+    },
+    "2b4886dede93": {
+      "name": "ひだまりといっしょ",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "price_history": [
+        {
+          "date": "2026-04-23",
+          "price": 8790.0
+        }
+      ],
+      "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%AD%A6%E8%94%B5%E9%87%8E%E5%B8%82/%E3%81%B2%E3%81%A0%E3%81%BE%E3%82%8A%E3%81%A8%E3%81%84%E3%81%A3%E3%81%97%E3%82%87",
+      "area": 72.96,
+      "age_years": null
     }
   }
 }
