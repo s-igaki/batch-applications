@@ -2698,6 +2698,10 @@
         {
           "date": "2026-04-02",
           "price": 29000
+        },
+        {
+          "date": "2026-04-23",
+          "price": 28000
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78937109/",
@@ -10443,7 +10447,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10475,7 +10479,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-22",
+      "last_seen": "2026-04-23",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -11333,6 +11337,38 @@
       "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%AD%A6%E8%94%B5%E9%87%8E%E5%B8%82/%E3%81%B2%E3%81%A0%E3%81%BE%E3%82%8A%E3%81%A8%E3%81%84%E3%81%A3%E3%81%97%E3%82%87",
       "area": 72.96,
       "age_years": null
+    },
+    "185298e6cf97": {
+      "name": "ウィスタリア",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "price_history": [
+        {
+          "date": "2026-04-23",
+          "price": 23.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/694dc3429b3beeacefcfb5395a90cc0c2da635c2/",
+      "area": 56.52,
+      "age_years": null
+    },
+    "268b34fabc53": {
+      "name": "吉祥寺御殿山HOUSE",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "price_history": [
+        {
+          "date": "2026-04-23",
+          "price": 15300
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20715131/",
+      "area": 64.6,
+      "age_years": 13
     }
   }
 }

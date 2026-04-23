@@ -3959,6 +3959,54 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20394448/",
       "area": 80.9,
       "age_years": 22
+    },
+    "ca746922d345": {
+      "name": "ロータリーパレス藤沢",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "price_history": [
+        {
+          "date": "2026-04-23",
+          "price": 3280.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20712612/",
+      "area": 80.1,
+      "age_years": 20
+    },
+    "ed06cd9ba7ab": {
+      "name": "藤沢市石川3丁目",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "price_history": [
+        {
+          "date": "2026-04-23",
+          "price": 3299.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20714526/",
+      "area": 86.11,
+      "age_years": 26
+    },
+    "8f8761c3514c": {
+      "name": "足腰の不自由な方にも優しい住まい。お庭＋１Fで生活が…",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "price_history": [
+        {
+          "date": "2026-04-23",
+          "price": 3700.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20328407/",
+      "area": 70.38,
+      "age_years": 10
     }
   }
 }
