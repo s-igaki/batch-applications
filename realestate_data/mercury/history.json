@@ -11401,6 +11401,22 @@
       "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%8B%E8%B0%B7%E5%8C%BA/%E3%81%94%E6%A9%9F%E5%AB%8C%E3%81%AA%E3%82%B7%E3%83%86%E3%82%A3%E3%83%A9%E3%82%A4%E3%83%95",
       "area": 45.88,
       "age_years": null
+    },
+    "58e5c855c09a": {
+      "name": "フォルム内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-04-24",
+      "last_seen": "2026-04-24",
+      "price_history": [
+        {
+          "date": "2026-04-24",
+          "price": 25480
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20724360/",
+      "area": 92.56,
+      "age_years": 17
     }
   }
 }
