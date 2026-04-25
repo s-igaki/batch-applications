@@ -2069,7 +2069,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-23",
+      "last_seen": "2026-04-25",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2085,7 +2085,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-23",
+      "last_seen": "2026-04-25",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2117,7 +2117,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-23",
+      "last_seen": "2026-04-25",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2133,7 +2133,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-23",
+      "last_seen": "2026-04-25",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2697,7 +2697,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-04",
-      "last_seen": "2026-04-23",
+      "last_seen": "2026-04-25",
       "price_history": [
         {
           "date": "2026-04-04",
@@ -3933,7 +3933,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -4013,7 +4013,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-24",
-      "last_seen": "2026-04-24",
+      "last_seen": "2026-04-25",
       "price_history": [
         {
           "date": "2026-04-24",
@@ -4167,6 +4167,54 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000105592056/",
       "area": 58.35,
       "age_years": 0
+    },
+    "54d57c77d435": {
+      "name": "エクセラン吉祥寺",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "price_history": [
+        {
+          "date": "2026-04-25",
+          "price": 12.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000082606219/",
+      "area": 50.69,
+      "age_years": 4
+    },
+    "8254139fa8bd": {
+      "name": "エクセラン吉祥寺",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "price_history": [
+        {
+          "date": "2026-04-25",
+          "price": 13.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000091856842/",
+      "area": 50.69,
+      "age_years": 4
+    },
+    "a7b75d20c597": {
+      "name": "",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "price_history": [
+        {
+          "date": "2026-04-25",
+          "price": 4150.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20731488/",
+      "area": 115.67,
+      "age_years": 34
     }
   }
 }

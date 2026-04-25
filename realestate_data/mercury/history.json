@@ -11417,6 +11417,54 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20724360/",
       "area": 92.56,
       "age_years": 17
+    },
+    "3e9e026a3302": {
+      "name": "JR中央線 三鷹駅 徒歩15分",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "price_history": [
+        {
+          "date": "2026-04-25",
+          "price": 17.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/cf9faf76c36ceb51c7b767a4e2c029a059a23aef/",
+      "area": 66.0,
+      "age_years": null
+    },
+    "d716fc232d65": {
+      "name": "プラネスーペリア御殿山井の頭公園",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "price_history": [
+        {
+          "date": "2026-04-25",
+          "price": 15900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20732606/",
+      "area": 72.64,
+      "age_years": 12
+    },
+    "0a282bd4f778": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-04-25",
+      "price_history": [
+        {
+          "date": "2026-04-25",
+          "price": 28000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78809722/",
+      "area": 74.92,
+      "age_years": 2
     }
   }
 }
