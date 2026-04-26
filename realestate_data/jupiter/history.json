@@ -2069,7 +2069,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-25",
+      "last_seen": "2026-04-26",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2085,7 +2085,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-25",
+      "last_seen": "2026-04-26",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2117,7 +2117,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-25",
+      "last_seen": "2026-04-26",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2133,7 +2133,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-04-25",
+      "last_seen": "2026-04-26",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -2697,7 +2697,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-04",
-      "last_seen": "2026-04-25",
+      "last_seen": "2026-04-26",
       "price_history": [
         {
           "date": "2026-04-04",
@@ -4247,6 +4247,54 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000106757524/",
       "area": 50.66,
       "age_years": 15
+    },
+    "7145c06f798e": {
+      "name": "Ｃｒｅｓｔ西鎌倉",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 12.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106751465/",
+      "area": 50.13,
+      "age_years": 3
+    },
+    "9c29c6ab0e63": {
+      "name": "セルディーナ茅ヶ崎",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 12.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106766831/",
+      "area": 57.5,
+      "age_years": 11
+    },
+    "82ef39fae530": {
+      "name": "シャルマン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 9.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106721107/",
+      "area": 59.5,
+      "age_years": 4
     }
   }
 }
