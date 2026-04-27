@@ -4331,6 +4331,86 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20735757/",
       "area": 80.11,
       "age_years": 21
+    },
+    "b502011b88e7": {
+      "name": "小田急江ノ島線 六会日大前駅 2階建 築11年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 9.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106757499/",
+      "area": 63.16,
+      "age_years": 11
+    },
+    "3f0aafb1e884": {
+      "name": "小田急江ノ島線 六会日大前駅 2階建 築11年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 10.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106481249/",
+      "area": 63.16,
+      "age_years": 11
+    },
+    "796b1ea05eba": {
+      "name": "ＪＲ東海道本線 茅ケ崎駅 2階建 築13年",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 10.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106269390/",
+      "area": 54.89,
+      "age_years": 13
+    },
+    "5ee4bf78295c": {
+      "name": "◇◆鎌倉市手広２丁目　中古戸建◆◇",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 4697.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20737822/",
+      "area": 85.85,
+      "age_years": 9
+    },
+    "dbb97ae3ddc9": {
+      "name": "【津波リスクを抑えた安心のエリア。子育て世代に選ばれ…",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 3280.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20735865/",
+      "area": 99.36,
+      "age_years": 26
     }
   }
 }

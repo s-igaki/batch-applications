@@ -2281,7 +2281,7 @@
       "type": "new",
       "station": "表参道",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-17",
+      "last_seen": "2026-04-27",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -10451,7 +10451,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-23",
+      "last_seen": "2026-04-27",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -10483,7 +10483,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-23",
+      "last_seen": "2026-04-27",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -11521,6 +11521,102 @@
       "detail_url": "https://cowcamo.jp/short_stories/bpzmXuCpZqU",
       "area": 47.92,
       "age_years": null
+    },
+    "068dcf906968": {
+      "name": "サンウッド吉祥寺南町一丁目",
+      "type": "new",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 24980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_20745154/",
+      "area": 73.22,
+      "age_years": 0
+    },
+    "363e5e5e183b": {
+      "name": "プラネスーペリア御殿山井の頭公園",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 15900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20746250/",
+      "area": 72.64,
+      "age_years": 12
+    },
+    "5ae8487169f9": {
+      "name": "プラネスーぺリア御殿山井の頭公園☆三鷹駅・吉祥寺徒歩…",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 15900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20741146/",
+      "area": 72.64,
+      "age_years": 12
+    },
+    "2b298f2e150c": {
+      "name": "プラネスーペリア御殿山井の頭公園",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 15900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20748505/",
+      "area": 72.64,
+      "age_years": 12
+    },
+    "4d54fc8e9b04": {
+      "name": "プラネスーペリア御殿山井の頭公園",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 15900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20746139/",
+      "area": 72.64,
+      "age_years": 12
+    },
+    "a63d8b314fd4": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "price": 25500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20747783/",
+      "area": 90.22,
+      "age_years": 12
     }
   }
 }
