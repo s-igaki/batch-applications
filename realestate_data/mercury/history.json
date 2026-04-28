@@ -1456,7 +1456,12 @@
       "station": "吉祥寺",
       "first_seen": "2026-03-20",
       "last_seen": "2026-04-28",
-      "price_history": [],
+      "price_history": [
+        {
+          "date": "2026-04-28",
+          "price": 14480
+        }
+      ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729222/",
       "area": 63.61,
       "age_years": 0
@@ -1742,7 +1747,12 @@
       "station": "四ツ谷",
       "first_seen": "2026-03-20",
       "last_seen": "2026-04-28",
-      "price_history": [],
+      "price_history": [
+        {
+          "date": "2026-04-28",
+          "price": 23200
+        }
+      ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_67734365/",
       "area": 70.07,
       "age_years": 0
@@ -10955,7 +10965,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-04-27",
+      "last_seen": "2026-04-28",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -11083,7 +11093,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-04-15",
-      "last_seen": "2026-04-27",
+      "last_seen": "2026-04-28",
       "price_history": [
         {
           "date": "2026-04-15",
@@ -11621,6 +11631,65 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20747783/",
       "area": 90.22,
       "age_years": 12
+    },
+    "b70163dd4c5e": {
+      "name": "パークホームズ吉祥寺東町",
+      "type": "new",
+      "station": "吉祥寺",
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "price_history": [],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67732377/",
+      "area": 70.59,
+      "age_years": 0
+    },
+    "a423b7c4983c": {
+      "name": "プラネスーペリア御殿山井の頭公園3階",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "price_history": [
+        {
+          "date": "2026-04-28",
+          "price": 15900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20753763/",
+      "area": 72.64,
+      "age_years": 12
+    },
+    "37ac1e5403ea": {
+      "name": "プラネスーペリア御殿山井の頭公園",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "price_history": [
+        {
+          "date": "2026-04-28",
+          "price": 15900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20752679/",
+      "area": 72.64,
+      "age_years": 12
+    },
+    "b9e57e1b78a4": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-04-28",
+      "last_seen": "2026-04-28",
+      "price_history": [
+        {
+          "date": "2026-04-28",
+          "price": 63980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20270223/",
+      "area": 117.73,
+      "age_years": 2
     }
   }
 }
