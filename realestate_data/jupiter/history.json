@@ -3493,7 +3493,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-16",
-      "last_seen": "2026-04-27",
+      "last_seen": "2026-04-30",
       "price_history": [
         {
           "date": "2026-04-16",
@@ -4261,7 +4261,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-29",
+      "last_seen": "2026-04-30",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4277,7 +4277,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-27",
+      "last_seen": "2026-04-30",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4815,6 +4815,54 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000106832789/",
       "area": 57.54,
       "age_years": 0
+    },
+    "34b0dc550abd": {
+      "name": "ＪＲ東海道本線 平塚駅 2階建 築12年",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "price_history": [
+        {
+          "date": "2026-04-30",
+          "price": 7.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105520745/",
+      "area": 52.53,
+      "age_years": 12
+    },
+    "871015356315": {
+      "name": "Ｍａｒｉａｇｅ",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "price_history": [
+        {
+          "date": "2026-04-30",
+          "price": 7.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105520744/",
+      "area": 52.53,
+      "age_years": 12
+    },
+    "ec8ae6de05cf": {
+      "name": "",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "price_history": [
+        {
+          "date": "2026-04-30",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20737101/",
+      "area": 80.11,
+      "age_years": 21
     }
   }
 }
