@@ -4895,6 +4895,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20770757/",
       "area": 81.14,
       "age_years": 19
+    },
+    "57fde93d3954": {
+      "name": "【パナホーム施工】角地×軽量鉄骨造×フルリノベーショ…",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-05-02",
+      "last_seen": "2026-05-02",
+      "price_history": [
+        {
+          "date": "2026-05-02",
+          "price": 3899.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20780644/",
+      "area": 80.11,
+      "age_years": 38
     }
   }
 }

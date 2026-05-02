@@ -11826,6 +11826,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20719709/",
       "area": 72.64,
       "age_years": 12
+    },
+    "ba1049ec424c": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-05-02",
+      "last_seen": "2026-05-02",
+      "price_history": [
+        {
+          "date": "2026-05-02",
+          "price": 22900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20781164/",
+      "area": 61.11,
+      "age_years": 0
     }
   }
 }
