@@ -3105,7 +3105,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -3637,7 +3637,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-18",
-      "last_seen": "2026-04-29",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-18",
@@ -3653,7 +3653,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-18",
-      "last_seen": "2026-04-29",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-18",
@@ -4261,7 +4261,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-01",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4693,7 +4693,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4709,7 +4709,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4725,7 +4725,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4741,7 +4741,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4757,7 +4757,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4773,7 +4773,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4789,7 +4789,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4805,7 +4805,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4901,7 +4901,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-03",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -4911,6 +4911,38 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20780644/",
       "area": 80.11,
       "age_years": 38
+    },
+    "768721eb6ada": {
+      "name": "プランドール鎌倉",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "price_history": [
+        {
+          "date": "2026-05-03",
+          "price": 13.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106906145/",
+      "area": 65.81,
+      "age_years": 7
+    },
+    "abbf085e6a3a": {
+      "name": "コスモリーヴ茅ヶ崎",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "price_history": [
+        {
+          "date": "2026-05-03",
+          "price": 14.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106803340/",
+      "area": 52.32,
+      "age_years": 0
     }
   }
 }

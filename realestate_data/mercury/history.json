@@ -11858,6 +11858,22 @@
       "detail_url": "https://www.homes.co.jp/chintai/room/a548381c650d2c2c2323ffe2a2eed8294d62a425/",
       "area": 46.64,
       "age_years": null
+    },
+    "77dbf269090b": {
+      "name": "プラネスーぺリア御殿山井の頭公園",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "price_history": [
+        {
+          "date": "2026-05-03",
+          "price": 15900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20783813/",
+      "area": 72.64,
+      "age_years": 12
     }
   }
 }
