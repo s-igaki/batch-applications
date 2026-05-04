@@ -3909,7 +3909,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-20",
-      "last_seen": "2026-05-03",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-20",
@@ -3941,7 +3941,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-05-03",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -4261,7 +4261,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-03",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4277,7 +4277,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-01",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4959,6 +4959,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20788245/",
       "area": 98.82,
       "age_years": 15
+    },
+    "a1de4a5ba308": {
+      "name": "小田急江ノ島線 長後駅 3階建 築14年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 8.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106909114/",
+      "area": 56.5,
+      "age_years": 14
     }
   }
 }
