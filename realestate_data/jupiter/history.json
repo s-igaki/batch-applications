@@ -3105,7 +3105,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-05-05",
+      "last_seen": "2026-05-06",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -3125,7 +3125,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-05-05",
+      "last_seen": "2026-05-06",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -4037,7 +4037,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-24",
-      "last_seen": "2026-05-04",
+      "last_seen": "2026-05-06",
       "price_history": [
         {
           "date": "2026-04-24",
@@ -4309,7 +4309,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-05-03",
+      "last_seen": "2026-05-06",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -5055,6 +5055,150 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000106919293/",
       "area": 63.66,
       "age_years": 0
+    },
+    "7363ff69f03a": {
+      "name": "ＪＲ東海道本線 辻堂駅 2階建 新築",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "price_history": [
+        {
+          "date": "2026-05-06",
+          "price": 9.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106919285/",
+      "area": 50.17,
+      "age_years": 0
+    },
+    "3fc429be2828": {
+      "name": "ＪＲ東海道本線 辻堂駅 2階建 新築",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "price_history": [
+        {
+          "date": "2026-05-06",
+          "price": 9.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106919284/",
+      "area": 50.17,
+      "age_years": 0
+    },
+    "e544824251c9": {
+      "name": "ＪＲ東海道本線 辻堂駅 2階建 新築",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "price_history": [
+        {
+          "date": "2026-05-06",
+          "price": 9.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106919286/",
+      "area": 50.17,
+      "age_years": 0
+    },
+    "de27ce458268": {
+      "name": "ＪＲ東海道本線 辻堂駅 2階建 新築",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "price_history": [
+        {
+          "date": "2026-05-06",
+          "price": 9.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106919283/",
+      "area": 50.17,
+      "age_years": 0
+    },
+    "0c8a89d9f99b": {
+      "name": "ＪＲ東海道本線 辻堂駅 2階建 新築",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "price_history": [
+        {
+          "date": "2026-05-06",
+          "price": 9.95
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106919288/",
+      "area": 57.54,
+      "age_years": 0
+    },
+    "fce44c13551f": {
+      "name": "ＪＲ東海道本線 辻堂駅 2階建 新築",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "price_history": [
+        {
+          "date": "2026-05-06",
+          "price": 9.95
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106919289/",
+      "area": 57.54,
+      "age_years": 0
+    },
+    "b43249598fba": {
+      "name": "ＪＲ東海道本線 辻堂駅 2階建 新築",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "price_history": [
+        {
+          "date": "2026-05-06",
+          "price": 10.15
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106919290/",
+      "area": 57.54,
+      "age_years": 0
+    },
+    "04cb2c12de45": {
+      "name": "ＪＲ東海道本線 辻堂駅 2階建 新築",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "price_history": [
+        {
+          "date": "2026-05-06",
+          "price": 10.15
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106919287/",
+      "area": 57.54,
+      "age_years": 0
+    },
+    "229642acc1d9": {
+      "name": "茅ヶ崎市松尾",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "price_history": [
+        {
+          "date": "2026-05-06",
+          "price": 3380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20795104/",
+      "area": 93.56,
+      "age_years": 13
     }
   }
 }
