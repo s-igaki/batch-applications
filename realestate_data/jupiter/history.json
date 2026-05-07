@@ -5199,6 +5199,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20795104/",
       "area": 93.56,
       "age_years": 13
+    },
+    "c2e796452755": {
+      "name": "湘南モノレール 西鎌倉駅 3階建 築7年",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "price": 13.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106940387/",
+      "area": 65.81,
+      "age_years": 7
     }
   }
 }

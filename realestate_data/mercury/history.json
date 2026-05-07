@@ -10166,6 +10166,10 @@
         {
           "date": "2026-03-30",
           "price": 18980
+        },
+        {
+          "date": "2026-05-07",
+          "price": 17980
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20212283/",
@@ -11893,6 +11897,22 @@
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20796661/",
       "area": 61.11,
+      "age_years": 0
+    },
+    "67506fec028e": {
+      "name": "プレミスト代々木大山",
+      "type": "new",
+      "station": "代々木",
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "price": 16000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20797969/",
+      "area": 48.26,
       "age_years": 0
     }
   }
