@@ -11918,6 +11918,54 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20797969/",
       "area": 48.26,
       "age_years": 0
+    },
+    "edb0b46578e6": {
+      "name": "ルフィット神宮北参道",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "price_history": [
+        {
+          "date": "2026-05-08",
+          "price": 25.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/24dfa55cb363474fbd4e60ce5a7e533caff2307f/",
+      "area": 40.0,
+      "age_years": null
+    },
+    "2a5b1eba21e1": {
+      "name": "ヴァントヌーベル代々木◇代々木駅から徒歩3分◇3面採…",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "price_history": [
+        {
+          "date": "2026-05-08",
+          "price": 11800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20807939/",
+      "area": 48.27,
+      "age_years": 9
+    },
+    "ac89fe9eeb65": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "price_history": [
+        {
+          "date": "2026-05-08",
+          "price": 66980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20777412/",
+      "area": 116.14,
+      "age_years": 2
     }
   }
 }

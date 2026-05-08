@@ -5279,6 +5279,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_20723205/",
       "area": 68.03,
       "age_years": 37
+    },
+    "0c2289df4cd7": {
+      "name": "エレガンテ湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "price_history": [
+        {
+          "date": "2026-05-08",
+          "price": 11.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106967725/",
+      "area": 57.96,
+      "age_years": 7
     }
   }
 }
