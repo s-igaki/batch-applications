@@ -4629,7 +4629,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-05-09",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4645,7 +4645,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-05-09",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4661,7 +4661,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-05-09",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -5343,6 +5343,150 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20785406/",
       "area": 161.05,
       "age_years": 42
+    },
+    "675ddd8e203e": {
+      "name": "へーベルメゾン湘南本町",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 11.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106894519/",
+      "area": 50.17,
+      "age_years": 3
+    },
+    "2e69ad157cc9": {
+      "name": "ランポポ　コティ　ガンダ",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 13.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000105384264/",
+      "area": 55.01,
+      "age_years": 0
+    },
+    "1f3c162c4a77": {
+      "name": "マリノ湘南",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 12.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106972916/",
+      "area": 52.17,
+      "age_years": 6
+    },
+    "5e05cf5a500d": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 9.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106952231/",
+      "area": 50.35,
+      "age_years": 0
+    },
+    "565723a6c6e1": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 9.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106952230/",
+      "area": 50.35,
+      "age_years": 0
+    },
+    "eebe147569ac": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 9.35
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106952228/",
+      "area": 50.42,
+      "age_years": 0
+    },
+    "9aba0cb9e65c": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 10.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106952227/",
+      "area": 58.35,
+      "age_years": 0
+    },
+    "4c1760324c9f": {
+      "name": "サンフィールド　ガーデン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 10.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106952226/",
+      "area": 58.35,
+      "age_years": 0
+    },
+    "fe754972a7e7": {
+      "name": "クオス湘南台",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 2798.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20798219/",
+      "area": 63.5,
+      "age_years": 23
     }
   }
 }

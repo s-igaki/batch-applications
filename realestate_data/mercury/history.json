@@ -10025,7 +10025,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-05-01",
+      "last_seen": "2026-05-09",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10034,6 +10034,10 @@
         {
           "date": "2026-04-13",
           "price": 24780
+        },
+        {
+          "date": "2026-05-09",
+          "price": 23980
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20390486/",
@@ -11970,6 +11974,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20777412/",
       "area": 116.14,
       "age_years": 2
+    },
+    "866316a92191": {
+      "name": "リーブルグラント四谷三丁目（LIBRGRANT四谷三丁目）",
+      "type": "rental",
+      "station": "四谷",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "price_history": [
+        {
+          "date": "2026-05-09",
+          "price": 23.8
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/1c271f41ac23d89a62820d6ee698cb576b5611ae/",
+      "area": 43.17,
+      "age_years": null
     }
   }
 }
