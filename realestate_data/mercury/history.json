@@ -12006,6 +12006,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20816809/",
       "area": 72.64,
       "age_years": 12
+    },
+    "d607ec79cc45": {
+      "name": "京王線 初台駅 徒歩5分",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "price_history": [
+        {
+          "date": "2026-05-10",
+          "price": 17.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/8210957d9e743401887933c8a6cfddf0bb5b8c86/",
+      "area": 43.99,
+      "age_years": null
+    },
+    "47340c524b4f": {
+      "name": "ヴァントヌーベル代々木",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "price_history": [
+        {
+          "date": "2026-05-10",
+          "price": 11800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20820937/",
+      "area": 48.27,
+      "age_years": 9
     }
   }
 }
