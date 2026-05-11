@@ -10049,7 +10049,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-04-28",
+      "last_seen": "2026-05-11",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10154,6 +10154,10 @@
         {
           "date": "2026-03-30",
           "price": 13980
+        },
+        {
+          "date": "2026-05-11",
+          "price": 13480
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20246769/",
@@ -12038,6 +12042,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20820937/",
       "area": 48.27,
       "age_years": 9
+    },
+    "eae7d37d9152": {
+      "name": "ヴァントヌーベル代々木",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "price": 11800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20829113/",
+      "area": 48.27,
+      "age_years": 9
+    },
+    "2699e969674a": {
+      "name": "ジオ御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "price": 13480
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20834566/",
+      "area": 60.11,
+      "age_years": 10
     }
   }
 }
