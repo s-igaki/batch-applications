@@ -2773,7 +2773,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-05-01",
+      "last_seen": "2026-05-12",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -3849,7 +3849,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-19",
-      "last_seen": "2026-04-19",
+      "last_seen": "2026-05-12",
       "price_history": [
         {
           "date": "2026-04-19",
@@ -5209,7 +5209,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-07",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-12",
       "price_history": [
         {
           "date": "2026-05-07",
@@ -5651,6 +5651,54 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000107034138/",
       "area": 58.42,
       "age_years": 0
+    },
+    "9e9a00ed9354": {
+      "name": "◇グラン・コート湘南茅ヶ崎◇",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-12",
+      "last_seen": "2026-05-12",
+      "price_history": [
+        {
+          "date": "2026-05-12",
+          "price": 4380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20838391/",
+      "area": 77.59,
+      "age_years": 20
+    },
+    "7ec24ee10d30": {
+      "name": "藤沢市善行5丁目",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-05-12",
+      "last_seen": "2026-05-12",
+      "price_history": [
+        {
+          "date": "2026-05-12",
+          "price": 3190.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20732133/",
+      "area": 81.14,
+      "age_years": 19
+    },
+    "063e77b3957c": {
+      "name": "オープンセレクション茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-12",
+      "last_seen": "2026-05-12",
+      "price_history": [
+        {
+          "date": "2026-05-12",
+          "price": 3980.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_77679410/",
+      "area": 82.18,
+      "age_years": 4
     }
   }
 }
