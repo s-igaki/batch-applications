@@ -10485,7 +10485,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-04-30",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -11944,7 +11944,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-11",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-08",
@@ -12104,7 +12104,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-12",
@@ -12161,6 +12161,22 @@
       ],
       "detail_url": "https://cowcamo.jp/short_stories/QP4aclAO0IU",
       "area": 104.22,
+      "age_years": null
+    },
+    "1718fa8600f8": {
+      "name": "ルフィット神宮北参道",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-13",
+      "price_history": [
+        {
+          "date": "2026-05-13",
+          "price": 25.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/a477eae7b155d2425275e4e87eb173db26afa867/",
+      "area": 40.0,
       "age_years": null
     }
   }

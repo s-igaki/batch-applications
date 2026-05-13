@@ -3625,7 +3625,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -3721,7 +3721,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-18",
-      "last_seen": "2026-05-11",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-04-18",
@@ -3737,7 +3737,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-18",
-      "last_seen": "2026-05-11",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-04-18",
@@ -4041,7 +4041,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-24",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-04-24",
@@ -4921,7 +4921,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-03",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-03",
@@ -5209,7 +5209,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-07",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-07",
@@ -5497,7 +5497,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-10",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-10",
@@ -5513,7 +5513,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-10",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-10",
@@ -5529,7 +5529,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-11",
@@ -5545,7 +5545,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-11",
@@ -5561,7 +5561,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-11",
@@ -5625,7 +5625,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-05-12",
+      "last_seen": "2026-05-13",
       "price_history": [
         {
           "date": "2026-05-12",
@@ -5729,6 +5729,22 @@
         }
       ],
       "detail_url": "https://suumo.jp/chintai/jnc_000107070246/",
+      "area": 63.36,
+      "age_years": 10
+    },
+    "013c728837ab": {
+      "name": "ＪＲ東海道本線 辻堂駅 3階建 築10年",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-13",
+      "price_history": [
+        {
+          "date": "2026-05-13",
+          "price": 10.1
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107092386/",
       "area": 63.36,
       "age_years": 10
     }
