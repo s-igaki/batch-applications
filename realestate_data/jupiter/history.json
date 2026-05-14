@@ -3137,7 +3137,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -3617,7 +3617,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -3633,7 +3633,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -3985,7 +3985,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -5537,7 +5537,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
       "price_history": [
         {
           "date": "2026-05-11",
@@ -5617,7 +5617,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
       "price_history": [
         {
           "date": "2026-05-11",
