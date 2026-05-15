@@ -925,7 +925,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-05-06",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2637,7 +2637,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-04",
-      "last_seen": "2026-04-08",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-04-04",
@@ -2797,7 +2797,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-04-19",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -3377,7 +3377,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -4321,7 +4321,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -5803,6 +5803,118 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20853771/",
       "area": 98.82,
       "age_years": 15
+    },
+    "70e9d016d2d5": {
+      "name": "アルテミス湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "price_history": [
+        {
+          "date": "2026-05-15",
+          "price": 13.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107034122/",
+      "area": 54.53,
+      "age_years": 12
+    },
+    "8ab85cff0732": {
+      "name": "ＯＤＡＹＡＫＡ　ＭＡＩＳＯＮ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "price_history": [
+        {
+          "date": "2026-05-15",
+          "price": 12.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107156676/",
+      "area": 54.13,
+      "age_years": 5
+    },
+    "94f4b259dbe8": {
+      "name": "Ｎｉｖ　Ｓｈｏｎａｎ　Ｒｅｓｉｄｅｎｃｅ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "price_history": [
+        {
+          "date": "2026-05-15",
+          "price": 13.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000102522641/",
+      "area": 50.0,
+      "age_years": 0
+    },
+    "3dcd237841e5": {
+      "name": "湘南モノレール 片瀬山駅 3階建 新築",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "price_history": [
+        {
+          "date": "2026-05-15",
+          "price": 13.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000102938001/",
+      "area": 50.0,
+      "age_years": 0
+    },
+    "05ceb8aefb92": {
+      "name": "コスモリーヴ茅ヶ崎",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "price_history": [
+        {
+          "date": "2026-05-15",
+          "price": 14.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106785073/",
+      "area": 52.32,
+      "age_years": 0
+    },
+    "b868e25ee4c9": {
+      "name": "藤和ハイタウン湘南茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "price_history": [
+        {
+          "date": "2026-05-15",
+          "price": 4980.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20274732/",
+      "area": 95.0,
+      "age_years": 32
+    },
+    "02a1ae008bba": {
+      "name": "パシフィックガーデン茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "price_history": [
+        {
+          "date": "2026-05-15",
+          "price": 4999.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20485085/",
+      "area": 78.71,
+      "age_years": 27
     }
   }
 }

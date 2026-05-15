@@ -2190,6 +2190,10 @@
         {
           "date": "2026-04-10",
           "price": 22900
+        },
+        {
+          "date": "2026-05-15",
+          "price": 21980
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20094647/",
@@ -10061,7 +10065,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-05-14",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10181,7 +10185,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10462,6 +10466,10 @@
         {
           "date": "2026-03-31",
           "price": 18980
+        },
+        {
+          "date": "2026-05-15",
+          "price": 17980
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20186846/",
@@ -10997,7 +11005,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-05-04",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -11881,6 +11889,10 @@
         {
           "date": "2026-05-02",
           "price": 22900
+        },
+        {
+          "date": "2026-05-15",
+          "price": 21980
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20781164/",
@@ -11992,7 +12004,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-05-08",
@@ -12204,7 +12216,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-05-14",
-      "last_seen": "2026-05-14",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-05-14",
@@ -12220,7 +12232,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-05-14",
-      "last_seen": "2026-05-14",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-05-14",
@@ -12236,7 +12248,7 @@
       "type": "rental",
       "station": "信濃町",
       "first_seen": "2026-05-14",
-      "last_seen": "2026-05-14",
+      "last_seen": "2026-05-15",
       "price_history": [
         {
           "date": "2026-05-14",
