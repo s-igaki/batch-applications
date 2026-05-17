@@ -4321,7 +4321,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-05-17",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -5989,7 +5989,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-16",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-05-17",
       "price_history": [
         {
           "date": "2026-05-16",
@@ -6047,6 +6047,86 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20848294/",
       "area": 98.82,
       "age_years": 15
+    },
+    "c0f471775edc": {
+      "name": "カーサルジェンドVI",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "price_history": [
+        {
+          "date": "2026-05-17",
+          "price": 11.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106961119/",
+      "area": 58.13,
+      "age_years": 0
+    },
+    "5428852b97d7": {
+      "name": "カーサルジェンドVI",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "price_history": [
+        {
+          "date": "2026-05-17",
+          "price": 11.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106961120/",
+      "area": 58.13,
+      "age_years": 0
+    },
+    "c6e43263e2e6": {
+      "name": "カーサルジェンドVI",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "price_history": [
+        {
+          "date": "2026-05-17",
+          "price": 11.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106961118/",
+      "area": 58.06,
+      "age_years": 0
+    },
+    "4f00f73cb2a6": {
+      "name": "",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "price_history": [
+        {
+          "date": "2026-05-17",
+          "price": 3190.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20871108/",
+      "area": 81.14,
+      "age_years": 19
+    },
+    "0476a0c5ea9f": {
+      "name": "茅ヶ崎市十間坂3丁目",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "price_history": [
+        {
+          "date": "2026-05-17",
+          "price": 4480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20870629/",
+      "area": 80.11,
+      "age_years": 21
     }
   }
 }
