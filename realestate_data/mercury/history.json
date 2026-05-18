@@ -12140,7 +12140,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-05-17",
+      "last_seen": "2026-05-18",
       "price_history": [
         {
           "date": "2026-05-12",
@@ -12297,6 +12297,10 @@
         {
           "date": "2026-05-15",
           "price": 21900
+        },
+        {
+          "date": "2026-05-18",
+          "price": 21980
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20844281/",
@@ -12446,6 +12450,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/bkojiEZ4HKU",
       "area": 87.56,
       "age_years": null
+    },
+    "b11d6b96304c": {
+      "name": "ヴァントヌーベル代々木",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "price": 11800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20835383/",
+      "area": 48.27,
+      "age_years": 9
     }
   }
 }

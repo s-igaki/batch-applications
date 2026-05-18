@@ -3117,7 +3117,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-05-15",
+      "last_seen": "2026-05-18",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -3126,6 +3126,10 @@
         {
           "date": "2026-04-13",
           "price": 3899.0
+        },
+        {
+          "date": "2026-05-18",
+          "price": 3799.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20619566/",
@@ -3617,7 +3621,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-05-14",
+      "last_seen": "2026-05-18",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -5625,7 +5629,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-14",
+      "last_seen": "2026-05-18",
       "price_history": [
         {
           "date": "2026-05-11",
@@ -6146,6 +6150,38 @@
       ],
       "detail_url": "https://suumo.jp/chintai/jnc_000107211241/",
       "area": 63.8,
+      "age_years": 13
+    },
+    "2de0bf8f0f8c": {
+      "name": "江ノ島電鉄線 由比ヶ浜駅 2階建 築14年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "price": 11.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107034105/",
+      "area": 51.71,
+      "age_years": 14
+    },
+    "4f813082f64d": {
+      "name": "ＪＲ東海道本線 茅ケ崎駅 2階建 築13年",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "price": 10.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000106250901/",
+      "area": 54.89,
       "age_years": 13
     }
   }
