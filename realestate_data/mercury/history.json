@@ -1759,6 +1759,10 @@
         {
           "date": "2026-04-28",
           "price": 23200
+        },
+        {
+          "date": "2026-05-19",
+          "price": 31800
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_67734365/",
@@ -2042,6 +2046,10 @@
         {
           "date": "2026-03-31",
           "price": 22480
+        },
+        {
+          "date": "2026-05-19",
+          "price": 21980
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_78961344/",
