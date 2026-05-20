@@ -29896,7 +29896,7 @@
           0,
           0,
           0,
-          1
+          0
         ],
         "median_price": [
           null,
@@ -29960,7 +29960,7 @@
           null,
           null,
           null,
-          18.5
+          null
         ],
         "median_price_per_sqm": [
           null,
@@ -30024,7 +30024,7 @@
           null,
           null,
           null,
-          0.4572
+          null
         ],
         "p25_price_per_sqm": [
           null,
@@ -30088,7 +30088,7 @@
           null,
           null,
           null,
-          0.4572
+          null
         ],
         "avg_price": [
           null,
@@ -30152,7 +30152,7 @@
           null,
           null,
           null,
-          18.5
+          null
         ],
         "min_price": [
           null,
@@ -30216,7 +30216,7 @@
           null,
           null,
           null,
-          18.5
+          null
         ],
         "avg_area": [
           null,
@@ -30280,7 +30280,7 @@
           null,
           null,
           null,
-          40.46
+          null
         ],
         "avg_age": [
           null,
@@ -30344,7 +30344,7 @@
           null,
           null,
           null,
-          20
+          null
         ],
         "avg_walk": [
           null,
@@ -30408,7 +30408,7 @@
           null,
           null,
           null,
-          7
+          null
         ],
         "new_listings": [
           null,
@@ -30536,7 +30536,7 @@
           0,
           0,
           0,
-          0
+          1
         ],
         "price_reduced": [
           null,
@@ -30664,7 +30664,7 @@
           0,
           0,
           0,
-          1
+          0
         ]
       },
       "new": {
@@ -42417,7 +42417,7 @@
         13,
         9,
         12,
-        10
+        9
       ],
       "median_price": [
         19.5,
@@ -42481,7 +42481,7 @@
         23.0,
         20.5,
         21.5,
-        19.5
+        20.5
       ],
       "median_price_per_sqm": [
         0.4054,
@@ -42545,7 +42545,7 @@
         0.4908,
         0.4723,
         0.4723,
-        0.4647
+        0.4723
       ]
     },
     "new": {

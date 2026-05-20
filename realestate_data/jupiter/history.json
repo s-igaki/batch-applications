@@ -4281,7 +4281,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4649,7 +4649,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-19",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4665,7 +4665,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-19",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4713,7 +4713,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4729,7 +4729,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4745,7 +4745,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4761,7 +4761,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4777,7 +4777,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -4809,7 +4809,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-04-30",
@@ -5725,7 +5725,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-05-13",
-      "last_seen": "2026-05-17",
+      "last_seen": "2026-05-20",
       "price_history": [
         {
           "date": "2026-05-13",
