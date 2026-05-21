@@ -4102,6 +4102,10 @@
         {
           "date": "2026-04-24",
           "price": 4697.0
+        },
+        {
+          "date": "2026-05-21",
+          "price": 4597.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20676500/",
@@ -6303,6 +6307,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20634472/",
       "area": 100.81,
       "age_years": 3
+    },
+    "be179cd7cdd7": {
+      "name": "",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "price_history": [
+        {
+          "date": "2026-05-21",
+          "price": 4280.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20893257/",
+      "area": 111.74,
+      "age_years": 53
     }
   }
 }
