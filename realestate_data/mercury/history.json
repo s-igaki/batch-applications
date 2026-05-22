@@ -10018,6 +10018,10 @@
         {
           "date": "2026-03-30",
           "price": 12990
+        },
+        {
+          "date": "2026-05-22",
+          "price": 12890
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_78668650/",
@@ -12052,7 +12056,7 @@
       "type": "rental",
       "station": "四谷",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-05-21",
+      "last_seen": "2026-05-22",
       "price_history": [
         {
           "date": "2026-05-09",
@@ -12164,7 +12168,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-05-21",
+      "last_seen": "2026-05-22",
       "price_history": [
         {
           "date": "2026-05-12",
@@ -12185,6 +12189,10 @@
         {
           "date": "2026-05-12",
           "price": 25500
+        },
+        {
+          "date": "2026-05-22",
+          "price": 24800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20839550/",
@@ -12562,6 +12570,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20864391/",
       "area": 48.27,
       "age_years": 9
+    },
+    "0452d73b6c85": {
+      "name": "プラウド新宿御苑エンパイア",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price": 49800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20906397/",
+      "area": 90.46,
+      "age_years": 16
+    },
+    "29c98c168581": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price": 43000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20903691/",
+      "area": 97.68,
+      "age_years": 2
     }
   }
 }
