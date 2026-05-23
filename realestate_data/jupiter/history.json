@@ -1369,7 +1369,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-27",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-23",
       "price_history": [
         {
           "date": "2026-03-27",
@@ -3665,7 +3665,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-18",
-      "last_seen": "2026-05-04",
+      "last_seen": "2026-05-23",
       "price_history": [
         {
           "date": "2026-04-18",
@@ -3681,7 +3681,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-18",
-      "last_seen": "2026-05-04",
+      "last_seen": "2026-05-23",
       "price_history": [
         {
           "date": "2026-04-18",
@@ -5445,7 +5445,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-05-22",
+      "last_seen": "2026-05-23",
       "price_history": [
         {
           "date": "2026-05-09",
@@ -5461,7 +5461,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-05-22",
+      "last_seen": "2026-05-23",
       "price_history": [
         {
           "date": "2026-05-09",
@@ -5493,7 +5493,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-05-22",
+      "last_seen": "2026-05-23",
       "price_history": [
         {
           "date": "2026-05-09",
@@ -6415,6 +6415,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20905631/",
       "area": 83.89,
       "age_years": 25
+    },
+    "ce5c62615ff9": {
+      "name": "茅ヶ崎市萩園　中古戸建",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-05-23",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price": 2680.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20911515/",
+      "area": 96.87,
+      "age_years": 8
     }
   }
 }
