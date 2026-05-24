@@ -4945,11 +4945,15 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-05-24",
       "price_history": [
         {
           "date": "2026-05-02",
           "price": 3899.0
+        },
+        {
+          "date": "2026-05-24",
+          "price": 3799.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20780644/",
@@ -6431,6 +6435,70 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20911515/",
       "area": 96.87,
       "age_years": 8
+    },
+    "7fdef60c4b08": {
+      "name": "ヴィラハウス鎌倉",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "price_history": [
+        {
+          "date": "2026-05-24",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000095519167/",
+      "area": 55.7,
+      "age_years": 4
+    },
+    "00ab9020d061": {
+      "name": "TNM鎌倉",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "price_history": [
+        {
+          "date": "2026-05-24",
+          "price": 10.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107351573/",
+      "area": 57.33,
+      "age_years": 14
+    },
+    "19761a0fa7d2": {
+      "name": "茅ヶ崎海岸松が丘ハイツ",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "price_history": [
+        {
+          "date": "2026-05-24",
+          "price": 2980.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20875611/",
+      "area": 74.87,
+      "age_years": 49
+    },
+    "32d223c35429": {
+      "name": "",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "price_history": [
+        {
+          "date": "2026-05-24",
+          "price": 3780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20918959/",
+      "area": 98.82,
+      "age_years": 15
     }
   }
 }
