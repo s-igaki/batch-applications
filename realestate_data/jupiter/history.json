@@ -1954,6 +1954,10 @@
         {
           "date": "2026-03-30",
           "price": 4697.0
+        },
+        {
+          "date": "2026-05-25",
+          "price": 4597.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20327554/",
@@ -3125,7 +3129,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-05-24",
+      "last_seen": "2026-05-25",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -3425,11 +3429,15 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-13",
-      "last_seen": "2026-05-01",
+      "last_seen": "2026-05-25",
       "price_history": [
         {
           "date": "2026-04-13",
           "price": 3899.0
+        },
+        {
+          "date": "2026-05-25",
+          "price": 3799.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20642343/",
@@ -4449,7 +4457,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-05-25",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -6457,7 +6465,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-24",
-      "last_seen": "2026-05-24",
+      "last_seen": "2026-05-25",
       "price_history": [
         {
           "date": "2026-05-24",

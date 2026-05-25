@@ -2017,7 +2017,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-05-23",
+      "last_seen": "2026-05-25",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2177,7 +2177,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-05-23",
+      "last_seen": "2026-05-25",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -12064,7 +12064,7 @@
       "type": "rental",
       "station": "四谷",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-05-24",
+      "last_seen": "2026-05-25",
       "price_history": [
         {
           "date": "2026-05-09",
@@ -12678,6 +12678,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/evz7x1C2YNw",
       "area": 98.11,
       "age_years": null
+    },
+    "345b7b358fb3": {
+      "name": "ヴァントヌーベル代々木",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "price_history": [
+        {
+          "date": "2026-05-25",
+          "price": 11800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20926094/",
+      "area": 48.27,
+      "age_years": 9
     }
   }
 }
