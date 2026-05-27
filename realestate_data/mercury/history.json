@@ -10754,7 +10754,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-05-25",
+      "last_seen": "2026-05-27",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -11370,7 +11370,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-20",
-      "last_seen": "2026-05-25",
+      "last_seen": "2026-05-27",
       "price_history": [
         {
           "date": "2026-04-20",
@@ -12077,7 +12077,7 @@
       "type": "rental",
       "station": "四谷",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-05-25",
+      "last_seen": "2026-05-27",
       "price_history": [
         {
           "date": "2026-05-09",
