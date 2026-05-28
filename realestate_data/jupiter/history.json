@@ -189,7 +189,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-04-28",
+      "last_seen": "2026-05-28",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -198,6 +198,10 @@
         {
           "date": "2026-03-23",
           "price": 3480.0
+        },
+        {
+          "date": "2026-05-28",
+          "price": 3280.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_78819671/",
@@ -5457,7 +5461,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-05-27",
+      "last_seen": "2026-05-28",
       "price_history": [
         {
           "date": "2026-05-09",
@@ -5473,7 +5477,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-05-27",
+      "last_seen": "2026-05-28",
       "price_history": [
         {
           "date": "2026-05-09",

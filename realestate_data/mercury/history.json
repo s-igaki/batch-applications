@@ -2026,7 +2026,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-05-27",
+      "last_seen": "2026-05-28",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2186,7 +2186,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-05-27",
+      "last_seen": "2026-05-28",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -10175,6 +10175,10 @@
         {
           "date": "2026-03-30",
           "price": 25500
+        },
+        {
+          "date": "2026-05-28",
+          "price": 24800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78466132/",
@@ -12771,6 +12775,22 @@
       "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%8B%E8%B0%B7%E5%8C%BA/%E6%84%9F%E6%80%A7%E3%81%AB%E3%82%88%E3%82%8B%E5%AE%8C%E6%88%902",
       "area": 64.12,
       "age_years": null
+    },
+    "f6e3fe760c45": {
+      "name": "ディアナコート御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "price_history": [
+        {
+          "date": "2026-05-28",
+          "price": 18980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20183816/",
+      "area": 63.5,
+      "age_years": 6
     }
   }
 }
