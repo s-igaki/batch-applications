@@ -11490,7 +11490,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-05-27",
+      "last_seen": "2026-05-29",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -12238,6 +12238,10 @@
         {
           "date": "2026-05-12",
           "price": 28000
+        },
+        {
+          "date": "2026-05-29",
+          "price": 27500
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78813121/",
@@ -12793,6 +12797,38 @@
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20183816/",
+      "area": 63.5,
+      "age_years": 6
+    },
+    "bfc6e23f8c98": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "new",
+      "station": "四谷",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "price_history": [
+        {
+          "date": "2026-05-29",
+          "price": 27500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_78954144/",
+      "area": 74.92,
+      "age_years": 0
+    },
+    "bd26cece23ea": {
+      "name": "ディアナコート御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "price_history": [
+        {
+          "date": "2026-05-29",
+          "price": 17980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20952838/",
       "area": 63.5,
       "age_years": 6
     }
