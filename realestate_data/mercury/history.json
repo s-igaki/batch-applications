@@ -2745,6 +2745,10 @@
         {
           "date": "2026-04-27",
           "price": 28000
+        },
+        {
+          "date": "2026-05-30",
+          "price": 27500
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78790755/",
@@ -12831,6 +12835,54 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20952838/",
       "area": 63.5,
       "age_years": 6
+    },
+    "09ac92543af8": {
+      "name": "プラウドタワー渋谷",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "price_history": [
+        {
+          "date": "2026-05-30",
+          "price": 29800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_77999025/",
+      "area": 77.11,
+      "age_years": 0
+    },
+    "a6bf896ae108": {
+      "name": "【プラウド渋谷東】",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "price_history": [
+        {
+          "date": "2026-05-30",
+          "price": 30800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20884833/",
+      "area": 71.62,
+      "age_years": 0
+    },
+    "51f869d908de": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "price_history": [
+        {
+          "date": "2026-05-30",
+          "price": 27500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20560741/",
+      "area": 74.92,
+      "age_years": 2
     }
   }
 }

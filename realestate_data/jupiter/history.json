@@ -6739,6 +6739,54 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000099253240/",
       "area": 53.82,
       "age_years": 0
+    },
+    "48658dcf7fc5": {
+      "name": "Maisonetteコウリョウ鎌倉山",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "price_history": [
+        {
+          "date": "2026-05-30",
+          "price": 13.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107481243/",
+      "area": 72.86,
+      "age_years": 10
+    },
+    "fa4fcd06f141": {
+      "name": "オーベル湘南台",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "price_history": [
+        {
+          "date": "2026-05-30",
+          "price": 2580.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20960842/",
+      "area": 63.35,
+      "age_years": 31
+    },
+    "13503bffc668": {
+      "name": "オクトス湘南茅ヶ崎グランドヒル",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "price_history": [
+        {
+          "date": "2026-05-30",
+          "price": 2380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20960899/",
+      "area": 67.71,
+      "age_years": 27
     }
   }
 }
