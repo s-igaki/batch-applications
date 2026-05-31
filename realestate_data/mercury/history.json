@@ -10766,7 +10766,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-05-31",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -10830,7 +10830,7 @@
       "type": "rental",
       "station": "市谷",
       "first_seen": "2026-04-08",
-      "last_seen": "2026-04-29",
+      "last_seen": "2026-05-31",
       "price_history": [
         {
           "date": "2026-04-08",
@@ -11094,7 +11094,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-05-03",
+      "last_seen": "2026-05-31",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -12209,7 +12209,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-05-28",
+      "last_seen": "2026-05-31",
       "price_history": [
         {
           "date": "2026-05-12",
@@ -12907,6 +12907,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000107269183/",
       "area": 40.46,
       "age_years": 20
+    },
+    "1e937c02ba64": {
+      "name": "アイビス市ヶ谷（IBIS市ヶ谷）",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "price_history": [
+        {
+          "date": "2026-05-31",
+          "price": 24.3
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/cb21ea958f31d85190913f145837f13a68c43ba0/",
+      "area": 43.78,
+      "age_years": null
+    },
+    "63bd494ad234": {
+      "name": "アイビス市ヶ谷（IBIS市ヶ谷）",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-05-31",
+      "price_history": [
+        {
+          "date": "2026-05-31",
+          "price": 24.3
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/333944bb7c9da589abf0d48a393748a75e7fd88b/",
+      "area": 43.78,
+      "age_years": null
     }
   }
 }
