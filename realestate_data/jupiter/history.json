@@ -1009,7 +1009,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-06-01",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -3653,7 +3653,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-05-20",
+      "last_seen": "2026-06-01",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -5685,7 +5685,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-20",
+      "last_seen": "2026-06-01",
       "price_history": [
         {
           "date": "2026-05-11",
@@ -6879,6 +6879,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20972132/",
       "area": 98.82,
       "age_years": 15
+    },
+    "fb612259cec6": {
+      "name": "トーカンマンション藤沢六会",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-01",
+      "price_history": [
+        {
+          "date": "2026-06-01",
+          "price": 2880.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20977584/",
+      "area": 85.4,
+      "age_years": 48
     }
   }
 }

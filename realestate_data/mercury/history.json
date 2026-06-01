@@ -1722,7 +1722,7 @@
       "type": "new",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-03-29",
+      "last_seen": "2026-06-01",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2026,7 +2026,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-06-01",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2050,7 +2050,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-05-28",
+      "last_seen": "2026-06-01",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2186,7 +2186,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-06-01",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -2773,6 +2773,10 @@
         {
           "date": "2026-04-23",
           "price": 28000
+        },
+        {
+          "date": "2026-06-01",
+          "price": 27500
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78937109/",
@@ -11498,7 +11502,7 @@
       "type": "used",
       "station": "吉祥寺",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-06-01",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -11639,6 +11643,10 @@
         {
           "date": "2026-04-27",
           "price": 15900
+        },
+        {
+          "date": "2026-06-01",
+          "price": 14800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20741332/",
@@ -11798,6 +11806,10 @@
         {
           "date": "2026-04-28",
           "price": 15900
+        },
+        {
+          "date": "2026-06-01",
+          "price": 14800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20752679/",
@@ -11998,6 +12010,10 @@
         {
           "date": "2026-05-03",
           "price": 15900
+        },
+        {
+          "date": "2026-06-01",
+          "price": 14800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20783813/",
@@ -12497,11 +12513,15 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
+      "last_seen": "2026-06-01",
       "price_history": [
         {
           "date": "2026-05-17",
           "price": 15900
+        },
+        {
+          "date": "2026-06-01",
+          "price": 14800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20867306/",
@@ -13059,6 +13079,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/p1iVnrVyJTg",
       "area": 91.11,
       "age_years": null
+    },
+    "b0c81b91cc83": {
+      "name": "ルフォン吉祥寺",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-01",
+      "price_history": [
+        {
+          "date": "2026-06-01",
+          "price": 21000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20944547/",
+      "area": 93.77,
+      "age_years": 18
     }
   }
 }
