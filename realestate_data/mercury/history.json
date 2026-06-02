@@ -13095,6 +13095,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20944547/",
       "area": 93.77,
       "age_years": 18
+    },
+    "18eb9b4a6949": {
+      "name": "プラネスーペリア御殿山井の頭公園",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-06-02",
+      "last_seen": "2026-06-02",
+      "price_history": [
+        {
+          "date": "2026-06-02",
+          "price": 14800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20986036/",
+      "area": 72.64,
+      "age_years": 12
     }
   }
 }

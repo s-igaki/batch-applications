@@ -3653,7 +3653,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-06-01",
+      "last_seen": "2026-06-02",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -5073,7 +5073,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-05",
-      "last_seen": "2026-05-30",
+      "last_seen": "2026-06-02",
       "price_history": [
         {
           "date": "2026-05-05",
@@ -5573,7 +5573,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-10",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-06-02",
       "price_history": [
         {
           "date": "2026-05-10",
@@ -5685,7 +5685,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-06-01",
+      "last_seen": "2026-06-02",
       "price_history": [
         {
           "date": "2026-05-11",
