@@ -12161,11 +12161,15 @@
       "type": "used",
       "station": "代々木",
       "first_seen": "2026-05-10",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-06-03",
       "price_history": [
         {
           "date": "2026-05-10",
           "price": 11800
+        },
+        {
+          "date": "2026-06-03",
+          "price": 11380
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20820937/",
@@ -13163,6 +13167,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/WceRd63fo4U",
       "area": 77.64,
       "age_years": null
+    },
+    "1f682b8f3fc3": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "price_history": [
+        {
+          "date": "2026-06-03",
+          "price": 21980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20989046/",
+      "area": 61.11,
+      "age_years": 0
     }
   }
 }
