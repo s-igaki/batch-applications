@@ -10770,7 +10770,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-06-02",
+      "last_seen": "2026-06-04",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -11638,7 +11638,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -13247,6 +13247,38 @@
       "detail_url": "https://cowcamo.jp/short_stories/3sXxe2N9E0g",
       "area": 63.1,
       "age_years": null
+    },
+    "a98edb21c87f": {
+      "name": "東京メトロ丸ノ内線 四谷三丁目駅 3階建 築20年",
+      "type": "rental",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "price_history": [
+        {
+          "date": "2026-06-04",
+          "price": 17.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107296070/",
+      "area": 40.46,
+      "age_years": 20
+    },
+    "826936364ec3": {
+      "name": "プラウド新宿御苑エンパイア",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "price_history": [
+        {
+          "date": "2026-06-04",
+          "price": 28800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20996400/",
+      "area": 66.6,
+      "age_years": 16
     }
   }
 }
