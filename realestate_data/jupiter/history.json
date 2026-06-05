@@ -2505,7 +2505,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-02",
-      "last_seen": "2026-05-15",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-04-02",
@@ -2817,7 +2817,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-05-30",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -3913,7 +3913,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-19",
-      "last_seen": "2026-05-06",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-04-19",
@@ -5977,7 +5977,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-15",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-05-15",
@@ -6169,7 +6169,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-06-04",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-05-17",
@@ -6665,7 +6665,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6681,7 +6681,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6697,7 +6697,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6761,7 +6761,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6809,7 +6809,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-31",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-05",
       "price_history": [
         {
           "date": "2026-05-31",
@@ -7075,6 +7075,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000106733736/",
       "area": 60.64,
       "age_years": 0
+    },
+    "3d46b9fe26c9": {
+      "name": "AF　フォーレスト湘南台I[ペット共生型ヘーベルメゾン]",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "price_history": [
+        {
+          "date": "2026-06-05",
+          "price": 13.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107544360/",
+      "area": 54.48,
+      "age_years": 9
+    },
+    "2d5b41aa6651": {
+      "name": "プリマヴェーラ湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "price_history": [
+        {
+          "date": "2026-06-05",
+          "price": 9.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107473813/",
+      "area": 52.37,
+      "age_years": 11
     }
   }
 }
