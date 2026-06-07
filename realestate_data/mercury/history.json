@@ -13303,6 +13303,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000107529109/",
       "area": 40.46,
       "age_years": 20
+    },
+    "ad293e67b461": {
+      "name": "富ヶ谷ウエストガーデン",
+      "type": "new",
+      "station": "代々木",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "price_history": [
+        {
+          "date": "2026-06-07",
+          "price": 22000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21019744/",
+      "area": 75.76,
+      "age_years": 0
+    },
+    "839b9b896b41": {
+      "name": "プラネスーペリア御殿山井の頭公園3階",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "price_history": [
+        {
+          "date": "2026-06-07",
+          "price": 14800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_21011405/",
+      "area": 72.64,
+      "age_years": 12
     }
   }
 }
