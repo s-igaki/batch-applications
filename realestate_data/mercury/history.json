@@ -1839,6 +1839,10 @@
         {
           "date": "2026-05-26",
           "price": 20900
+        },
+        {
+          "date": "2026-06-08",
+          "price": 25900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_67733884/",
@@ -13033,7 +13037,7 @@
       "type": "new",
       "station": "四谷",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-08",
       "price_history": [
         {
           "date": "2026-06-01",
@@ -13363,6 +13367,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/oVxs96cHkJI",
       "area": 69.09,
       "age_years": null
+    },
+    "cf6e9baaf7b5": {
+      "name": "ヴァントヌーベル代々木",
+      "type": "used",
+      "station": "代々木",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "price_history": [
+        {
+          "date": "2026-06-08",
+          "price": 11500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21026127/",
+      "area": 48.27,
+      "age_years": 9
     }
   }
 }
