@@ -3661,7 +3661,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-09",
       "price_history": [
         {
           "date": "2026-04-17",
@@ -6673,7 +6673,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-09",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6689,7 +6689,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-09",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6705,7 +6705,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-09",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6769,7 +6769,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-09",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6817,7 +6817,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-31",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-09",
       "price_history": [
         {
           "date": "2026-05-31",
@@ -7227,6 +7227,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20918991/",
       "area": 80.11,
       "age_years": 38
+    },
+    "71e8213ead73": {
+      "name": "稲村ツリーIII",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "price_history": [
+        {
+          "date": "2026-06-09",
+          "price": 13.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107704608/",
+      "area": 62.97,
+      "age_years": 6
+    },
+    "13c0829cc547": {
+      "name": "稲村ツリーIII",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "price_history": [
+        {
+          "date": "2026-06-09",
+          "price": 13.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107698891/",
+      "area": 62.97,
+      "age_years": 6
+    },
+    "1b9ab75ab45a": {
+      "name": "ＪＲ東海道本線 茅ケ崎駅 3階建 築5年",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "price_history": [
+        {
+          "date": "2026-06-09",
+          "price": 7.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107704668/",
+      "area": 52.86,
+      "age_years": 5
     }
   }
 }
