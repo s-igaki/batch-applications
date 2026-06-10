@@ -7291,6 +7291,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000107693891/",
       "area": 60.22,
       "age_years": 9
+    },
+    "a75e1a2035ca": {
+      "name": "ポロニア　A",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "price_history": [
+        {
+          "date": "2026-06-10",
+          "price": 9.1
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107712225/",
+      "area": 60.1,
+      "age_years": 9
     }
   }
 }
