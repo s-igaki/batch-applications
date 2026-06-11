@@ -3921,7 +3921,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-19",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-11",
       "price_history": [
         {
           "date": "2026-04-19",
@@ -5489,7 +5489,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-06-04",
+      "last_seen": "2026-06-11",
       "price_history": [
         {
           "date": "2026-05-09",
@@ -5505,7 +5505,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-06-04",
+      "last_seen": "2026-06-11",
       "price_history": [
         {
           "date": "2026-05-09",
@@ -6177,7 +6177,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-11",
       "price_history": [
         {
           "date": "2026-05-17",
@@ -6501,7 +6501,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-24",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
       "price_history": [
         {
           "date": "2026-05-24",
@@ -6853,7 +6853,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-31",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-11",
       "price_history": [
         {
           "date": "2026-05-31",
@@ -7221,7 +7221,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-06-08",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
       "price_history": [
         {
           "date": "2026-06-08",
@@ -7237,7 +7237,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
       "price_history": [
         {
           "date": "2026-06-09",
@@ -7253,7 +7253,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
       "price_history": [
         {
           "date": "2026-06-09",
