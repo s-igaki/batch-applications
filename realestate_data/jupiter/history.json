@@ -5761,7 +5761,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-06-06",
+      "last_seen": "2026-06-12",
       "price_history": [
         {
           "date": "2026-05-12",
@@ -7391,6 +7391,38 @@
       "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%9D%89%E4%B8%A6%E5%8C%BA/%E8%A5%BF%E8%8D%BB%E3%83%AA%E3%83%8E%E3%83%99%E5%89%8D%E5%A4%9C",
       "area": 86.28,
       "age_years": null
+    },
+    "be3296622f97": {
+      "name": "六会駅前高層住宅",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-12",
+      "price_history": [
+        {
+          "date": "2026-06-12",
+          "price": 2090.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21055118/",
+      "area": 61.63,
+      "age_years": 52
+    },
+    "533dd3dc2613": {
+      "name": "",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-12",
+      "price_history": [
+        {
+          "date": "2026-06-12",
+          "price": 3780.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21055111/",
+      "area": 98.82,
+      "age_years": 15
     }
   }
 }
