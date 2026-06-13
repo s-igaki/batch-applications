@@ -11618,7 +11618,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-04-25",
-      "last_seen": "2026-06-12",
+      "last_seen": "2026-06-13",
       "price_history": [
         {
           "date": "2026-04-25",
@@ -13571,6 +13571,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000107767535/",
       "area": 41.3,
       "age_years": 7
+    },
+    "2e6aa600813b": {
+      "name": "プラネスーペリア御殿山井の頭公園",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "price_history": [
+        {
+          "date": "2026-06-13",
+          "price": 14800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_21065681/",
+      "area": 72.64,
+      "age_years": 12
     }
   }
 }
