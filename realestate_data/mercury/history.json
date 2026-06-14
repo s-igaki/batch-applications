@@ -10074,7 +10074,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-06-13",
+      "last_seen": "2026-06-14",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -13603,6 +13603,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000107828823/",
       "area": 41.3,
       "age_years": 7
+    },
+    "8c2bfd10dbcf": {
+      "name": "ジオ御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14",
+      "price_history": [
+        {
+          "date": "2026-06-14",
+          "price": 19200
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21069694/",
+      "area": 81.31,
+      "age_years": 10
     }
   }
 }
