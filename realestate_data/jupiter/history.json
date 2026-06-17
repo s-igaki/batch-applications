@@ -7325,7 +7325,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-12",
+      "last_seen": "2026-06-17",
       "price_history": [
         {
           "date": "2026-06-11",
@@ -7453,7 +7453,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-06-15",
+      "last_seen": "2026-06-17",
       "price_history": [
         {
           "date": "2026-06-14",
@@ -7469,7 +7469,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-06-15",
+      "last_seen": "2026-06-17",
       "price_history": [
         {
           "date": "2026-06-14",
@@ -7485,7 +7485,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-06-15",
+      "last_seen": "2026-06-17",
       "price_history": [
         {
           "date": "2026-06-14",
@@ -7847,6 +7847,70 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21087483/",
       "area": 101.74,
       "age_years": 19
+    },
+    "184874c3191b": {
+      "name": "Ｈｏｒｉｚｏｎ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "price_history": [
+        {
+          "date": "2026-06-17",
+          "price": 10.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107881108/",
+      "area": 62.82,
+      "age_years": 11
+    },
+    "6084c8a87373": {
+      "name": "Ｈｏｒｉｚｏｎ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "price_history": [
+        {
+          "date": "2026-06-17",
+          "price": 10.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107870806/",
+      "area": 62.82,
+      "age_years": 11
+    },
+    "74362e88ce08": {
+      "name": "Ｈｏｒｉｚｏｎ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "price_history": [
+        {
+          "date": "2026-06-17",
+          "price": 10.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107870807/",
+      "area": 62.82,
+      "age_years": 11
+    },
+    "b7d21efc711b": {
+      "name": "シィーエム・クイーン",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "price_history": [
+        {
+          "date": "2026-06-17",
+          "price": 7.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107890808/",
+      "area": 50.0,
+      "age_years": 15
     }
   }
 }
