@@ -1022,6 +1022,10 @@
         {
           "date": "2026-03-20",
           "price": 2780.0
+        },
+        {
+          "date": "2026-06-18",
+          "price": 2580.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20391794/",
@@ -3190,6 +3194,10 @@
         {
           "date": "2026-04-09",
           "price": 4500.0
+        },
+        {
+          "date": "2026-06-18",
+          "price": 4380.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_78698949/",
@@ -4049,7 +4057,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-06-12",
+      "last_seen": "2026-06-18",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -7983,6 +7991,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20978830/",
       "area": 96.26,
       "age_years": 7
+    },
+    "6a91c01c9e12": {
+      "name": "鎌倉 花冠",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "price_history": [
+        {
+          "date": "2026-06-18",
+          "price": 14.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107851071/",
+      "area": 55.94,
+      "age_years": 0
     }
   }
 }
