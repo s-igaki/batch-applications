@@ -13759,6 +13759,54 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20302630/",
       "area": 55.7,
       "age_years": 19
+    },
+    "121b97be6287": {
+      "name": "ガーラ・プレシャス神宮外苑",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "price_history": [
+        {
+          "date": "2026-06-19",
+          "price": 15480
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21105489/",
+      "area": 47.72,
+      "age_years": 10
+    },
+    "465f89da33f9": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "price_history": [
+        {
+          "date": "2026-06-19",
+          "price": 22280
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21106074/",
+      "area": 70.86,
+      "age_years": 12
+    },
+    "51b0f0e07635": {
+      "name": "ジオ御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "price_history": [
+        {
+          "date": "2026-06-19",
+          "price": 59800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21105842/",
+      "area": 112.14,
+      "age_years": 10
     }
   }
 }
