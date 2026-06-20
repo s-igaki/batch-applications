@@ -7145,6 +7145,10 @@
         {
           "date": "2026-06-08",
           "price": 31980
+        },
+        {
+          "date": "2026-06-20",
+          "price": 29980
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20416827/",
@@ -10110,7 +10114,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-05-25",
+      "last_seen": "2026-06-20",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10123,6 +10127,10 @@
         {
           "date": "2026-05-09",
           "price": 23980
+        },
+        {
+          "date": "2026-06-20",
+          "price": 23480
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20390486/",
@@ -11151,6 +11159,10 @@
         {
           "date": "2026-06-08",
           "price": 31980
+        },
+        {
+          "date": "2026-06-20",
+          "price": 29980
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20636709/",
@@ -11555,6 +11567,10 @@
         {
           "date": "2026-05-23",
           "price": 17000
+        },
+        {
+          "date": "2026-06-20",
+          "price": 16000
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20715131/",
@@ -12989,7 +13005,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-05-31",
-      "last_seen": "2026-06-06",
+      "last_seen": "2026-06-20",
       "price_history": [
         {
           "date": "2026-05-31",
