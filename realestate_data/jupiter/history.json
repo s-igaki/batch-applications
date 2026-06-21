@@ -7189,7 +7189,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-06",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-21",
       "price_history": [
         {
           "date": "2026-06-06",
@@ -8005,7 +8005,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-21",
       "price_history": [
         {
           "date": "2026-06-18",
@@ -8229,7 +8229,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-21",
       "price_history": [
         {
           "date": "2026-06-19",
@@ -8367,6 +8367,102 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000107965470/",
       "area": 69.99,
       "age_years": 9
+    },
+    "519f4dcd17c6": {
+      "name": "フレッサ鵠沼",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "price_history": [
+        {
+          "date": "2026-06-21",
+          "price": 13.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107914972/",
+      "area": 50.7,
+      "age_years": 14
+    },
+    "e033cc9a8099": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　I",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "price_history": [
+        {
+          "date": "2026-06-21",
+          "price": 14.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107774747/",
+      "area": 55.54,
+      "age_years": 0
+    },
+    "94b1bf8fc595": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　I",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "price_history": [
+        {
+          "date": "2026-06-21",
+          "price": 14.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107774749/",
+      "area": 55.97,
+      "age_years": 0
+    },
+    "79e55764ae8e": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　I",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "price_history": [
+        {
+          "date": "2026-06-21",
+          "price": 14.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107774748/",
+      "area": 54.92,
+      "age_years": 0
+    },
+    "5c9bb22b8615": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　I",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "price_history": [
+        {
+          "date": "2026-06-21",
+          "price": 14.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107774752/",
+      "area": 55.97,
+      "age_years": 0
+    },
+    "ef2b6b5a2c0e": {
+      "name": "Ｙ’ｓ　Ｆ　Ｒｅｓｉｄｅｎｃｅ　I",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "price_history": [
+        {
+          "date": "2026-06-21",
+          "price": 14.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107774751/",
+      "area": 54.92,
+      "age_years": 0
     }
   }
 }

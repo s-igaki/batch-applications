@@ -10210,7 +10210,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-21",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -13201,7 +13201,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-20",
+      "last_seen": "2026-06-21",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13217,7 +13217,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-20",
+      "last_seen": "2026-06-21",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13823,6 +13823,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21105842/",
       "area": 112.14,
       "age_years": 10
+    },
+    "0ccfb5953a6a": {
+      "name": "リンデンコート市ヶ谷",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "price_history": [
+        {
+          "date": "2026-06-21",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/ee51877a6f168fcf20ea8c194abad7193c101815/",
+      "area": 40.85,
+      "age_years": null
     }
   }
 }
