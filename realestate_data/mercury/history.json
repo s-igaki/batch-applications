@@ -1464,6 +1464,10 @@
         {
           "date": "2026-05-12",
           "price": 12480
+        },
+        {
+          "date": "2026-06-22",
+          "price": 21980
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729222/",
@@ -13182,6 +13186,10 @@
         {
           "date": "2026-06-01",
           "price": 21000
+        },
+        {
+          "date": "2026-06-22",
+          "price": 20900
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20944547/",
@@ -13262,6 +13270,10 @@
         {
           "date": "2026-06-03",
           "price": 21980
+        },
+        {
+          "date": "2026-06-22",
+          "price": 20990
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20989046/",
