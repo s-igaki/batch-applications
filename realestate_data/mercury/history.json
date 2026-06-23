@@ -1468,6 +1468,10 @@
         {
           "date": "2026-06-22",
           "price": 21980
+        },
+        {
+          "date": "2026-06-23",
+          "price": 12480
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729222/",
@@ -1726,7 +1730,7 @@
       "type": "new",
       "station": "千駄ヶ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -13939,6 +13943,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/uzyxD57kSog",
       "area": 78.0,
       "age_years": null
+    },
+    "0ee03df8bcdf": {
+      "name": "東京メトロ丸ノ内線 新宿御苑前駅 14階建 築18年",
+      "type": "rental",
+      "station": "四ツ谷",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "price_history": [
+        {
+          "date": "2026-06-23",
+          "price": 24.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107912652/",
+      "area": 50.49,
+      "age_years": 18
     }
   }
 }
