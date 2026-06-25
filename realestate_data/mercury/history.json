@@ -2155,6 +2155,10 @@
         {
           "date": "2026-05-14",
           "price": 21980
+        },
+        {
+          "date": "2026-06-25",
+          "price": 20990
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20246272/",
@@ -11834,7 +11838,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-06-22",
+      "last_seen": "2026-06-25",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -13979,6 +13983,262 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21140166/",
       "area": 61.11,
       "age_years": 0
+    },
+    "c58919c5fb20": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 17.8
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/19fdc6eddb0745cabe0c4f253a8d19895b86c82c/",
+      "area": 42.22,
+      "age_years": 0
+    },
+    "6c449d26e6f8": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 18.2
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/746ced90203e810d635b519130102d846354326c/",
+      "area": 40.76,
+      "age_years": 0
+    },
+    "88f43c6a58b5": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 17.8
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/06876cae5f09d0e699a173faf049147bad4b32ce/",
+      "area": 42.22,
+      "age_years": 0
+    },
+    "a9bb238fcff6": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 17.8
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/6e0643700066353a7e9ab95fb1d5d8ed8bc95abb/",
+      "area": 42.22,
+      "age_years": 0
+    },
+    "05d391acdb74": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 16.7
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/2b7495dc62b064f7042bb02e697361a44a9f94d7/",
+      "area": 40.76,
+      "age_years": 0
+    },
+    "919f435186f0": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 16.6
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/67cb72cfff3ef16c10f61f38d18690f0b5dedf7c/",
+      "area": 40.76,
+      "age_years": 0
+    },
+    "cab9d1bc9567": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 16.6
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/a46b8ef8d6db42658b151de49b9fffc85a93dd65/",
+      "area": 40.76,
+      "age_years": 0
+    },
+    "fec1bb32642d": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 18.6
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/9d586f27cc894c7d556d57708d70bb08f788d1f4/",
+      "area": 42.22,
+      "age_years": 0
+    },
+    "b4dc80a536a3": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 17.6
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/7b857268454d015468fdad2f1c7e37a1aa258588/",
+      "area": 42.22,
+      "age_years": 0
+    },
+    "9a96e3a50cc0": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 17.3
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/b0ceec295c17d57b4f56ec1abeaf8070e4fbf693/",
+      "area": 40.65,
+      "age_years": 0
+    },
+    "445db0484007": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 17.3
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/29b4f86c4c79bc9e8a70584681e64b0b612ab336/",
+      "area": 40.65,
+      "age_years": 0
+    },
+    "173594a800c4": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 16.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/8d0bb566da376a8a47692584a1d137a8e43c3804/",
+      "area": 40.76,
+      "age_years": 0
+    },
+    "58fd05b67e87": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 18.1
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/7c450c6c9e2e45716c882fa336ece4ab8cf12e5d/",
+      "area": 40.65,
+      "age_years": 0
+    },
+    "ffba7b0f0811": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 17.8
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/b54a1a528b6f65b4ba44daff295383627dacc7be/",
+      "area": 40.76,
+      "age_years": 0
+    },
+    "a7f62322edd9": {
+      "name": "シャントロワ曙橋",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 17.1
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/3688b2ed5d7bc195b004d7e296a2ba3d9e5bbd13/",
+      "area": 40.65,
+      "age_years": 0
+    },
+    "52bb5b2cc367": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 50000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21143837/",
+      "area": 90.09,
+      "age_years": 2
     }
   }
 }

@@ -4510,6 +4510,10 @@
         {
           "date": "2026-06-01",
           "price": 4497.0
+        },
+        {
+          "date": "2026-06-25",
+          "price": 4397.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20737822/",
@@ -8009,7 +8013,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-06-23",
+      "last_seen": "2026-06-25",
       "price_history": [
         {
           "date": "2026-06-18",
@@ -8595,6 +8599,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21139537/",
       "area": 98.82,
       "age_years": 15
+    },
+    "1ebc1a2904bc": {
+      "name": "パークホームズ湘南茅ヶ崎海岸",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 4280.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21127320/",
+      "area": 72.41,
+      "age_years": 22
+    },
+    "c8475621d498": {
+      "name": "藤沢市高倉",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 3797.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20714408/",
+      "area": 83.58,
+      "age_years": 31
+    },
+    "e7ee0e8946ac": {
+      "name": "即日ご見学可能☆彡まずはお気軽にお問い合わせ下さい！",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "price_history": [
+        {
+          "date": "2026-06-25",
+          "price": 4550.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20736699/",
+      "area": 87.77,
+      "age_years": 24
     }
   }
 }
