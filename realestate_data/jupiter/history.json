@@ -1533,7 +1533,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-28",
-      "last_seen": "2026-06-22",
+      "last_seen": "2026-06-26",
       "price_history": [
         {
           "date": "2026-03-28",
@@ -3193,7 +3193,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-06-20",
+      "last_seen": "2026-06-26",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -6945,7 +6945,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-18",
+      "last_seen": "2026-06-26",
       "price_history": [
         {
           "date": "2026-06-01",
@@ -8651,6 +8651,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20736699/",
       "area": 87.77,
       "age_years": 24
+    },
+    "46e13e0dd75b": {
+      "name": "【売主】茅ヶ崎市中島４期　イーカム施工築浅中古戸建住…",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "price_history": [
+        {
+          "date": "2026-06-26",
+          "price": 3180.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20893978/",
+      "area": 89.94,
+      "age_years": 2
     }
   }
 }
