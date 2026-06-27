@@ -1089,7 +1089,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-03-22",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-27",
       "price_history": [
         {
           "date": "2026-03-22",
@@ -8481,7 +8481,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-06-27",
       "price_history": [
         {
           "date": "2026-06-22",
@@ -8545,7 +8545,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-06-27",
       "price_history": [
         {
           "date": "2026-06-25",
@@ -8683,6 +8683,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21142370/",
       "area": 76.35,
       "age_years": 47
+    },
+    "2a35bfa02dde": {
+      "name": "鎌倉材木座住宅",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-06-27",
+      "last_seen": "2026-06-27",
+      "price_history": [
+        {
+          "date": "2026-06-27",
+          "price": 14.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108080447/",
+      "area": 50.5,
+      "age_years": 0
     }
   }
 }
