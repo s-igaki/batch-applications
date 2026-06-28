@@ -13237,7 +13237,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-27",
+      "last_seen": "2026-06-28",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13253,7 +13253,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-27",
+      "last_seen": "2026-06-28",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14282,6 +14282,54 @@
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_21021171/",
       "area": 189.25,
+      "age_years": 0
+    },
+    "b23c534b8f09": {
+      "name": "東京メトロ丸ノ内線 四谷三丁目駅 徒歩4分",
+      "type": "rental",
+      "station": "信濃町",
+      "first_seen": "2026-06-28",
+      "last_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "price": 19.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/c4423e074bf2e86aa0a0cb52fe8629a9a96b0b82/",
+      "area": 42.14,
+      "age_years": 0
+    },
+    "14931c3adc7a": {
+      "name": "東京メトロ丸ノ内線 四谷三丁目駅 徒歩4分",
+      "type": "rental",
+      "station": "信濃町",
+      "first_seen": "2026-06-28",
+      "last_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "price": 18.6
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/c894bec9e366883dc74cc3320ff73f10831eb01c/",
+      "area": 42.5,
+      "age_years": 0
+    },
+    "593c5da7b626": {
+      "name": "東京メトロ丸ノ内線 四谷三丁目駅 徒歩4分",
+      "type": "rental",
+      "station": "信濃町",
+      "first_seen": "2026-06-28",
+      "last_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "price": 18.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/cf056d8515fdbe49c1e38c6581d41262d635f5b3/",
+      "area": 42.5,
       "age_years": 0
     }
   }

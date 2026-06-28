@@ -4373,7 +4373,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-06-28",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -8641,7 +8641,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-06-28",
       "price_history": [
         {
           "date": "2026-06-25",
@@ -8689,7 +8689,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-27",
-      "last_seen": "2026-06-27",
+      "last_seen": "2026-06-28",
       "price_history": [
         {
           "date": "2026-06-27",
@@ -8763,6 +8763,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000107946592/",
       "area": 52.52,
       "age_years": 0
+    },
+    "bc3e825f605e": {
+      "name": "シャンベール北鎌倉II",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-06-28",
+      "last_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108116890/",
+      "area": 64.19,
+      "age_years": 15
+    },
+    "b1d54c84ea65": {
+      "name": "プランドール湘南A",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-06-28",
+      "last_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "price": 10.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108124517/",
+      "area": 60.0,
+      "age_years": 9
     }
   }
 }
