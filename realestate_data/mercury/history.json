@@ -14347,6 +14347,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/AtM76mCwO6g",
       "area": 56.45,
       "age_years": null
+    },
+    "3711c352d00e": {
+      "name": "四谷パインクレスト",
+      "type": "rental",
+      "station": "四谷",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "price_history": [
+        {
+          "date": "2026-06-29",
+          "price": 16.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107128876/",
+      "area": 40.76,
+      "age_years": 20
     }
   }
 }

@@ -1017,7 +1017,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-06-25",
+      "last_seen": "2026-06-29",
       "price_history": [
         {
           "date": "2026-03-20",
@@ -8533,7 +8533,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-06-29",
       "price_history": [
         {
           "date": "2026-06-25",
@@ -8879,6 +8879,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_21170261/",
       "area": 115.67,
       "age_years": 34
+    },
+    "b2e6be456f6c": {
+      "name": "タコマール齋（いつき）",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "price_history": [
+        {
+          "date": "2026-06-29",
+          "price": 9.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108141265/",
+      "area": 51.61,
+      "age_years": 7
+    },
+    "0cae28e966d5": {
+      "name": "グラン・コート湘南茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "price_history": [
+        {
+          "date": "2026-06-29",
+          "price": 4380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21176418/",
+      "area": 77.59,
+      "age_years": 20
+    },
+    "c65736319ce8": {
+      "name": "ニューイースト湘南茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "price_history": [
+        {
+          "date": "2026-06-29",
+          "price": 4699.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21176502/",
+      "area": 74.18,
+      "age_years": 29
     }
   }
 }
