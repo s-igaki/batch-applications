@@ -1779,6 +1779,10 @@
         {
           "date": "2026-06-09",
           "price": 27800
+        },
+        {
+          "date": "2026-06-30",
+          "price": 22500
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_67734365/",
@@ -1846,7 +1850,7 @@
       "type": "new",
       "station": "四ツ谷",
       "first_seen": "2026-03-20",
-      "last_seen": "2026-06-23",
+      "last_seen": "2026-06-30",
       "price_history": [
         {
           "date": "2026-05-26",
@@ -10230,7 +10234,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-06-25",
+      "last_seen": "2026-06-30",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -11470,7 +11474,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-20",
-      "last_seen": "2026-06-15",
+      "last_seen": "2026-06-30",
       "price_history": [
         {
           "date": "2026-04-20",
@@ -13417,7 +13421,7 @@
       "type": "new",
       "station": "代々木",
       "first_seen": "2026-06-07",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
       "price_history": [
         {
           "date": "2026-06-07",
@@ -14277,7 +14281,7 @@
       "type": "new",
       "station": "市谷",
       "first_seen": "2026-06-27",
-      "last_seen": "2026-06-27",
+      "last_seen": "2026-06-30",
       "price_history": [
         {
           "date": "2026-06-27",
@@ -14367,6 +14371,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000107128876/",
       "area": 40.76,
       "age_years": 20
+    },
+    "379c8aa8eefd": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-06-30",
+      "price_history": [
+        {
+          "date": "2026-06-30",
+          "price": 24800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20988463/",
+      "area": 70.71,
+      "age_years": 0
     }
   }
 }
