@@ -3193,7 +3193,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-07-01",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -5625,7 +5625,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-10",
-      "last_seen": "2026-06-27",
+      "last_seen": "2026-07-01",
       "price_history": [
         {
           "date": "2026-05-10",
@@ -8533,7 +8533,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-07-01",
       "price_history": [
         {
           "date": "2026-06-25",
@@ -8709,7 +8709,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-28",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-07-01",
       "price_history": [
         {
           "date": "2026-06-28",
@@ -8725,7 +8725,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-28",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-07-01",
       "price_history": [
         {
           "date": "2026-06-28",
@@ -8741,7 +8741,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-28",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-07-01",
       "price_history": [
         {
           "date": "2026-06-28",
@@ -9391,6 +9391,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108151239/",
       "area": 62.7,
       "age_years": 0
+    },
+    "462a7b0e5f74": {
+      "name": "アメージング長後",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-01",
+      "price_history": [
+        {
+          "date": "2026-07-01",
+          "price": 8.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000032923008/",
+      "area": 62.93,
+      "age_years": 13
+    },
+    "a5aea46f643a": {
+      "name": "リヴァージュ稲村ガ崎",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-01",
+      "price_history": [
+        {
+          "date": "2026-07-01",
+          "price": 13.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108116878/",
+      "area": 58.11,
+      "age_years": 15
     }
   }
 }

@@ -14387,6 +14387,70 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20988463/",
       "area": 70.71,
       "age_years": 0
+    },
+    "063640fc7fbf": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-01",
+      "price_history": [
+        {
+          "date": "2026-07-01",
+          "price": 20990
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21188439/",
+      "area": 61.11,
+      "age_years": 0
+    },
+    "fc1a3b604743": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-01",
+      "price_history": [
+        {
+          "date": "2026-07-01",
+          "price": 28800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21188457/",
+      "area": 71.62,
+      "age_years": 0
+    },
+    "30306227d34a": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-01",
+      "price_history": [
+        {
+          "date": "2026-07-01",
+          "price": 28800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20977943/",
+      "area": 71.62,
+      "age_years": 0
+    },
+    "04923bf7ade9": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-01",
+      "price_history": [
+        {
+          "date": "2026-07-01",
+          "price": 31000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21188276/",
+      "area": 79.98,
+      "age_years": 2
     }
   }
 }
