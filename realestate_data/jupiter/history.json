@@ -3613,7 +3613,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-16",
-      "last_seen": "2026-05-27",
+      "last_seen": "2026-07-02",
       "price_history": [
         {
           "date": "2026-04-16",
@@ -4065,7 +4065,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-07-02",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -5349,7 +5349,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-11",
+      "last_seen": "2026-07-02",
       "price_history": [
         {
           "date": "2026-05-08",
@@ -5365,7 +5365,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-09",
+      "last_seen": "2026-07-02",
       "price_history": [
         {
           "date": "2026-05-08",
@@ -6706,6 +6706,10 @@
         {
           "date": "2026-05-29",
           "price": 2999.0
+        },
+        {
+          "date": "2026-07-02",
+          "price": 3049.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_20957096/",
@@ -7973,7 +7977,7 @@
       "type": "used",
       "station": "西荻窪",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-06-25",
+      "last_seen": "2026-07-02",
       "price_history": [
         {
           "date": "2026-06-18",
@@ -8874,6 +8878,10 @@
         {
           "date": "2026-06-29",
           "price": 4150.0
+        },
+        {
+          "date": "2026-07-02",
+          "price": 2999.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_21170261/",
@@ -9397,7 +9405,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-02",
       "price_history": [
         {
           "date": "2026-07-01",
@@ -9466,6 +9474,10 @@
         {
           "date": "2026-07-02",
           "price": 3299.0
+        },
+        {
+          "date": "2026-07-02",
+          "price": 3349.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20505352/",
@@ -9487,6 +9499,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21190094/",
       "area": 98.82,
       "age_years": 15
+    },
+    "e0ac3c3b3f1f": {
+      "name": "アメージング長後",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price": 10.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108184933/",
+      "area": 62.93,
+      "age_years": 13
     }
   }
 }

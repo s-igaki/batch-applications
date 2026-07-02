@@ -10234,7 +10234,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-02",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10890,7 +10890,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
+      "last_seen": "2026-07-02",
       "price_history": [
         {
           "date": "2026-04-07",
@@ -14531,6 +14531,54 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21190723/",
       "area": 61.11,
       "age_years": 0
+    },
+    "9ac905b9d987": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price": 28800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20487231/",
+      "area": 71.62,
+      "age_years": 0
+    },
+    "521026d53ada": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price": 28800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20081690/",
+      "area": 71.62,
+      "age_years": 0
+    },
+    "752fec45f861": {
+      "name": "オープンレジデンシア北参道ザ・テラス",
+      "type": "used",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price": 18000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21196644/",
+      "area": 46.13,
+      "age_years": 3
     }
   }
 }
