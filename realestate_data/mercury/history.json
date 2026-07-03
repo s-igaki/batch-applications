@@ -12766,6 +12766,10 @@
         {
           "date": "2026-05-22",
           "price": 49800
+        },
+        {
+          "date": "2026-07-03",
+          "price": 47800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20906397/",
@@ -12941,7 +12945,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-05-28",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-07-03",
       "price_history": [
         {
           "date": "2026-05-28",
@@ -14595,6 +14599,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/i7IBeUc64pE",
       "area": 66.5,
       "age_years": null
+    },
+    "d9b2ad52e09d": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "price_history": [
+        {
+          "date": "2026-07-03",
+          "price": 50000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21210158/",
+      "area": 90.09,
+      "age_years": 2
     }
   }
 }

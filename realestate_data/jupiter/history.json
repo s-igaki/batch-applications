@@ -1569,7 +1569,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-07-03",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -7450,6 +7450,10 @@
         {
           "date": "2026-06-12",
           "price": 2090.0
+        },
+        {
+          "date": "2026-07-03",
+          "price": 1990.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21055118/",
