@@ -3193,7 +3193,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-09",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-04",
       "price_history": [
         {
           "date": "2026-04-09",
@@ -5673,7 +5673,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-13",
+      "last_seen": "2026-07-04",
       "price_history": [
         {
           "date": "2026-05-11",
@@ -8493,7 +8493,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-04",
       "price_history": [
         {
           "date": "2026-06-22",
@@ -8557,7 +8557,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-04",
       "price_history": [
         {
           "date": "2026-06-25",
