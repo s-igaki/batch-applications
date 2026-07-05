@@ -9667,6 +9667,54 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000089517223/",
       "area": 62.4,
       "age_years": 3
+    },
+    "4ce421feb773": {
+      "name": "小田急江ノ島線 長後駅 2階建 築15年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "price_history": [
+        {
+          "date": "2026-07-05",
+          "price": 7.85
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107097808/",
+      "area": 50.22,
+      "age_years": 15
+    },
+    "1ea185f37e52": {
+      "name": "江ノ島電鉄線 鵠沼駅 2階建 築3年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "price_history": [
+        {
+          "date": "2026-07-05",
+          "price": 12.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108314691/",
+      "area": 54.45,
+      "age_years": 3
+    },
+    "f609c2813f76": {
+      "name": "小田急江ノ島線 湘南台駅 2階建 築3年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "price_history": [
+        {
+          "date": "2026-07-05",
+          "price": 13.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000089517233/",
+      "area": 62.4,
+      "age_years": 3
     }
   }
 }

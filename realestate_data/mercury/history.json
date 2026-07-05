@@ -10095,6 +10095,10 @@
         {
           "date": "2026-05-22",
           "price": 12890
+        },
+        {
+          "date": "2026-07-05",
+          "price": 12700
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_78668650/",
@@ -13245,7 +13249,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-04",
+      "last_seen": "2026-07-05",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13261,7 +13265,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-04",
+      "last_seen": "2026-07-05",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14621,7 +14625,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-04",
+      "last_seen": "2026-07-05",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14653,7 +14657,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-04",
+      "last_seen": "2026-07-05",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14695,6 +14699,38 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21212299/",
       "area": 48.26,
       "age_years": 0
+    },
+    "e9c556ecc76c": {
+      "name": "ガーデンクレスト",
+      "type": "rental",
+      "station": "大京町",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "price_history": [
+        {
+          "date": "2026-07-05",
+          "price": 22.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108278178/",
+      "area": 49.23,
+      "age_years": 19
+    },
+    "910953fbe485": {
+      "name": "ディアナコート御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "price_history": [
+        {
+          "date": "2026-07-05",
+          "price": 13280
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21222089/",
+      "area": 53.49,
+      "age_years": 6
     }
   }
 }
