@@ -1783,6 +1783,10 @@
         {
           "date": "2026-06-30",
           "price": 22500
+        },
+        {
+          "date": "2026-07-06",
+          "price": 28300
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_67734365/",
@@ -11885,7 +11889,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-04-28",
-      "last_seen": "2026-06-21",
+      "last_seen": "2026-07-06",
       "price_history": [
         {
           "date": "2026-04-28",
@@ -12490,6 +12494,10 @@
         {
           "date": "2026-06-22",
           "price": 20990
+        },
+        {
+          "date": "2026-07-06",
+          "price": 19990
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20845638/",
@@ -14501,7 +14509,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-06",
       "price_history": [
         {
           "date": "2026-07-02",
@@ -14517,7 +14525,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-06",
       "price_history": [
         {
           "date": "2026-07-02",
@@ -14709,7 +14717,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-07-06",
       "price_history": [
         {
           "date": "2026-07-05",
@@ -14767,6 +14775,38 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21224801/",
       "area": 61.11,
       "age_years": 0
+    },
+    "08e61e16c20b": {
+      "name": "オープンレジデンシア吉祥寺本町テラス",
+      "type": "new",
+      "station": "吉祥寺",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "price_history": [
+        {
+          "date": "2026-07-06",
+          "price": 17980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_21228753/",
+      "area": 81.1,
+      "age_years": 0
+    },
+    "0bdcfa3f22af": {
+      "name": "ディアナコート御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "price_history": [
+        {
+          "date": "2026-07-06",
+          "price": 17080
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21230946/",
+      "area": 66.81,
+      "age_years": 6
     }
   }
 }
