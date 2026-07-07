@@ -5629,7 +5629,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-10",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-07",
       "price_history": [
         {
           "date": "2026-05-10",
@@ -5837,7 +5837,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-05-13",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-07",
       "price_history": [
         {
           "date": "2026-05-13",
@@ -9681,7 +9681,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-07",
       "price_history": [
         {
           "date": "2026-07-05",
@@ -9755,6 +9755,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108272656/",
       "area": 69.55,
       "age_years": 10
+    },
+    "0631909c413c": {
+      "name": "ディアベルジュ湘南台 壱番館・弐番館・参番館弐",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "price_history": [
+        {
+          "date": "2026-07-07",
+          "price": 13.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108353488/",
+      "area": 69.32,
+      "age_years": 13
+    },
+    "d8fdd661d6e8": {
+      "name": "メゾンベール　I",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "price_history": [
+        {
+          "date": "2026-07-07",
+          "price": 9.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108367948/",
+      "area": 52.78,
+      "age_years": 14
     }
   }
 }

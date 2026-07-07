@@ -1472,6 +1472,10 @@
         {
           "date": "2026-06-23",
           "price": 12480
+        },
+        {
+          "date": "2026-07-07",
+          "price": 14980
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729222/",
@@ -14807,6 +14811,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21230946/",
       "area": 66.81,
       "age_years": 6
+    },
+    "a582ded0ad61": {
+      "name": "東京メトロ丸ノ内線 四谷三丁目駅 4階建 築20年",
+      "type": "rental",
+      "station": "四谷",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "price_history": [
+        {
+          "date": "2026-07-07",
+          "price": 16.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108176036/",
+      "area": 40.76,
+      "age_years": 20
     }
   }
 }
