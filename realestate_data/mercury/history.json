@@ -13261,7 +13261,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13277,7 +13277,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13546,6 +13546,10 @@
         {
           "date": "2026-06-09",
           "price": 13000
+        },
+        {
+          "date": "2026-07-08",
+          "price": 12600
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21024633/",
@@ -14645,7 +14649,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14677,7 +14681,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14725,7 +14729,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-07-05",
@@ -14846,6 +14850,38 @@
       ],
       "detail_url": "https://cowcamo.jp/short_stories/lV7RLgBXyCI",
       "area": 59.71,
+      "age_years": null
+    },
+    "493d0f886ad6": {
+      "name": "ガーデンクレスト",
+      "type": "rental",
+      "station": "大京町",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "price_history": [
+        {
+          "date": "2026-07-08",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108392902/",
+      "area": 49.23,
+      "age_years": 19
+    },
+    "ac6b80df35f6": {
+      "name": "EZE HOUSE 1F",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "price_history": [
+        {
+          "date": "2026-07-08",
+          "price": 14.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/4837e95d04113539b3c61071df0433a959399e99/",
+      "area": 47.25,
       "age_years": null
     }
   }

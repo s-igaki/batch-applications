@@ -4377,7 +4377,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5677,7 +5677,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-11",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-05-11",
@@ -5837,7 +5837,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-05-13",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-05-13",
@@ -9537,7 +9537,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-07-03",
@@ -9553,7 +9553,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-07-03",
@@ -9569,7 +9569,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-07-03",
@@ -9681,7 +9681,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "price_history": [
         {
           "date": "2026-07-05",
@@ -9803,6 +9803,118 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108272637/",
       "area": 54.45,
       "age_years": 3
+    },
+    "4656ce166194": {
+      "name": "Ｈｉ－Ｒｏｓｅｔｔａ　Ｄ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "price_history": [
+        {
+          "date": "2026-07-08",
+          "price": 10.75
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108367930/",
+      "area": 54.61,
+      "age_years": 0
+    },
+    "44818965e40e": {
+      "name": "Ｈｉ－Ｒｏｓｅｔｔａ　Ｄ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "price_history": [
+        {
+          "date": "2026-07-08",
+          "price": 10.85
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108367932/",
+      "area": 66.02,
+      "age_years": 0
+    },
+    "7f3c19702e58": {
+      "name": "Ｈｉ－Ｒｏｓｅｔｔａ　Ｄ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "price_history": [
+        {
+          "date": "2026-07-08",
+          "price": 10.95
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108378646/",
+      "area": 54.61,
+      "age_years": 0
+    },
+    "03b033f5985d": {
+      "name": "Ｈｉ－Ｒｏｓｅｔｔａ　Ｄ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "price_history": [
+        {
+          "date": "2026-07-08",
+          "price": 10.95
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108360981/",
+      "area": 54.61,
+      "age_years": 0
+    },
+    "8399ca3a452b": {
+      "name": "Ｈｉ－Ｒｏｓｅｔｔａ　Ｄ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "price_history": [
+        {
+          "date": "2026-07-08",
+          "price": 10.95
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108367931/",
+      "area": 54.61,
+      "age_years": 0
+    },
+    "1e4a7e400f00": {
+      "name": "Ｈｉ－Ｒｏｓｅｔｔａ　Ｄ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "price_history": [
+        {
+          "date": "2026-07-08",
+          "price": 11.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108360982/",
+      "area": 66.02,
+      "age_years": 0
+    },
+    "ea594af0d129": {
+      "name": "Ｈｉ－Ｒｏｓｅｔｔａ　Ｄ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "price_history": [
+        {
+          "date": "2026-07-08",
+          "price": 11.05
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108367933/",
+      "area": 66.02,
+      "age_years": 0
     }
   }
 }
