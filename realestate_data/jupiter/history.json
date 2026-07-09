@@ -9729,7 +9729,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
       "price_history": [
         {
           "date": "2026-07-07",
@@ -9745,7 +9745,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
       "price_history": [
         {
           "date": "2026-07-07",
@@ -10011,6 +10011,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_21231215/",
       "area": 118.41,
       "age_years": 41
+    },
+    "b3f77077c106": {
+      "name": "ブルースター湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "price_history": [
+        {
+          "date": "2026-07-09",
+          "price": 11.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108424962/",
+      "area": 63.0,
+      "age_years": 5
+    },
+    "6e78e4a50c87": {
+      "name": "シュトラント茅ヶ崎",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "price_history": [
+        {
+          "date": "2026-07-09",
+          "price": 11.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108418807/",
+      "area": 57.5,
+      "age_years": 4
+    },
+    "4a85d3ad3917": {
+      "name": "七里ガ浜の高台から海を日常に。緑と陽だまりに包まれる…",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "price_history": [
+        {
+          "date": "2026-07-09",
+          "price": 4999.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_21247259/",
+      "area": 80.04,
+      "age_years": 29
     }
   }
 }

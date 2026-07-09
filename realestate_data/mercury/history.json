@@ -11383,6 +11383,10 @@
         {
           "date": "2026-06-25",
           "price": 20990
+        },
+        {
+          "date": "2026-07-09",
+          "price": 19900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20664453/",
@@ -11615,6 +11619,10 @@
         {
           "date": "2026-06-20",
           "price": 16000
+        },
+        {
+          "date": "2026-07-09",
+          "price": 14500
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20715131/",
@@ -11898,6 +11906,10 @@
         {
           "date": "2026-04-28",
           "price": 15900
+        },
+        {
+          "date": "2026-07-09",
+          "price": 14800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20753763/",
@@ -12502,6 +12514,10 @@
         {
           "date": "2026-07-06",
           "price": 19990
+        },
+        {
+          "date": "2026-07-09",
+          "price": 19900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20845638/",
@@ -13130,6 +13146,10 @@
         {
           "date": "2026-06-01",
           "price": 28000
+        },
+        {
+          "date": "2026-07-09",
+          "price": 27500
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_20857217/",
@@ -13182,6 +13202,10 @@
         {
           "date": "2026-06-01",
           "price": 15480
+        },
+        {
+          "date": "2026-07-09",
+          "price": 14800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20903456/",
@@ -13261,7 +13285,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13277,7 +13301,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14649,7 +14673,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14681,7 +14705,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14729,7 +14753,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
       "price_history": [
         {
           "date": "2026-07-05",
@@ -14857,7 +14881,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -14915,6 +14939,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/raCizRk3USw",
       "area": 49.87,
       "age_years": null
+    },
+    "1df88636fb5d": {
+      "name": "プラウドタワー渋谷",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "price_history": [
+        {
+          "date": "2026-07-09",
+          "price": 20980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21246744/",
+      "area": 61.4,
+      "age_years": 0
     }
   }
 }
