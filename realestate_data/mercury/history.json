@@ -10150,7 +10150,7 @@
       "type": "used",
       "station": "御殿山",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-10",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -10466,7 +10466,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-10",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -14814,6 +14814,10 @@
         {
           "date": "2026-07-06",
           "price": 20990
+        },
+        {
+          "date": "2026-07-10",
+          "price": 19900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21224801/",
@@ -14995,6 +14999,38 @@
       "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%8B%E8%B0%B7%E5%8C%BA/%E4%BB%8A%E6%97%A5%E3%81%AF%E4%BB%A3%E3%80%85%E6%9C%A8%E3%81%A75%E6%99%82%E2%99%AA",
       "area": 42.95,
       "age_years": null
+    },
+    "fb2a6c7da57b": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "price_history": [
+        {
+          "date": "2026-07-10",
+          "price": 19800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21259079/",
+      "area": 71.1,
+      "age_years": 12
+    },
+    "d702fee003f0": {
+      "name": "フォルム内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "price_history": [
+        {
+          "date": "2026-07-10",
+          "price": 35800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21259055/",
+      "area": 92.56,
+      "age_years": 17
     }
   }
 }

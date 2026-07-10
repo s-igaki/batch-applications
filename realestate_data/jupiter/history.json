@@ -1569,7 +1569,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-10",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -1582,6 +1582,10 @@
         {
           "date": "2026-06-11",
           "price": 1990.0
+        },
+        {
+          "date": "2026-07-10",
+          "price": 1890.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_79171635/",
@@ -4377,7 +4381,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-10",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -8277,7 +8281,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-10",
       "price_history": [
         {
           "date": "2026-06-19",
@@ -9569,7 +9573,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-10",
       "price_history": [
         {
           "date": "2026-07-03",
@@ -10075,6 +10079,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21250531/",
       "area": 114.68,
       "age_years": 43
+    },
+    "2e18cf8b4210": {
+      "name": "ダイアパレス エクシード茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "price_history": [
+        {
+          "date": "2026-07-10",
+          "price": 2380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21184124/",
+      "area": 77.21,
+      "age_years": 37
     }
   }
 }
