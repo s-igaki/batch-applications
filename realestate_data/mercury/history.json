@@ -14489,7 +14489,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-07-11",
       "price_history": [
         {
           "date": "2026-07-01",
@@ -15049,6 +15049,54 @@
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21263426/",
+      "area": 50.85,
+      "age_years": 12
+    },
+    "530520e7db49": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "price_history": [
+        {
+          "date": "2026-07-11",
+          "price": 15500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21265458/",
+      "area": 50.85,
+      "age_years": 12
+    },
+    "fc6ec9c655a6": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "price_history": [
+        {
+          "date": "2026-07-11",
+          "price": 15500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21266725/",
+      "area": 50.85,
+      "age_years": 12
+    },
+    "bba8a2bd5b83": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "price_history": [
+        {
+          "date": "2026-07-11",
+          "price": 15500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21264442/",
       "area": 50.85,
       "age_years": 12
     }

@@ -4381,7 +4381,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-26",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-11",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -9573,7 +9573,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-11",
       "price_history": [
         {
           "date": "2026-07-03",
@@ -9973,7 +9973,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-11",
       "price_history": [
         {
           "date": "2026-07-09",
@@ -10095,6 +10095,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21184124/",
       "area": 77.21,
       "age_years": 37
+    },
+    "1af066f20303": {
+      "name": "プラージュ小日向",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "price_history": [
+        {
+          "date": "2026-07-11",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108484187/",
+      "area": 67.11,
+      "age_years": 11
     }
   }
 }
