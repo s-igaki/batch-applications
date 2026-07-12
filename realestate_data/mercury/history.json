@@ -10906,7 +10906,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-04-07",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-12",
       "price_history": [
         {
           "date": "2026-04-07",
@@ -13293,7 +13293,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-07-12",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13309,7 +13309,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-07-12",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14685,7 +14685,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-07-12",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14717,7 +14717,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-07-12",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14765,7 +14765,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-07-12",
       "price_history": [
         {
           "date": "2026-07-05",
@@ -14897,7 +14897,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-07-12",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -15099,6 +15099,70 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21264442/",
       "area": 50.85,
       "age_years": 12
+    },
+    "58bb593f6c08": {
+      "name": "ガーデンクレスト",
+      "type": "rental",
+      "station": "大京町",
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "price_history": [
+        {
+          "date": "2026-07-12",
+          "price": 21.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108448417/",
+      "area": 49.23,
+      "age_years": 19
+    },
+    "02bbe4ac1555": {
+      "name": "富ヶ谷ウエストガーデン",
+      "type": "new",
+      "station": "代々木",
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "price_history": [
+        {
+          "date": "2026-07-12",
+          "price": 22000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21271643/",
+      "area": 75.76,
+      "age_years": 0
+    },
+    "7f9e882313fb": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "price_history": [
+        {
+          "date": "2026-07-12",
+          "price": 15500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21273203/",
+      "area": 50.85,
+      "age_years": 12
+    },
+    "6c584938a124": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "price_history": [
+        {
+          "date": "2026-07-12",
+          "price": 33990
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21273014/",
+      "area": 79.14,
+      "age_years": 2
     }
   }
 }
