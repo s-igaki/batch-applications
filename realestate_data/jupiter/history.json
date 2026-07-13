@@ -4077,7 +4077,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-13",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -7997,11 +7997,15 @@
       "type": "used",
       "station": "西荻窪",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-13",
       "price_history": [
         {
           "date": "2026-06-18",
           "price": 4780.0
+        },
+        {
+          "date": "2026-07-13",
+          "price": 4480.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20765448/",

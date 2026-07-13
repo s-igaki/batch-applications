@@ -1476,6 +1476,10 @@
         {
           "date": "2026-07-07",
           "price": 14980
+        },
+        {
+          "date": "2026-07-13",
+          "price": 13980
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729222/",
@@ -10335,6 +10339,10 @@
         {
           "date": "2026-03-30",
           "price": 18000
+        },
+        {
+          "date": "2026-07-13",
+          "price": 17280
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20186845/",
@@ -15089,7 +15097,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
       "price_history": [
         {
           "date": "2026-07-11",
@@ -15195,6 +15203,38 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21264878/",
       "area": 61.11,
       "age_years": 0
+    },
+    "e6ad34fba2d1": {
+      "name": "ヴィークコート原宿Hills",
+      "type": "used",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "price_history": [
+        {
+          "date": "2026-07-13",
+          "price": 25300
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21284700/",
+      "area": 72.0,
+      "age_years": 13
+    },
+    "344a606f52f1": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "price_history": [
+        {
+          "date": "2026-07-13",
+          "price": 15500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21277125/",
+      "area": 50.85,
+      "age_years": 12
     }
   }
 }
