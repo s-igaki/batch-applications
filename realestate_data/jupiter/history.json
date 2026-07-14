@@ -4198,6 +4198,10 @@
         {
           "date": "2026-06-25",
           "price": 4397.0
+        },
+        {
+          "date": "2026-07-14",
+          "price": 4297.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20676500/",
@@ -8273,7 +8277,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-21",
+      "last_seen": "2026-07-14",
       "price_history": [
         {
           "date": "2026-06-19",
@@ -9985,7 +9989,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-14",
       "price_history": [
         {
           "date": "2026-07-09",
@@ -10171,6 +10175,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20904610/",
       "area": 71.17,
       "age_years": 34
+    },
+    "bbd8a5bd4fc0": {
+      "name": "ＪＲ横須賀線 鎌倉駅 2階建 新築",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "price_history": [
+        {
+          "date": "2026-07-14",
+          "price": 14.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108201889/",
+      "area": 55.94,
+      "age_years": 0
+    },
+    "189a875f858c": {
+      "name": "ＪＲ東海道本線 辻堂駅 2階建 築10年",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "price_history": [
+        {
+          "date": "2026-07-14",
+          "price": 9.55
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108532547/",
+      "area": 56.78,
+      "age_years": 10
     }
   }
 }
