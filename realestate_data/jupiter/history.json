@@ -10053,7 +10053,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-15",
       "price_history": [
         {
           "date": "2026-07-09",
@@ -10207,6 +10207,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108532547/",
       "area": 56.78,
       "age_years": 10
+    },
+    "5bc4b89f8f22": {
+      "name": "AQUA",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "price_history": [
+        {
+          "date": "2026-07-15",
+          "price": 9.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108557179/",
+      "area": 61.33,
+      "age_years": 2
     }
   }
 }
