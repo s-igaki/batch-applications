@@ -1573,7 +1573,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-16",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -3625,7 +3625,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-04-16",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-16",
       "price_history": [
         {
           "date": "2026-04-16",
@@ -4534,6 +4534,10 @@
         {
           "date": "2026-06-25",
           "price": 4397.0
+        },
+        {
+          "date": "2026-07-16",
+          "price": 4297.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20737822/",
@@ -8293,7 +8297,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-16",
       "price_history": [
         {
           "date": "2026-06-19",
@@ -10255,6 +10259,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21294415/",
       "area": 98.82,
       "age_years": 15
+    },
+    "71cedf31d6c0": {
+      "name": "コンフォートM",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "price_history": [
+        {
+          "date": "2026-07-16",
+          "price": 14.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107369156/",
+      "area": 61.48,
+      "age_years": 4
+    },
+    "20a14b511fc0": {
+      "name": "弊社専任！専用権付きの駐車場とお庭がある住戸！ライツ…",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "price_history": [
+        {
+          "date": "2026-07-16",
+          "price": 4890.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20964475/",
+      "area": 83.44,
+      "age_years": 30
+    },
+    "fd51f695e620": {
+      "name": "藤沢市善行５丁目 中古戸建",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "price_history": [
+        {
+          "date": "2026-07-16",
+          "price": 3190.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21284891/",
+      "area": 81.14,
+      "age_years": 19
     }
   }
 }
