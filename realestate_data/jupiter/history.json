@@ -6745,7 +6745,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6761,7 +6761,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6777,7 +6777,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6841,7 +6841,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6897,7 +6897,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-31",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-05-31",
@@ -6977,7 +6977,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-01",
@@ -8913,7 +8913,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-29",
@@ -8953,7 +8953,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-29",
@@ -8985,7 +8985,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9001,7 +9001,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9017,7 +9017,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9033,7 +9033,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9049,7 +9049,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9065,7 +9065,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9081,7 +9081,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9097,7 +9097,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9113,7 +9113,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9145,7 +9145,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9161,7 +9161,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9177,7 +9177,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9193,7 +9193,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9209,7 +9209,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9225,7 +9225,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9241,7 +9241,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9257,7 +9257,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9273,7 +9273,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9645,7 +9645,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -10327,6 +10327,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108599263/",
       "area": 57.75,
       "age_years": 6
+    },
+    "d060dcedf24e": {
+      "name": "鎌倉市七里ガ浜東　中古戸建",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "price_history": [
+        {
+          "date": "2026-07-17",
+          "price": 4999.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_21299137/",
+      "area": 80.04,
+      "age_years": 29
     }
   }
 }
