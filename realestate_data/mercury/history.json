@@ -10491,7 +10491,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-03-31",
@@ -13870,7 +13870,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-06-18",
@@ -15378,7 +15378,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15394,7 +15394,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15410,7 +15410,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15426,7 +15426,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15442,7 +15442,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15458,7 +15458,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15506,7 +15506,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15522,7 +15522,7 @@
       "type": "rental",
       "station": "四ツ谷",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15586,7 +15586,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-16",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "price_history": [
         {
           "date": "2026-07-16",
@@ -15695,6 +15695,38 @@
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21312552/",
       "area": 50.85,
+      "age_years": 12
+    },
+    "9c13b467f30f": {
+      "name": "ファミール表参道ベルファース",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "price_history": [
+        {
+          "date": "2026-07-18",
+          "price": 19.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/89770fbd4e83e136875b6afe05b1485e6ce0bc85/",
+      "area": 40.16,
+      "age_years": null
+    },
+    "3eb3b0d509cd": {
+      "name": "プラネスーペリア御殿山井の頭公園",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "price_history": [
+        {
+          "date": "2026-07-18",
+          "price": 14800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_21314334/",
+      "area": 72.64,
       "age_years": 12
     }
   }
