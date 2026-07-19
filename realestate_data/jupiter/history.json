@@ -6745,7 +6745,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6761,7 +6761,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6777,7 +6777,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6841,7 +6841,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6897,7 +6897,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-31",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-05-31",
@@ -7281,7 +7281,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-07",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-06-07",
@@ -10359,6 +10359,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108224746/",
       "area": 50.13,
       "age_years": 3
+    },
+    "22116760060f": {
+      "name": "RELIS藤沢本町",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price": 2399.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21318805/",
+      "area": 64.23,
+      "age_years": 36
     }
   }
 }

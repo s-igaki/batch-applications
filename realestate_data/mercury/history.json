@@ -13322,7 +13322,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-15",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13338,7 +13338,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-15",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14714,7 +14714,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-15",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14746,7 +14746,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-15",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14930,7 +14930,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-15",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -15170,7 +15170,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-19",
       "price_history": [
         {
           "date": "2026-07-12",
