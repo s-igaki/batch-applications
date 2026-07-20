@@ -2857,7 +2857,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -2866,6 +2866,10 @@
         {
           "date": "2026-05-29",
           "price": 4597.0
+        },
+        {
+          "date": "2026-07-20",
+          "price": 4297.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20595614/",
@@ -4081,7 +4085,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -5825,7 +5829,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-05-12",
@@ -6745,7 +6749,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6761,7 +6765,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6777,7 +6781,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6841,7 +6845,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6897,7 +6901,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-31",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-05-31",
@@ -6993,7 +6997,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-06-02",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-06-02",
@@ -7009,7 +7013,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-06-02",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-06-02",
@@ -8285,7 +8289,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-06-19",
@@ -10157,7 +10161,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-07-13",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-07-13",
@@ -10173,7 +10177,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-07-13",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-07-13",
@@ -10189,7 +10193,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "price_history": [
         {
           "date": "2026-07-14",
@@ -10455,6 +10459,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21325071/",
       "area": 98.82,
       "age_years": 15
+    },
+    "6cfb1772a4e1": {
+      "name": "～富士山、海、江ノ島を望むお部屋～　シーサイド鵠沼",
+      "type": "used",
+      "station": "片瀬江ノ島",
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price": 3280.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21193127/",
+      "area": 71.36,
+      "age_years": 46
     }
   }
 }
