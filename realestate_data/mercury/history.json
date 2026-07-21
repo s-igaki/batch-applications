@@ -1418,6 +1418,10 @@
         {
           "date": "2026-07-14",
           "price": 18890
+        },
+        {
+          "date": "2026-07-21",
+          "price": 14990
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729878/",
@@ -1521,6 +1525,10 @@
         {
           "date": "2026-04-07",
           "price": 12438
+        },
+        {
+          "date": "2026-07-21",
+          "price": 13338
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67730928/",
@@ -13326,7 +13334,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-21",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13342,7 +13350,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-21",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14718,7 +14726,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-21",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14750,7 +14758,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-21",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14934,7 +14942,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-21",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -15334,7 +15342,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-21",
       "price_history": [
         {
           "date": "2026-07-14",
@@ -15812,6 +15820,54 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21333115/",
       "area": 61.11,
       "age_years": 0
+    },
+    "c8dcc9b872a9": {
+      "name": "ウイングガーデン",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "price_history": [
+        {
+          "date": "2026-07-21",
+          "price": 23.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/3ee40efae59eb7308504cd8dce7052c56a2e410a/",
+      "area": 45.32,
+      "age_years": null
+    },
+    "c83110cd8019": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "price_history": [
+        {
+          "date": "2026-07-21",
+          "price": 15500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21315750/",
+      "area": 50.85,
+      "age_years": 12
+    },
+    "55d4605151fb": {
+      "name": "フォルム内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "price_history": [
+        {
+          "date": "2026-07-21",
+          "price": 28800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21334927/",
+      "area": 92.56,
+      "age_years": 17
     }
   }
 }
