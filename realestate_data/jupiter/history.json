@@ -4685,7 +4685,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-04-28",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-04-28",
@@ -6749,7 +6749,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6765,7 +6765,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6781,7 +6781,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6845,7 +6845,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6901,7 +6901,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-31",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-05-31",
@@ -7529,7 +7529,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-06-14",
@@ -7545,7 +7545,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-06-14",
@@ -7561,7 +7561,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-06-14",
@@ -10353,7 +10353,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-07-19",
@@ -10523,6 +10523,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_21336256/",
       "area": 89.94,
       "age_years": 2
+    },
+    "a2449396b396": {
+      "name": "シャルマン",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "price_history": [
+        {
+          "date": "2026-07-22",
+          "price": 10.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108701378/",
+      "area": 50.72,
+      "age_years": 11
     }
   }
 }

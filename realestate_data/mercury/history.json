@@ -1489,6 +1489,10 @@
         {
           "date": "2026-07-13",
           "price": 13980
+        },
+        {
+          "date": "2026-07-22",
+          "price": 20980
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67729222/",
@@ -1812,6 +1816,10 @@
         {
           "date": "2026-07-14",
           "price": 19800
+        },
+        {
+          "date": "2026-07-22",
+          "price": 29000
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_67734365/",
@@ -13334,7 +13342,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13350,7 +13358,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14726,7 +14734,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14758,7 +14766,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14942,7 +14950,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -15698,7 +15706,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "price_history": [
         {
           "date": "2026-07-18",
