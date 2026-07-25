@@ -11919,7 +11919,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-25",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -13342,7 +13342,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-24",
+      "last_seen": "2026-07-25",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13358,7 +13358,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-07-24",
+      "last_seen": "2026-07-25",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14734,7 +14734,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-24",
+      "last_seen": "2026-07-25",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14766,7 +14766,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-24",
+      "last_seen": "2026-07-25",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14950,7 +14950,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-24",
+      "last_seen": "2026-07-25",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -16056,6 +16056,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21350755/",
       "area": 110.19,
       "age_years": 16
+    },
+    "6ab191957a20": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "price_history": [
+        {
+          "date": "2026-07-25",
+          "price": 15500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21352353/",
+      "area": 50.85,
+      "age_years": 12
     }
   }
 }

@@ -8153,7 +8153,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-21",
+      "last_seen": "2026-07-25",
       "price_history": [
         {
           "date": "2026-06-19",
@@ -8601,7 +8601,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-07-25",
       "price_history": [
         {
           "date": "2026-06-25",
@@ -10707,6 +10707,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21316895/",
       "area": 65.84,
       "age_years": 15
+    },
+    "f7cfec0bc4b1": {
+      "name": "京王井の頭線 高井戸駅 2階建 築6年",
+      "type": "rental",
+      "station": "荻窪",
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "price_history": [
+        {
+          "date": "2026-07-25",
+          "price": 14.1
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108741220/",
+      "area": 50.4,
+      "age_years": 6
+    },
+    "3705b61588f6": {
+      "name": "弊社専任媒介！ライオンズ茅ヶ崎ザ・アイランズⅡ街区7…",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "price_history": [
+        {
+          "date": "2026-07-25",
+          "price": 4498.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21362401/",
+      "area": 65.84,
+      "age_years": 14
     }
   }
 }
