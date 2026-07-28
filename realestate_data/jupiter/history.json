@@ -1557,7 +1557,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-03-30",
+      "last_seen": "2026-07-28",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -1573,7 +1573,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -8549,7 +8549,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
       "price_history": [
         {
           "date": "2026-06-22",
@@ -8613,7 +8613,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
       "price_history": [
         {
           "date": "2026-06-25",
@@ -8750,6 +8750,10 @@
         {
           "date": "2026-06-27",
           "price": 2650.0
+        },
+        {
+          "date": "2026-07-28",
+          "price": 2600.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21142370/",
@@ -10549,7 +10553,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-07-22",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-28",
       "price_history": [
         {
           "date": "2026-07-22",
@@ -10869,7 +10873,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
       "price_history": [
         {
           "date": "2026-07-27",
@@ -10885,7 +10889,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
       "price_history": [
         {
           "date": "2026-07-27",
