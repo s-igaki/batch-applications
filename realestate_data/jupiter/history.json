@@ -8213,7 +8213,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-24",
+      "last_seen": "2026-07-29",
       "price_history": [
         {
           "date": "2026-06-19",
@@ -10995,6 +10995,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108803638/",
       "area": 57.33,
       "age_years": 15
+    },
+    "098bf18b6f02": {
+      "name": "プラシードＢ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "price_history": [
+        {
+          "date": "2026-07-29",
+          "price": 8.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108834580/",
+      "area": 58.21,
+      "age_years": 10
     }
   }
 }
