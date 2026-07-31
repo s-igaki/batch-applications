@@ -16280,6 +16280,54 @@
       "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%AD%A6%E8%94%B5%E9%87%8E%E5%B8%82/3%E5%8C%B9%E3%81%A8%E7%A9%BA%E3%81%AE%E4%B8%8B%E3%81%A7",
       "area": 44.62,
       "age_years": null
+    },
+    "08e37a8822f1": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 14500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21360424/",
+      "area": 50.85,
+      "age_years": 12
+    },
+    "8273a8fd204a": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 14500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21400216/",
+      "area": 50.85,
+      "age_years": 12
+    },
+    "635787f01051": {
+      "name": "フォルム内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 28800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21344590/",
+      "area": 87.29,
+      "age_years": 17
     }
   }
 }

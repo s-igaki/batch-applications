@@ -1573,7 +1573,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -1633,7 +1633,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-31",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -6773,7 +6773,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-23",
+      "last_seen": "2026-07-31",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6869,7 +6869,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-23",
+      "last_seen": "2026-07-31",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6941,7 +6941,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-31",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price_history": [
         {
           "date": "2026-05-31",
@@ -8949,7 +8949,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "price_history": [
         {
           "date": "2026-06-29",
@@ -8989,7 +8989,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-25",
+      "last_seen": "2026-07-31",
       "price_history": [
         {
           "date": "2026-06-29",
@@ -11195,6 +11195,166 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21394106/",
       "area": 83.04,
       "age_years": 35
+    },
+    "bc1fc0475585": {
+      "name": "彩光館",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 13.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108890745/",
+      "area": 68.24,
+      "age_years": 5
+    },
+    "9023df1fadc1": {
+      "name": "カーサコンフィ",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 10.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108883599/",
+      "area": 57.75,
+      "age_years": 13
+    },
+    "40b097082cb1": {
+      "name": "Maisonetteコウリョウ鎌倉山",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 13.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000097608589/",
+      "area": 72.86,
+      "age_years": 10
+    },
+    "9272415d3a86": {
+      "name": "Maisonetteコウリョウ鎌倉山",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 13.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000097608591/",
+      "area": 72.86,
+      "age_years": 10
+    },
+    "3ab08c0dd31b": {
+      "name": "Maisonetteコウリョウ鎌倉山",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 13.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000097608588/",
+      "area": 72.86,
+      "age_years": 10
+    },
+    "145a37a9513b": {
+      "name": "Maisonetteコウリョウ鎌倉山",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 13.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000097608592/",
+      "area": 72.86,
+      "age_years": 10
+    },
+    "96873c4ffa63": {
+      "name": "Maisonetteコウリョウ鎌倉山",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 13.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000097608590/",
+      "area": 72.86,
+      "age_years": 10
+    },
+    "ef0370cebfd9": {
+      "name": "メゾンド・デスパシオ",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 8.25
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108890765/",
+      "area": 59.03,
+      "age_years": 15
+    },
+    "bf2aa8b156fb": {
+      "name": "ＪＲ相模線 香川駅 2階建 築15年",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 8.25
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108890766/",
+      "area": 59.03,
+      "age_years": 15
+    },
+    "7e4b3a700352": {
+      "name": "",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price": 3180.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_21402482/",
+      "area": 89.94,
+      "age_years": 2
     }
   }
 }
