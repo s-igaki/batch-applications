@@ -15534,7 +15534,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-01",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15582,7 +15582,7 @@
       "type": "rental",
       "station": "四ツ谷",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-01",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -16383,6 +16383,22 @@
       ],
       "detail_url": "https://www.homes.co.jp/chintai/room/632af833e0d5afc6df9cdd79787b4c84707af89e/",
       "area": 49.23,
+      "age_years": null
+    },
+    "8cfa349be60b": {
+      "name": "ヒルズ三栄町",
+      "type": "rental",
+      "station": "四ツ谷",
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "price_history": [
+        {
+          "date": "2026-08-01",
+          "price": 14.8
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/3aa1f5fe0bcf168a85db05e5d0d374db0c54d5f3/",
+      "area": 46.19,
       "age_years": null
     }
   }
