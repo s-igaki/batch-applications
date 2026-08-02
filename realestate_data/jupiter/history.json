@@ -4105,7 +4105,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-02",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -9861,7 +9861,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-08-02",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -10213,7 +10213,7 @@
       "type": "used",
       "station": "片瀬江ノ島",
       "first_seen": "2026-07-13",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-02",
       "price_history": [
         {
           "date": "2026-07-13",
@@ -11386,6 +11386,10 @@
         {
           "date": "2026-08-01",
           "price": 3880.0
+        },
+        {
+          "date": "2026-08-02",
+          "price": 3780.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_21409501/",
@@ -11423,6 +11427,70 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21409062/",
       "area": 83.58,
       "age_years": 31
+    },
+    "15714d5fa2e6": {
+      "name": "シー　ウィンド　鵠沼",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-02",
+      "last_seen": "2026-08-02",
+      "price_history": [
+        {
+          "date": "2026-08-02",
+          "price": 12.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108912499/",
+      "area": 54.45,
+      "age_years": 3
+    },
+    "fb1d9281afb5": {
+      "name": "アズーロ鵠沼",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-02",
+      "last_seen": "2026-08-02",
+      "price_history": [
+        {
+          "date": "2026-08-02",
+          "price": 13.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108927573/",
+      "area": 51.2,
+      "age_years": 3
+    },
+    "442f7542597d": {
+      "name": "レーベンスクエア藤沢プレイジアム",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-08-02",
+      "last_seen": "2026-08-02",
+      "price_history": [
+        {
+          "date": "2026-08-02",
+          "price": 3298.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21388786/",
+      "area": 70.46,
+      "age_years": 22
+    },
+    "6d297c1096d7": {
+      "name": "湘南グリーンハイツ1号棟",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-08-02",
+      "last_seen": "2026-08-02",
+      "price_history": [
+        {
+          "date": "2026-08-02",
+          "price": 3300.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21370018/",
+      "area": 74.34,
+      "age_years": 44
     }
   }
 }
