@@ -13646,7 +13646,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-03",
       "price_history": [
         {
           "date": "2026-06-09",
@@ -15427,6 +15427,10 @@
         {
           "date": "2026-07-14",
           "price": 15500
+        },
+        {
+          "date": "2026-08-03",
+          "price": 14500
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21276855/",
@@ -16468,6 +16472,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21422456/",
       "area": 50.85,
       "age_years": 12
+    },
+    "d3ae9b3506ef": {
+      "name": "アクティブタワー市谷",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "price_history": [
+        {
+          "date": "2026-08-03",
+          "price": 22.4
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/e73b8b429260beec45228375d287716176d772d6/",
+      "area": 47.54,
+      "age_years": null
+    },
+    "ae9c1d9d6dcf": {
+      "name": "吉祥寺御殿山HOUSE",
+      "type": "used",
+      "station": "吉祥寺",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "price_history": [
+        {
+          "date": "2026-08-03",
+          "price": 17980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_21430076/",
+      "area": 78.51,
+      "age_years": 13
     }
   }
 }

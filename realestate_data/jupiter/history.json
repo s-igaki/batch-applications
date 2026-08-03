@@ -10974,6 +10974,10 @@
         {
           "date": "2026-07-27",
           "price": 3349.0
+        },
+        {
+          "date": "2026-08-03",
+          "price": 3299.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21376078/",
@@ -11001,7 +11005,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-28",
-      "last_seen": "2026-07-28",
+      "last_seen": "2026-08-03",
       "price_history": [
         {
           "date": "2026-07-28",
@@ -11426,6 +11430,10 @@
         {
           "date": "2026-08-02",
           "price": 3697.0
+        },
+        {
+          "date": "2026-08-03",
+          "price": 3597.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21409062/",
@@ -11543,6 +11551,86 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21401230/",
       "area": 71.56,
       "age_years": 24
+    },
+    "819aef236200": {
+      "name": "ＧＲＡＮＤ湘南　Ａ棟",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "price_history": [
+        {
+          "date": "2026-08-03",
+          "price": 13.6
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108314730/",
+      "area": 51.16,
+      "age_years": 3
+    },
+    "d75f9482264c": {
+      "name": "ノスタ湘南",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "price_history": [
+        {
+          "date": "2026-08-03",
+          "price": 13.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000089191443/",
+      "area": 52.58,
+      "age_years": 3
+    },
+    "30f0e6421cc7": {
+      "name": "湘南グリーンハイツ",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "price_history": [
+        {
+          "date": "2026-08-03",
+          "price": 3480.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_20873298/",
+      "area": 71.19,
+      "age_years": 44
+    },
+    "59bad4c531f9": {
+      "name": "",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "price_history": [
+        {
+          "date": "2026-08-03",
+          "price": 3997.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_21376027/",
+      "area": 115.57,
+      "age_years": 38
+    },
+    "a64fdaf23cff": {
+      "name": "",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "price_history": [
+        {
+          "date": "2026-08-03",
+          "price": 4180.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_21386348/",
+      "area": 94.76,
+      "age_years": 4
     }
   }
 }
