@@ -9029,7 +9029,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9045,7 +9045,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9061,7 +9061,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9077,7 +9077,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9109,7 +9109,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9141,7 +9141,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9157,7 +9157,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9205,7 +9205,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9237,7 +9237,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9285,7 +9285,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-06-30",
@@ -9641,7 +9641,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-08-04",
       "price_history": [
         {
           "date": "2026-07-03",
@@ -11695,6 +11695,54 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_21399565/",
       "area": 81.15,
       "age_years": 26
+    },
+    "ef8952166176": {
+      "name": "Ｅａｒｔｈ　ｔｅｒｒａｃｅ（アーステラス）",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "price_history": [
+        {
+          "date": "2026-08-04",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000074267092/",
+      "area": 67.9,
+      "age_years": 10
+    },
+    "14d5ba78c36d": {
+      "name": "ＪＲ東海道本線 藤沢駅 地上3階建 築10年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "price_history": [
+        {
+          "date": "2026-08-04",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000074267093/",
+      "area": 67.9,
+      "age_years": 10
+    },
+    "8b83d7b2667b": {
+      "name": "シャルールくげぬま",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "price_history": [
+        {
+          "date": "2026-08-04",
+          "price": 15.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108760626/",
+      "area": 57.15,
+      "age_years": 8
     }
   }
 }

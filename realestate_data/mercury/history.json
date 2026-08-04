@@ -10840,6 +10840,10 @@
         {
           "date": "2026-07-21",
           "price": 28000
+        },
+        {
+          "date": "2026-08-04",
+          "price": 27700
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20488546/",
@@ -15211,6 +15215,10 @@
         {
           "date": "2026-07-26",
           "price": 20900
+        },
+        {
+          "date": "2026-08-04",
+          "price": 19900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21271643/",
@@ -16512,6 +16520,49 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_21430076/",
       "area": 78.51,
       "age_years": 13
+    },
+    "ff09ee92b916": {
+      "name": "ファーヴァル代々木上原",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "price_history": [
+        {
+          "date": "2026-08-04",
+          "price": 24.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/6eca8e88a2c4442bd6ec0ec097c0dbb137667084/",
+      "area": 42.99,
+      "age_years": null
+    },
+    "f3c5af039e51": {
+      "name": "ファーヴァル代々木上原",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "price_history": [
+        {
+          "date": "2026-08-04",
+          "price": 24.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/92fe8255a65730e6f18e8a153e1498f6a13f5d73/",
+      "area": 42.99,
+      "age_years": null
+    },
+    "35c11144d48e": {
+      "name": "アトラス代々木",
+      "type": "new",
+      "station": "代々木",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "price_history": [],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_67736025/",
+      "area": 44.45,
+      "age_years": 0
     }
   }
 }
