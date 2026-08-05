@@ -4549,7 +4549,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -11743,6 +11743,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108760626/",
       "area": 57.15,
       "age_years": 8
+    },
+    "7c716732e6ba": {
+      "name": "ベルグリーンハウス湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "price_history": [
+        {
+          "date": "2026-08-05",
+          "price": 10.1
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108994137/",
+      "area": 58.52,
+      "age_years": 15
+    },
+    "b5108b13dae3": {
+      "name": "",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "price_history": [
+        {
+          "date": "2026-08-05",
+          "price": 3399.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21438392/",
+      "area": 98.82,
+      "age_years": 15
     }
   }
 }

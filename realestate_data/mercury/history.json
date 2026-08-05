@@ -13370,7 +13370,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-05",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13386,7 +13386,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-05",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14798,7 +14798,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-05",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14982,7 +14982,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-05",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -16366,7 +16366,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-08-01",
-      "last_seen": "2026-08-01",
+      "last_seen": "2026-08-05",
       "price_history": [
         {
           "date": "2026-08-01",
@@ -16446,7 +16446,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-08-03",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-05",
       "price_history": [
         {
           "date": "2026-08-03",
@@ -16563,6 +16563,38 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_67736025/",
       "area": 44.45,
       "age_years": 0
+    },
+    "20ca7b25bf32": {
+      "name": "クオリア神南フラッツ",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "price_history": [
+        {
+          "date": "2026-08-05",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/2f15d60d5b06287a554976794b20784e1ef68808/",
+      "area": 40.97,
+      "age_years": null
+    },
+    "c8ec7c9987f3": {
+      "name": "クオリア神南フラッツ",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "price_history": [
+        {
+          "date": "2026-08-05",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/d9d2f83369c3b45b8d0ec37ce204ce9455644d0f/",
+      "area": 40.97,
+      "age_years": null
     }
   }
 }
