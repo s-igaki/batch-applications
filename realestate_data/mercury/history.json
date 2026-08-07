@@ -13378,7 +13378,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -13394,7 +13394,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14810,7 +14810,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -14994,7 +14994,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -15642,7 +15642,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-07-16",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-07",
       "price_history": [
         {
           "date": "2026-07-16",
@@ -16458,7 +16458,7 @@
       "type": "rental",
       "station": "大京町",
       "first_seen": "2026-08-03",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-07",
       "price_history": [
         {
           "date": "2026-08-03",
@@ -16623,6 +16623,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21427829/",
       "area": 50.85,
       "age_years": 12
+    },
+    "5aba9f17418a": {
+      "name": "ＰＥＡＲ",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "price_history": [
+        {
+          "date": "2026-08-07",
+          "price": 21.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/b6abc9b58d8884807adc9526aab0e04037530df9/",
+      "area": 46.5,
+      "age_years": null
     }
   }
 }
