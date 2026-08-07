@@ -11968,7 +11968,12 @@
       "station": "吉祥寺",
       "first_seen": "2026-04-28",
       "last_seen": "2026-08-07",
-      "price_history": [],
+      "price_history": [
+        {
+          "date": "2026-08-07",
+          "price": 12000
+        }
+      ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_67732377/",
       "area": 70.59,
       "age_years": 0
@@ -16639,6 +16644,22 @@
       "detail_url": "https://www.homes.co.jp/chintai/room/b6abc9b58d8884807adc9526aab0e04037530df9/",
       "area": 46.5,
       "age_years": null
+    },
+    "13f203c78448": {
+      "name": "ガーデンクレスト",
+      "type": "rental",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "price_history": [
+        {
+          "date": "2026-08-07",
+          "price": 19.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109058194/",
+      "area": 49.23,
+      "age_years": 19
     }
   }
 }

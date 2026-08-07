@@ -1577,7 +1577,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-08-07",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -8997,7 +8997,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-08-07",
       "price_history": [
         {
           "date": "2026-06-29",
@@ -10073,7 +10073,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-07",
       "price_history": [
         {
           "date": "2026-07-09",
@@ -11855,6 +11855,86 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000091602975/",
       "area": 51.68,
       "age_years": 3
+    },
+    "fced19c26e72": {
+      "name": "プレッソ本鵠沼",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "price_history": [
+        {
+          "date": "2026-08-07",
+          "price": 11.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109068204/",
+      "area": 52.56,
+      "age_years": 4
+    },
+    "ce246f5ea387": {
+      "name": "蒼の杜　風",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "price_history": [
+        {
+          "date": "2026-08-07",
+          "price": 12.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108241352/",
+      "area": 51.94,
+      "age_years": 6
+    },
+    "87e9c42e4880": {
+      "name": "グランディール天神",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "price_history": [
+        {
+          "date": "2026-08-07",
+          "price": 9.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109029618/",
+      "area": 53.63,
+      "age_years": 7
+    },
+    "9ee72e99852b": {
+      "name": "プルメリア・グレイス",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "price_history": [
+        {
+          "date": "2026-08-07",
+          "price": 13.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109068236/",
+      "area": 59.2,
+      "age_years": 13
+    },
+    "b4bf742f0531": {
+      "name": "茅ヶ崎ガーデンハウス",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "price_history": [
+        {
+          "date": "2026-08-07",
+          "price": 2099.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21453772/",
+      "area": 62.45,
+      "age_years": 38
     }
   }
 }
