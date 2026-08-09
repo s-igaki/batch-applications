@@ -10904,6 +10904,10 @@
         {
           "date": "2026-06-18",
           "price": 17980
+        },
+        {
+          "date": "2026-08-09",
+          "price": 17600
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_78674441/",
@@ -16387,7 +16391,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-08-01",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "price_history": [
         {
           "date": "2026-08-01",
