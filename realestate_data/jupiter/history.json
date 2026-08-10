@@ -3641,11 +3641,15 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-16",
-      "last_seen": "2026-04-27",
+      "last_seen": "2026-08-10",
       "price_history": [
         {
           "date": "2026-04-16",
           "price": 4697.0
+        },
+        {
+          "date": "2026-08-10",
+          "price": 4097.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20655119/",
@@ -8669,7 +8673,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-06-25",
+      "last_seen": "2026-08-10",
       "price_history": [
         {
           "date": "2026-06-25",
@@ -9009,7 +9013,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-08-10",
       "price_history": [
         {
           "date": "2026-06-29",
@@ -11633,7 +11637,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-08-03",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-08-10",
       "price_history": [
         {
           "date": "2026-08-03",
@@ -12043,6 +12047,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_chigasaki/nc_21473425/",
       "area": 112.61,
       "age_years": 8
+    },
+    "72bf272f88ae": {
+      "name": "小田急江ノ島線 湘南台駅 2階建 築6年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10",
+      "price_history": [
+        {
+          "date": "2026-08-10",
+          "price": 12.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108249505/",
+      "area": 51.94,
+      "age_years": 6
     }
   }
 }
