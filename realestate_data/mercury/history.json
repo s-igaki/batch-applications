@@ -10095,7 +10095,7 @@
       "type": "rental",
       "station": "内藤町",
       "first_seen": "2026-03-30",
-      "last_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
       "price_history": [
         {
           "date": "2026-03-30",
@@ -15575,7 +15575,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -16716,6 +16716,22 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21339479/",
       "area": 50.85,
       "age_years": 12
+    },
+    "33bd693cfa3a": {
+      "name": "クラッシィタワー",
+      "type": "new",
+      "station": "四谷",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "price_history": [
+        {
+          "date": "2026-08-11",
+          "price": 27500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_21483385/",
+      "area": 74.92,
+      "age_years": 0
     }
   }
 }

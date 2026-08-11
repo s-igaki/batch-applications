@@ -3453,7 +3453,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -4113,7 +4113,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-04-23",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-11",
       "price_history": [
         {
           "date": "2026-04-23",
@@ -9881,7 +9881,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-11",
       "price_history": [
         {
           "date": "2026-07-08",
@@ -11461,7 +11461,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-08-02",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-11",
       "price_history": [
         {
           "date": "2026-08-02",
@@ -11637,7 +11637,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-08-03",
-      "last_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
       "price_history": [
         {
           "date": "2026-08-03",
@@ -12063,6 +12063,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108249505/",
       "area": 51.94,
       "age_years": 6
+    },
+    "c1b6abe9084f": {
+      "name": "小田急江ノ島線 六会日大前駅 2階建 築7年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "price_history": [
+        {
+          "date": "2026-08-11",
+          "price": 9.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109139728/",
+      "area": 53.63,
+      "age_years": 7
+    },
+    "be68a8c6209c": {
+      "name": "鎌倉市長谷２丁目計画",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "price_history": [
+        {
+          "date": "2026-08-11",
+          "price": 13.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109142733/",
+      "area": 52.71,
+      "age_years": 0
     }
   }
 }
