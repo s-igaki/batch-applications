@@ -16295,7 +16295,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-08-11",
+      "last_seen": "2026-08-12",
       "price_history": [
         {
           "date": "2026-07-30",
@@ -16732,6 +16732,22 @@
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_21483385/",
       "area": 74.92,
       "age_years": 0
+    },
+    "a824bc91a567": {
+      "name": "都営大江戸線 国立競技場駅 徒歩9分",
+      "type": "rental",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "price_history": [
+        {
+          "date": "2026-08-12",
+          "price": 20.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/b3e6107dc6d4eac8e6d4edf196805a4b4cad2683/",
+      "area": 55.97,
+      "age_years": null
     }
   }
 }
