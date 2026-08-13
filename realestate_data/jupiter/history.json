@@ -2873,7 +2873,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-08-13",
       "price_history": [
         {
           "date": "2026-04-05",
@@ -2886,6 +2886,10 @@
         {
           "date": "2026-07-20",
           "price": 4297.0
+        },
+        {
+          "date": "2026-08-13",
+          "price": 4097.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20595614/",

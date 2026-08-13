@@ -15607,7 +15607,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-08-10",
+      "last_seen": "2026-08-13",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15727,7 +15727,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
       "price_history": [
         {
           "date": "2026-07-17",
@@ -16035,7 +16035,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
       "price_history": [
         {
           "date": "2026-07-23",
@@ -16067,7 +16067,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
       "price_history": [
         {
           "date": "2026-07-23",
@@ -16594,7 +16594,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
       "price_history": [
         {
           "date": "2026-08-05",
@@ -16610,7 +16610,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
       "price_history": [
         {
           "date": "2026-08-05",
@@ -16764,6 +16764,22 @@
       "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%AF%E5%8C%BA/%E5%8D%97%E9%9D%92%E5%B1%B1%E3%80%81%E6%9C%80%E4%B8%8A%E9%9A%8E%E3%82%92%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8%E3%81%AB",
       "area": 56.31,
       "age_years": null
+    },
+    "27956ac33091": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-13",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price": 26800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21075271/",
+      "area": 66.03,
+      "age_years": 2
     }
   }
 }
