@@ -4569,7 +4569,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-14",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -4594,6 +4594,10 @@
         {
           "date": "2026-07-27",
           "price": 4197.0
+        },
+        {
+          "date": "2026-08-14",
+          "price": 4097.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_20737822/",
@@ -11645,7 +11649,7 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-08-03",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
       "price_history": [
         {
           "date": "2026-08-03",
@@ -12013,7 +12017,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-08-10",
-      "last_seen": "2026-08-11",
+      "last_seen": "2026-08-14",
       "price_history": [
         {
           "date": "2026-08-10",
@@ -12119,6 +12123,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000109147271/",
       "area": 54.38,
       "age_years": 14
+    },
+    "9f1f07ddcdca": {
+      "name": "サニーフラット鵠沼",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-14",
+      "price_history": [
+        {
+          "date": "2026-08-14",
+          "price": 11.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109162439/",
+      "area": 63.08,
+      "age_years": 13
     }
   }
 }

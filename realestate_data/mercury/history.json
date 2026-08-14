@@ -15727,7 +15727,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
       "price_history": [
         {
           "date": "2026-07-17",
@@ -16035,7 +16035,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
       "price_history": [
         {
           "date": "2026-07-23",
@@ -16067,7 +16067,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
       "price_history": [
         {
           "date": "2026-07-23",
@@ -16706,7 +16706,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-08-10",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
       "price_history": [
         {
           "date": "2026-08-10",
