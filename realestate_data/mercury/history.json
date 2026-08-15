@@ -15328,6 +15328,10 @@
         {
           "date": "2026-07-13",
           "price": 25300
+        },
+        {
+          "date": "2026-08-15",
+          "price": 24980
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21284700/",
@@ -16295,7 +16299,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-08-12",
+      "last_seen": "2026-08-15",
       "price_history": [
         {
           "date": "2026-07-30",

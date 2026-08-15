@@ -3461,7 +3461,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -11033,7 +11033,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-28",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-15",
       "price_history": [
         {
           "date": "2026-07-28",
@@ -11681,7 +11681,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-15",
       "price_history": [
         {
           "date": "2026-08-04",
@@ -12139,6 +12139,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000109162439/",
       "area": 63.08,
       "age_years": 13
+    },
+    "1227cc7a127c": {
+      "name": "",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "price_history": [
+        {
+          "date": "2026-08-15",
+          "price": 3500.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21497001/",
+      "area": 70.38,
+      "age_years": 10
     }
   }
 }
