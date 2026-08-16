@@ -3461,7 +3461,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-08-15",
+      "last_seen": "2026-08-16",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -12129,7 +12129,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-08-14",
-      "last_seen": "2026-08-15",
+      "last_seen": "2026-08-16",
       "price_history": [
         {
           "date": "2026-08-14",
@@ -12171,6 +12171,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21497446/",
       "area": 77.81,
       "age_years": 27
+    },
+    "61b18a3ac5a8": {
+      "name": "Ｇｒａｎ　Ｆｅｌｉｃｉａ",
+      "type": "rental",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "price_history": [
+        {
+          "date": "2026-08-16",
+          "price": 13.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109176700/",
+      "area": 60.0,
+      "age_years": 8
+    },
+    "066ef0ba1234": {
+      "name": "グラン・コート湘南茅ヶ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-16",
+      "price_history": [
+        {
+          "date": "2026-08-16",
+          "price": 4380.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21499084/",
+      "area": 77.59,
+      "age_years": 20
     }
   }
 }
