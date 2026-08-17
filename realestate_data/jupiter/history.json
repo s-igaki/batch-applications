@@ -4569,7 +4569,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-27",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-08-17",
       "price_history": [
         {
           "date": "2026-04-27",
@@ -11505,7 +11505,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-08-02",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-17",
       "price_history": [
         {
           "date": "2026-08-02",
@@ -11937,7 +11937,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-08-07",
-      "last_seen": "2026-08-11",
+      "last_seen": "2026-08-17",
       "price_history": [
         {
           "date": "2026-08-07",
@@ -12251,6 +12251,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21502604/",
       "area": 98.82,
       "age_years": 15
+    },
+    "50de3ff447a5": {
+      "name": "湘南グリーンハイツ1号棟",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "price_history": [
+        {
+          "date": "2026-08-17",
+          "price": 3300.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21386454/",
+      "area": 74.34,
+      "age_years": 44
     }
   }
 }
