@@ -6801,7 +6801,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -6897,7 +6897,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-05-30",
@@ -11273,7 +11273,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-07-31",
@@ -11289,7 +11289,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-07-31",
@@ -11305,7 +11305,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-07-31",
@@ -11321,7 +11321,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-07-31",
@@ -11337,7 +11337,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-07-31",
@@ -11702,6 +11702,10 @@
         {
           "date": "2026-08-04",
           "price": 3349.0
+        },
+        {
+          "date": "2026-08-18",
+          "price": 3299.0
         }
       ],
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_20612322/",
@@ -12113,7 +12117,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-08-12",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-08-12",
@@ -12177,7 +12181,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-08-16",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-08-16",
@@ -12267,6 +12271,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21386454/",
       "area": 74.34,
       "age_years": 44
+    },
+    "6ce560c694de": {
+      "name": "エレガンテ湘南",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price": 11.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109214486/",
+      "area": 56.72,
+      "age_years": 8
+    },
+    "ec0ba9ada87f": {
+      "name": "Ｃｌａｉｒ　湘南　Ｗｅｓｔ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price": 9.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109201577/",
+      "area": 67.17,
+      "age_years": 5
     }
   }
 }

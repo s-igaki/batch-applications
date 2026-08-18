@@ -15731,7 +15731,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-07-17",
@@ -16039,7 +16039,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-07-23",
@@ -16071,7 +16071,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-07-23",
@@ -16806,7 +16806,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-08-15",
@@ -16822,7 +16822,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-08-15",
@@ -16838,7 +16838,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-08-15",
@@ -16854,7 +16854,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-18",
       "price_history": [
         {
           "date": "2026-08-15",
@@ -16928,6 +16928,49 @@
       "detail_url": "https://cowcamo.jp/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%AD%A6%E8%94%B5%E9%87%8E%E5%B8%82/%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E8%A6%8B%E3%81%A6%E3%82%88",
       "area": 69.09,
       "age_years": null
+    },
+    "8a27f221eb1e": {
+      "name": "ザ・パークハウス 代々木大山レジデンス",
+      "type": "new",
+      "station": "代々木",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "price_history": [],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_67728336/",
+      "area": 65.21,
+      "age_years": 0
+    },
+    "0a8a626a8843": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price": 14500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21510930/",
+      "area": 50.85,
+      "age_years": 12
+    },
+    "59d7beca932d": {
+      "name": "ライオンズ四谷タワーゲート",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price": 11980
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21510361/",
+      "area": 55.7,
+      "age_years": 19
     }
   }
 }
