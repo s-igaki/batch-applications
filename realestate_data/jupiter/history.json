@@ -3461,7 +3461,7 @@
       "type": "used",
       "station": "鎌倉",
       "first_seen": "2026-04-12",
-      "last_seen": "2026-08-18",
+      "last_seen": "2026-08-19",
       "price_history": [
         {
           "date": "2026-04-12",
@@ -12133,7 +12133,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-08-14",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-08-19",
       "price_history": [
         {
           "date": "2026-08-14",
