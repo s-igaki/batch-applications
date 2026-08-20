@@ -14948,6 +14948,10 @@
         {
           "date": "2026-07-06",
           "price": 17980
+        },
+        {
+          "date": "2026-08-20",
+          "price": 17600
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_musashino/nc_21228753/",
@@ -15611,7 +15615,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-08-18",
+      "last_seen": "2026-08-20",
       "price_history": [
         {
           "date": "2026-07-15",
@@ -15731,7 +15735,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
       "price_history": [
         {
           "date": "2026-07-17",
@@ -16071,7 +16075,7 @@
       "type": "rental",
       "station": "渋谷",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
       "price_history": [
         {
           "date": "2026-07-23",
@@ -16710,7 +16714,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-08-10",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-08-20",
       "price_history": [
         {
           "date": "2026-08-10",
