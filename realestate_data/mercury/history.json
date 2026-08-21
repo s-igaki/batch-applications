@@ -12616,6 +12616,10 @@
         {
           "date": "2026-07-09",
           "price": 19900
+        },
+        {
+          "date": "2026-08-21",
+          "price": 17900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_20845638/",
@@ -16634,7 +16638,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-08-07",
-      "last_seen": "2026-08-15",
+      "last_seen": "2026-08-21",
       "price_history": [
         {
           "date": "2026-08-07",
@@ -16874,11 +16878,15 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-21",
       "price_history": [
         {
           "date": "2026-08-17",
           "price": 19900
+        },
+        {
+          "date": "2026-08-21",
+          "price": 17900
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21501838/",
@@ -17059,6 +17067,22 @@
       "detail_url": "https://cowcamo.jp/short_stories/taYixMdfavc",
       "area": 128.01,
       "age_years": null
+    },
+    "f7a402476cd4": {
+      "name": "パークコート神宮北参道 ザ タワー",
+      "type": "used",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "price_history": [
+        {
+          "date": "2026-08-21",
+          "price": 16380
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21530425/",
+      "area": 40.4,
+      "age_years": 3
     }
   }
 }
