@@ -12519,6 +12519,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_21493007/",
       "area": 85.85,
       "age_years": 9
+    },
+    "e5bdea584de3": {
+      "name": "エクラン ウルー湘南N",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "price_history": [
+        {
+          "date": "2026-08-22",
+          "price": 14.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000108279236/",
+      "area": 61.59,
+      "age_years": 0
     }
   }
 }

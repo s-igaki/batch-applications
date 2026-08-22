@@ -11295,7 +11295,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-04-13",
-      "last_seen": "2026-05-24",
+      "last_seen": "2026-08-22",
       "price_history": [
         {
           "date": "2026-04-13",
@@ -11304,6 +11304,10 @@
         {
           "date": "2026-04-27",
           "price": 28000
+        },
+        {
+          "date": "2026-08-22",
+          "price": 27000
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78857955/",
@@ -15195,11 +15199,15 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-08-22",
       "price_history": [
         {
           "date": "2026-07-11",
           "price": 15500
+        },
+        {
+          "date": "2026-08-22",
+          "price": 14500
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21266725/",
@@ -17103,6 +17111,38 @@
       "detail_url": "https://www.homes.co.jp/chintai/room/64bd38cf30acf5969e2ca56b281b7a554321224d/",
       "area": 48.03,
       "age_years": null
+    },
+    "1a26c844bdc2": {
+      "name": "パークコート神宮北参道 ザ タワー",
+      "type": "used",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "price_history": [
+        {
+          "date": "2026-08-22",
+          "price": 16380
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21539486/",
+      "area": 40.04,
+      "age_years": 3
+    },
+    "1389e795bba5": {
+      "name": "ガーラ・プレシャス神宮外苑",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "price_history": [
+        {
+          "date": "2026-08-22",
+          "price": 14800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21536298/",
+      "area": 47.72,
+      "age_years": 10
     }
   }
 }
