@@ -12319,7 +12319,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-05-08",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-24",
       "price_history": [
         {
           "date": "2026-05-08",
@@ -14756,6 +14756,10 @@
         {
           "date": "2026-07-02",
           "price": 18000
+        },
+        {
+          "date": "2026-08-24",
+          "price": 16000
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21196644/",
@@ -15679,7 +15683,7 @@
       "type": "used",
       "station": "大京町",
       "first_seen": "2026-07-16",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-24",
       "price_history": [
         {
           "date": "2026-07-16",
@@ -16107,7 +16111,7 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-24",
       "price_history": [
         {
           "date": "2026-07-23",
@@ -16926,7 +16930,7 @@
       "type": "used",
       "station": "四谷",
       "first_seen": "2026-08-18",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-24",
       "price_history": [
         {
           "date": "2026-08-18",
@@ -17239,6 +17243,54 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21542000/",
       "area": 92.56,
       "age_years": 17
+    },
+    "782486524d56": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "new",
+      "station": "四谷",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "price_history": [
+        {
+          "date": "2026-08-24",
+          "price": 21500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_21537696/",
+      "area": 67.06,
+      "age_years": 0
+    },
+    "78a15c2b2c05": {
+      "name": "ルフォン吉祥寺",
+      "type": "used",
+      "station": "御殿山",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "price_history": [
+        {
+          "date": "2026-08-24",
+          "price": 20480
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_21551813/",
+      "area": 93.77,
+      "age_years": 18
+    },
+    "b9cca07121f4": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "price_history": [
+        {
+          "date": "2026-08-24",
+          "price": 14500
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21548443/",
+      "area": 50.85,
+      "age_years": 12
     }
   }
 }
