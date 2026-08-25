@@ -10613,7 +10613,7 @@
       "type": "rental",
       "station": "茅ヶ崎",
       "first_seen": "2026-07-22",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-25",
       "price_history": [
         {
           "date": "2026-07-22",
@@ -12639,6 +12639,22 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000109330435/",
       "area": 58.55,
       "age_years": 14
+    },
+    "0836e5688326": {
+      "name": "◎鎌倉市手広2丁目◎中古戸建",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "price_history": [
+        {
+          "date": "2026-08-25",
+          "price": 3997.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_21546296/",
+      "area": 85.85,
+      "age_years": 9
     }
   }
 }
