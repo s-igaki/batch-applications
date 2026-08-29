@@ -17423,6 +17423,22 @@
       "detail_url": "https://www.homes.co.jp/chintai/room/411092b001e60fae508899fcd3c2101b285e1ace/",
       "area": 62.71,
       "age_years": null
+    },
+    "5d058391088c": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "price_history": [
+        {
+          "date": "2026-08-29",
+          "price": 25800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20807585/",
+      "area": 71.88,
+      "age_years": 2
     }
   }
 }
