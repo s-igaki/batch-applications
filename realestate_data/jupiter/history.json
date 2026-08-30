@@ -8833,7 +8833,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-06-27",
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "price_history": [
         {
           "date": "2026-06-27",
@@ -12081,7 +12081,7 @@
       "type": "used",
       "station": "江ノ島",
       "first_seen": "2026-08-10",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-30",
       "price_history": [
         {
           "date": "2026-08-10",
@@ -12693,7 +12693,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-08-26",
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "price_history": [
         {
           "date": "2026-08-26",
@@ -12927,6 +12927,118 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108451327/",
       "area": 70.38,
       "age_years": 1
+    },
+    "092edbeb1c73": {
+      "name": "ヴェルドミール伍番館",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-30",
+      "price_history": [
+        {
+          "date": "2026-08-30",
+          "price": 11.2
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109465284/",
+      "area": 60.11,
+      "age_years": 3
+    },
+    "b5adbc2e97b1": {
+      "name": "CasaViento",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-30",
+      "price_history": [
+        {
+          "date": "2026-08-30",
+          "price": 12.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109461317/",
+      "area": 52.5,
+      "age_years": 11
+    },
+    "84638d744321": {
+      "name": "グランヴィスタ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-30",
+      "price_history": [
+        {
+          "date": "2026-08-30",
+          "price": 13.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109461316/",
+      "area": 57.75,
+      "age_years": 12
+    },
+    "0b318d9711da": {
+      "name": "ディアベルジュ湘南台壱番館",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-30",
+      "price_history": [
+        {
+          "date": "2026-08-30",
+          "price": 12.4
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109409544/",
+      "area": 54.84,
+      "age_years": 13
+    },
+    "295750338d65": {
+      "name": "ＦｌｏｒｉａII（フローリアII）",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-30",
+      "price_history": [
+        {
+          "date": "2026-08-30",
+          "price": 10.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000098916514/",
+      "area": 50.03,
+      "age_years": 3
+    },
+    "fb034f76538b": {
+      "name": "ＦｌｏｒｉａII（フローリアII）",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-30",
+      "price_history": [
+        {
+          "date": "2026-08-30",
+          "price": 10.9
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000107060708/",
+      "area": 50.03,
+      "age_years": 3
+    },
+    "c8472279f943": {
+      "name": "「鎌倉」駅徒歩２０分～緑に包まれた古民家をリノベーシ…",
+      "type": "used",
+      "station": "鎌倉",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-30",
+      "price_history": [
+        {
+          "date": "2026-08-30",
+          "price": 3180.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_21593287/",
+      "area": 66.93,
+      "age_years": 64
     }
   }
 }
