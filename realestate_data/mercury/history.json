@@ -17623,6 +17623,38 @@
       "detail_url": "https://www.homes.co.jp/chintai/room/19b643625b730dce8048f292883fb1314e08c752/",
       "area": 41.08,
       "age_years": null
+    },
+    "9f0cd0d8627e": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 14900
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21609244/",
+      "area": 50.0,
+      "age_years": 12
+    },
+    "2f81cf4576c7": {
+      "name": "ジオ御苑内藤町",
+      "type": "used",
+      "station": "内藤町",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 12780
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21610329/",
+      "area": 60.11,
+      "age_years": 10
     }
   }
 }

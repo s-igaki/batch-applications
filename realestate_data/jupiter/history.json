@@ -8517,7 +8517,7 @@
       "type": "rental",
       "station": "江ノ島",
       "first_seen": "2026-06-21",
-      "last_seen": "2026-06-21",
+      "last_seen": "2026-09-01",
       "price_history": [
         {
           "date": "2026-06-21",
@@ -13195,6 +13195,38 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000109489947/",
       "area": 50.23,
       "age_years": 13
+    },
+    "9772d349964a": {
+      "name": "アヴェニール大清水",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 12.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109497029/",
+      "area": 60.27,
+      "age_years": 13
+    },
+    "35c48f0f7701": {
+      "name": "フレッサ鵠沼",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 13.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109111893/",
+      "area": 50.7,
+      "age_years": 14
     }
   }
 }
