@@ -12444,6 +12444,10 @@
         {
           "date": "2026-07-14",
           "price": 12980
+        },
+        {
+          "date": "2026-09-01",
+          "price": 12780
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20834566/",
@@ -16259,7 +16263,7 @@
       "type": "rental",
       "station": "吉祥寺",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-07-30",
+      "last_seen": "2026-09-01",
       "price_history": [
         {
           "date": "2026-07-29",
@@ -17523,6 +17527,102 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21580810/",
       "area": 56.1,
       "age_years": 2
+    },
+    "e7c43ad59ba8": {
+      "name": "コム・コールデコット",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 22.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/9c214f9e0b1779174a01250f86a66880015a317b/",
+      "area": 48.78,
+      "age_years": null
+    },
+    "4451594688ac": {
+      "name": "コム・コールデコット",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 22.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/dcf891dd450b9a25e6733637078b7cc03c44ce4a/",
+      "area": 48.78,
+      "age_years": null
+    },
+    "60f6f3226c15": {
+      "name": "コム・コールデコット",
+      "type": "rental",
+      "station": "吉祥寺",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 21.5
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/190dc364a16842fe394c5db6de2b28c7f478c211/",
+      "area": 51.75,
+      "age_years": null
+    },
+    "9bfc4ca721b3": {
+      "name": "YOUR　MAISON代々木",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 18.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/194dbd20fd7e9f256708321109e5dfde124caf66/",
+      "area": 41.08,
+      "age_years": null
+    },
+    "9bae35723a25": {
+      "name": "YOUR　MAISON代々木",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 18.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/e12200c29ccd42464d50649173ca9ebb214bef75/",
+      "area": 41.08,
+      "age_years": null
+    },
+    "dc149e110ecb": {
+      "name": "YOUR　MAISON代々木",
+      "type": "rental",
+      "station": "代々木",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "price": 18.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/19b643625b730dce8048f292883fb1314e08c752/",
+      "area": 41.08,
+      "age_years": null
     }
   }
 }
