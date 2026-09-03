@@ -9697,7 +9697,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-08-25",
+      "last_seen": "2026-09-03",
       "price_history": [
         {
           "date": "2026-07-03",
@@ -13307,6 +13307,22 @@
       "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_kamakura/nc_21541318/",
       "area": 115.57,
       "age_years": 38
+    },
+    "4048bcbd9010": {
+      "name": "藤沢長後スカイハイツ",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "price_history": [
+        {
+          "date": "2026-09-03",
+          "price": 1784.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21622856/",
+      "area": 74.01,
+      "age_years": 45
     }
   }
 }

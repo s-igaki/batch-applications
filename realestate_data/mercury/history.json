@@ -2886,6 +2886,10 @@
         {
           "date": "2026-07-27",
           "price": 27000
+        },
+        {
+          "date": "2026-09-03",
+          "price": 26800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_78937109/",
@@ -13139,11 +13143,15 @@
       "type": "new",
       "station": "四谷",
       "first_seen": "2026-05-29",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-09-03",
       "price_history": [
         {
           "date": "2026-05-29",
           "price": 27500
+        },
+        {
+          "date": "2026-09-03",
+          "price": 26800
         }
       ],
       "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shinjuku/nc_78954144/",
@@ -17462,6 +17470,10 @@
         {
           "date": "2026-08-29",
           "price": 14500
+        },
+        {
+          "date": "2026-09-03",
+          "price": 13800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21587917/",
@@ -17585,7 +17597,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-03",
       "price_history": [
         {
           "date": "2026-09-01",
@@ -17601,7 +17613,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-03",
       "price_history": [
         {
           "date": "2026-09-01",
@@ -17617,7 +17629,7 @@
       "type": "rental",
       "station": "代々木",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-03",
       "price_history": [
         {
           "date": "2026-09-01",
@@ -17659,6 +17671,54 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21610329/",
       "area": 60.11,
       "age_years": 10
+    },
+    "d81b89ae9e2f": {
+      "name": "ガーラ・プレシャス渋谷",
+      "type": "rental",
+      "station": "渋谷",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "price_history": [
+        {
+          "date": "2026-09-03",
+          "price": 22.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/5bb6956eafb372dd8a4c7f1f3fc7e23e4bebc4df/",
+      "area": 40.22,
+      "age_years": null
+    },
+    "e843332c6278": {
+      "name": "プラウド渋谷東",
+      "type": "new",
+      "station": "渋谷",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "price_history": [
+        {
+          "date": "2026-09-03",
+          "price": 23800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/shinchiku/tokyo/sc_shibuya/nc_21510233/",
+      "area": 71.62,
+      "age_years": 0
+    },
+    "4ea1e9f9c335": {
+      "name": "マジェスティハウス新宿御苑パークナード",
+      "type": "used",
+      "station": "大京町",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "price_history": [
+        {
+          "date": "2026-09-03",
+          "price": 13800
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21623219/",
+      "area": 50.85,
+      "age_years": 12
     }
   }
 }
