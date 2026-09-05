@@ -5885,11 +5885,15 @@
       "type": "used",
       "station": "茅ヶ崎",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-08-01",
+      "last_seen": "2026-09-05",
       "price_history": [
         {
           "date": "2026-05-12",
           "price": 4380.0
+        },
+        {
+          "date": "2026-09-05",
+          "price": 4280.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_20838391/",
@@ -13157,7 +13161,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
       "price_history": [
         {
           "date": "2026-09-01",
@@ -13189,7 +13193,7 @@
       "type": "rental",
       "station": "鎌倉",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
       "price_history": [
         {
           "date": "2026-09-01",
@@ -13375,6 +13379,70 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000108457442/",
       "area": 63.54,
       "age_years": 6
+    },
+    "427cce9ba60d": {
+      "name": "小田急江ノ島線 本鵠沼駅 2階建 築8年",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "price_history": [
+        {
+          "date": "2026-09-05",
+          "price": 14.5
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109201586/",
+      "area": 55.38,
+      "age_years": 8
+    },
+    "1c885271b75d": {
+      "name": "メゾン・ド・ボナール",
+      "type": "rental",
+      "station": "鎌倉",
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "price_history": [
+        {
+          "date": "2026-09-05",
+          "price": 8.7
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109187321/",
+      "area": 54.38,
+      "age_years": 14
+    },
+    "e00c74e0d05a": {
+      "name": "シーサイド茅ケ崎",
+      "type": "used",
+      "station": "茅ヶ崎",
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "price_history": [
+        {
+          "date": "2026-09-05",
+          "price": 2750.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21644312/",
+      "area": 90.22,
+      "age_years": 47
+    },
+    "17fb3c245302": {
+      "name": "藤沢市本藤沢5丁目",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "price_history": [
+        {
+          "date": "2026-09-05",
+          "price": 3390.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21636012/",
+      "area": 90.0,
+      "age_years": 15
     }
   }
 }

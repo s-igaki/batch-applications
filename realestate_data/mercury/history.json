@@ -13435,7 +13435,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
       "price_history": [
         {
           "date": "2026-06-03",
@@ -14108,6 +14108,10 @@
         {
           "date": "2026-06-22",
           "price": 19800
+        },
+        {
+          "date": "2026-09-05",
+          "price": 19400
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21120761/",
@@ -14871,7 +14875,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
       "price_history": [
         {
           "date": "2026-07-04",
@@ -15324,6 +15328,10 @@
         {
           "date": "2026-07-30",
           "price": 14500
+        },
+        {
+          "date": "2026-09-05",
+          "price": 13800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21273203/",
@@ -17737,7 +17745,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-09-04",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
       "price_history": [
         {
           "date": "2026-09-04",
@@ -17753,7 +17761,7 @@
       "type": "rental",
       "station": "千駄ヶ谷",
       "first_seen": "2026-09-04",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
       "price_history": [
         {
           "date": "2026-09-04",
@@ -17811,6 +17819,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21615413/",
       "area": 40.66,
       "age_years": 3
+    },
+    "cc94084909e3": {
+      "name": "ガーデンクレスト",
+      "type": "rental",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "price_history": [
+        {
+          "date": "2026-09-05",
+          "price": 19.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109625248/",
+      "area": 49.23,
+      "age_years": 19
+    },
+    "fec37410b238": {
+      "name": "ガーデンクレスト",
+      "type": "rental",
+      "station": "千駄ヶ谷",
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-05",
+      "price_history": [
+        {
+          "date": "2026-09-05",
+          "price": 19.8
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109640774/",
+      "area": 49.23,
+      "age_years": 19
     }
   }
 }
