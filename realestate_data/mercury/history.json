@@ -15375,7 +15375,7 @@
       "type": "new",
       "station": "渋谷",
       "first_seen": "2026-07-13",
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-09-06",
       "price_history": [
         {
           "date": "2026-07-13",
@@ -17851,6 +17851,54 @@
       "detail_url": "https://suumo.jp/chintai/jnc_000109640774/",
       "area": 49.23,
       "age_years": 19
+    },
+    "caa8a3df607a": {
+      "name": "クリオラベルヴィ市ヶ谷",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "price_history": [
+        {
+          "date": "2026-09-06",
+          "price": 19.9
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/48ff6d865e47dc84531755357b79ff5d2a0f951e/",
+      "area": 42.0,
+      "age_years": null
+    },
+    "55868fab5cbf": {
+      "name": "クリオラベルヴィ市ヶ谷",
+      "type": "rental",
+      "station": "市谷",
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "price_history": [
+        {
+          "date": "2026-09-06",
+          "price": 25.0
+        }
+      ],
+      "detail_url": "https://www.homes.co.jp/chintai/room/127ecac658a595628c3e29fbc407c3f232b42ea0/",
+      "area": 48.01,
+      "age_years": null
+    },
+    "a2f7ca5e0533": {
+      "name": "クラッシィタワー新宿御苑",
+      "type": "used",
+      "station": "四谷",
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "price_history": [
+        {
+          "date": "2026-09-06",
+          "price": 15000
+        }
+      ],
+      "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21552101/",
+      "area": 43.16,
+      "age_years": 2
     }
   }
 }
