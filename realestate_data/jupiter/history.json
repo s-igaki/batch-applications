@@ -12266,6 +12266,10 @@
         {
           "date": "2026-08-16",
           "price": 4380.0
+        },
+        {
+          "date": "2026-09-07",
+          "price": 4280.0
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_chigasaki/nc_21499084/",
@@ -13519,6 +13523,38 @@
       "detail_url": "https://suumo.jp/ms/chuko/kanagawa/sc_fujisawa/nc_21651305/",
       "area": 67.2,
       "age_years": 44
+    },
+    "bfc34d02d8be": {
+      "name": "Ｍｙｓａ",
+      "type": "rental",
+      "station": "江ノ島",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "price_history": [
+        {
+          "date": "2026-09-07",
+          "price": 12.3
+        }
+      ],
+      "detail_url": "https://suumo.jp/chintai/jnc_000109683734/",
+      "area": 52.17,
+      "age_years": 7
+    },
+    "f28284788702": {
+      "name": "藤沢市円行1丁目 中古戸建",
+      "type": "used",
+      "station": "江ノ島",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "price_history": [
+        {
+          "date": "2026-09-07",
+          "price": 3699.0
+        }
+      ],
+      "detail_url": "https://suumo.jp/chukoikkodate/kanagawa/sc_fujisawa/nc_21605286/",
+      "area": 80.0,
+      "age_years": 20
     }
   }
 }

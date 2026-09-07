@@ -14952,6 +14952,10 @@
         {
           "date": "2026-07-05",
           "price": 13280
+        },
+        {
+          "date": "2026-09-07",
+          "price": 12680
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21222089/",
@@ -15024,6 +15028,10 @@
         {
           "date": "2026-07-06",
           "price": 17080
+        },
+        {
+          "date": "2026-09-07",
+          "price": 16680
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21230946/",
@@ -16167,11 +16175,15 @@
       "type": "used",
       "station": "内藤町",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-07",
       "price_history": [
         {
           "date": "2026-07-23",
           "price": 28800
+        },
+        {
+          "date": "2026-09-07",
+          "price": 26800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21319977/",
@@ -16795,6 +16807,10 @@
         {
           "date": "2026-08-10",
           "price": 14500
+        },
+        {
+          "date": "2026-09-07",
+          "price": 13800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21339479/",
@@ -17306,6 +17322,10 @@
         {
           "date": "2026-08-24",
           "price": 28800
+        },
+        {
+          "date": "2026-09-07",
+          "price": 26800
         }
       ],
       "detail_url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21542000/",
